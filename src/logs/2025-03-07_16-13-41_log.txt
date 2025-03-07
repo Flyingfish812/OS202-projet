@@ -1,0 +1,1450 @@
+Log initialized at: 2025-03-07 16:13:41
+Test for original code: without OpenMP optimization
+Nombre de coeurs physiques : 32
+Taille du cache L1 : 48 KB
+Temps pour une étape : 2.5081e-05 secondes
+Temps pour affichage : 0.0166278 secondes
+Temps pour une étape : 1.4415e-05 secondes
+Temps pour affichage : 0.00506114 secondes
+Temps pour une étape : 2.0427e-05 secondes
+Temps pour affichage : 0.00450369 secondes
+Temps pour une étape : 3.2973e-05 secondes
+Temps pour affichage : 0.0161503 secondes
+Temps pour une étape : 3.7311e-05 secondes
+Temps pour affichage : 0.00495917 secondes
+Temps pour une étape : 4.1564e-05 secondes
+Temps pour affichage : 0.00486591 secondes
+Temps pour une étape : 3.7127e-05 secondes
+Temps pour affichage : 0.00448726 secondes
+Temps pour une étape : 4.2493e-05 secondes
+Temps pour affichage : 0.00508608 secondes
+Temps pour une étape : 6.2836e-05 secondes
+Temps pour affichage : 0.00441818 secondes
+Temps pour une étape : 5.8858e-05 secondes
+Temps pour affichage : 0.00537193 secondes
+Temps pour une étape : 3.9346e-05 secondes
+Temps pour affichage : 0.00436985 secondes
+Temps pour une étape : 0.000106166 secondes
+Temps pour affichage : 0.00464532 secondes
+Temps pour une étape : 7.1065e-05 secondes
+Temps pour affichage : 0.00463295 secondes
+Temps pour une étape : 7.2144e-05 secondes
+Temps pour affichage : 0.00456954 secondes
+Temps pour une étape : 8.3287e-05 secondes
+Temps pour affichage : 0.00493495 secondes
+Temps pour une étape : 9.6822e-05 secondes
+Temps pour affichage : 0.00488831 secondes
+Temps pour une étape : 0.000108138 secondes
+Temps pour affichage : 0.00570291 secondes
+Temps pour une étape : 0.000100921 secondes
+Temps pour affichage : 0.00546453 secondes
+Temps pour une étape : 0.000140152 secondes
+Temps pour affichage : 0.00539238 secondes
+Temps pour une étape : 0.000161068 secondes
+Temps pour affichage : 0.0053533 secondes
+Temps pour une étape : 0.000170662 secondes
+Temps pour affichage : 0.0200281 secondes
+Temps pour une étape : 0.000149591 secondes
+Temps pour affichage : 0.00560001 secondes
+Temps pour une étape : 0.000189822 secondes
+Temps pour affichage : 0.00611825 secondes
+Temps pour une étape : 0.000192411 secondes
+Temps pour affichage : 0.00778419 secondes
+Temps pour une étape : 0.000260396 secondes
+Temps pour affichage : 0.00578796 secondes
+Temps pour une étape : 0.00799903 secondes
+Temps pour affichage : 0.00577723 secondes
+Temps pour une étape : 0.000225195 secondes
+Temps pour affichage : 0.00578845 secondes
+Temps pour une étape : 0.000278194 secondes
+Temps pour affichage : 0.00634019 secondes
+Temps pour une étape : 0.000233129 secondes
+Temps pour affichage : 0.00657478 secondes
+Temps pour une étape : 0.000286397 secondes
+Temps pour affichage : 0.00869258 secondes
+Temps pour une étape : 0.000337938 secondes
+Temps pour affichage : 0.00610839 secondes
+Temps pour une étape : 0.000263922 secondes
+Temps pour affichage : 0.00507176 secondes
+Temps pour une étape : 0.000332256 secondes
+Temps pour affichage : 0.00597708 secondes
+Temps pour une étape : 0.000355762 secondes
+Temps pour affichage : 0.00616019 secondes
+Temps pour une étape : 0.000324215 secondes
+Temps pour affichage : 0.00649647 secondes
+Temps pour une étape : 0.000406846 secondes
+Temps pour affichage : 0.00606923 secondes
+Temps pour une étape : 0.000574937 secondes
+Temps pour affichage : 0.00808792 secondes
+Temps pour une étape : 0.000371446 secondes
+Temps pour affichage : 0.00660176 secondes
+Temps pour une étape : 0.000398185 secondes
+Temps pour affichage : 0.00843101 secondes
+Temps pour une étape : 0.000416295 secondes
+Temps pour affichage : 0.006983 secondes
+Temps pour une étape : 0.000393128 secondes
+Temps pour affichage : 0.00995542 secondes
+Temps pour une étape : 0.000439669 secondes
+Temps pour affichage : 0.0105476 secondes
+Temps pour une étape : 0.000478981 secondes
+Temps pour affichage : 0.00823976 secondes
+Temps pour une étape : 0.000511177 secondes
+Temps pour affichage : 0.00737011 secondes
+Temps pour une étape : 0.000500715 secondes
+Temps pour affichage : 0.00695033 secondes
+Temps pour une étape : 0.00058904 secondes
+Temps pour affichage : 0.00792836 secondes
+Temps pour une étape : 0.000581465 secondes
+Temps pour affichage : 0.011435 secondes
+Temps pour une étape : 0.000765107 secondes
+Temps pour affichage : 0.0204994 secondes
+Temps pour une étape : 0.000610498 secondes
+Temps pour affichage : 0.00783357 secondes
+Temps pour une étape : 0.000638224 secondes
+Temps pour affichage : 0.0164982 secondes
+Temps pour une étape : 0.000704812 secondes
+Temps pour affichage : 0.00808158 secondes
+Temps pour une étape : 0.000801809 secondes
+Temps pour affichage : 0.0113318 secondes
+Temps pour une étape : 0.000743526 secondes
+Temps pour affichage : 0.00675199 secondes
+Temps pour une étape : 0.000804929 secondes
+Temps pour affichage : 0.00675236 secondes
+Temps pour une étape : 0.000785496 secondes
+Temps pour affichage : 0.00759291 secondes
+Temps pour une étape : 0.000876463 secondes
+Temps pour affichage : 0.00914254 secondes
+Temps pour une étape : 0.000832013 secondes
+Temps pour affichage : 0.00724696 secondes
+Temps pour une étape : 0.000860443 secondes
+Temps pour affichage : 0.00826861 secondes
+Temps pour une étape : 0.00101098 secondes
+Temps pour affichage : 0.0218879 secondes
+Temps pour une étape : 0.00115488 secondes
+Temps pour affichage : 0.00765509 secondes
+Temps pour une étape : 0.000940646 secondes
+Temps pour affichage : 0.00909428 secondes
+Temps pour une étape : 0.000998184 secondes
+Temps pour affichage : 0.00810107 secondes
+Temps pour une étape : 0.00105585 secondes
+Temps pour affichage : 0.0107195 secondes
+Temps pour une étape : 0.000946182 secondes
+Temps pour affichage : 0.006956 secondes
+Temps pour une étape : 0.00113787 secondes
+Temps pour affichage : 0.00920772 secondes
+Temps pour une étape : 0.00122532 secondes
+Temps pour affichage : 0.0106649 secondes
+Temps pour une étape : 0.00112031 secondes
+Temps pour affichage : 0.00754971 secondes
+Temps pour une étape : 0.00107836 secondes
+Temps pour affichage : 0.00959691 secondes
+Temps pour une étape : 0.00122299 secondes
+Temps pour affichage : 0.0134224 secondes
+Temps pour une étape : 0.00151775 secondes
+Temps pour affichage : 0.0125104 secondes
+Temps pour une étape : 0.00109039 secondes
+Temps pour affichage : 0.0103902 secondes
+Temps pour une étape : 0.00131542 secondes
+Temps pour affichage : 0.0131489 secondes
+Temps pour une étape : 0.00137399 secondes
+Temps pour affichage : 0.0108556 secondes
+Temps pour une étape : 0.00126617 secondes
+Temps pour affichage : 0.00786724 secondes
+Temps pour une étape : 0.00137857 secondes
+Temps pour affichage : 0.0165825 secondes
+Temps pour une étape : 0.00178108 secondes
+Temps pour affichage : 0.013217 secondes
+Temps pour une étape : 0.00135329 secondes
+Temps pour affichage : 0.00645077 secondes
+Temps pour une étape : 0.00144757 secondes
+Temps pour affichage : 0.00910949 secondes
+Temps pour une étape : 0.00164525 secondes
+Temps pour affichage : 0.0130084 secondes
+Temps pour une étape : 0.00146581 secondes
+Temps pour affichage : 0.00992921 secondes
+Temps pour une étape : 0.00159987 secondes
+Temps pour affichage : 0.019098 secondes
+Temps pour une étape : 0.00176199 secondes
+Temps pour affichage : 0.0101513 secondes
+Temps pour une étape : 0.0015268 secondes
+Temps pour affichage : 0.0123619 secondes
+Temps pour une étape : 0.00163635 secondes
+Temps pour affichage : 0.0160914 secondes
+Temps pour une étape : 0.00193979 secondes
+Temps pour affichage : 0.0111334 secondes
+Temps pour une étape : 0.00160304 secondes
+Temps pour affichage : 0.01466 secondes
+Temps pour une étape : 0.00195714 secondes
+Temps pour affichage : 0.0157712 secondes
+Temps pour une étape : 0.00175352 secondes
+Temps pour affichage : 0.00845772 secondes
+Temps pour une étape : 0.00181802 secondes
+Temps pour affichage : 0.012043 secondes
+Temps pour une étape : 0.0020423 secondes
+Temps pour affichage : 0.00857842 secondes
+Temps pour une étape : 0.00175676 secondes
+Temps pour affichage : 0.00846707 secondes
+Temps pour une étape : 0.00190746 secondes
+Temps pour affichage : 0.0136207 secondes
+Temps pour une étape : 0.00202535 secondes
+Temps pour affichage : 0.0114003 secondes
+Temps pour une étape : 0.00225596 secondes
+Temps pour affichage : 0.0164685 secondes
+Temps pour une étape : 0.00210989 secondes
+Temps pour affichage : 0.0112384 secondes
+Temps pour une étape : 0.00215948 secondes
+Temps pour affichage : 0.011032 secondes
+Temps pour une étape : 0.00261791 secondes
+Temps pour affichage : 0.0121092 secondes
+Temps pour une étape : 0.00235365 secondes
+Temps pour affichage : 0.0210311 secondes
+Temps pour une étape : 0.00246507 secondes
+Temps pour affichage : 0.00961401 secondes
+Temps pour une étape : 0.00240379 secondes
+Temps pour affichage : 0.0153311 secondes
+Temps pour une étape : 0.00245291 secondes
+Temps pour affichage : 0.0130495 secondes
+Temps pour une étape : 0.00235095 secondes
+Temps pour affichage : 0.00937369 secondes
+Temps pour une étape : 0.00265718 secondes
+Temps pour affichage : 0.0186508 secondes
+Temps pour une étape : 0.00258783 secondes
+Temps pour affichage : 0.00922335 secondes
+Temps pour une étape : 0.00286217 secondes
+Temps pour affichage : 0.0125496 secondes
+Temps pour une étape : 0.00285095 secondes
+Temps pour affichage : 0.0114315 secondes
+Temps pour une étape : 0.00278893 secondes
+Temps pour affichage : 0.013054 secondes
+Temps pour une étape : 0.00277865 secondes
+Temps pour affichage : 0.0117325 secondes
+Temps pour une étape : 0.00285966 secondes
+Temps pour affichage : 0.0111284 secondes
+Temps pour une étape : 0.00307376 secondes
+Temps pour affichage : 0.0136752 secondes
+Temps pour une étape : 0.00317721 secondes
+Temps pour affichage : 0.0120962 secondes
+Temps pour une étape : 0.00298854 secondes
+Temps pour affichage : 0.0155399 secondes
+Temps pour une étape : 0.00298233 secondes
+Temps pour affichage : 0.00974853 secondes
+Temps pour une étape : 0.00310786 secondes
+Temps pour affichage : 0.0125846 secondes
+Temps pour une étape : 0.00317223 secondes
+Temps pour affichage : 0.0155722 secondes
+Temps pour une étape : 0.00333986 secondes
+Temps pour affichage : 0.0146975 secondes
+Temps pour une étape : 0.00332186 secondes
+Temps pour affichage : 0.012383 secondes
+Temps pour une étape : 0.00368447 secondes
+Temps pour affichage : 0.0112089 secondes
+Temps pour une étape : 0.00347757 secondes
+Temps pour affichage : 0.015061 secondes
+Temps pour une étape : 0.00338106 secondes
+Temps pour affichage : 0.0106318 secondes
+Temps pour une étape : 0.00345721 secondes
+Temps pour affichage : 0.0140289 secondes
+Temps pour une étape : 0.00333836 secondes
+Temps pour affichage : 0.0166721 secondes
+Temps pour une étape : 0.00365569 secondes
+Temps pour affichage : 0.0151198 secondes
+Temps pour une étape : 0.00349067 secondes
+Temps pour affichage : 0.0139766 secondes
+Temps pour une étape : 0.00366924 secondes
+Temps pour affichage : 0.0139949 secondes
+Temps pour une étape : 0.00399933 secondes
+Temps pour affichage : 0.0146234 secondes
+Temps pour une étape : 0.00371859 secondes
+Temps pour affichage : 0.0166971 secondes
+Temps pour une étape : 0.00382304 secondes
+Temps pour affichage : 0.0117139 secondes
+Temps pour une étape : 0.00379676 secondes
+Temps pour affichage : 0.0129734 secondes
+Temps pour une étape : 0.00388311 secondes
+Temps pour affichage : 0.0176657 secondes
+Temps pour une étape : 0.00406404 secondes
+Temps pour affichage : 0.0124939 secondes
+Temps pour une étape : 0.00384663 secondes
+Temps pour affichage : 0.013669 secondes
+Temps pour une étape : 0.00411809 secondes
+Temps pour affichage : 0.0144768 secondes
+Temps pour une étape : 0.00409472 secondes
+Temps pour affichage : 0.0147589 secondes
+Temps pour une étape : 0.00416382 secondes
+Temps pour affichage : 0.0170825 secondes
+Temps pour une étape : 0.00409136 secondes
+Temps pour affichage : 0.0144565 secondes
+Temps pour une étape : 0.00441274 secondes
+Temps pour affichage : 0.0167858 secondes
+Temps pour une étape : 0.0044362 secondes
+Temps pour affichage : 0.0141029 secondes
+Temps pour une étape : 0.00424749 secondes
+Temps pour affichage : 0.0130415 secondes
+Temps pour une étape : 0.0042973 secondes
+Temps pour affichage : 0.0162415 secondes
+Temps pour une étape : 0.0043025 secondes
+Temps pour affichage : 0.0123304 secondes
+Temps pour une étape : 0.0045171 secondes
+Temps pour affichage : 0.0164833 secondes
+Temps pour une étape : 0.00481754 secondes
+Temps pour affichage : 0.0161878 secondes
+Temps pour une étape : 0.00448418 secondes
+Temps pour affichage : 0.0184626 secondes
+Temps pour une étape : 0.00461645 secondes
+Temps pour affichage : 0.0152038 secondes
+Temps pour une étape : 0.00471611 secondes
+Temps pour affichage : 0.0155944 secondes
+Temps pour une étape : 0.00443958 secondes
+Temps pour affichage : 0.029756 secondes
+Temps pour une étape : 0.00453859 secondes
+Temps pour affichage : 0.0178585 secondes
+Temps pour une étape : 0.0048858 secondes
+Temps pour affichage : 0.0135023 secondes
+Temps pour une étape : 0.00465482 secondes
+Temps pour affichage : 0.0164198 secondes
+Temps pour une étape : 0.00459053 secondes
+Temps pour affichage : 0.0139937 secondes
+Temps pour une étape : 0.00454019 secondes
+Temps pour affichage : 0.0140747 secondes
+Temps pour une étape : 0.00447952 secondes
+Temps pour affichage : 0.0131828 secondes
+Temps pour une étape : 0.00460187 secondes
+Temps pour affichage : 0.0173739 secondes
+Temps pour une étape : 0.00460934 secondes
+Temps pour affichage : 0.0215319 secondes
+Temps pour une étape : 0.0046685 secondes
+Temps pour affichage : 0.0202842 secondes
+Temps pour une étape : 0.00452194 secondes
+Temps pour affichage : 0.0214507 secondes
+Temps pour une étape : 0.00464171 secondes
+Temps pour affichage : 0.0134178 secondes
+Temps pour une étape : 0.00470585 secondes
+Temps pour affichage : 0.0256279 secondes
+Temps pour une étape : 0.00457237 secondes
+Temps pour affichage : 0.0153596 secondes
+Temps pour une étape : 0.00459147 secondes
+Temps pour affichage : 0.0146944 secondes
+Temps pour une étape : 0.00466056 secondes
+Temps pour affichage : 0.0155198 secondes
+Temps pour une étape : 0.00551031 secondes
+Temps pour affichage : 0.0151994 secondes
+Temps pour une étape : 0.00509905 secondes
+Temps pour affichage : 0.0162008 secondes
+Temps pour une étape : 0.00470408 secondes
+Temps pour affichage : 0.0149964 secondes
+Temps pour une étape : 0.00480071 secondes
+Temps pour affichage : 0.0137571 secondes
+Temps pour une étape : 0.00473701 secondes
+Temps pour affichage : 0.0134977 secondes
+Temps pour une étape : 0.00513122 secondes
+Temps pour affichage : 0.0143251 secondes
+Temps pour une étape : 0.00517861 secondes
+Temps pour affichage : 0.0148573 secondes
+Temps pour une étape : 0.0049711 secondes
+Temps pour affichage : 0.0143659 secondes
+Temps pour une étape : 0.00472415 secondes
+Temps pour affichage : 0.0145053 secondes
+Temps pour une étape : 0.00497999 secondes
+Temps pour affichage : 0.0155944 secondes
+Temps pour une étape : 0.00474352 secondes
+Temps pour affichage : 0.0142577 secondes
+Temps pour une étape : 0.00501123 secondes
+Temps pour affichage : 0.0154039 secondes
+Temps pour une étape : 0.00460425 secondes
+Temps pour affichage : 0.0147665 secondes
+Temps pour une étape : 0.0050364 secondes
+Temps pour affichage : 0.016009 secondes
+Temps pour une étape : 0.00482862 secondes
+Temps pour affichage : 0.01754 secondes
+Temps pour une étape : 0.00477652 secondes
+Temps pour affichage : 0.0136964 secondes
+Temps pour une étape : 0.00508923 secondes
+Temps pour affichage : 0.015734 secondes
+Temps pour une étape : 0.00493354 secondes
+Temps pour affichage : 0.0162946 secondes
+Temps pour une étape : 0.00482952 secondes
+Temps pour affichage : 0.0147843 secondes
+Temps pour une étape : 0.00485798 secondes
+Temps pour affichage : 0.0154062 secondes
+Temps pour une étape : 0.00484059 secondes
+Temps pour affichage : 0.0132158 secondes
+Temps pour une étape : 0.00473664 secondes
+Temps pour affichage : 0.0128307 secondes
+Temps pour une étape : 0.00479373 secondes
+Temps pour affichage : 0.0143244 secondes
+Temps pour une étape : 0.00483991 secondes
+Temps pour affichage : 0.0146668 secondes
+Temps pour une étape : 0.00476343 secondes
+Temps pour affichage : 0.0166915 secondes
+Temps pour une étape : 0.00466435 secondes
+Temps pour affichage : 0.0154158 secondes
+Temps pour une étape : 0.00475402 secondes
+Temps pour affichage : 0.0132034 secondes
+Temps pour une étape : 0.00467549 secondes
+Temps pour affichage : 0.0469567 secondes
+Temps pour une étape : 0.00498409 secondes
+Temps pour affichage : 0.0224409 secondes
+Temps pour une étape : 0.00480265 secondes
+Temps pour affichage : 0.0140322 secondes
+Temps pour une étape : 0.00456551 secondes
+Temps pour affichage : 0.0170922 secondes
+Temps pour une étape : 0.0046478 secondes
+Temps pour affichage : 0.0132901 secondes
+Temps pour une étape : 0.00455514 secondes
+Temps pour affichage : 0.0146463 secondes
+Temps pour une étape : 0.00474894 secondes
+Temps pour affichage : 0.0165423 secondes
+Temps pour une étape : 0.00462441 secondes
+Temps pour affichage : 0.0162538 secondes
+Temps pour une étape : 0.00499758 secondes
+Temps pour affichage : 0.0150368 secondes
+Temps pour une étape : 0.00496661 secondes
+Temps pour affichage : 0.0139435 secondes
+Temps pour une étape : 0.00478069 secondes
+Temps pour affichage : 0.0208714 secondes
+Temps pour une étape : 0.00457708 secondes
+Temps pour affichage : 0.0232901 secondes
+Temps pour une étape : 0.00483669 secondes
+Temps pour affichage : 0.0151122 secondes
+Temps pour une étape : 0.00476816 secondes
+Temps pour affichage : 0.023263 secondes
+Temps pour une étape : 0.00464511 secondes
+Temps pour affichage : 0.0149078 secondes
+Temps pour une étape : 0.0049992 secondes
+Temps pour affichage : 0.0132145 secondes
+Temps pour une étape : 0.00474981 secondes
+Temps pour affichage : 0.0154661 secondes
+Temps pour une étape : 0.00472802 secondes
+Temps pour affichage : 0.015758 secondes
+Temps pour une étape : 0.00471808 secondes
+Temps pour affichage : 0.0146943 secondes
+Temps pour une étape : 0.0057577 secondes
+Temps pour affichage : 0.0142516 secondes
+Temps pour une étape : 0.00485182 secondes
+Temps pour affichage : 0.0133419 secondes
+Temps pour une étape : 0.00472946 secondes
+Temps pour affichage : 0.0162134 secondes
+Temps pour une étape : 0.00452467 secondes
+Temps pour affichage : 0.014284 secondes
+Temps pour une étape : 0.00468561 secondes
+Temps pour affichage : 0.0150975 secondes
+Temps pour une étape : 0.0045261 secondes
+Temps pour affichage : 0.0147842 secondes
+Temps pour une étape : 0.00448022 secondes
+Temps pour affichage : 0.0183283 secondes
+Temps pour une étape : 0.00509048 secondes
+Temps pour affichage : 0.0145705 secondes
+Temps pour une étape : 0.00466361 secondes
+Temps pour affichage : 0.0159599 secondes
+Temps pour une étape : 0.00472894 secondes
+Temps pour affichage : 0.0154682 secondes
+Temps pour une étape : 0.00463625 secondes
+Temps pour affichage : 0.0152742 secondes
+Temps pour une étape : 0.00452902 secondes
+Temps pour affichage : 0.0133404 secondes
+Temps pour une étape : 0.0046583 secondes
+Temps pour affichage : 0.0150544 secondes
+Temps pour une étape : 0.00478384 secondes
+Temps pour affichage : 0.0161221 secondes
+Temps pour une étape : 0.00446856 secondes
+Temps pour affichage : 0.0169834 secondes
+Temps pour une étape : 0.00465896 secondes
+Temps pour affichage : 0.0170554 secondes
+Temps pour une étape : 0.00470906 secondes
+Temps pour affichage : 0.0145282 secondes
+Temps pour une étape : 0.00513311 secondes
+Temps pour affichage : 0.0152908 secondes
+Temps pour une étape : 0.00478073 secondes
+Temps pour affichage : 0.0145721 secondes
+Temps pour une étape : 0.00476946 secondes
+Temps pour affichage : 0.01557 secondes
+Temps pour une étape : 0.00479757 secondes
+Temps pour affichage : 0.0157854 secondes
+Temps pour une étape : 0.00486858 secondes
+Temps pour affichage : 0.0170675 secondes
+Temps pour une étape : 0.0049595 secondes
+Temps pour affichage : 0.0147257 secondes
+Temps pour une étape : 0.00440529 secondes
+Temps pour affichage : 0.0146868 secondes
+Temps pour une étape : 0.00470016 secondes
+Temps pour affichage : 0.020084 secondes
+Temps pour une étape : 0.00495139 secondes
+Temps pour affichage : 0.0145411 secondes
+Temps pour une étape : 0.00451695 secondes
+Temps pour affichage : 0.0142921 secondes
+Temps pour une étape : 0.00483295 secondes
+Temps pour affichage : 0.0140737 secondes
+Temps pour une étape : 0.00458912 secondes
+Temps pour affichage : 0.0155957 secondes
+Temps pour une étape : 0.00485075 secondes
+Temps pour affichage : 0.0171283 secondes
+Temps pour une étape : 0.00465176 secondes
+Temps pour affichage : 0.0154993 secondes
+Temps pour une étape : 0.0045673 secondes
+Temps pour affichage : 0.0164231 secondes
+Temps pour une étape : 0.00484296 secondes
+Temps pour affichage : 0.0138831 secondes
+Temps pour une étape : 0.00451753 secondes
+Temps pour affichage : 0.0146025 secondes
+Temps pour une étape : 0.00448218 secondes
+Temps pour affichage : 0.0157609 secondes
+Temps pour une étape : 0.00448241 secondes
+Temps pour affichage : 0.0146673 secondes
+Temps pour une étape : 0.00474989 secondes
+Temps pour affichage : 0.0154726 secondes
+Temps pour une étape : 0.00469272 secondes
+Temps pour affichage : 0.0162481 secondes
+Temps pour une étape : 0.00443257 secondes
+Temps pour affichage : 0.0129185 secondes
+Temps pour une étape : 0.00456643 secondes
+Temps pour affichage : 0.0146096 secondes
+Temps pour une étape : 0.00470594 secondes
+Temps pour affichage : 0.0142766 secondes
+Temps pour une étape : 0.00448408 secondes
+Temps pour affichage : 0.0156332 secondes
+Temps pour une étape : 0.00449464 secondes
+Temps pour affichage : 0.0149711 secondes
+Temps pour une étape : 0.00483106 secondes
+Temps pour affichage : 0.0137284 secondes
+Temps pour une étape : 0.00443263 secondes
+Temps pour affichage : 0.0153399 secondes
+Temps pour une étape : 0.00454378 secondes
+Temps pour affichage : 0.015023 secondes
+Temps pour une étape : 0.00463578 secondes
+Temps pour affichage : 0.0155473 secondes
+Temps pour une étape : 0.00435418 secondes
+Temps pour affichage : 0.0263223 secondes
+Temps pour une étape : 0.00443967 secondes
+Temps pour affichage : 0.0144416 secondes
+Temps pour une étape : 0.00457404 secondes
+Temps pour affichage : 0.0129061 secondes
+Temps pour une étape : 0.00455685 secondes
+Temps pour affichage : 0.0161004 secondes
+Temps pour une étape : 0.0042619 secondes
+Temps pour affichage : 0.0157858 secondes
+Temps pour une étape : 0.00435861 secondes
+Temps pour affichage : 0.0150104 secondes
+Temps pour une étape : 0.00443766 secondes
+Temps pour affichage : 0.0153303 secondes
+Temps pour une étape : 0.00441074 secondes
+Temps pour affichage : 0.0161708 secondes
+Temps pour une étape : 0.00463763 secondes
+Temps pour affichage : 0.0144028 secondes
+Temps pour une étape : 0.00461129 secondes
+Temps pour affichage : 0.0150041 secondes
+Temps pour une étape : 0.00465242 secondes
+Temps pour affichage : 0.0160126 secondes
+Temps pour une étape : 0.00435856 secondes
+Temps pour affichage : 0.0152497 secondes
+Temps pour une étape : 0.00430037 secondes
+Temps pour affichage : 0.0146195 secondes
+Temps pour une étape : 0.0045076 secondes
+Temps pour affichage : 0.0129505 secondes
+Temps pour une étape : 0.00467122 secondes
+Temps pour affichage : 0.0202915 secondes
+Temps pour une étape : 0.00444516 secondes
+Temps pour affichage : 0.0157648 secondes
+Temps pour une étape : 0.00438927 secondes
+Temps pour affichage : 0.0142978 secondes
+Temps pour une étape : 0.00436649 secondes
+Temps pour affichage : 0.0148429 secondes
+Temps pour une étape : 0.00427428 secondes
+Temps pour affichage : 0.0139345 secondes
+Temps pour une étape : 0.00437231 secondes
+Temps pour affichage : 0.0150046 secondes
+Temps pour une étape : 0.0044056 secondes
+Temps pour affichage : 0.0149135 secondes
+Temps pour une étape : 0.00428442 secondes
+Temps pour affichage : 0.0148496 secondes
+Temps pour une étape : 0.00426842 secondes
+Temps pour affichage : 0.0156054 secondes
+Temps pour une étape : 0.00423532 secondes
+Temps pour affichage : 0.0142847 secondes
+Temps pour une étape : 0.00467704 secondes
+Temps pour affichage : 0.0148834 secondes
+Temps pour une étape : 0.00435819 secondes
+Temps pour affichage : 0.0151683 secondes
+Temps pour une étape : 0.00438148 secondes
+Temps pour affichage : 0.0159995 secondes
+Temps pour une étape : 0.00470136 secondes
+Temps pour affichage : 0.0151025 secondes
+Temps pour une étape : 0.00420695 secondes
+Temps pour affichage : 0.0129992 secondes
+Temps pour une étape : 0.00447528 secondes
+Temps pour affichage : 0.0135885 secondes
+Temps pour une étape : 0.00421675 secondes
+Temps pour affichage : 0.0143262 secondes
+Temps pour une étape : 0.00419752 secondes
+Temps pour affichage : 0.0142716 secondes
+Temps pour une étape : 0.00434528 secondes
+Temps pour affichage : 0.0155704 secondes
+Temps pour une étape : 0.00444607 secondes
+Temps pour affichage : 0.0134482 secondes
+Temps pour une étape : 0.00439414 secondes
+Temps pour affichage : 0.0151113 secondes
+Temps pour une étape : 0.00422075 secondes
+Temps pour affichage : 0.0144906 secondes
+Temps pour une étape : 0.00410627 secondes
+Temps pour affichage : 0.0146992 secondes
+Temps pour une étape : 0.00404467 secondes
+Temps pour affichage : 0.0144084 secondes
+Temps pour une étape : 0.00407525 secondes
+Temps pour affichage : 0.0132639 secondes
+Temps pour une étape : 0.00424189 secondes
+Temps pour affichage : 0.0149284 secondes
+Temps pour une étape : 0.00405272 secondes
+Temps pour affichage : 0.0144909 secondes
+Temps pour une étape : 0.00404359 secondes
+Temps pour affichage : 0.0152621 secondes
+Temps pour une étape : 0.00432618 secondes
+Temps pour affichage : 0.0147584 secondes
+Temps pour une étape : 0.00396552 secondes
+Temps pour affichage : 0.0130052 secondes
+Temps pour une étape : 0.00441353 secondes
+Temps pour affichage : 0.015918 secondes
+Temps pour une étape : 0.00423845 secondes
+Temps pour affichage : 0.0143541 secondes
+Temps pour une étape : 0.00396673 secondes
+Temps pour affichage : 0.0184038 secondes
+Temps pour une étape : 0.00406154 secondes
+Temps pour affichage : 0.0144945 secondes
+Temps pour une étape : 0.00393196 secondes
+Temps pour affichage : 0.0124804 secondes
+Temps pour une étape : 0.00401481 secondes
+Temps pour affichage : 0.0143114 secondes
+Temps pour une étape : 0.00384759 secondes
+Temps pour affichage : 0.0138781 secondes
+Temps pour une étape : 0.00413371 secondes
+Temps pour affichage : 0.0147604 secondes
+Temps pour une étape : 0.0039047 secondes
+Temps pour affichage : 0.0128833 secondes
+Temps pour une étape : 0.0039414 secondes
+Temps pour affichage : 0.0141692 secondes
+Temps pour une étape : 0.00377116 secondes
+Temps pour affichage : 0.0152462 secondes
+Temps pour une étape : 0.00375292 secondes
+Temps pour affichage : 0.0148306 secondes
+Temps pour une étape : 0.00374122 secondes
+Temps pour affichage : 0.0137346 secondes
+Temps pour une étape : 0.00380839 secondes
+Temps pour affichage : 0.0134565 secondes
+Temps pour une étape : 0.00388985 secondes
+Temps pour affichage : 0.0134716 secondes
+Temps pour une étape : 0.00361863 secondes
+Temps pour affichage : 0.0152284 secondes
+Temps pour une étape : 0.00453036 secondes
+Temps pour affichage : 0.0158333 secondes
+Temps pour une étape : 0.00455764 secondes
+Temps pour affichage : 0.0154948 secondes
+Temps pour une étape : 0.00398118 secondes
+Temps pour affichage : 0.0161037 secondes
+Temps pour une étape : 0.00378308 secondes
+Temps pour affichage : 0.0149233 secondes
+Temps pour une étape : 0.00349464 secondes
+Temps pour affichage : 0.0124751 secondes
+Temps pour une étape : 0.0035495 secondes
+Temps pour affichage : 0.0145341 secondes
+Temps pour une étape : 0.00370115 secondes
+Temps pour affichage : 0.0144416 secondes
+Temps pour une étape : 0.00364053 secondes
+Temps pour affichage : 0.0156881 secondes
+Temps pour une étape : 0.00346417 secondes
+Temps pour affichage : 0.0125362 secondes
+Temps pour une étape : 0.00351389 secondes
+Temps pour affichage : 0.0151303 secondes
+Temps pour une étape : 0.00379335 secondes
+Temps pour affichage : 0.0147805 secondes
+Temps pour une étape : 0.00356313 secondes
+Temps pour affichage : 0.0142682 secondes
+Temps pour une étape : 0.00351843 secondes
+Temps pour affichage : 0.0142855 secondes
+Temps pour une étape : 0.00348961 secondes
+Temps pour affichage : 0.0140367 secondes
+Temps pour une étape : 0.00362764 secondes
+Temps pour affichage : 0.0126279 secondes
+Temps pour une étape : 0.00351183 secondes
+Temps pour affichage : 0.0139754 secondes
+Temps pour une étape : 0.00337799 secondes
+Temps pour affichage : 0.014167 secondes
+Temps pour une étape : 0.00332842 secondes
+Temps pour affichage : 0.0115089 secondes
+Temps pour une étape : 0.00318429 secondes
+Temps pour affichage : 0.0125777 secondes
+Temps pour une étape : 0.00326538 secondes
+Temps pour affichage : 0.0135687 secondes
+Temps pour une étape : 0.00311161 secondes
+Temps pour affichage : 0.011566 secondes
+Temps pour une étape : 0.00326174 secondes
+Temps pour affichage : 0.0131823 secondes
+Temps pour une étape : 0.00308202 secondes
+Temps pour affichage : 0.0123451 secondes
+Temps pour une étape : 0.00292635 secondes
+Temps pour affichage : 0.0119436 secondes
+Temps pour une étape : 0.00321149 secondes
+Temps pour affichage : 0.0131226 secondes
+Temps pour une étape : 0.00304565 secondes
+Temps pour affichage : 0.012909 secondes
+Temps pour une étape : 0.00302985 secondes
+Temps pour affichage : 0.0118812 secondes
+Temps pour une étape : 0.00318094 secondes
+Temps pour affichage : 0.0135293 secondes
+Temps pour une étape : 0.00297112 secondes
+Temps pour affichage : 0.0139199 secondes
+Temps pour une étape : 0.00279155 secondes
+Temps pour affichage : 0.0101403 secondes
+Temps pour une étape : 0.00287783 secondes
+Temps pour affichage : 0.0122574 secondes
+Temps pour une étape : 0.00287845 secondes
+Temps pour affichage : 0.0133095 secondes
+Temps pour une étape : 0.002801 secondes
+Temps pour affichage : 0.0103786 secondes
+Temps pour une étape : 0.00277696 secondes
+Temps pour affichage : 0.013013 secondes
+Temps pour une étape : 0.00273762 secondes
+Temps pour affichage : 0.0128994 secondes
+Temps pour une étape : 0.00276639 secondes
+Temps pour affichage : 0.00985627 secondes
+Temps pour une étape : 0.00272682 secondes
+Temps pour affichage : 0.0125474 secondes
+Temps pour une étape : 0.0024504 secondes
+Temps pour affichage : 0.0115527 secondes
+Temps pour une étape : 0.00260609 secondes
+Temps pour affichage : 0.0119524 secondes
+Temps pour une étape : 0.00244011 secondes
+Temps pour affichage : 0.0103986 secondes
+Temps pour une étape : 0.0025718 secondes
+Temps pour affichage : 0.0107981 secondes
+Temps pour une étape : 0.00233488 secondes
+Temps pour affichage : 0.0127882 secondes
+Temps pour une étape : 0.00233618 secondes
+Temps pour affichage : 0.0116722 secondes
+Temps pour une étape : 0.00233222 secondes
+Temps pour affichage : 0.0141039 secondes
+Temps pour une étape : 0.00369238 secondes
+Temps pour affichage : 0.010759 secondes
+Temps pour une étape : 0.0022316 secondes
+Temps pour affichage : 0.0110627 secondes
+Temps pour une étape : 0.00213929 secondes
+Temps pour affichage : 0.0155889 secondes
+Temps pour une étape : 0.00230207 secondes
+Temps pour affichage : 0.0109213 secondes
+Temps pour une étape : 0.00219336 secondes
+Temps pour affichage : 0.00944548 secondes
+Temps pour une étape : 0.00194186 secondes
+Temps pour affichage : 0.00994297 secondes
+Temps pour une étape : 0.00191774 secondes
+Temps pour affichage : 0.0141675 secondes
+Temps pour une étape : 0.00187942 secondes
+Temps pour affichage : 0.00870756 secondes
+Temps pour une étape : 0.00192303 secondes
+Temps pour affichage : 0.0110565 secondes
+Temps pour une étape : 0.00173315 secondes
+Temps pour affichage : 0.00943268 secondes
+Temps pour une étape : 0.00185741 secondes
+Temps pour affichage : 0.00975117 secondes
+Temps pour une étape : 0.00185959 secondes
+Temps pour affichage : 0.00873511 secondes
+Temps pour une étape : 0.00178838 secondes
+Temps pour affichage : 0.00907961 secondes
+Temps pour une étape : 0.00201375 secondes
+Temps pour affichage : 0.0107991 secondes
+Temps pour une étape : 0.00173972 secondes
+Temps pour affichage : 0.00814566 secondes
+Temps pour une étape : 0.00171321 secondes
+Temps pour affichage : 0.0102252 secondes
+Temps pour une étape : 0.00161275 secondes
+Temps pour affichage : 0.00768102 secondes
+Temps pour une étape : 0.0014336 secondes
+Temps pour affichage : 0.0105973 secondes
+Temps pour une étape : 0.00142824 secondes
+Temps pour affichage : 0.0081718 secondes
+Temps pour une étape : 0.00141971 secondes
+Temps pour affichage : 0.0111101 secondes
+Temps pour une étape : 0.00133462 secondes
+Temps pour affichage : 0.0071595 secondes
+Temps pour une étape : 0.00142569 secondes
+Temps pour affichage : 0.00827552 secondes
+Temps pour une étape : 0.00139778 secondes
+Temps pour affichage : 0.00929766 secondes
+Temps pour une étape : 0.00183433 secondes
+Temps pour affichage : 0.00796285 secondes
+Temps pour une étape : 0.00117166 secondes
+Temps pour affichage : 0.0323506 secondes
+Temps pour une étape : 0.00106744 secondes
+Temps pour affichage : 0.00725618 secondes
+Temps pour une étape : 0.00102931 secondes
+Temps pour affichage : 0.00701579 secondes
+Temps pour une étape : 0.00112212 secondes
+Temps pour affichage : 0.0124999 secondes
+Temps pour une étape : 0.00105536 secondes
+Temps pour affichage : 0.00628317 secondes
+Temps pour une étape : 0.00101885 secondes
+Temps pour affichage : 0.00759842 secondes
+Temps pour une étape : 0.00105999 secondes
+Temps pour affichage : 0.00805479 secondes
+Temps pour une étape : 0.000851034 secondes
+Temps pour affichage : 0.0068873 secondes
+Temps pour une étape : 0.000806895 secondes
+Temps pour affichage : 0.00937739 secondes
+Temps pour une étape : 0.000791002 secondes
+Temps pour affichage : 0.00812145 secondes
+Temps pour une étape : 0.000763327 secondes
+Temps pour affichage : 0.00612445 secondes
+Temps pour une étape : 0.000763102 secondes
+Temps pour affichage : 0.0071682 secondes
+Temps pour une étape : 0.000736217 secondes
+Temps pour affichage : 0.00847864 secondes
+Temps pour une étape : 0.00079505 secondes
+Temps pour affichage : 0.00583608 secondes
+Temps pour une étape : 0.000728122 secondes
+Temps pour affichage : 0.00716129 secondes
+Temps pour une étape : 0.000729935 secondes
+Temps pour affichage : 0.00754768 secondes
+Temps pour une étape : 0.000591373 secondes
+Temps pour affichage : 0.00714461 secondes
+Temps pour une étape : 0.000728562 secondes
+Temps pour affichage : 0.00502 secondes
+Temps pour une étape : 0.00060292 secondes
+Temps pour affichage : 0.00659942 secondes
+Temps pour une étape : 0.000510811 secondes
+Temps pour affichage : 0.00788288 secondes
+Temps pour une étape : 0.000523918 secondes
+Temps pour affichage : 0.00762165 secondes
+Temps pour une étape : 0.00045115 secondes
+Temps pour affichage : 0.00565103 secondes
+Temps pour une étape : 0.000493629 secondes
+Temps pour affichage : 0.00614418 secondes
+Temps pour une étape : 0.000603673 secondes
+Temps pour affichage : 0.00728955 secondes
+Temps pour une étape : 0.000391314 secondes
+Temps pour affichage : 0.00507872 secondes
+Temps pour une étape : 0.000385737 secondes
+Temps pour affichage : 0.0051949 secondes
+Temps pour une étape : 0.000464371 secondes
+Temps pour affichage : 0.0070966 secondes
+Temps pour une étape : 0.000338087 secondes
+Temps pour affichage : 0.00614918 secondes
+Temps pour une étape : 0.000339761 secondes
+Temps pour affichage : 0.00477406 secondes
+Temps pour une étape : 0.000304016 secondes
+Temps pour affichage : 0.00448963 secondes
+Temps pour une étape : 0.000341577 secondes
+Temps pour affichage : 0.0056788 secondes
+Temps pour une étape : 0.000310001 secondes
+Temps pour affichage : 0.00624737 secondes
+Temps pour une étape : 0.00031842 secondes
+Temps pour affichage : 0.00665501 secondes
+Temps pour une étape : 0.000379144 secondes
+Temps pour affichage : 0.00459271 secondes
+Temps pour une étape : 0.000274403 secondes
+Temps pour affichage : 0.00511487 secondes
+Temps pour une étape : 0.00032506 secondes
+Temps pour affichage : 0.00561101 secondes
+Temps pour une étape : 0.000275745 secondes
+Temps pour affichage : 0.00671729 secondes
+Temps pour une étape : 0.000232885 secondes
+Temps pour affichage : 0.0184663 secondes
+Temps pour une étape : 0.000225305 secondes
+Temps pour affichage : 0.00405649 secondes
+Temps pour une étape : 0.000228292 secondes
+Temps pour affichage : 0.00495055 secondes
+Temps pour une étape : 0.00022286 secondes
+Temps pour affichage : 0.00562404 secondes
+Temps pour une étape : 0.00028507 secondes
+Temps pour affichage : 0.00676327 secondes
+Temps pour une étape : 0.000249872 secondes
+Temps pour affichage : 0.00477537 secondes
+Temps pour une étape : 0.000233806 secondes
+Temps pour affichage : 0.00403683 secondes
+Temps pour une étape : 0.000237937 secondes
+Temps pour affichage : 0.00464482 secondes
+Temps pour une étape : 0.000168495 secondes
+Temps pour affichage : 0.0065413 secondes
+Temps pour une étape : 0.000187074 secondes
+Temps pour affichage : 0.00589248 secondes
+Temps pour une étape : 0.000235434 secondes
+Temps pour affichage : 0.00388988 secondes
+Temps pour une étape : 0.000191493 secondes
+Temps pour affichage : 0.00419252 secondes
+Temps pour une étape : 0.000217142 secondes
+Temps pour affichage : 0.00580904 secondes
+Temps pour une étape : 0.000239194 secondes
+Temps pour affichage : 0.00732093 secondes
+Temps pour une étape : 0.000164877 secondes
+Temps pour affichage : 0.0121077 secondes
+Temps pour une étape : 0.000186114 secondes
+Temps pour affichage : 0.00433942 secondes
+Temps pour une étape : 0.000281905 secondes
+Temps pour affichage : 0.00502068 secondes
+Temps pour une étape : 0.00080614 secondes
+Temps pour affichage : 0.00625044 secondes
+Temps pour une étape : 0.000197741 secondes
+Temps pour affichage : 0.00588196 secondes
+Temps pour une étape : 0.000186964 secondes
+Temps pour affichage : 0.00536208 secondes
+Temps pour une étape : 0.000190949 secondes
+Temps pour affichage : 0.00402644 secondes
+Temps pour une étape : 0.000190717 secondes
+Temps pour affichage : 0.00394343 secondes
+Temps pour une étape : 0.000189661 secondes
+Temps pour affichage : 0.0036721 secondes
+Temps pour une étape : 0.00019435 secondes
+Temps pour affichage : 0.00859999 secondes
+Temps pour une étape : 0.000195019 secondes
+Temps pour affichage : 0.00517598 secondes
+Temps pour une étape : 0.000173988 secondes
+Temps pour affichage : 0.0665113 secondes
+Temps pour une étape : 0.000189099 secondes
+Temps pour affichage : 0.00787393 secondes
+Temps pour une étape : 0.000197853 secondes
+Temps pour affichage : 0.00614334 secondes
+Temps pour une étape : 0.000155603 secondes
+Temps pour affichage : 0.00482893 secondes
+Temps pour une étape : 0.00028957 secondes
+Temps pour affichage : 0.00623132 secondes
+Temps pour une étape : 0.000219191 secondes
+Temps pour affichage : 0.00547713 secondes
+Temps pour une étape : 0.000251317 secondes
+Temps pour affichage : 0.0038074 secondes
+Temps pour une étape : 0.000174135 secondes
+Temps pour affichage : 0.00383684 secondes
+Temps pour une étape : 0.000173898 secondes
+Temps pour affichage : 0.00396979 secondes
+Temps pour une étape : 0.000350556 secondes
+Temps pour affichage : 0.00595597 secondes
+Temps pour une étape : 0.000180724 secondes
+Temps pour affichage : 0.00516024 secondes
+Temps pour une étape : 0.00019174 secondes
+Temps pour affichage : 0.00438947 secondes
+Temps pour une étape : 0.000204027 secondes
+Temps pour affichage : 0.00383161 secondes
+Temps pour une étape : 0.000385764 secondes
+Temps pour affichage : 0.00456263 secondes
+Temps pour une étape : 0.000169042 secondes
+Temps pour affichage : 0.00505041 secondes
+Temps pour une étape : 0.000202464 secondes
+Temps pour affichage : 0.00577796 secondes
+Temps pour une étape : 0.00021284 secondes
+Temps pour affichage : 0.00424665 secondes
+Temps pour une étape : 0.000298592 secondes
+Temps pour affichage : 0.00604253 secondes
+Temps pour une étape : 0.000178497 secondes
+Temps pour affichage : 0.00410712 secondes
+Temps pour une étape : 0.000180594 secondes
+Temps pour affichage : 0.00376501 secondes
+Temps pour une étape : 0.000153252 secondes
+Temps pour affichage : 0.00535776 secondes
+Temps pour une étape : 0.000316793 secondes
+Temps pour affichage : 0.0119938 secondes
+Temps pour une étape : 0.00019283 secondes
+Temps pour affichage : 0.0270611 secondes
+Temps pour une étape : 0.000158732 secondes
+Temps pour affichage : 0.00521672 secondes
+Temps pour une étape : 0.000275753 secondes
+Temps pour affichage : 0.00633229 secondes
+Temps pour une étape : 0.000183201 secondes
+Temps pour affichage : 0.00480868 secondes
+Temps pour une étape : 0.000234615 secondes
+Temps pour affichage : 0.0046605 secondes
+Temps pour une étape : 0.000197804 secondes
+Temps pour affichage : 0.00519086 secondes
+Temps pour une étape : 0.000379469 secondes
+Temps pour affichage : 0.00434332 secondes
+Temps pour une étape : 0.000161745 secondes
+Temps pour affichage : 0.00439383 secondes
+Temps pour une étape : 0.00016943 secondes
+Temps pour affichage : 0.00424686 secondes
+Temps pour une étape : 0.000214423 secondes
+Temps pour affichage : 0.00486313 secondes
+Temps pour une étape : 0.000171581 secondes
+Temps pour affichage : 0.00360666 secondes
+Temps pour une étape : 0.000183147 secondes
+Temps pour affichage : 0.003975 secondes
+Temps pour une étape : 0.000218252 secondes
+Temps pour affichage : 0.00481689 secondes
+Temps pour une étape : 0.000274386 secondes
+Temps pour affichage : 0.00386896 secondes
+Temps pour une étape : 0.000181668 secondes
+Temps pour affichage : 0.0136613 secondes
+Temps pour une étape : 0.000213839 secondes
+Temps pour affichage : 0.00485781 secondes
+Temps pour une étape : 0.000176293 secondes
+Temps pour affichage : 0.00401866 secondes
+Temps pour une étape : 0.000150818 secondes
+Temps pour affichage : 0.00370567 secondes
+Temps pour une étape : 0.000194749 secondes
+Temps pour affichage : 0.00362129 secondes
+Temps pour une étape : 0.00024751 secondes
+Temps pour affichage : 0.0050112 secondes
+Temps pour une étape : 0.000171286 secondes
+Temps pour affichage : 0.00472288 secondes
+Temps pour une étape : 0.0003798 secondes
+Temps pour affichage : 0.00416661 secondes
+Temps pour une étape : 0.000270668 secondes
+Temps pour affichage : 0.0047445 secondes
+Temps pour une étape : 0.000156562 secondes
+Temps pour affichage : 0.00378802 secondes
+Temps pour une étape : 0.000221468 secondes
+Temps pour affichage : 0.00432341 secondes
+Temps pour une étape : 0.000190333 secondes
+Temps pour affichage : 0.00484979 secondes
+Temps pour une étape : 0.000186373 secondes
+Temps pour affichage : 0.00407644 secondes
+Temps pour une étape : 0.00015782 secondes
+Temps pour affichage : 0.00359397 secondes
+Temps pour une étape : 0.000177039 secondes
+Temps pour affichage : 0.00424837 secondes
+Temps pour une étape : 0.000189366 secondes
+Temps pour affichage : 0.0037077 secondes
+Temps pour une étape : 0.000247688 secondes
+Temps pour affichage : 0.0046232 secondes
+Temps pour une étape : 0.000155485 secondes
+Temps pour affichage : 0.00391682 secondes
+Temps pour une étape : 0.00021035 secondes
+Temps pour affichage : 0.00399303 secondes
+Temps pour une étape : 0.000190731 secondes
+Temps pour affichage : 0.0037484 secondes
+Temps pour une étape : 0.000209213 secondes
+Temps pour affichage : 0.00379167 secondes
+Temps pour une étape : 0.000198433 secondes
+Temps pour affichage : 0.00508178 secondes
+Temps pour une étape : 0.000137189 secondes
+Temps pour affichage : 0.00419854 secondes
+Temps pour une étape : 0.000283547 secondes
+Temps pour affichage : 0.00389884 secondes
+Temps pour une étape : 0.000164422 secondes
+Temps pour affichage : 0.0032556 secondes
+Temps pour une étape : 0.000160965 secondes
+Temps pour affichage : 0.00356921 secondes
+Temps pour une étape : 0.000158986 secondes
+Temps pour affichage : 0.00366087 secondes
+Temps pour une étape : 0.000188301 secondes
+Temps pour affichage : 0.00471133 secondes
+Temps pour une étape : 0.000160135 secondes
+Temps pour affichage : 0.00332659 secondes
+Temps pour une étape : 0.000177023 secondes
+Temps pour affichage : 0.00344641 secondes
+Temps pour une étape : 0.000180822 secondes
+Temps pour affichage : 0.00417427 secondes
+Temps pour une étape : 0.000180251 secondes
+Temps pour affichage : 0.00368568 secondes
+Temps pour une étape : 0.000181368 secondes
+Temps pour affichage : 0.00453238 secondes
+Temps pour une étape : 0.000168303 secondes
+Temps pour affichage : 0.00326664 secondes
+Temps pour une étape : 0.000154951 secondes
+Temps pour affichage : 0.00356031 secondes
+Temps pour une étape : 0.000180851 secondes
+Temps pour affichage : 0.00333352 secondes
+Temps pour une étape : 0.000181994 secondes
+Temps pour affichage : 0.00626596 secondes
+Temps pour une étape : 0.000170542 secondes
+Temps pour affichage : 0.00445575 secondes
+Temps pour une étape : 0.000159082 secondes
+Temps pour affichage : 0.00410561 secondes
+Temps pour une étape : 0.000181112 secondes
+Temps pour affichage : 0.00633564 secondes
+Temps pour une étape : 0.000173053 secondes
+Temps pour affichage : 0.00364067 secondes
+Temps pour une étape : 0.000191411 secondes
+Temps pour affichage : 0.00368975 secondes
+Temps pour une étape : 0.000229878 secondes
+Temps pour affichage : 0.00458589 secondes
+Temps pour une étape : 0.000160285 secondes
+Temps pour affichage : 0.00463928 secondes
+Temps pour une étape : 0.000175165 secondes
+Temps pour affichage : 0.00371637 secondes
+Temps pour une étape : 0.000227566 secondes
+Temps pour affichage : 0.00346414 secondes
+Temps pour une étape : 0.000194245 secondes
+Temps pour affichage : 0.00414055 secondes
+Temps pour une étape : 0.000191397 secondes
+Temps pour affichage : 0.00424074 secondes
+Temps pour une étape : 0.000172699 secondes
+Temps pour affichage : 0.0072849 secondes
+Temps pour une étape : 0.000179632 secondes
+Temps pour affichage : 0.00369351 secondes
+Temps pour une étape : 0.000181556 secondes
+Temps pour affichage : 0.00448718 secondes
+Temps pour une étape : 0.00019487 secondes
+Temps pour affichage : 0.00361696 secondes
+Temps pour une étape : 0.000161182 secondes
+Temps pour affichage : 0.00367249 secondes
+Temps pour une étape : 0.000164748 secondes
+Temps pour affichage : 0.00477162 secondes
+Temps pour une étape : 0.000152622 secondes
+Temps pour affichage : 0.00410714 secondes
+Temps pour une étape : 0.00019791 secondes
+Temps pour affichage : 0.0039288 secondes
+Temps pour une étape : 0.000181973 secondes
+Temps pour affichage : 0.00523067 secondes
+Temps pour une étape : 0.000171033 secondes
+Temps pour affichage : 0.00361943 secondes
+Temps pour une étape : 0.00018185 secondes
+Temps pour affichage : 0.00442985 secondes
+Temps pour une étape : 0.000174405 secondes
+Temps pour affichage : 0.00587697 secondes
+Temps pour une étape : 0.000232457 secondes
+Temps pour affichage : 0.004065 secondes
+Temps pour une étape : 0.000205313 secondes
+Temps pour affichage : 0.00372175 secondes
+Temps pour une étape : 0.000172155 secondes
+Temps pour affichage : 0.00467835 secondes
+Temps pour une étape : 0.000161202 secondes
+Temps pour affichage : 0.00439304 secondes
+Temps pour une étape : 0.000253384 secondes
+Temps pour affichage : 0.00586474 secondes
+Temps pour une étape : 0.000294633 secondes
+Temps pour affichage : 0.00382558 secondes
+Temps pour une étape : 0.000172032 secondes
+Temps pour affichage : 0.00321378 secondes
+Temps pour une étape : 0.000172468 secondes
+Temps pour affichage : 0.00425433 secondes
+Temps pour une étape : 0.000152355 secondes
+Temps pour affichage : 0.00381841 secondes
+Temps pour une étape : 0.00016022 secondes
+Temps pour affichage : 0.00397173 secondes
+Temps pour une étape : 0.000164966 secondes
+Temps pour affichage : 0.00445906 secondes
+Temps pour une étape : 0.000216363 secondes
+Temps pour affichage : 0.00430806 secondes
+Temps pour une étape : 0.000189428 secondes
+Temps pour affichage : 0.00488581 secondes
+Temps pour une étape : 0.000186603 secondes
+Temps pour affichage : 0.00427342 secondes
+Temps pour une étape : 0.000139153 secondes
+Temps pour affichage : 0.00411705 secondes
+Temps pour une étape : 0.000138259 secondes
+Temps pour affichage : 0.00417265 secondes
+Temps pour une étape : 0.000226854 secondes
+Temps pour affichage : 0.00382451 secondes
+Temps pour une étape : 0.000183815 secondes
+Temps pour affichage : 0.00384182 secondes
+Temps pour une étape : 0.000177321 secondes
+Temps pour affichage : 0.0032778 secondes
+Temps pour une étape : 0.000174877 secondes
+Temps pour affichage : 0.00362802 secondes
+Temps pour une étape : 0.00017033 secondes
+Temps pour affichage : 0.00555004 secondes
+Temps pour une étape : 0.000170833 secondes
+Temps pour affichage : 0.0042755 secondes
+Temps pour une étape : 0.000151545 secondes
+Temps pour affichage : 0.00388125 secondes
+Temps pour une étape : 0.00027279 secondes
+Temps pour affichage : 0.00507102 secondes
+Temps pour une étape : 0.000180159 secondes
+Temps pour affichage : 0.00472476 secondes
+Temps pour une étape : 0.000163624 secondes
+Temps pour affichage : 0.00402414 secondes
+Temps pour une étape : 0.000176507 secondes
+Temps pour affichage : 0.00455475 secondes
+Temps pour une étape : 0.000165193 secondes
+Temps pour affichage : 0.00363818 secondes
+Temps pour une étape : 0.000269362 secondes
+Temps pour affichage : 0.00396734 secondes
+Temps pour une étape : 0.000163011 secondes
+Temps pour affichage : 0.00431099 secondes
+Temps pour une étape : 0.00020083 secondes
+Temps pour affichage : 0.00443692 secondes
+Temps pour une étape : 0.000161875 secondes
+Temps pour affichage : 0.00508734 secondes
+Temps pour une étape : 0.000197211 secondes
+Temps pour affichage : 0.00420267 secondes
+Temps pour une étape : 0.000151771 secondes
+Temps pour affichage : 0.00363036 secondes
+Temps pour une étape : 0.000231802 secondes
+Temps pour affichage : 0.00502879 secondes
+Temps pour une étape : 0.000162435 secondes
+Temps pour affichage : 0.0110061 secondes
+Temps pour une étape : 0.000177161 secondes
+Temps pour affichage : 0.00680346 secondes
+Temps pour une étape : 0.000176354 secondes
+Temps pour affichage : 0.0162361 secondes
+Temps pour une étape : 0.00017887 secondes
+Temps pour affichage : 0.00429148 secondes
+Temps pour une étape : 0.000162653 secondes
+Temps pour affichage : 0.00399907 secondes
+Temps pour une étape : 0.000246755 secondes
+Temps pour affichage : 0.00481807 secondes
+Temps pour une étape : 0.000239374 secondes
+Temps pour affichage : 0.00464458 secondes
+Temps pour une étape : 0.000217497 secondes
+Temps pour affichage : 0.00531711 secondes
+Temps pour une étape : 0.000204554 secondes
+Temps pour affichage : 0.00422154 secondes
+Temps pour une étape : 0.000158027 secondes
+Temps pour affichage : 0.00453652 secondes
+Temps pour une étape : 0.000162133 secondes
+Temps pour affichage : 0.00411676 secondes
+Temps pour une étape : 0.000233352 secondes
+Temps pour affichage : 0.00414727 secondes
+Temps pour une étape : 0.00017861 secondes
+Temps pour affichage : 0.00455806 secondes
+Temps pour une étape : 0.000163051 secondes
+Temps pour affichage : 0.0034721 secondes
+Temps pour une étape : 0.000161614 secondes
+Temps pour affichage : 0.00332938 secondes
+Temps pour une étape : 0.000155731 secondes
+Temps pour affichage : 0.00405044 secondes
+Temps pour une étape : 0.000216298 secondes
+Temps pour affichage : 0.00428457 secondes
+Temps pour une étape : 0.000155324 secondes
+Temps pour affichage : 0.00433613 secondes
+Temps pour une étape : 0.000168112 secondes
+Temps pour affichage : 0.0048279 secondes
+Temps pour une étape : 0.000196793 secondes
+Temps pour affichage : 0.00422083 secondes
+Temps pour une étape : 0.000208649 secondes
+Temps pour affichage : 0.00437977 secondes
+Temps pour une étape : 0.000151026 secondes
+Temps pour affichage : 0.00455098 secondes
+Temps pour une étape : 0.000219117 secondes
+Temps pour affichage : 0.00452239 secondes
+Temps pour une étape : 0.00019733 secondes
+Temps pour affichage : 0.00478097 secondes
+Temps pour une étape : 0.000170368 secondes
+Temps pour affichage : 0.00369919 secondes
+Temps pour une étape : 0.000150927 secondes
+Temps pour affichage : 0.00315472 secondes
+Temps pour une étape : 0.000170566 secondes
+Temps pour affichage : 0.00436282 secondes
+Temps pour une étape : 0.000151951 secondes
+Temps pour affichage : 0.00357193 secondes
+Temps pour une étape : 0.000151666 secondes
+Temps pour affichage : 0.00941513 secondes
+Temps pour une étape : 0.000219006 secondes
+Temps pour affichage : 0.00429925 secondes
+Temps pour une étape : 0.000234272 secondes
+Temps pour affichage : 0.00399876 secondes
+Temps pour une étape : 0.00022856 secondes
+Temps pour affichage : 0.00332928 secondes
+Temps pour une étape : 0.000140485 secondes
+Temps pour affichage : 0.00366281 secondes
+Temps pour une étape : 0.000167641 secondes
+Temps pour affichage : 0.00345788 secondes
+Temps pour une étape : 0.000162046 secondes
+Temps pour affichage : 0.00503607 secondes
+Temps pour une étape : 0.000223199 secondes
+Temps pour affichage : 0.00437536 secondes
+Temps pour une étape : 0.000192753 secondes
+Temps pour affichage : 0.00388861 secondes
+Temps pour une étape : 0.000177919 secondes
+Temps pour affichage : 0.00334929 secondes
+Temps pour une étape : 0.000160946 secondes
+Temps pour affichage : 0.00379249 secondes
+Temps pour une étape : 0.000146987 secondes
+Temps pour affichage : 0.00457397 secondes
+Temps pour une étape : 0.000149002 secondes
+Temps pour affichage : 0.00382847 secondes
+Temps pour une étape : 0.00016462 secondes
+Temps pour affichage : 0.00353467 secondes
+Temps pour une étape : 0.000180114 secondes
+Temps pour affichage : 0.00419329 secondes
+Temps pour une étape : 0.000140596 secondes
+Temps pour affichage : 0.00382341 secondes
+Temps pour une étape : 0.000167679 secondes
+Temps pour affichage : 0.00429017 secondes
+Temps pour une étape : 0.000151338 secondes
+Temps pour affichage : 0.00454254 secondes
+Temps pour une étape : 0.000162261 secondes
+Temps pour affichage : 0.00314977 secondes
+Temps pour une étape : 0.000175476 secondes
+Temps pour affichage : 0.00343702 secondes
+Temps pour une étape : 0.00019303 secondes
+Temps pour affichage : 0.00435763 secondes
+Temps pour une étape : 0.000166422 secondes
+Temps pour affichage : 0.00369583 secondes
+Temps pour une étape : 0.000180041 secondes
+Temps pour affichage : 0.0138096 secondes
+Temps pour une étape : 0.000143917 secondes
+Temps pour affichage : 0.0386273 secondes
+Temps pour une étape : 0.000158717 secondes
+Temps pour affichage : 0.0125678 secondes
+Temps pour une étape : 0.000157732 secondes
+Temps pour affichage : 0.00364399 secondes
+Temps pour une étape : 0.000200516 secondes
+Temps pour affichage : 0.0130839 secondes
+Temps pour une étape : 0.00016498 secondes
+Temps pour affichage : 0.00433263 secondes
+Temps pour une étape : 0.000197948 secondes
+Temps pour affichage : 0.00490353 secondes
+Temps pour une étape : 0.00021635 secondes
+Temps pour affichage : 0.00418505 secondes
+Temps pour une étape : 0.00017753 secondes
+Temps pour affichage : 0.0035952 secondes
+Temps pour une étape : 0.000148856 secondes
+Temps pour affichage : 0.00359998 secondes
+Temps pour une étape : 0.00017173 secondes
+Temps pour affichage : 0.00439027 secondes
+Temps pour une étape : 0.000196775 secondes
+Temps pour affichage : 0.00456776 secondes
+Temps pour une étape : 0.000152458 secondes
+Temps pour affichage : 0.00379489 secondes
+Temps pour une étape : 0.000164099 secondes
+Temps pour affichage : 0.00379155 secondes
+Temps pour une étape : 0.00020933 secondes
+Temps pour affichage : 0.00348676 secondes
+Temps pour une étape : 0.00015836 secondes
+Temps pour affichage : 0.00375513 secondes
+Temps pour une étape : 0.000217241 secondes
+Temps pour affichage : 0.00369099 secondes
+Temps pour une étape : 0.000138158 secondes
+Temps pour affichage : 0.0035935 secondes
+Temps pour une étape : 0.00014699 secondes
+Temps pour affichage : 0.00396315 secondes
+Temps pour une étape : 0.00018013 secondes
+Temps pour affichage : 0.00386659 secondes
+Temps pour une étape : 0.000160674 secondes
+Temps pour affichage : 0.00432408 secondes
+Temps pour une étape : 0.000172778 secondes
+Temps pour affichage : 0.00391941 secondes
+Temps pour une étape : 0.000167012 secondes
+Temps pour affichage : 0.00428319 secondes
+Temps pour une étape : 0.000165674 secondes
+Temps pour affichage : 0.00393102 secondes
+Temps pour une étape : 0.000167204 secondes
+Temps pour affichage : 0.00387694 secondes
+Temps pour une étape : 0.00021511 secondes
+Temps pour affichage : 0.00509023 secondes
+Temps pour une étape : 0.000167702 secondes
+Temps pour affichage : 0.00430115 secondes
+Temps pour une étape : 0.000265862 secondes
+Temps pour affichage : 0.00498499 secondes
+Temps pour une étape : 0.000213241 secondes
+Temps pour affichage : 0.00396941 secondes
+Temps pour une étape : 0.000167511 secondes
+Temps pour affichage : 0.00330801 secondes
+Temps pour une étape : 0.000172706 secondes
+Temps pour affichage : 0.00377406 secondes
+Temps pour une étape : 0.000171298 secondes
+Temps pour affichage : 0.00433786 secondes
+Temps pour une étape : 0.000198808 secondes
+Temps pour affichage : 0.0038031 secondes
+Temps pour une étape : 0.000178056 secondes
+Temps pour affichage : 0.00451455 secondes
+Temps pour une étape : 0.000206425 secondes
+Temps pour affichage : 0.00387522 secondes
+Temps pour une étape : 0.00016811 secondes
+Temps pour affichage : 0.00352974 secondes
+Temps pour une étape : 0.000167881 secondes
+Temps pour affichage : 0.00381225 secondes
+Temps pour une étape : 0.00019023 secondes
+Temps pour affichage : 0.00424353 secondes
+Temps pour une étape : 0.000155684 secondes
+Temps pour affichage : 0.0047546 secondes
+Temps pour une étape : 0.000151743 secondes
+Temps pour affichage : 0.00447016 secondes
+Temps pour une étape : 0.00015623 secondes
+Temps pour affichage : 0.00335249 secondes
+Temps pour une étape : 0.000168823 secondes
+Temps pour affichage : 0.00405253 secondes
+Temps pour une étape : 0.000205424 secondes
+Temps pour affichage : 0.00389008 secondes
+Temps pour une étape : 0.000202123 secondes
+Temps pour affichage : 0.00438793 secondes
+Temps pour une étape : 0.000166419 secondes
+Temps pour affichage : 0.00452917 secondes
+Temps pour une étape : 0.000160436 secondes
+Temps pour affichage : 0.00402826 secondes
+Temps pour une étape : 0.000149933 secondes
+Temps pour affichage : 0.00314986 secondes
+Temps pour une étape : 0.000146691 secondes
+Temps pour affichage : 0.00398035 secondes
+Temps pour une étape : 0.000168145 secondes
+Temps pour affichage : 0.00427282 secondes
+Temps pour une étape : 0.000164484 secondes
+Temps pour affichage : 0.00640853 secondes
+Temps pour une étape : 0.000161584 secondes
+Temps pour affichage : 0.00373465 secondes
+Temps pour une étape : 0.00017233 secondes
+Temps pour affichage : 0.00354529 secondes
+Temps pour une étape : 0.000159888 secondes
+Temps pour affichage : 0.00317872 secondes
+Temps pour une étape : 0.000164183 secondes
+Temps pour affichage : 0.00355957 secondes
+Temps pour une étape : 0.00016055 secondes
+Temps pour affichage : 0.00483491 secondes
+Temps pour une étape : 0.000208417 secondes
+Temps pour affichage : 0.00504752 secondes
+Temps pour une étape : 0.000151824 secondes
+Temps pour affichage : 0.00378624 secondes
+Temps pour une étape : 0.000178472 secondes
+Temps pour affichage : 0.00366155 secondes
+Temps pour une étape : 0.000187247 secondes
+Temps pour affichage : 0.00342928 secondes
+Temps pour une étape : 0.000181835 secondes
+Temps pour affichage : 0.00343509 secondes
+Temps pour une étape : 0.000190534 secondes
+Temps pour affichage : 0.0042563 secondes
+Temps pour une étape : 0.00016002 secondes
+Temps pour affichage : 0.00481149 secondes
+Temps pour une étape : 0.000160112 secondes
+Temps pour affichage : 0.00444509 secondes
+Temps pour une étape : 0.000159956 secondes
+Temps pour affichage : 0.00349893 secondes
+Temps pour une étape : 0.000157644 secondes
+Temps pour affichage : 0.00396986 secondes
+Temps pour une étape : 0.000162129 secondes
+Temps pour affichage : 0.00537937 secondes
+Temps pour une étape : 0.000163339 secondes
+Temps pour affichage : 0.00426104 secondes
+Temps pour une étape : 0.0001522 secondes
+Temps pour affichage : 0.00346802 secondes
+Temps pour une étape : 0.000148135 secondes
+Temps pour affichage : 0.00483817 secondes
+Temps pour une étape : 0.000244944 secondes
+Temps pour affichage : 0.00493731 secondes
+Temps pour une étape : 0.000152686 secondes
+Temps pour affichage : 0.00381085 secondes
+Temps pour une étape : 0.000198118 secondes
+Temps pour affichage : 0.00519754 secondes
+Temps pour une étape : 0.000215631 secondes
+Temps pour affichage : 0.00427289 secondes
+Temps pour une étape : 0.000199034 secondes
+Temps pour affichage : 0.0042444 secondes
+Temps pour une étape : 0.000337804 secondes
+Temps pour affichage : 0.00414275 secondes
+Temps pour une étape : 0.000145024 secondes
+Temps pour affichage : 0.00387126 secondes
+Temps pour une étape : 0.000156985 secondes
+Temps pour affichage : 0.00458753 secondes
+Temps pour une étape : 0.000162063 secondes
+Temps pour affichage : 0.00835844 secondes
+Temps pour une étape : 0.000174946 secondes
+Temps pour affichage : 0.00439727 secondes
+Temps pour une étape : 0.000156765 secondes
+Temps pour affichage : 0.0034362 secondes
+Temps pour une étape : 0.00014524 secondes
+Temps pour affichage : 0.00353462 secondes
+Temps pour une étape : 0.000146892 secondes
+Temps pour affichage : 0.00335675 secondes
+Temps pour une étape : 0.000134829 secondes
+Temps pour affichage : 0.00457632 secondes
+Temps pour une étape : 0.000205312 secondes
+Temps pour affichage : 0.00365352 secondes
+Temps pour une étape : 0.00015836 secondes
+Temps pour affichage : 0.00330806 secondes
+Temps pour une étape : 0.000206053 secondes
+Temps pour affichage : 0.00389402 secondes
+Temps pour une étape : 0.000172792 secondes
+Temps pour affichage : 0.00378189 secondes
+Temps pour une étape : 0.000184882 secondes
+Temps pour affichage : 0.00435553 secondes
+Temps pour une étape : 0.000161971 secondes
+Temps pour affichage : 0.00428098 secondes
+Temps pour une étape : 0.000188598 secondes
+Temps pour affichage : 0.00421801 secondes
+Temps pour une étape : 0.000172516 secondes
+Temps pour affichage : 0.00318732 secondes
+Temps pour une étape : 0.000149911 secondes
+Temps pour affichage : 0.00392323 secondes
+Temps pour une étape : 0.000192446 secondes
+Temps pour affichage : 0.00457218 secondes
+Temps pour une étape : 0.000163894 secondes
+Temps pour affichage : 0.00464435 secondes
+Temps pour une étape : 0.000152442 secondes
+Temps pour affichage : 0.0042382 secondes
+Temps pour une étape : 0.000149165 secondes
+Temps pour affichage : 0.00374236 secondes
+Temps pour une étape : 0.000230113 secondes
+Simulation finished. Total time step: 723

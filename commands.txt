@@ -1,0 +1,7 @@
+docker build -t wildfire-simulation .
+
+docker run -it -e DISPLAY=host.docker.internal:0 --name wildfire -v D:\PCDatas\OS202_Dockers\projet\src:/app wildfire-simulation
+
+./simulation.exe -l 2.0 -n 100 -w 1.0,0.5 -s 50,50
+
+docker start -ai wildfire
