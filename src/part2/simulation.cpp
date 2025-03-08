@@ -3,13 +3,10 @@
 #include <cassert>
 #include <iostream>
 #include <fstream>
-#include <iomanip>
 #include <thread>
 #include <chrono>
-
-#include <omp.h>
-#include <sys/sysinfo.h>
-#include <unistd.h>
+#include <iomanip>
+#include <mpi.h>
 
 #include "model.hpp"
 #include "display.hpp"
@@ -37,7 +34,7 @@ void initLog() {
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
     // Personalized information
-    logFile << "Test for first try of OpenMP optimization" << std::endl;
+    logFile << "Test for MPI with 2 threads" << std::endl;
 }
 
 struct ParamsType
@@ -221,44 +218,77 @@ void display_params(ParamsType const& params)
               << "\tPosition initiale du foyer (col, ligne) : " << params.start.column << ", " << params.start.row << std::endl;
 }
 
-// -------------------- Personal functions --------------------
-
-// Fonction pour récupérer les informations système (new-1)
-void get_system_info() {
-    // Nombre de coeurs physiques
-    int num_cores = sysconf(_SC_NPROCESSORS_ONLN);
-    logFile << "Nombre de coeurs physiques : " << num_cores << std::endl;
-
-    // Taille du cache L1
-    long cache_size = sysconf(_SC_LEVEL1_DCACHE_SIZE);
-    logFile << "Taille du cache L1 : " << cache_size / 1024 << " KB" << std::endl;
-}
-
-// ------------------------------------------------------------
-
-int main( int nargs, char* args[] )
+int main(int nargs, char* args[])
 {
-    initLog();
-    // omp_set_num_threads(4); // Nombre de threads à utiliser (new-1)
-    get_system_info();
-    auto params = parse_arguments(nargs-1, &args[1]);
-    display_params(params);
-    if (!check_params(params)) return EXIT_FAILURE;
+    MPI_Init(&nargs, &args); // 初始化MPI
+    int rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    auto displayer = Displayer::init_instance( params.discretization, params.discretization );
-    auto simu = Model( params.length, params.discretization, params.wind,
-                       params.start);
-    SDL_Event event;
-    while (simu.update())
-    {
-        if ((simu.time_step() & 31) == 0) 
-            std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
-        displayer->update( simu.vegetal_map(), simu.fire_map() );
-        if (SDL_PollEvent(&event) && event.type == SDL_QUIT){
-            break;
-        }
-        std::this_thread::sleep_for(0.02s);
+    initLog();
+
+    // 参数解析
+    ParamsType params;
+    params = parse_arguments(nargs-1, &args[1]);
+    if (!check_params(params)) {
+        MPI_Abort(MPI_COMM_WORLD, EXIT_FAILURE);
     }
-    logFile << "Simulation finished. Total time step: " << simu.time_step() << std::endl;
+    
+    Model simu(params.length, params.discretization, params.wind, params.start);
+    const int size = params.discretization * params.discretization;
+
+    if (rank == 1) { 
+        // 计算进程初始化模型
+        while (simu.update()) {
+            if ((simu.time_step() & 31) == 0) 
+                std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
+            // 发送植被和火势数据
+            MPI_Send(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
+            MPI_Send(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
+        }
+        // 发送终止信号
+        int stop_flag = 1;
+        MPI_Send(&stop_flag, 1, MPI_INT, 0, 3, MPI_COMM_WORLD);
+        std::cout << "Simulation finished." << std::endl;
+    } else if (rank == 0) { 
+        // 渲染进程初始化
+        auto displayer = Displayer::init_instance(params.discretization, params.discretization);
+        SDL_Event event;
+        bool running = true;
+        std::vector<uint8_t> vegetation_data(size), fire_data(size);
+        int flag;
+        MPI_Status status;
+        
+        while (running) {
+            // 监听来自进程1的任意标签消息（数据或终止信号）
+            MPI_Iprobe(1, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
+            if (flag) {
+                // 根据消息标签处理数据或终止信号
+                if (status.MPI_TAG == 3) { 
+                    // 接收终止信号
+                    MPI_Recv(&flag, 1, MPI_INT, 1, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    std::cout << "End signal received. Quit." << std::endl;
+                    running = false;
+                    break;
+                } else if (status.MPI_TAG == 1) { 
+                    // 接收植被和火势数据（标签1和标签2必须成对接收）
+                    MPI_Recv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &status);
+                    MPI_Recv(fire_data.data(), size, MPI_BYTE, 1, 2, MPI_COMM_WORLD, &status);
+                    displayer->update(vegetation_data, fire_data);
+                }
+            }
+    
+            // 处理SDL退出事件
+            if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
+                running = false;
+                // 可选：向进程1发送终止信号（补充代码见下文）
+            }
+            std::this_thread::sleep_for(0.02s); // 避免忙等待
+        }
+    }
+
+    // 确保所有进程都正确退出
+    MPI_Barrier(MPI_COMM_WORLD); // 同步所有进程
+    MPI_Finalize(); // 结束MPI环境
+    logFile.close();
     return EXIT_SUCCESS;
 }
