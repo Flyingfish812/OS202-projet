@@ -3,11 +3,14 @@
 #include <cassert>
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 #include <thread>
 #include <chrono>
-#include <iomanip>
-#include <vector>
+
+#include <omp.h>
 #include <mpi.h>
+#include <sys/sysinfo.h>
+#include <unistd.h>
 
 #include "model.hpp"
 #include "display.hpp"
@@ -18,11 +21,11 @@ using namespace std::chrono_literals;
 std::ofstream logFile;
 
 void initLog() {
-    // 获取当前时间
+    // Get current time
     auto t = std::time(nullptr);
     auto tm = *std::localtime(&t);
 
-    // 格式化时间为 YYYY-MM-DD_HH-MM-SS
+    // Format time as YYYY-MM-DD_HH-MM-SS
     std::ostringstream oss;
     oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_log.txt";
     std::string logFilePath = oss.str();
@@ -34,7 +37,8 @@ void initLog() {
     }
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
-    logFile << "Test for MPI with multiple compute processes" << std::endl;
+    // Personalized information
+    logFile << "Test for OpenMP + MPI version + async io" << std::endl;
 }
 
 struct ParamsType
@@ -96,7 +100,7 @@ void analyze_arg( int nargs, char* args[], ParamsType& params )
             std::cerr << "Manque une paire de valeurs pour la direction du vent !" << std::endl;
             exit(EXIT_FAILURE);
         }
-        std::string values = std::string(args[1]);
+        std::string values =std::string(args[1]);
         params.wind[0] = std::stod(values);
         auto pos = values.find(",");
         if (pos == values.size())
@@ -113,7 +117,7 @@ void analyze_arg( int nargs, char* args[], ParamsType& params )
     if (pos < key.size())
     {
         auto subkey = std::string(key, pos+7);
-        params.wind[0] = std::stod(subkey);
+        params.wind[0] = std::stoul(subkey);
         auto pos = subkey.find(",");
         if (pos == subkey.size())
         {
@@ -133,8 +137,8 @@ void analyze_arg( int nargs, char* args[], ParamsType& params )
             std::cerr << "Manque une paire de valeurs pour la position du foyer initial !" << std::endl;
             exit(EXIT_FAILURE);
         }
-        std::string values = std::string(args[1]);
-        params.start.column = std::stoul(values);
+        std::string values =std::string(args[1]);
+        params.start.column = std::stod(values);
         auto pos = values.find(",");
         if (pos == values.size())
         {
@@ -142,7 +146,7 @@ void analyze_arg( int nargs, char* args[], ParamsType& params )
             exit(EXIT_FAILURE);
         }
         auto second_value = std::string(values, pos+1);
-        params.start.row = std::stoul(second_value);
+        params.start.row = std::stod(second_value);
         analyze_arg(nargs-2, &args[2], params);
         return;
     }
@@ -154,11 +158,11 @@ void analyze_arg( int nargs, char* args[], ParamsType& params )
         auto pos = subkey.find(",");
         if (pos == subkey.size())
         {
-            std::cerr << "Doit fournir deux valeurs séparées par une virgule pour définir la position du foyer initial" << std::endl;
+            std::cerr << "Doit fournir deux valeurs séparées par une virgule pour définir la vitesse" << std::endl;
             exit(EXIT_FAILURE);
         }
         auto second_value = std::string(subkey, pos+1);
-        params.start.row = std::stoul(second_value);
+        params.start.row = std::stod(second_value);
         analyze_arg(nargs-1, &args[1], params);
         return;
     }
@@ -218,132 +222,86 @@ void display_params(ParamsType const& params)
               << "\tPosition initiale du foyer (col, ligne) : " << params.start.column << ", " << params.start.row << std::endl;
 }
 
-int main(int nargs, char* args[])
-{
+// -------------------- Personal functions --------------------
+
+// Fonction pour récupérer les informations système (new-1)
+void get_system_info() {
+    // Nombre de coeurs physiques
+    int num_cores = sysconf(_SC_NPROCESSORS_ONLN);
+    logFile << "Nombre de coeurs physiques : " << num_cores << std::endl;
+
+    // Taille du cache L1
+    long cache_size = sysconf(_SC_LEVEL1_DCACHE_SIZE);
+    logFile << "Taille du cache L1 : " << cache_size / 1024 << " KB" << std::endl;
+}
+
+// ------------------------------------------------------------
+
+int main(int nargs, char* args[]) {
     MPI_Init(&nargs, &args);
-    int world_rank, world_size;
-    MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &world_size);
+    int rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     initLog();
+
     ParamsType params = parse_arguments(nargs-1, &args[1]);
     if (!check_params(params)) {
+        std::cout << "Error" << std::endl;
         MPI_Abort(MPI_COMM_WORLD, EXIT_FAILURE);
     }
 
-    // 将 MPI_COMM_WORLD 分裂成两个子通信组：rank 0 为渲染，其余为计算
-    int color = (world_rank == 0) ? 0 : 1;
-    MPI_Comm new_comm;
-    MPI_Comm_split(MPI_COMM_WORLD, color, world_rank, &new_comm);
+    Model simu(params.length, params.discretization, params.wind, params.start);
+    const int size = params.discretization * params.discretization;
+    const int num_threads = 4;  // 进程 1 计算时的 OpenMP 线程数
 
-    // 在 main() 函数中
-    if (world_rank == 0) {
-        // 渲染进程部分
-        int global_rows = params.discretization;
-        int global_cols = params.discretization;
-        std::vector<uint8_t> global_vegetation(global_rows * global_cols, 255);
-        std::vector<uint8_t> global_fire(global_rows * global_cols, 0);
-
-        // 计算计算进程数量（world_size - 1）以及各条带行数和全局偏移
-        int compute_procs = world_size - 1;
-        std::vector<int> local_rows(compute_procs, global_rows / compute_procs);
-        int remainder = global_rows % compute_procs;
-        for (int i = 0; i < remainder; ++i) {
-            local_rows[i] += 1;
+    if (rank == 1) {
+        omp_set_num_threads(num_threads);
+        while (simu.update()) {
+            MPI_Request request_vegetation, request_fire;
+            MPI_Isend(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD, &request_vegetation);
+            MPI_Isend(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD, &request_fire);
+            MPI_Wait(&request_vegetation, MPI_STATUS_IGNORE);
+            MPI_Wait(&request_fire, MPI_STATUS_IGNORE);
         }
-        std::vector<int> offsets(compute_procs, 0);
-        for (int i = 1; i < compute_procs; ++i) {
-            offsets[i] = offsets[i-1] + local_rows[i-1];
-        }
-
-        auto displayer = Displayer::init_instance(global_cols, global_rows);
+        int stop_flag = 1;
+        MPI_Request request_stop;
+        MPI_Isend(&stop_flag, 1, MPI_INT, 0, 5, MPI_COMM_WORLD, &request_stop);
+        std::cout << "End signal sent." << std::endl;
+    } else if (rank == 0) {
+        auto displayer = Displayer::init_instance(params.discretization, params.discretization);
         SDL_Event event;
         bool running = true;
-        MPI_Status status;
+        std::vector<uint8_t> vegetation_data(size), fire_data(size);
+        std::vector<double> thread_times(num_threads);
+        MPI_Request request_vegetation, request_fire, request_stop, request_time, request_global_time;
+        double global_elapsed_time;
+
         while (running) {
-            int flag;
-            MPI_Iprobe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
-            if (flag) {
-                if (status.MPI_TAG == 3) {
-                    // 接收到计算进程发来的终止信号
-                    int term;
-                    MPI_Recv(&term, 1, MPI_INT, status.MPI_SOURCE, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                    // 向所有计算进程发送结束命令（tag 4）
-                    for (int dest = 1; dest < world_size; ++dest) {
-                        int dummy = 1;
-                        MPI_Send(&dummy, 1, MPI_INT, dest, 4, MPI_COMM_WORLD);
-                    }
-                    std::cout << "Termination signal received. Exiting rendering loop." << std::endl;
-                    running = false;
-                    continue;
-                } else if (status.MPI_TAG == 1) {
-                    // 接收来自计算进程的局部数据
-                    int src = status.MPI_SOURCE;
-                    int proc_index = src - 1;
-                    int rows = local_rows[proc_index];
-                    int count = rows * global_cols;
-                    std::vector<uint8_t> local_vegetation(count);
-                    std::vector<uint8_t> local_fire(count);
-                    MPI_Recv(local_vegetation.data(), count, MPI_BYTE, src, 1, MPI_COMM_WORLD, &status);
-                    MPI_Recv(local_fire.data(), count, MPI_BYTE, src, 2, MPI_COMM_WORLD, &status);
-                    int offset = offsets[proc_index] * global_cols;
-                    std::copy(local_vegetation.begin(), local_vegetation.end(), global_vegetation.begin() + offset);
-                    std::copy(local_fire.begin(), local_fire.end(), global_fire.begin() + offset);
+            MPI_Status status;
+            MPI_Probe(1, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+            if (status.MPI_TAG == 1) {
+                MPI_Irecv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &request_vegetation);
+                MPI_Irecv(fire_data.data(), size, MPI_BYTE, 1, 2, MPI_COMM_WORLD, &request_fire);
+                displayer->update(vegetation_data, fire_data);
+            } else if (status.MPI_TAG == 3) {
+                MPI_Irecv(thread_times.data(), num_threads, MPI_DOUBLE, 1, 3, MPI_COMM_WORLD, &request_time);
+                for (int i = 0; i < num_threads; i++) {
+                    logFile << "Thread " << i << " time: " << thread_times[i] << "s\n";
                 }
-            }
-            displayer->update(global_vegetation, global_fire);
-
-            if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
+            } else if (status.MPI_TAG == 4) {
+                MPI_Irecv(&global_elapsed_time, 1, MPI_DOUBLE, 1, 4, MPI_COMM_WORLD, &request_global_time);
+                logFile << "Total time: " << global_elapsed_time << "s\n";
+            } else if (status.MPI_TAG == 5) {
+                MPI_Irecv(&running, 1, MPI_INT, 1, 5, MPI_COMM_WORLD, &request_stop);
+                std::cout << "End signal received. Quit." << std::endl;
                 running = false;
-                // 用户主动退出时也向所有计算进程发送终止命令
-                for (int dest = 1; dest < world_size; ++dest) {
-                    int dummy = 1;
-                    MPI_Send(&dummy, 1, MPI_INT, dest, 4, MPI_COMM_WORLD);
-                }
-            }
-            std::this_thread::sleep_for(20ms);
-        }
-    } else {
-        // 计算进程部分
-        int comp_rank, comp_size;
-        MPI_Comm_rank(new_comm, &comp_rank);
-        MPI_Comm_size(new_comm, &comp_size);
-        int global_rows = params.discretization;
-        int global_cols = params.discretization;
-        int base_rows = global_rows / comp_size;
-        int remainder = global_rows % comp_size;
-        int local_domain_rows = (comp_rank < remainder) ? base_rows + 1 : base_rows;
-        int global_offset = (comp_rank < remainder) ? comp_rank * (base_rows + 1)
-                                                    : remainder * (base_rows + 1) + (comp_rank - remainder)*base_rows;
-        Model simu(params.length, params.discretization, params.wind, params.start, 10.0, new_comm, global_offset, local_domain_rows);
-        int size = local_domain_rows * global_cols; // active 区域大小（不含 ghost 行）
-
-        bool local_active = true;
-        while (true) {
-            // 更新本地区域火势传播
-            local_active = simu.update();
-            // 全局判断是否还有火势存在（通过 new_comm 内的所有计算进程）
-            bool global_active = false;
-            MPI_Allreduce(&local_active, &global_active, 1, MPI_C_BOOL, MPI_LOR, new_comm);
-            if (!global_active) {
                 break;
             }
-            // 发送当前 active 区域数据（跳过 ghost 行）到渲染进程
-            MPI_Send(simu.vegetal_map().data() + global_cols, size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
-            MPI_Send(simu.fire_map().data() + global_cols, size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
+            if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
+                running = false;
+            }
+            std::this_thread::sleep_for(0.02s);
         }
-        
-        // 所有计算进程在此处等待同步
-        MPI_Barrier(new_comm);
-        // 由 new_comm 内指定的进程发送终止信号到渲染进程
-        if (comp_rank == 0) {
-            int stop_flag = 1;
-            MPI_Send(&stop_flag, 1, MPI_INT, 0, 3, MPI_COMM_WORLD);
-        }
-        // 等待来自渲染进程的终止命令（tag 4）
-        int dummy;
-        MPI_Recv(&dummy, 1, MPI_INT, 0, 4, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        std::cout << "Compute process " << world_rank << " received termination command, exiting." << std::endl;
     }
 
     MPI_Barrier(MPI_COMM_WORLD);

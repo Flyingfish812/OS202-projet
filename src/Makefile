@@ -21,10 +21,10 @@ clean:
 	@rm -fr *.o *.exe *~
 
 .cpp.o:
-	$(CXX) $(CXXFLAGS2) -c $^ -o $@	
+	$(MPICXX) $(CXXFLAGS2) -c $^ -o $@	
 
 simulation.exe : display.o display.hpp model.o model.hpp simulation.o
-	$(CXX) $(CXXFLAGS2) $^ -o $@ $(LIB)	
+	$(MPICXX) $(CXXFLAGS2) $^ -o $@ $(LIB)	
 
 help:
 	@echo "Available targets : "

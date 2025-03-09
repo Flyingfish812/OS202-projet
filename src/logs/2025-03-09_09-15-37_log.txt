@@ -1,0 +1,4334 @@
+Log initialized at: 2025-03-09 09:15:37
+Test for OpenMP + MPI version + async io
+Thread 0 time: 0.00070813s
+Thread 1 time: 0.000328914s
+Thread 2 time: 3.69e-05s
+Thread 3 time: 0.000387319s
+Total time: 0.00109577s
+Temps pour affichage : 0.0162759 secondes
+Thread 0 time: 3.141e-05s
+Thread 1 time: 1.4386e-05s
+Thread 2 time: 3.382e-06s
+Thread 3 time: 8.33e-07s
+Total time: 6.5073e-05s
+Temps pour affichage : 0.00398948 secondes
+Thread 0 time: 0.000150026s
+Thread 1 time: 3.3372e-05s
+Thread 2 time: 2.9693e-05s
+Thread 3 time: 2.7672e-05s
+Total time: 0.000213996s
+Temps pour affichage : 0.00416755 secondes
+Thread 0 time: 0.000340146s
+Thread 1 time: 0.000318527s
+Thread 2 time: 0.00029777s
+Thread 3 time: 0.000309149s
+Total time: 0.000390215s
+Temps pour affichage : 0.00421822 secondes
+Thread 0 time: 0.000102224s
+Thread 1 time: 1.604e-05s
+Thread 2 time: 1.7086e-05s
+Thread 3 time: 3.806e-06s
+Total time: 0.000168253s
+Temps pour affichage : 0.00496941 secondes
+Thread 0 time: 0.000120283s
+Thread 1 time: 3.2203e-05s
+Thread 2 time: 2.8119e-05s
+Thread 3 time: 2.6222e-05s
+Total time: 0.000168225s
+Temps pour affichage : 0.00479565 secondes
+Thread 0 time: 0.00072969s
+Thread 1 time: 0.000780296s
+Thread 2 time: 0.000766865s
+Thread 3 time: 0.00071154s
+Total time: 0.000845733s
+Temps pour affichage : 0.00534671 secondes
+Thread 0 time: 0.00020922s
+Thread 1 time: 3.0055e-05s
+Thread 2 time: 2.5451e-05s
+Thread 3 time: 2.3413e-05s
+Total time: 0.000299536s
+Temps pour affichage : 0.00407175 secondes
+Thread 0 time: 7.89e-05s
+Thread 1 time: 5.6565e-05s
+Thread 2 time: 2.6332e-05s
+Thread 3 time: 2.4405e-05s
+Total time: 0.000131151s
+Temps pour affichage : 0.00438247 secondes
+Thread 0 time: 0.000100423s
+Thread 1 time: 7.6095e-05s
+Thread 2 time: 2.7598e-05s
+Thread 3 time: 2.5141e-05s
+Total time: 0.000157505s
+Temps pour affichage : 0.00436677 secondes
+Thread 0 time: 1.365e-06s
+Thread 1 time: 7.7245e-05s
+Thread 2 time: 0.000135222s
+Thread 3 time: 4.2991e-05s
+Total time: 0.000210847s
+Temps pour affichage : 0.00440064 secondes
+Thread 0 time: 0.000121602s
+Thread 1 time: 7.0883e-05s
+Thread 2 time: 9.474e-05s
+Thread 3 time: 1.8868e-05s
+Total time: 0.000185248s
+Temps pour affichage : 0.00429664 secondes
+Thread 0 time: 0.00016236s
+Thread 1 time: 6.8317e-05s
+Thread 2 time: 2.6702e-05s
+Thread 3 time: 2.4646e-05s
+Total time: 0.000274983s
+Temps pour affichage : 0.00422629 secondes
+Thread 0 time: 0.000209719s
+Thread 1 time: 3.3213e-05s
+Thread 2 time: 2.9054e-05s
+Thread 3 time: 2.6821e-05s
+Total time: 0.000278781s
+Temps pour affichage : 0.00465251 secondes
+Thread 0 time: 0.000228073s
+Thread 1 time: 0.000117288s
+Thread 2 time: 2.3634e-05s
+Thread 3 time: 2.1721e-05s
+Total time: 0.000323867s
+Temps pour affichage : 0.00531375 secondes
+Thread 0 time: 0.000180972s
+Thread 1 time: 2.6952e-05s
+Thread 2 time: 7.4516e-05s
+Thread 3 time: 2.4852e-05s
+Total time: 0.000442368s
+Temps pour affichage : 0.00491169 secondes
+Thread 0 time: 0.00020525s
+Thread 1 time: 1.9996e-05s
+Thread 2 time: 1.786e-05s
+Thread 3 time: 1.6303e-05s
+Total time: 0.000284038s
+Temps pour affichage : 0.0042707 secondes
+Thread 0 time: 0.000207518s
+Thread 1 time: 9.7623e-05s
+Thread 2 time: 2.5431e-05s
+Thread 3 time: 2.3725e-05s
+Total time: 0.000299709s
+Temps pour affichage : 0.00469316 secondes
+Thread 0 time: 0.000312591s
+Thread 1 time: 0.000127621s
+Thread 2 time: 2.6812e-05s
+Thread 3 time: 2.4753e-05s
+Total time: 0.000438675s
+Temps pour affichage : 0.00471698 secondes
+Thread 0 time: 0.000257678s
+Thread 1 time: 0.000183944s
+Thread 2 time: 0.000174113s
+Thread 3 time: 2.5935e-05s
+Total time: 0.00035584s
+Temps pour affichage : 0.0054266 secondes
+Thread 0 time: 0.000230149s
+Thread 1 time: 0.000170199s
+Thread 2 time: 2.3102e-05s
+Thread 3 time: 2.0811e-05s
+Total time: 0.0003376s
+Temps pour affichage : 0.00515689 secondes
+Thread 0 time: 0.000282893s
+Thread 1 time: 1.3883e-05s
+Thread 2 time: 0.00026967s
+Thread 3 time: 3.535e-06s
+Total time: 0.000449875s
+Temps pour affichage : 0.00511311 secondes
+Thread 0 time: 0.000327037s
+Thread 1 time: 0.000313041s
+Thread 2 time: 0.000160371s
+Thread 3 time: 1.8884e-05s
+Total time: 0.000461894s
+Temps pour affichage : 0.00526179 secondes
+Thread 0 time: 2.2709e-05s
+Thread 1 time: 5.295e-06s
+Thread 2 time: 0.000324762s
+Thread 3 time: 0.000335782s
+Total time: 0.000557287s
+Temps pour affichage : 0.00551973 secondes
+Thread 0 time: 0.000371205s
+Thread 1 time: 1.7501e-05s
+Thread 2 time: 3.199e-06s
+Thread 3 time: 0.000258885s
+Total time: 0.000515792s
+Temps pour affichage : 0.00547626 secondes
+Thread 0 time: 0.00036684s
+Thread 1 time: 0.000264551s
+Thread 2 time: 1.446e-06s
+Thread 3 time: 0.000346455s
+Total time: 0.000522642s
+Temps pour affichage : 0.00609363 secondes
+Thread 0 time: 1.984e-06s
+Thread 1 time: 0.000104434s
+Thread 2 time: 0.000673437s
+Thread 3 time: 0.000654822s
+Total time: 0.00086827s
+Temps pour affichage : 0.00516993 secondes
+Thread 0 time: 3.475e-06s
+Thread 1 time: 0.000324591s
+Thread 2 time: 0.0004874s
+Thread 3 time: 0.000439835s
+Total time: 0.000648147s
+Temps pour affichage : 0.00544331 secondes
+Thread 0 time: 0.00049785s
+Thread 1 time: 0.000470461s
+Thread 2 time: 3.1532e-05s
+Thread 3 time: 1.6386e-05s
+Total time: 0.000671476s
+Temps pour affichage : 0.00574157 secondes
+Thread 0 time: 0.000560422s
+Thread 1 time: 0.000544418s
+Thread 2 time: 2.3487e-05s
+Thread 3 time: 1.3183e-05s
+Total time: 0.000726969s
+Temps pour affichage : 0.00572457 secondes
+Thread 0 time: 0.000626455s
+Thread 1 time: 2.9894e-05s
+Thread 2 time: 0.000606552s
+Thread 3 time: 1.8491e-05s
+Total time: 0.000852598s
+Temps pour affichage : 0.00578528 secondes
+Thread 0 time: 0.000793569s
+Thread 1 time: 0.000761135s
+Thread 2 time: 0.000616295s
+Thread 3 time: 8.8828e-05s
+Total time: 0.00117707s
+Temps pour affichage : 0.00690149 secondes
+Thread 0 time: 0.000744838s
+Thread 1 time: 4.052e-06s
+Thread 2 time: 0.000400927s
+Thread 3 time: 1.474e-05s
+Total time: 0.00095891s
+Temps pour affichage : 0.00573108 secondes
+Thread 0 time: 0.000714092s
+Thread 1 time: 2.728e-06s
+Thread 2 time: 0.000696368s
+Thread 3 time: 1.2575e-05s
+Total time: 0.000957302s
+Temps pour affichage : 0.00631616 secondes
+Thread 0 time: 0.000966881s
+Thread 1 time: 0.000770815s
+Thread 2 time: 0.000944146s
+Thread 3 time: 0.000806091s
+Total time: 0.00121757s
+Temps pour affichage : 0.00643015 secondes
+Thread 0 time: 6.6229e-05s
+Thread 1 time: 0.00116116s
+Thread 2 time: 0.00124841s
+Thread 3 time: 5.0696e-05s
+Total time: 0.00166284s
+Temps pour affichage : 0.00626034 secondes
+Thread 0 time: 0.000998722s
+Thread 1 time: 1.1911e-05s
+Thread 2 time: 0.00156204s
+Thread 3 time: 2.197e-06s
+Total time: 0.0018563s
+Temps pour affichage : 0.00783132 secondes
+Thread 0 time: 0.00127418s
+Thread 1 time: 0.00126749s
+Thread 2 time: 7.65e-07s
+Thread 3 time: 1.1793e-05s
+Total time: 0.00161063s
+Temps pour affichage : 0.00588647 secondes
+Thread 0 time: 0.00125496s
+Thread 1 time: 2.7167e-05s
+Thread 2 time: 1.6759e-05s
+Thread 3 time: 0.00116922s
+Total time: 0.00151575s
+Temps pour affichage : 0.00756703 secondes
+Thread 0 time: 0.00160573s
+Thread 1 time: 2.8269e-05s
+Thread 2 time: 1.3504e-05s
+Thread 3 time: 0.00159074s
+Total time: 0.0018757s
+Temps pour affichage : 0.00552144 secondes
+Thread 0 time: 0.00160935s
+Thread 1 time: 1.2718e-05s
+Thread 2 time: 2.152e-06s
+Thread 3 time: 0.00151331s
+Total time: 0.00193853s
+Temps pour affichage : 0.00571365 secondes
+Thread 0 time: 0.00145981s
+Thread 1 time: 2.7936e-05s
+Thread 2 time: 1.3739e-05s
+Thread 3 time: 0.00179969s
+Total time: 0.00217648s
+Temps pour affichage : 0.0271638 secondes
+Thread 0 time: 0.00171531s
+Thread 1 time: 0.00141943s
+Thread 2 time: 0.00138042s
+Thread 3 time: 0.00157965s
+Total time: 0.00205016s
+Temps pour affichage : 0.0070758 secondes
+Thread 0 time: 5.6894e-05s
+Thread 1 time: 0.00185819s
+Thread 2 time: 0.00148549s
+Thread 3 time: 0.0019609s
+Total time: 0.00229756s
+Temps pour affichage : 0.00625386 secondes
+Thread 0 time: 0.00241409s
+Thread 1 time: 0.0023301s
+Thread 2 time: 0.00223297s
+Thread 3 time: 0.0023929s
+Total time: 0.00280127s
+Temps pour affichage : 0.00676735 secondes
+Thread 0 time: 0.00270449s
+Thread 1 time: 0.002689s
+Thread 2 time: 0.00286802s
+Thread 3 time: 0.00283965s
+Total time: 0.003477s
+Temps pour affichage : 0.00641798 secondes
+Thread 0 time: 0.00334783s
+Thread 1 time: 1.9806e-05s
+Thread 2 time: 0.0032857s
+Thread 3 time: 2.1392e-05s
+Total time: 0.00371882s
+Temps pour affichage : 0.0069078 secondes
+Thread 0 time: 0.00269388s
+Thread 1 time: 0.00261083s
+Thread 2 time: 3.492e-06s
+Thread 3 time: 0.00159308s
+Total time: 0.0030873s
+Temps pour affichage : 0.00781379 secondes
+Thread 0 time: 0.00366147s
+Thread 1 time: 0.000232875s
+Thread 2 time: 0.000242363s
+Thread 3 time: 0.0040924s
+Total time: 0.00461668s
+Temps pour affichage : 0.0094017 secondes
+Thread 0 time: 0.00246744s
+Thread 1 time: 0.00210117s
+Thread 2 time: 1.7299e-05s
+Thread 3 time: 3.195e-06s
+Total time: 0.00286622s
+Temps pour affichage : 0.0078111 secondes
+Thread 0 time: 0.00269313s
+Thread 1 time: 0.00242421s
+Thread 2 time: 1.4354e-05s
+Thread 3 time: 3.443e-06s
+Total time: 0.00312004s
+Temps pour affichage : 0.00785278 secondes
+Thread 0 time: 0.00389405s
+Thread 1 time: 0.00377262s
+Thread 2 time: 3.0324e-05s
+Thread 3 time: 1.9393e-05s
+Total time: 0.00437812s
+Temps pour affichage : 0.00798707 secondes
+Thread 0 time: 3.574e-05s
+Thread 1 time: 1.1407e-05s
+Thread 2 time: 0.00358704s
+Thread 3 time: 0.00414423s
+Total time: 0.00461216s
+Temps pour affichage : 0.00585335 secondes
+Thread 0 time: 0.00611913s
+Thread 1 time: 1.6105e-05s
+Thread 2 time: 2.6749e-05s
+Thread 3 time: 0.00641004s
+Total time: 0.00695472s
+Temps pour affichage : 0.00672116 secondes
+Thread 0 time: 0.0046923s
+Thread 1 time: 1.6199e-05s
+Thread 2 time: 2.7048e-05s
+Thread 3 time: 0.00462267s
+Total time: 0.00524108s
+Temps pour affichage : 0.00731891 secondes
+Thread 0 time: 9.932e-06s
+Thread 1 time: 0.0038754s
+Thread 2 time: 0.00392103s
+Thread 3 time: 1.009e-06s
+Total time: 0.00449803s
+Temps pour affichage : 0.00685089 secondes
+Thread 0 time: 1.035e-06s
+Thread 1 time: 0.00440638s
+Thread 2 time: 0.00431487s
+Thread 3 time: 3.212e-06s
+Total time: 0.00500135s
+Temps pour affichage : 0.0070774 secondes
+Thread 0 time: 1.7489e-05s
+Thread 1 time: 0.00569693s
+Thread 2 time: 0.00561227s
+Thread 3 time: 3.9329e-05s
+Total time: 0.00634944s
+Temps pour affichage : 0.00779123 secondes
+Thread 0 time: 2.3413e-05s
+Thread 1 time: 0.00456181s
+Thread 2 time: 0.00456973s
+Thread 3 time: 3.4256e-05s
+Total time: 0.00517318s
+Temps pour affichage : 0.00832473 secondes
+Thread 0 time: 0.00264648s
+Thread 1 time: 0.00224611s
+Thread 2 time: 0.00264028s
+Thread 3 time: 0.00833956s
+Total time: 0.00924686s
+Temps pour affichage : 0.0063637 secondes
+Thread 0 time: 0.00530944s
+Thread 1 time: 2.7382e-05s
+Thread 2 time: 0.00518527s
+Thread 3 time: 2.5731e-05s
+Total time: 0.00595412s
+Temps pour affichage : 0.0085378 secondes
+Thread 0 time: 0.00551325s
+Thread 1 time: 2.2851e-05s
+Thread 2 time: 0.00502227s
+Thread 3 time: 1.2834e-05s
+Total time: 0.00616876s
+Temps pour affichage : 0.00731158 secondes
+Thread 0 time: 0.0073728s
+Thread 1 time: 2.2258e-05s
+Thread 2 time: 0.00772778s
+Thread 3 time: 1.1625e-05s
+Total time: 0.00838904s
+Temps pour affichage : 0.00790735 secondes
+Thread 0 time: 3.793e-06s
+Thread 1 time: 0.0100798s
+Thread 2 time: 1.448e-05s
+Thread 3 time: 0.00974272s
+Total time: 0.0108861s
+Temps pour affichage : 0.00595515 secondes
+Thread 0 time: 0.00875945s
+Thread 1 time: 4.299e-05s
+Thread 2 time: 3.8095e-05s
+Thread 3 time: 0.00874634s
+Total time: 0.00953147s
+Temps pour affichage : 0.00803749 secondes
+Thread 0 time: 0.00731822s
+Thread 1 time: 0.00821672s
+Thread 2 time: 3.894e-06s
+Thread 3 time: 1.3588e-05s
+Total time: 0.00897472s
+Temps pour affichage : 0.00838013 secondes
+Thread 0 time: 0.00823949s
+Thread 1 time: 0.00825369s
+Thread 2 time: 1.976e-06s
+Thread 3 time: 0.00741631s
+Total time: 0.00966583s
+Temps pour affichage : 0.00745259 secondes
+Thread 0 time: 0.0081203s
+Thread 1 time: 1.3982e-05s
+Thread 2 time: 2.5419e-05s
+Thread 3 time: 0.00811088s
+Total time: 0.00913488s
+Temps pour affichage : 0.00818454 secondes
+Thread 0 time: 0.00817274s
+Thread 1 time: 0.00766359s
+Thread 2 time: 0.00806648s
+Thread 3 time: 1.2687e-05s
+Total time: 0.00900272s
+Temps pour affichage : 0.00808262 secondes
+Thread 0 time: 0.0113403s
+Thread 1 time: 0.0113298s
+Thread 2 time: 1.8837e-05s
+Thread 3 time: 3.0221e-05s
+Total time: 0.0125783s
+Temps pour affichage : 0.00789063 secondes
+Thread 0 time: 0.0159583s
+Thread 1 time: 3.8932e-05s
+Thread 2 time: 0.00135825s
+Thread 3 time: 0.0158233s
+Total time: 0.0167691s
+Temps pour affichage : 0.00768244 secondes
+Thread 0 time: 0.00129305s
+Thread 1 time: 0.0167634s
+Thread 2 time: 0.00125177s
+Thread 3 time: 0.0168711s
+Total time: 0.0177657s
+Temps pour affichage : 0.0073182 secondes
+Thread 0 time: 0.0137286s
+Thread 1 time: 2.2165e-05s
+Thread 2 time: 0.0136236s
+Thread 3 time: 1.2007e-05s
+Total time: 0.0146028s
+Temps pour affichage : 0.00784997 secondes
+Thread 0 time: 0.0125311s
+Thread 1 time: 0.0124059s
+Thread 2 time: 3.4197e-05s
+Thread 3 time: 0.00360111s
+Total time: 0.0134154s
+Temps pour affichage : 0.00962253 secondes
+Thread 0 time: 0.0184218s
+Thread 1 time: 1.6382e-05s
+Thread 2 time: 0.00844317s
+Thread 3 time: 0.0187398s
+Total time: 0.0196715s
+Temps pour affichage : 0.00673088 secondes
+Thread 0 time: 0.0187636s
+Thread 1 time: 0.0180174s
+Thread 2 time: 7.8158e-05s
+Thread 3 time: 0.0182724s
+Total time: 0.0197025s
+Temps pour affichage : 0.015992 secondes
+Thread 0 time: 0.015445s
+Thread 1 time: 3.5313e-05s
+Thread 2 time: 0.00368936s
+Thread 3 time: 0.0159424s
+Total time: 0.0172448s
+Temps pour affichage : 0.00867385 secondes
+Thread 0 time: 0.0173767s
+Thread 1 time: 0.00196018s
+Thread 2 time: 0.016784s
+Thread 3 time: 3.1935e-05s
+Total time: 0.018351s
+Temps pour affichage : 0.00726795 secondes
+Thread 0 time: 0.0178609s
+Thread 1 time: 0.0181278s
+Thread 2 time: 3.2436e-05s
+Thread 3 time: 0.00229864s
+Total time: 0.0193898s
+Temps pour affichage : 0.0122047 secondes
+Thread 0 time: 0.0214053s
+Thread 1 time: 4.712e-05s
+Thread 2 time: 0.00378341s
+Thread 3 time: 0.0207846s
+Total time: 0.0225366s
+Temps pour affichage : 0.00924211 secondes
+Thread 0 time: 0.020677s
+Thread 1 time: 0.0204827s
+Thread 2 time: 0.0204956s
+Thread 3 time: 4.0893e-05s
+Total time: 0.0218122s
+Temps pour affichage : 0.00685615 secondes
+Thread 0 time: 0.0248301s
+Thread 1 time: 0.0109568s
+Thread 2 time: 0.000959077s
+Thread 3 time: 0.0250306s
+Total time: 0.0264488s
+Temps pour affichage : 0.0100548 secondes
+Thread 0 time: 0.0244739s
+Thread 1 time: 0.00880336s
+Thread 2 time: 0.0238264s
+Thread 3 time: 8.3009e-05s
+Total time: 0.0256078s
+Temps pour affichage : 0.00973221 secondes
+Thread 0 time: 0.0193177s
+Thread 1 time: 0.0199127s
+Thread 2 time: 3.0658e-05s
+Thread 3 time: 0.0186974s
+Total time: 0.0210499s
+Temps pour affichage : 0.00708727 secondes
+Thread 0 time: 0.024403s
+Thread 1 time: 0.000778087s
+Thread 2 time: 0.0244604s
+Thread 3 time: 0.0240822s
+Total time: 0.0258359s
+Temps pour affichage : 0.0183462 secondes
+Thread 0 time: 0.02992s
+Thread 1 time: 0.0300592s
+Thread 2 time: 9.1695e-05s
+Thread 3 time: 0.0142995s
+Total time: 0.0313968s
+Temps pour affichage : 0.00876721 secondes
+Thread 0 time: 0.0272045s
+Thread 1 time: 0.00114877s
+Thread 2 time: 0.0270953s
+Thread 3 time: 0.0111533s
+Total time: 0.0285074s
+Temps pour affichage : 0.00847745 secondes
+Thread 0 time: 0.0262216s
+Thread 1 time: 0.0262022s
+Thread 2 time: 2.9049e-05s
+Thread 3 time: 0.0261355s
+Total time: 0.027549s
+Temps pour affichage : 0.0132161 secondes
+Thread 0 time: 0.0376324s
+Thread 1 time: 0.0202938s
+Thread 2 time: 0.036918s
+Thread 3 time: 0.0103998s
+Total time: 0.0389515s
+Temps pour affichage : 0.00721675 secondes
+Thread 0 time: 0.0244844s
+Thread 1 time: 0.0243815s
+Thread 2 time: 0.0241931s
+Thread 3 time: 0.0244656s
+Total time: 0.0260315s
+Temps pour affichage : 0.00899762 secondes
+Thread 0 time: 0.0239168s
+Thread 1 time: 0.043515s
+Thread 2 time: 0.0434532s
+Thread 3 time: 0.033971s
+Total time: 0.0450744s
+Temps pour affichage : 0.00900038 secondes
+Thread 0 time: 0.0216239s
+Thread 1 time: 0.021493s
+Thread 2 time: 0.0357188s
+Thread 3 time: 0.0358858s
+Total time: 0.0373917s
+Temps pour affichage : 0.00732398 secondes
+Thread 0 time: 0.0378631s
+Thread 1 time: 0.0118208s
+Thread 2 time: 0.0218169s
+Thread 3 time: 0.0384137s
+Total time: 0.0399073s
+Temps pour affichage : 0.0124684 secondes
+Thread 0 time: 0.0443016s
+Thread 1 time: 0.0181318s
+Thread 2 time: 0.0446137s
+Thread 3 time: 0.043762s
+Total time: 0.0461442s
+Temps pour affichage : 0.00849052 secondes
+Thread 0 time: 0.0173933s
+Thread 1 time: 0.037371s
+Thread 2 time: 0.0173947s
+Thread 3 time: 0.037408s
+Total time: 0.0390376s
+Temps pour affichage : 0.0117354 secondes
+Thread 0 time: 0.0442286s
+Thread 1 time: 0.0138229s
+Thread 2 time: 0.0238348s
+Thread 3 time: 0.0440771s
+Total time: 0.0458205s
+Temps pour affichage : 0.00885019 secondes
+Thread 0 time: 0.0461411s
+Thread 1 time: 0.0223185s
+Thread 2 time: 0.0333969s
+Thread 3 time: 0.0465312s
+Total time: 0.0484388s
+Temps pour affichage : 0.00869522 secondes
+Thread 0 time: 0.0642326s
+Thread 1 time: 0.0393821s
+Thread 2 time: 0.0647641s
+Thread 3 time: 0.0493733s
+Total time: 0.0667942s
+Temps pour affichage : 0.0121082 secondes
+Thread 0 time: 0.0364579s
+Thread 1 time: 0.0189943s
+Thread 2 time: 0.0371617s
+Thread 3 time: 0.0289999s
+Total time: 0.0389699s
+Temps pour affichage : 0.0079886 secondes
+Thread 0 time: 0.0511135s
+Thread 1 time: 0.0500789s
+Thread 2 time: 0.0321168s
+Thread 3 time: 0.0510047s
+Total time: 0.052925s
+Temps pour affichage : 0.0116544 secondes
+Thread 0 time: 0.0374123s
+Thread 1 time: 0.0117015s
+Thread 2 time: 0.0372373s
+Thread 3 time: 0.0217575s
+Total time: 0.0393686s
+Temps pour affichage : 0.00819846 secondes
+Thread 0 time: 0.0458147s
+Thread 1 time: 0.0297147s
+Thread 2 time: 0.0197556s
+Thread 3 time: 0.0457011s
+Total time: 0.0477037s
+Temps pour affichage : 0.0139399 secondes
+Thread 0 time: 0.0470637s
+Thread 1 time: 0.0470576s
+Thread 2 time: 0.0469934s
+Thread 3 time: 0.0467095s
+Total time: 0.0489732s
+Temps pour affichage : 0.00877032 secondes
+Thread 0 time: 0.0687152s
+Thread 1 time: 0.0686762s
+Thread 2 time: 0.0402614s
+Thread 3 time: 0.0603079s
+Total time: 0.0706095s
+Temps pour affichage : 0.0120396 secondes
+Thread 0 time: 0.0611805s
+Thread 1 time: 0.0610718s
+Thread 2 time: 0.043734s
+Thread 3 time: 0.0337867s
+Total time: 0.0631422s
+Temps pour affichage : 0.00840674 secondes
+Thread 0 time: 0.0522373s
+Thread 1 time: 0.0521115s
+Thread 2 time: 0.0383989s
+Thread 3 time: 0.0284752s
+Total time: 0.0542781s
+Temps pour affichage : 0.0112563 secondes
+Thread 0 time: 0.0644628s
+Thread 1 time: 0.0644451s
+Thread 2 time: 0.0453073s
+Thread 3 time: 0.0552844s
+Total time: 0.0669084s
+Temps pour affichage : 0.0109651 secondes
+Thread 0 time: 0.0749374s
+Thread 1 time: 0.0747409s
+Thread 2 time: 0.0628653s
+Thread 3 time: 0.0529347s
+Total time: 0.0774688s
+Temps pour affichage : 0.0111068 secondes
+Thread 0 time: 0.0762266s
+Thread 1 time: 0.0522507s
+Thread 2 time: 0.0622578s
+Thread 3 time: 0.0763543s
+Total time: 0.0785548s
+Temps pour affichage : 0.0107623 secondes
+Thread 0 time: 0.0827208s
+Thread 1 time: 0.0675515s
+Thread 2 time: 0.0826407s
+Thread 3 time: 0.0576084s
+Total time: 0.0854719s
+Temps pour affichage : 0.0126315 secondes
+Thread 0 time: 0.0618868s
+Thread 1 time: 0.0618065s
+Thread 2 time: 0.0525619s
+Thread 3 time: 0.0426127s
+Total time: 0.0643184s
+Temps pour affichage : 0.00958743 secondes
+Thread 0 time: 0.0666222s
+Thread 1 time: 0.0520608s
+Thread 2 time: 0.032111s
+Thread 3 time: 0.0665351s
+Total time: 0.0688027s
+Temps pour affichage : 0.0140567 secondes
+Thread 0 time: 0.0789317s
+Thread 1 time: 0.0538117s
+Thread 2 time: 0.0788697s
+Thread 3 time: 0.0793294s
+Total time: 0.0815158s
+Temps pour affichage : 0.0098399 secondes
+Thread 0 time: 0.0797948s
+Thread 1 time: 0.0799538s
+Thread 2 time: 0.0563039s
+Thread 3 time: 0.0797696s
+Total time: 0.0823116s
+Temps pour affichage : 0.0115801 secondes
+Thread 0 time: 0.0876764s
+Thread 1 time: 0.0666905s
+Thread 2 time: 0.087521s
+Thread 3 time: 0.0766162s
+Total time: 0.0900902s
+Temps pour affichage : 0.0109105 secondes
+Thread 0 time: 0.0794953s
+Thread 1 time: 0.068886s
+Thread 2 time: 0.0793978s
+Thread 3 time: 0.0588911s
+Total time: 0.0820939s
+Temps pour affichage : 0.0113061 secondes
+Thread 0 time: 0.0911359s
+Thread 1 time: 0.0910669s
+Thread 2 time: 0.073045s
+Thread 3 time: 0.0631571s
+Total time: 0.0940031s
+Temps pour affichage : 0.0128569 secondes
+Thread 0 time: 0.0908171s
+Thread 1 time: 0.0772267s
+Thread 2 time: 0.0671678s
+Thread 3 time: 0.0907601s
+Total time: 0.094119s
+Temps pour affichage : 0.0114141 secondes
+Thread 0 time: 0.0868432s
+Thread 1 time: 0.0867422s
+Thread 2 time: 0.0676562s
+Thread 3 time: 0.0776658s
+Total time: 0.0895156s
+Temps pour affichage : 0.017637 secondes
+Thread 0 time: 0.0925183s
+Thread 1 time: 0.0912874s
+Thread 2 time: 0.0731467s
+Thread 3 time: 0.091913s
+Total time: 0.0950922s
+Temps pour affichage : 0.010458 secondes
+Thread 0 time: 0.0829604s
+Thread 1 time: 0.0967727s
+Thread 2 time: 0.0968311s
+Thread 3 time: 0.0828796s
+Total time: 0.0995664s
+Temps pour affichage : 0.0115174 secondes
+Thread 0 time: 0.108357s
+Thread 1 time: 0.107516s
+Thread 2 time: 0.094401s
+Thread 3 time: 0.0843564s
+Total time: 0.110924s
+Temps pour affichage : 0.00980903 secondes
+Thread 0 time: 0.100576s
+Thread 1 time: 0.100022s
+Thread 2 time: 0.0878073s
+Thread 3 time: 0.0777595s
+Total time: 0.103578s
+Temps pour affichage : 0.0156082 secondes
+Thread 0 time: 0.164739s
+Thread 1 time: 0.164726s
+Thread 2 time: 0.164736s
+Thread 3 time: 0.164448s
+Total time: 0.167928s
+Temps pour affichage : 0.015038 secondes
+Thread 0 time: 0.111646s
+Thread 1 time: 0.0809236s
+Thread 2 time: 0.111147s
+Thread 3 time: 0.100987s
+Total time: 0.114872s
+Temps pour affichage : 0.0112733 secondes
+Thread 0 time: 0.0952034s
+Thread 1 time: 0.110716s
+Thread 2 time: 0.110618s
+Thread 3 time: 0.0952122s
+Total time: 0.114621s
+Temps pour affichage : 0.0125645 secondes
+Thread 0 time: 0.11407s
+Thread 1 time: 0.114119s
+Thread 2 time: 0.114142s
+Thread 3 time: 0.114193s
+Total time: 0.117313s
+Temps pour affichage : 0.0109695 secondes
+Thread 0 time: 0.139146s
+Thread 1 time: 0.116231s
+Thread 2 time: 0.139094s
+Thread 3 time: 0.139085s
+Total time: 0.1425s
+Temps pour affichage : 0.0122882 secondes
+Thread 0 time: 0.139809s
+Thread 1 time: 0.120075s
+Thread 2 time: 0.139786s
+Thread 3 time: 0.110089s
+Total time: 0.143044s
+Temps pour affichage : 0.0152607 secondes
+Thread 0 time: 0.120888s
+Thread 1 time: 0.137293s
+Thread 2 time: 0.120897s
+Thread 3 time: 0.137269s
+Total time: 0.140672s
+Temps pour affichage : 0.0143069 secondes
+Thread 0 time: 0.112106s
+Thread 1 time: 0.11187s
+Thread 2 time: 0.111987s
+Thread 3 time: 0.0769208s
+Total time: 0.115442s
+Temps pour affichage : 0.0120183 secondes
+Thread 0 time: 0.0970434s
+Thread 1 time: 0.116243s
+Thread 2 time: 0.116317s
+Thread 3 time: 0.116021s
+Total time: 0.119668s
+Temps pour affichage : 0.0163415 secondes
+Thread 0 time: 0.132874s
+Thread 1 time: 0.123602s
+Thread 2 time: 0.132274s
+Thread 3 time: 0.103594s
+Total time: 0.136328s
+Temps pour affichage : 0.01127 secondes
+Thread 0 time: 0.146119s
+Thread 1 time: 0.13344s
+Thread 2 time: 0.123448s
+Thread 3 time: 0.146103s
+Total time: 0.149322s
+Temps pour affichage : 0.01241 secondes
+Thread 0 time: 0.135196s
+Thread 1 time: 0.13518s
+Thread 2 time: 0.14817s
+Thread 3 time: 0.148273s
+Total time: 0.151593s
+Temps pour affichage : 0.0131417 secondes
+Thread 0 time: 0.124795s
+Thread 1 time: 0.14572s
+Thread 2 time: 0.14584s
+Thread 3 time: 0.145193s
+Total time: 0.149249s
+Temps pour affichage : 0.011572 secondes
+Thread 0 time: 0.129081s
+Thread 1 time: 0.150486s
+Thread 2 time: 0.129082s
+Thread 3 time: 0.149776s
+Total time: 0.153969s
+Temps pour affichage : 0.0140869 secondes
+Thread 0 time: 0.166414s
+Thread 1 time: 0.165637s
+Thread 2 time: 0.149252s
+Thread 3 time: 0.149227s
+Total time: 0.170313s
+Temps pour affichage : 0.0129708 secondes
+Thread 0 time: 0.187564s
+Thread 1 time: 0.187589s
+Thread 2 time: 0.187631s
+Thread 3 time: 0.171097s
+Total time: 0.191303s
+Temps pour affichage : 0.012712 secondes
+Thread 0 time: 0.151405s
+Thread 1 time: 0.151366s
+Thread 2 time: 0.151287s
+Thread 3 time: 0.136478s
+Total time: 0.154755s
+Temps pour affichage : 0.012976 secondes
+Thread 0 time: 0.162173s
+Thread 1 time: 0.152295s
+Thread 2 time: 0.16216s
+Thread 3 time: 0.122324s
+Total time: 0.165503s
+Temps pour affichage : 0.0131864 secondes
+Thread 0 time: 0.205868s
+Thread 1 time: 0.205762s
+Thread 2 time: 0.191727s
+Thread 3 time: 0.1817s
+Total time: 0.209669s
+Temps pour affichage : 0.0154808 secondes
+Thread 0 time: 0.194497s
+Thread 1 time: 0.20857s
+Thread 2 time: 0.207873s
+Thread 3 time: 0.194512s
+Total time: 0.212689s
+Temps pour affichage : 0.0132448 secondes
+Thread 0 time: 0.172827s
+Thread 1 time: 0.161875s
+Thread 2 time: 0.172826s
+Thread 3 time: 0.151868s
+Total time: 0.176828s
+Temps pour affichage : 0.0125671 secondes
+Thread 0 time: 0.176502s
+Thread 1 time: 0.14257s
+Thread 2 time: 0.162581s
+Thread 3 time: 0.176361s
+Total time: 0.180304s
+Temps pour affichage : 0.0150383 secondes
+Thread 0 time: 0.188794s
+Thread 1 time: 0.165362s
+Thread 2 time: 0.175424s
+Thread 3 time: 0.188747s
+Total time: 0.192416s
+Temps pour affichage : 0.013768 secondes
+Thread 0 time: 0.162912s
+Thread 1 time: 0.163095s
+Thread 2 time: 0.152417s
+Thread 3 time: 0.132472s
+Total time: 0.16705s
+Temps pour affichage : 0.0136572 secondes
+Thread 0 time: 0.195268s
+Thread 1 time: 0.198933s
+Thread 2 time: 0.199134s
+Thread 3 time: 0.198986s
+Total time: 0.203181s
+Temps pour affichage : 0.0150572 secondes
+Thread 0 time: 0.168036s
+Thread 1 time: 0.15261s
+Thread 2 time: 0.15819s
+Thread 3 time: 0.168012s
+Total time: 0.172551s
+Temps pour affichage : 0.0178439 secondes
+Thread 0 time: 0.19688s
+Thread 1 time: 0.196732s
+Thread 2 time: 0.179894s
+Thread 3 time: 0.16989s
+Total time: 0.201834s
+Temps pour affichage : 0.0126011 secondes
+Thread 0 time: 0.162624s
+Thread 1 time: 0.16262s
+Thread 2 time: 0.177466s
+Thread 3 time: 0.177427s
+Total time: 0.181197s
+Temps pour affichage : 0.0136078 secondes
+Thread 0 time: 0.196974s
+Thread 1 time: 0.196949s
+Thread 2 time: 0.197042s
+Thread 3 time: 0.196907s
+Total time: 0.200878s
+Temps pour affichage : 0.0135532 secondes
+Thread 0 time: 0.158568s
+Thread 1 time: 0.18076s
+Thread 2 time: 0.168647s
+Thread 3 time: 0.18076s
+Total time: 0.185218s
+Temps pour affichage : 0.0155258 secondes
+Thread 0 time: 0.176619s
+Thread 1 time: 0.1499s
+Thread 2 time: 0.15989s
+Thread 3 time: 0.176509s
+Total time: 0.180526s
+Temps pour affichage : 0.0128619 secondes
+Thread 0 time: 0.186089s
+Thread 1 time: 0.183119s
+Thread 2 time: 0.186055s
+Thread 3 time: 0.180138s
+Total time: 0.190088s
+Temps pour affichage : 0.0140832 secondes
+Thread 0 time: 0.166332s
+Thread 1 time: 0.166318s
+Thread 2 time: 0.150748s
+Thread 3 time: 0.140707s
+Total time: 0.170761s
+Temps pour affichage : 0.0151507 secondes
+Thread 0 time: 0.188365s
+Thread 1 time: 0.202632s
+Thread 2 time: 0.202734s
+Thread 3 time: 0.188332s
+Total time: 0.20763s
+Temps pour affichage : 0.0136457 secondes
+Thread 0 time: 0.166002s
+Thread 1 time: 0.165757s
+Thread 2 time: 0.165902s
+Thread 3 time: 0.165734s
+Total time: 0.170478s
+Temps pour affichage : 0.01329 secondes
+Thread 0 time: 0.17469s
+Thread 1 time: 0.149218s
+Thread 2 time: 0.159216s
+Thread 3 time: 0.174577s
+Total time: 0.179366s
+Temps pour affichage : 0.014397 secondes
+Thread 0 time: 0.183074s
+Thread 1 time: 0.180136s
+Thread 2 time: 0.183066s
+Thread 3 time: 0.181179s
+Total time: 0.186809s
+Temps pour affichage : 0.0152668 secondes
+Thread 0 time: 0.206983s
+Thread 1 time: 0.206127s
+Thread 2 time: 0.20696s
+Thread 3 time: 0.195993s
+Total time: 0.211452s
+Temps pour affichage : 0.020924 secondes
+Thread 0 time: 0.191875s
+Thread 1 time: 0.191748s
+Thread 2 time: 0.175053s
+Thread 3 time: 0.155077s
+Total time: 0.196787s
+Temps pour affichage : 0.0160058 secondes
+Thread 0 time: 0.178166s
+Thread 1 time: 0.176473s
+Thread 2 time: 0.178329s
+Thread 3 time: 0.178322s
+Total time: 0.18299s
+Temps pour affichage : 0.021595 secondes
+Thread 0 time: 0.169794s
+Thread 1 time: 0.185925s
+Thread 2 time: 0.185907s
+Thread 3 time: 0.185762s
+Total time: 0.190275s
+Temps pour affichage : 0.0188209 secondes
+Thread 0 time: 0.180074s
+Thread 1 time: 0.167056s
+Thread 2 time: 0.167483s
+Thread 3 time: 0.18031s
+Total time: 0.184772s
+Temps pour affichage : 0.0143292 secondes
+Thread 0 time: 0.181794s
+Thread 1 time: 0.182045s
+Thread 2 time: 0.161904s
+Thread 3 time: 0.180741s
+Total time: 0.186845s
+Temps pour affichage : 0.0138995 secondes
+Thread 0 time: 0.190412s
+Thread 1 time: 0.190374s
+Thread 2 time: 0.167516s
+Thread 3 time: 0.177495s
+Total time: 0.195784s
+Temps pour affichage : 0.014878 secondes
+Thread 0 time: 0.171556s
+Thread 1 time: 0.172463s
+Thread 2 time: 0.171644s
+Thread 3 time: 0.164731s
+Total time: 0.177641s
+Temps pour affichage : 0.026508 secondes
+Thread 0 time: 0.181678s
+Thread 1 time: 0.181493s
+Thread 2 time: 0.181597s
+Thread 3 time: 0.181381s
+Total time: 0.186351s
+Temps pour affichage : 0.0160105 secondes
+Thread 0 time: 0.176782s
+Thread 1 time: 0.198941s
+Thread 2 time: 0.198733s
+Thread 3 time: 0.186786s
+Total time: 0.202928s
+Temps pour affichage : 0.0133694 secondes
+Thread 0 time: 0.196836s
+Thread 1 time: 0.196681s
+Thread 2 time: 0.187889s
+Thread 3 time: 0.196776s
+Total time: 0.201152s
+Temps pour affichage : 0.014986 secondes
+Thread 0 time: 0.200398s
+Thread 1 time: 0.200383s
+Thread 2 time: 0.18301s
+Thread 3 time: 0.173063s
+Total time: 0.204501s
+Temps pour affichage : 0.0148092 secondes
+Thread 0 time: 0.205647s
+Thread 1 time: 0.193149s
+Thread 2 time: 0.17316s
+Thread 3 time: 0.205555s
+Total time: 0.20942s
+Temps pour affichage : 0.0172775 secondes
+Thread 0 time: 0.23175s
+Thread 1 time: 0.209316s
+Thread 2 time: 0.219286s
+Thread 3 time: 0.232041s
+Total time: 0.237334s
+Temps pour affichage : 0.0133014 secondes
+Thread 0 time: 0.195929s
+Thread 1 time: 0.195911s
+Thread 2 time: 0.180873s
+Thread 3 time: 0.195884s
+Total time: 0.200502s
+Temps pour affichage : 0.0155931 secondes
+Thread 0 time: 0.202631s
+Thread 1 time: 0.178406s
+Thread 2 time: 0.202594s
+Thread 3 time: 0.202516s
+Total time: 0.206871s
+Temps pour affichage : 0.0145608 secondes
+Thread 0 time: 0.206935s
+Thread 1 time: 0.206925s
+Thread 2 time: 0.206845s
+Thread 3 time: 0.206932s
+Total time: 0.211468s
+Temps pour affichage : 0.0146333 secondes
+Thread 0 time: 0.175251s
+Thread 1 time: 0.174991s
+Thread 2 time: 0.174973s
+Thread 3 time: 0.175124s
+Total time: 0.180063s
+Temps pour affichage : 0.0144196 secondes
+Thread 0 time: 0.253064s
+Thread 1 time: 0.253033s
+Thread 2 time: 0.267712s
+Thread 3 time: 0.267918s
+Total time: 0.272266s
+Temps pour affichage : 0.0144048 secondes
+Thread 0 time: 0.168882s
+Thread 1 time: 0.156799s
+Thread 2 time: 0.168851s
+Thread 3 time: 0.146837s
+Total time: 0.173526s
+Temps pour affichage : 0.0133655 secondes
+Thread 0 time: 0.169714s
+Thread 1 time: 0.161515s
+Thread 2 time: 0.131531s
+Thread 3 time: 0.169709s
+Total time: 0.173301s
+Temps pour affichage : 0.0131461 secondes
+Thread 0 time: 0.168538s
+Thread 1 time: 0.153805s
+Thread 2 time: 0.143809s
+Thread 3 time: 0.168471s
+Total time: 0.172829s
+Temps pour affichage : 0.0133419 secondes
+Thread 0 time: 0.201354s
+Thread 1 time: 0.201248s
+Thread 2 time: 0.189805s
+Thread 3 time: 0.179811s
+Total time: 0.205808s
+Temps pour affichage : 0.0126514 secondes
+Thread 0 time: 0.190706s
+Thread 1 time: 0.190601s
+Thread 2 time: 0.175413s
+Thread 3 time: 0.165416s
+Total time: 0.19452s
+Temps pour affichage : 0.0138771 secondes
+Thread 0 time: 0.226818s
+Thread 1 time: 0.227107s
+Thread 2 time: 0.206691s
+Thread 3 time: 0.197078s
+Total time: 0.231452s
+Temps pour affichage : 0.0147225 secondes
+Thread 0 time: 0.163294s
+Thread 1 time: 0.163284s
+Thread 2 time: 0.145053s
+Thread 3 time: 0.155073s
+Total time: 0.166882s
+Temps pour affichage : 0.0150359 secondes
+Thread 0 time: 0.17827s
+Thread 1 time: 0.157569s
+Thread 2 time: 0.178322s
+Thread 3 time: 0.167562s
+Total time: 0.182289s
+Temps pour affichage : 0.0129274 secondes
+Thread 0 time: 0.191563s
+Thread 1 time: 0.20965s
+Thread 2 time: 0.209754s
+Thread 3 time: 0.191577s
+Total time: 0.214127s
+Temps pour affichage : 0.0140447 secondes
+Thread 0 time: 0.223204s
+Thread 1 time: 0.199678s
+Thread 2 time: 0.209724s
+Thread 3 time: 0.223167s
+Total time: 0.226956s
+Temps pour affichage : 0.0163553 secondes
+Thread 0 time: 0.186087s
+Thread 1 time: 0.170787s
+Thread 2 time: 0.150718s
+Thread 3 time: 0.186985s
+Total time: 0.190759s
+Temps pour affichage : 0.0140184 secondes
+Thread 0 time: 0.217832s
+Thread 1 time: 0.202565s
+Thread 2 time: 0.192577s
+Thread 3 time: 0.217711s
+Total time: 0.221758s
+Temps pour affichage : 0.0133862 secondes
+Thread 0 time: 0.224031s
+Thread 1 time: 0.223935s
+Thread 2 time: 0.200956s
+Thread 3 time: 0.210944s
+Total time: 0.227646s
+Temps pour affichage : 0.0155117 secondes
+Thread 0 time: 0.212188s
+Thread 1 time: 0.212875s
+Thread 2 time: 0.177681s
+Thread 3 time: 0.197726s
+Total time: 0.216841s
+Temps pour affichage : 0.0146609 secondes
+Thread 0 time: 0.202227s
+Thread 1 time: 0.174385s
+Thread 2 time: 0.202327s
+Thread 3 time: 0.184373s
+Total time: 0.206208s
+Temps pour affichage : 0.0133169 secondes
+Thread 0 time: 0.1681s
+Thread 1 time: 0.189352s
+Thread 2 time: 0.189321s
+Thread 3 time: 0.168096s
+Total time: 0.193168s
+Temps pour affichage : 0.0154573 secondes
+Thread 0 time: 0.199407s
+Thread 1 time: 0.191698s
+Thread 2 time: 0.181692s
+Thread 3 time: 0.199343s
+Total time: 0.203836s
+Temps pour affichage : 0.0129425 secondes
+Thread 0 time: 0.196447s
+Thread 1 time: 0.162783s
+Thread 2 time: 0.182844s
+Thread 3 time: 0.19634s
+Total time: 0.200389s
+Temps pour affichage : 0.0139976 secondes
+Thread 0 time: 0.20354s
+Thread 1 time: 0.181148s
+Thread 2 time: 0.191148s
+Thread 3 time: 0.20408s
+Total time: 0.207968s
+Temps pour affichage : 0.0152641 secondes
+Thread 0 time: 0.182544s
+Thread 1 time: 0.168031s
+Thread 2 time: 0.18248s
+Thread 3 time: 0.158056s
+Total time: 0.186801s
+Temps pour affichage : 0.0147771 secondes
+Thread 0 time: 0.225399s
+Thread 1 time: 0.207948s
+Thread 2 time: 0.225326s
+Thread 3 time: 0.197966s
+Total time: 0.229625s
+Temps pour affichage : 0.0123206 secondes
+Thread 0 time: 0.18863s
+Thread 1 time: 0.171296s
+Thread 2 time: 0.188419s
+Thread 3 time: 0.16112s
+Total time: 0.192847s
+Temps pour affichage : 0.0145802 secondes
+Thread 0 time: 0.182356s
+Thread 1 time: 0.182229s
+Thread 2 time: 0.178201s
+Thread 3 time: 0.168226s
+Total time: 0.186367s
+Temps pour affichage : 0.0143714 secondes
+Thread 0 time: 0.232399s
+Thread 1 time: 0.232289s
+Thread 2 time: 0.214854s
+Thread 3 time: 0.224988s
+Total time: 0.236184s
+Temps pour affichage : 0.0146457 secondes
+Thread 0 time: 0.185285s
+Thread 1 time: 0.206015s
+Thread 2 time: 0.185363s
+Thread 3 time: 0.20596s
+Total time: 0.210096s
+Temps pour affichage : 0.0163764 secondes
+Thread 0 time: 0.159675s
+Thread 1 time: 0.159679s
+Thread 2 time: 0.1799s
+Thread 3 time: 0.17984s
+Total time: 0.183888s
+Temps pour affichage : 0.0134272 secondes
+Thread 0 time: 0.199758s
+Thread 1 time: 0.199705s
+Thread 2 time: 0.173824s
+Thread 3 time: 0.183842s
+Total time: 0.203897s
+Temps pour affichage : 0.0144113 secondes
+Thread 0 time: 0.203724s
+Thread 1 time: 0.203741s
+Thread 2 time: 0.172182s
+Thread 3 time: 0.182176s
+Total time: 0.207902s
+Temps pour affichage : 0.0144021 secondes
+Thread 0 time: 0.202677s
+Thread 1 time: 0.202672s
+Thread 2 time: 0.215927s
+Thread 3 time: 0.215939s
+Total time: 0.22018s
+Temps pour affichage : 0.0139071 secondes
+Thread 0 time: 0.210391s
+Thread 1 time: 0.187553s
+Thread 2 time: 0.210391s
+Thread 3 time: 0.197616s
+Total time: 0.215055s
+Temps pour affichage : 0.0140367 secondes
+Thread 0 time: 0.211441s
+Thread 1 time: 0.228065s
+Thread 2 time: 0.228843s
+Thread 3 time: 0.211508s
+Total time: 0.233054s
+Temps pour affichage : 0.0140044 secondes
+Thread 0 time: 0.222317s
+Thread 1 time: 0.19854s
+Thread 2 time: 0.208556s
+Thread 3 time: 0.222211s
+Total time: 0.22605s
+Temps pour affichage : 0.0147273 secondes
+Thread 0 time: 0.17839s
+Thread 1 time: 0.195819s
+Thread 2 time: 0.17844s
+Thread 3 time: 0.195793s
+Total time: 0.200287s
+Temps pour affichage : 0.0139067 secondes
+Thread 0 time: 0.179432s
+Thread 1 time: 0.19606s
+Thread 2 time: 0.179421s
+Thread 3 time: 0.196047s
+Total time: 0.199992s
+Temps pour affichage : 0.0154748 secondes
+Thread 0 time: 0.223339s
+Thread 1 time: 0.207285s
+Thread 2 time: 0.223316s
+Thread 3 time: 0.207281s
+Total time: 0.22758s
+Temps pour affichage : 0.0137009 secondes
+Thread 0 time: 0.188222s
+Thread 1 time: 0.18812s
+Thread 2 time: 0.170004s
+Thread 3 time: 0.179838s
+Total time: 0.192875s
+Temps pour affichage : 0.0152133 secondes
+Thread 0 time: 0.204307s
+Thread 1 time: 0.204403s
+Thread 2 time: 0.189319s
+Thread 3 time: 0.179312s
+Total time: 0.208237s
+Temps pour affichage : 0.0152807 secondes
+Thread 0 time: 0.185333s
+Thread 1 time: 0.15871s
+Thread 2 time: 0.185213s
+Thread 3 time: 0.168759s
+Total time: 0.189071s
+Temps pour affichage : 0.0175479 secondes
+Thread 0 time: 0.2202s
+Thread 1 time: 0.203205s
+Thread 2 time: 0.220127s
+Thread 3 time: 0.193146s
+Total time: 0.224053s
+Temps pour affichage : 0.0139422 secondes
+Thread 0 time: 0.166654s
+Thread 1 time: 0.179194s
+Thread 2 time: 0.179248s
+Thread 3 time: 0.166648s
+Total time: 0.183451s
+Temps pour affichage : 0.0143787 secondes
+Thread 0 time: 0.199372s
+Thread 1 time: 0.218163s
+Thread 2 time: 0.218219s
+Thread 3 time: 0.199413s
+Total time: 0.222536s
+Temps pour affichage : 0.0156078 secondes
+Thread 0 time: 0.212465s
+Thread 1 time: 0.196636s
+Thread 2 time: 0.186669s
+Thread 3 time: 0.212466s
+Total time: 0.216525s
+Temps pour affichage : 0.014387 secondes
+Thread 0 time: 0.179233s
+Thread 1 time: 0.160346s
+Thread 2 time: 0.179184s
+Thread 3 time: 0.170375s
+Total time: 0.18375s
+Temps pour affichage : 0.0149663 secondes
+Thread 0 time: 0.18397s
+Thread 1 time: 0.159205s
+Thread 2 time: 0.169194s
+Thread 3 time: 0.183897s
+Total time: 0.18806s
+Temps pour affichage : 0.0145465 secondes
+Thread 0 time: 0.189903s
+Thread 1 time: 0.189899s
+Thread 2 time: 0.205961s
+Thread 3 time: 0.206012s
+Total time: 0.210017s
+Temps pour affichage : 0.0139234 secondes
+Thread 0 time: 0.232152s
+Thread 1 time: 0.21649s
+Thread 2 time: 0.216504s
+Thread 3 time: 0.232219s
+Total time: 0.236153s
+Temps pour affichage : 0.0140804 secondes
+Thread 0 time: 0.195227s
+Thread 1 time: 0.176224s
+Thread 2 time: 0.195185s
+Thread 3 time: 0.186227s
+Total time: 0.199594s
+Temps pour affichage : 0.0146933 secondes
+Thread 0 time: 0.199008s
+Thread 1 time: 0.179948s
+Thread 2 time: 0.19891s
+Thread 3 time: 0.18995s
+Total time: 0.20311s
+Temps pour affichage : 0.0146458 secondes
+Thread 0 time: 0.187215s
+Thread 1 time: 0.202715s
+Thread 2 time: 0.202825s
+Thread 3 time: 0.1872s
+Total time: 0.206796s
+Temps pour affichage : 0.0164733 secondes
+Thread 0 time: 0.18494s
+Thread 1 time: 0.156448s
+Thread 2 time: 0.184866s
+Thread 3 time: 0.166459s
+Total time: 0.188988s
+Temps pour affichage : 0.0138505 secondes
+Thread 0 time: 0.227762s
+Thread 1 time: 0.227739s
+Thread 2 time: 0.19891s
+Thread 3 time: 0.218921s
+Total time: 0.231797s
+Temps pour affichage : 0.0149207 secondes
+Thread 0 time: 0.168424s
+Thread 1 time: 0.151739s
+Thread 2 time: 0.168414s
+Thread 3 time: 0.141743s
+Total time: 0.172481s
+Temps pour affichage : 0.0150841 secondes
+Thread 0 time: 0.187035s
+Thread 1 time: 0.186972s
+Thread 2 time: 0.163436s
+Thread 3 time: 0.173445s
+Total time: 0.192229s
+Temps pour affichage : 0.0132926 secondes
+Thread 0 time: 0.167203s
+Thread 1 time: 0.18817s
+Thread 2 time: 0.188062s
+Thread 3 time: 0.167186s
+Total time: 0.192008s
+Temps pour affichage : 0.013992 secondes
+Thread 0 time: 0.209256s
+Thread 1 time: 0.180619s
+Thread 2 time: 0.19075s
+Thread 3 time: 0.209199s
+Total time: 0.213567s
+Temps pour affichage : 0.01499 secondes
+Thread 0 time: 0.203921s
+Thread 1 time: 0.189442s
+Thread 2 time: 0.179464s
+Thread 3 time: 0.203896s
+Total time: 0.207881s
+Temps pour affichage : 0.0184818 secondes
+Thread 0 time: 0.201404s
+Thread 1 time: 0.185111s
+Thread 2 time: 0.17515s
+Thread 3 time: 0.201352s
+Total time: 0.205637s
+Temps pour affichage : 0.0159045 secondes
+Thread 0 time: 0.234669s
+Thread 1 time: 0.224422s
+Thread 2 time: 0.214423s
+Thread 3 time: 0.234553s
+Total time: 0.238658s
+Temps pour affichage : 0.01472 secondes
+Thread 0 time: 0.194888s
+Thread 1 time: 0.173717s
+Thread 2 time: 0.19475s
+Thread 3 time: 0.183717s
+Total time: 0.199686s
+Temps pour affichage : 0.0144794 secondes
+Thread 0 time: 0.213897s
+Thread 1 time: 0.192838s
+Thread 2 time: 0.213827s
+Thread 3 time: 0.202811s
+Total time: 0.217644s
+Temps pour affichage : 0.0156379 secondes
+Thread 0 time: 0.168589s
+Thread 1 time: 0.16857s
+Thread 2 time: 0.181698s
+Thread 3 time: 0.181573s
+Total time: 0.186211s
+Temps pour affichage : 0.0145066 secondes
+Thread 0 time: 0.190365s
+Thread 1 time: 0.173783s
+Thread 2 time: 0.190324s
+Thread 3 time: 0.173784s
+Total time: 0.194769s
+Temps pour affichage : 0.0239074 secondes
+Thread 0 time: 0.213815s
+Thread 1 time: 0.192306s
+Thread 2 time: 0.213712s
+Thread 3 time: 0.20236s
+Total time: 0.217972s
+Temps pour affichage : 0.0144239 secondes
+Thread 0 time: 0.173042s
+Thread 1 time: 0.150078s
+Thread 2 time: 0.160079s
+Thread 3 time: 0.172974s
+Total time: 0.177157s
+Temps pour affichage : 0.0141306 secondes
+Thread 0 time: 0.219502s
+Thread 1 time: 0.234809s
+Thread 2 time: 0.21944s
+Thread 3 time: 0.234985s
+Total time: 0.239964s
+Temps pour affichage : 0.0151993 secondes
+Thread 0 time: 0.226118s
+Thread 1 time: 0.211111s
+Thread 2 time: 0.201112s
+Thread 3 time: 0.226076s
+Total time: 0.230097s
+Temps pour affichage : 0.0155191 secondes
+Thread 0 time: 0.163012s
+Thread 1 time: 0.148267s
+Thread 2 time: 0.162917s
+Thread 3 time: 0.13835s
+Total time: 0.166922s
+Temps pour affichage : 0.014078 secondes
+Thread 0 time: 0.192437s
+Thread 1 time: 0.165071s
+Thread 2 time: 0.192362s
+Thread 3 time: 0.175066s
+Total time: 0.196621s
+Temps pour affichage : 0.014486 secondes
+Thread 0 time: 0.174341s
+Thread 1 time: 0.194774s
+Thread 2 time: 0.194782s
+Thread 3 time: 0.174363s
+Total time: 0.199494s
+Temps pour affichage : 0.0144628 secondes
+Thread 0 time: 0.182639s
+Thread 1 time: 0.172082s
+Thread 2 time: 0.182612s
+Thread 3 time: 0.16213s
+Total time: 0.186782s
+Temps pour affichage : 0.014995 secondes
+Thread 0 time: 0.21844s
+Thread 1 time: 0.194907s
+Thread 2 time: 0.204909s
+Thread 3 time: 0.218338s
+Total time: 0.222446s
+Temps pour affichage : 0.0154398 secondes
+Thread 0 time: 0.171694s
+Thread 1 time: 0.171596s
+Thread 2 time: 0.151116s
+Thread 3 time: 0.141116s
+Total time: 0.175626s
+Temps pour affichage : 0.0138227 secondes
+Thread 0 time: 0.196131s
+Thread 1 time: 0.171555s
+Thread 2 time: 0.196112s
+Thread 3 time: 0.181544s
+Total time: 0.201251s
+Temps pour affichage : 0.0151065 secondes
+Thread 0 time: 0.166241s
+Thread 1 time: 0.14329s
+Thread 2 time: 0.166213s
+Thread 3 time: 0.153306s
+Total time: 0.170306s
+Temps pour affichage : 0.0152199 secondes
+Thread 0 time: 0.195443s
+Thread 1 time: 0.183239s
+Thread 2 time: 0.163238s
+Thread 3 time: 0.195415s
+Total time: 0.199405s
+Temps pour affichage : 0.0148421 secondes
+Thread 0 time: 0.206374s
+Thread 1 time: 0.183948s
+Thread 2 time: 0.206257s
+Thread 3 time: 0.19393s
+Total time: 0.21017s
+Temps pour affichage : 0.0135707 secondes
+Thread 0 time: 0.203648s
+Thread 1 time: 0.191752s
+Thread 2 time: 0.181701s
+Thread 3 time: 0.203548s
+Total time: 0.207884s
+Temps pour affichage : 0.0159883 secondes
+Thread 0 time: 0.173457s
+Thread 1 time: 0.173444s
+Thread 2 time: 0.149677s
+Thread 3 time: 0.159297s
+Total time: 0.177433s
+Temps pour affichage : 0.0152682 secondes
+Thread 0 time: 0.196324s
+Thread 1 time: 0.180412s
+Thread 2 time: 0.196219s
+Thread 3 time: 0.160387s
+Total time: 0.200174s
+Temps pour affichage : 0.0165307 secondes
+Thread 0 time: 0.185242s
+Thread 1 time: 0.185245s
+Thread 2 time: 0.200553s
+Thread 3 time: 0.200486s
+Total time: 0.205094s
+Temps pour affichage : 0.0163627 secondes
+Thread 0 time: 0.167882s
+Thread 1 time: 0.138006s
+Thread 2 time: 0.167786s
+Thread 3 time: 0.157951s
+Total time: 0.171906s
+Temps pour affichage : 0.0130101 secondes
+Thread 0 time: 0.181876s
+Thread 1 time: 0.199541s
+Thread 2 time: 0.181888s
+Thread 3 time: 0.199489s
+Total time: 0.203453s
+Temps pour affichage : 0.0150059 secondes
+Thread 0 time: 0.223464s
+Thread 1 time: 0.223458s
+Thread 2 time: 0.18961s
+Thread 3 time: 0.209668s
+Total time: 0.227879s
+Temps pour affichage : 0.0157907 secondes
+Thread 0 time: 0.168509s
+Thread 1 time: 0.168584s
+Thread 2 time: 0.152984s
+Thread 3 time: 0.152932s
+Total time: 0.172929s
+Temps pour affichage : 0.0182562 secondes
+Thread 0 time: 0.195315s
+Thread 1 time: 0.195259s
+Thread 2 time: 0.172908s
+Thread 3 time: 0.182908s
+Total time: 0.199278s
+Temps pour affichage : 0.0160625 secondes
+Thread 0 time: 0.219249s
+Thread 1 time: 0.219184s
+Thread 2 time: 0.196379s
+Thread 3 time: 0.206403s
+Total time: 0.224195s
+Temps pour affichage : 0.0145482 secondes
+Thread 0 time: 0.190011s
+Thread 1 time: 0.18991s
+Thread 2 time: 0.161632s
+Thread 3 time: 0.171643s
+Total time: 0.195132s
+Temps pour affichage : 0.0141461 secondes
+Thread 0 time: 0.196873s
+Thread 1 time: 0.184113s
+Thread 2 time: 0.196865s
+Thread 3 time: 0.174108s
+Total time: 0.200846s
+Temps pour affichage : 0.0142634 secondes
+Thread 0 time: 0.161686s
+Thread 1 time: 0.140073s
+Thread 2 time: 0.150018s
+Thread 3 time: 0.16168s
+Total time: 0.166214s
+Temps pour affichage : 0.0151616 secondes
+Thread 0 time: 0.197797s
+Thread 1 time: 0.197775s
+Thread 2 time: 0.182664s
+Thread 3 time: 0.172671s
+Total time: 0.202896s
+Temps pour affichage : 0.0148254 secondes
+Thread 0 time: 0.178598s
+Thread 1 time: 0.178594s
+Thread 2 time: 0.166775s
+Thread 3 time: 0.146767s
+Total time: 0.183153s
+Temps pour affichage : 0.0130078 secondes
+Thread 0 time: 0.19962s
+Thread 1 time: 0.199761s
+Thread 2 time: 0.191334s
+Thread 3 time: 0.181328s
+Total time: 0.204016s
+Temps pour affichage : 0.0159805 secondes
+Thread 0 time: 0.178866s
+Thread 1 time: 0.164718s
+Thread 2 time: 0.154734s
+Thread 3 time: 0.178864s
+Total time: 0.183306s
+Temps pour affichage : 0.0148276 secondes
+Thread 0 time: 0.187621s
+Thread 1 time: 0.167023s
+Thread 2 time: 0.177046s
+Thread 3 time: 0.187494s
+Total time: 0.192339s
+Temps pour affichage : 0.0156395 secondes
+Thread 0 time: 0.169082s
+Thread 1 time: 0.186025s
+Thread 2 time: 0.18686s
+Thread 3 time: 0.169087s
+Total time: 0.191052s
+Temps pour affichage : 0.0150414 secondes
+Thread 0 time: 0.174969s
+Thread 1 time: 0.191363s
+Thread 2 time: 0.191294s
+Thread 3 time: 0.175035s
+Total time: 0.196146s
+Temps pour affichage : 0.0138564 secondes
+Thread 0 time: 0.197991s
+Thread 1 time: 0.198042s
+Thread 2 time: 0.217898s
+Thread 3 time: 0.217883s
+Total time: 0.222702s
+Temps pour affichage : 0.0155268 secondes
+Thread 0 time: 0.192078s
+Thread 1 time: 0.192144s
+Thread 2 time: 0.175473s
+Thread 3 time: 0.165341s
+Total time: 0.196503s
+Temps pour affichage : 0.0137515 secondes
+Thread 0 time: 0.165923s
+Thread 1 time: 0.185782s
+Thread 2 time: 0.165929s
+Thread 3 time: 0.185807s
+Total time: 0.190592s
+Temps pour affichage : 0.0177149 secondes
+Thread 0 time: 0.205268s
+Thread 1 time: 0.196311s
+Thread 2 time: 0.186274s
+Thread 3 time: 0.205113s
+Total time: 0.209087s
+Temps pour affichage : 0.0170738 secondes
+Thread 0 time: 0.235328s
+Thread 1 time: 0.235256s
+Thread 2 time: 0.205862s
+Thread 3 time: 0.215865s
+Total time: 0.239096s
+Temps pour affichage : 0.0142323 secondes
+Thread 0 time: 0.171926s
+Thread 1 time: 0.161808s
+Thread 2 time: 0.17183s
+Thread 3 time: 0.151807s
+Total time: 0.176004s
+Temps pour affichage : 0.0155958 secondes
+Thread 0 time: 0.187991s
+Thread 1 time: 0.187934s
+Thread 2 time: 0.17427s
+Thread 3 time: 0.164313s
+Total time: 0.192041s
+Temps pour affichage : 0.0150003 secondes
+Thread 0 time: 0.178498s
+Thread 1 time: 0.148151s
+Thread 2 time: 0.158145s
+Thread 3 time: 0.179477s
+Total time: 0.183946s
+Temps pour affichage : 0.0141636 secondes
+Thread 0 time: 0.161841s
+Thread 1 time: 0.15489s
+Thread 2 time: 0.161784s
+Thread 3 time: 0.144902s
+Total time: 0.166124s
+Temps pour affichage : 0.0133401 secondes
+Thread 0 time: 0.166523s
+Thread 1 time: 0.18695s
+Thread 2 time: 0.16647s
+Thread 3 time: 0.18693s
+Total time: 0.191951s
+Temps pour affichage : 0.0190226 secondes
+Thread 0 time: 0.17892s
+Thread 1 time: 0.170811s
+Thread 2 time: 0.178886s
+Thread 3 time: 0.160821s
+Total time: 0.182996s
+Temps pour affichage : 0.0165205 secondes
+Thread 0 time: 0.203349s
+Thread 1 time: 0.178822s
+Thread 2 time: 0.188817s
+Thread 3 time: 0.203294s
+Total time: 0.207739s
+Temps pour affichage : 0.017374 secondes
+Thread 0 time: 0.181368s
+Thread 1 time: 0.155005s
+Thread 2 time: 0.165s
+Thread 3 time: 0.181365s
+Total time: 0.186064s
+Temps pour affichage : 0.0168054 secondes
+Thread 0 time: 0.173838s
+Thread 1 time: 0.173737s
+Thread 2 time: 0.164097s
+Thread 3 time: 0.154098s
+Total time: 0.178327s
+Temps pour affichage : 0.0129585 secondes
+Thread 0 time: 0.17913s
+Thread 1 time: 0.158061s
+Thread 2 time: 0.168144s
+Thread 3 time: 0.179015s
+Total time: 0.183146s
+Temps pour affichage : 0.0142208 secondes
+Thread 0 time: 0.207749s
+Thread 1 time: 0.234868s
+Thread 2 time: 0.21771s
+Thread 3 time: 0.234973s
+Total time: 0.239697s
+Temps pour affichage : 0.0146368 secondes
+Thread 0 time: 0.198539s
+Thread 1 time: 0.18179s
+Thread 2 time: 0.199044s
+Thread 3 time: 0.171799s
+Total time: 0.203827s
+Temps pour affichage : 0.0152101 secondes
+Thread 0 time: 0.173101s
+Thread 1 time: 0.150126s
+Thread 2 time: 0.160135s
+Thread 3 time: 0.173066s
+Total time: 0.177438s
+Temps pour affichage : 0.0130747 secondes
+Thread 0 time: 0.179768s
+Thread 1 time: 0.144528s
+Thread 2 time: 0.179724s
+Thread 3 time: 0.164539s
+Total time: 0.183565s
+Temps pour affichage : 0.0148531 secondes
+Thread 0 time: 0.166167s
+Thread 1 time: 0.154775s
+Thread 2 time: 0.144777s
+Thread 3 time: 0.165466s
+Total time: 0.170184s
+Temps pour affichage : 0.0161628 secondes
+Thread 0 time: 0.155232s
+Thread 1 time: 0.17598s
+Thread 2 time: 0.155189s
+Thread 3 time: 0.175934s
+Total time: 0.180056s
+Temps pour affichage : 0.0153278 secondes
+Thread 0 time: 0.17005s
+Thread 1 time: 0.139688s
+Thread 2 time: 0.169949s
+Thread 3 time: 0.159682s
+Total time: 0.174478s
+Temps pour affichage : 0.022282 secondes
+Thread 0 time: 0.13559s
+Thread 1 time: 0.135586s
+Thread 2 time: 0.151143s
+Thread 3 time: 0.151159s
+Total time: 0.155412s
+Temps pour affichage : 0.013655 secondes
+Thread 0 time: 0.24501s
+Thread 1 time: 0.21525s
+Thread 2 time: 0.225194s
+Thread 3 time: 0.244909s
+Total time: 0.249068s
+Temps pour affichage : 0.0154012 secondes
+Thread 0 time: 0.187177s
+Thread 1 time: 0.166768s
+Thread 2 time: 0.176772s
+Thread 3 time: 0.187161s
+Total time: 0.191591s
+Temps pour affichage : 0.0149226 secondes
+Thread 0 time: 0.175594s
+Thread 1 time: 0.16702s
+Thread 2 time: 0.175482s
+Thread 3 time: 0.147027s
+Total time: 0.179763s
+Temps pour affichage : 0.0157496 secondes
+Thread 0 time: 0.15017s
+Thread 1 time: 0.141532s
+Thread 2 time: 0.131683s
+Thread 3 time: 0.150085s
+Total time: 0.154326s
+Temps pour affichage : 0.0136704 secondes
+Thread 0 time: 0.185997s
+Thread 1 time: 0.172209s
+Thread 2 time: 0.162209s
+Thread 3 time: 0.185991s
+Total time: 0.18967s
+Temps pour affichage : 0.0137204 secondes
+Thread 0 time: 0.134391s
+Thread 1 time: 0.148214s
+Thread 2 time: 0.134439s
+Thread 3 time: 0.148043s
+Total time: 0.152268s
+Temps pour affichage : 0.0153484 secondes
+Thread 0 time: 0.162921s
+Thread 1 time: 0.162476s
+Thread 2 time: 0.151966s
+Thread 3 time: 0.132009s
+Total time: 0.166883s
+Temps pour affichage : 0.0146122 secondes
+Thread 0 time: 0.151976s
+Thread 1 time: 0.128239s
+Thread 2 time: 0.138229s
+Thread 3 time: 0.15185s
+Total time: 0.155926s
+Temps pour affichage : 0.0143209 secondes
+Thread 0 time: 0.149015s
+Thread 1 time: 0.121574s
+Thread 2 time: 0.131576s
+Thread 3 time: 0.148957s
+Total time: 0.153394s
+Temps pour affichage : 0.015884 secondes
+Thread 0 time: 0.144995s
+Thread 1 time: 0.144914s
+Thread 2 time: 0.121272s
+Thread 3 time: 0.131332s
+Total time: 0.149482s
+Temps pour affichage : 0.0133864 secondes
+Thread 0 time: 0.140319s
+Thread 1 time: 0.140211s
+Thread 2 time: 0.126517s
+Thread 3 time: 0.116514s
+Total time: 0.144139s
+Temps pour affichage : 0.0140144 secondes
+Thread 0 time: 0.167685s
+Thread 1 time: 0.148506s
+Thread 2 time: 0.158483s
+Thread 3 time: 0.167616s
+Total time: 0.171489s
+Temps pour affichage : 0.01197 secondes
+Thread 0 time: 0.123958s
+Thread 1 time: 0.133975s
+Thread 2 time: 0.151378s
+Thread 3 time: 0.151212s
+Total time: 0.155103s
+Temps pour affichage : 0.0138246 secondes
+Thread 0 time: 0.190844s
+Thread 1 time: 0.169131s
+Thread 2 time: 0.190897s
+Thread 3 time: 0.190969s
+Total time: 0.194845s
+Temps pour affichage : 0.0137443 secondes
+Thread 0 time: 0.132096s
+Thread 1 time: 0.115358s
+Thread 2 time: 0.131973s
+Thread 3 time: 0.125379s
+Total time: 0.13619s
+Temps pour affichage : 0.0149483 secondes
+Thread 0 time: 0.11896s
+Thread 1 time: 0.118975s
+Thread 2 time: 0.139063s
+Thread 3 time: 0.139169s
+Total time: 0.142665s
+Temps pour affichage : 0.0135686 secondes
+Thread 0 time: 0.140658s
+Thread 1 time: 0.140599s
+Thread 2 time: 0.12349s
+Thread 3 time: 0.133492s
+Total time: 0.143994s
+Temps pour affichage : 0.0133739 secondes
+Thread 0 time: 0.162412s
+Thread 1 time: 0.149474s
+Thread 2 time: 0.13953s
+Thread 3 time: 0.162263s
+Total time: 0.165792s
+Temps pour affichage : 0.0134819 secondes
+Thread 0 time: 0.133054s
+Thread 1 time: 0.126318s
+Thread 2 time: 0.116333s
+Thread 3 time: 0.132931s
+Total time: 0.137039s
+Temps pour affichage : 0.0135417 secondes
+Thread 0 time: 0.128835s
+Thread 1 time: 0.0994091s
+Thread 2 time: 0.119369s
+Thread 3 time: 0.128735s
+Total time: 0.132808s
+Temps pour affichage : 0.0123555 secondes
+Thread 0 time: 0.126388s
+Thread 1 time: 0.100123s
+Thread 2 time: 0.110107s
+Thread 3 time: 0.126314s
+Total time: 0.130613s
+Temps pour affichage : 0.0146513 secondes
+Thread 0 time: 0.122778s
+Thread 1 time: 0.138037s
+Thread 2 time: 0.138003s
+Thread 3 time: 0.122761s
+Total time: 0.142554s
+Temps pour affichage : 0.0150198 secondes
+Thread 0 time: 0.135875s
+Thread 1 time: 0.113585s
+Thread 2 time: 0.123597s
+Thread 3 time: 0.135722s
+Total time: 0.139762s
+Temps pour affichage : 0.0123922 secondes
+Thread 0 time: 0.114457s
+Thread 1 time: 0.114356s
+Thread 2 time: 0.0922418s
+Thread 3 time: 0.102247s
+Total time: 0.117175s
+Temps pour affichage : 0.0128808 secondes
+Thread 0 time: 0.119925s
+Thread 1 time: 0.0952576s
+Thread 2 time: 0.119815s
+Thread 3 time: 0.10525s
+Total time: 0.123363s
+Temps pour affichage : 0.0134445 secondes
+Thread 0 time: 0.118206s
+Thread 1 time: 0.097242s
+Thread 2 time: 0.11818s
+Thread 3 time: 0.116587s
+Total time: 0.121273s
+Temps pour affichage : 0.0138263 secondes
+Thread 0 time: 0.141438s
+Thread 1 time: 0.160623s
+Thread 2 time: 0.160673s
+Thread 3 time: 0.141495s
+Total time: 0.16414s
+Temps pour affichage : 0.0131481 secondes
+Thread 0 time: 0.108823s
+Thread 1 time: 0.123448s
+Thread 2 time: 0.123524s
+Thread 3 time: 0.108841s
+Total time: 0.127429s
+Temps pour affichage : 0.0137999 secondes
+Thread 0 time: 0.116695s
+Thread 1 time: 0.0996497s
+Thread 2 time: 0.116683s
+Thread 3 time: 0.0896564s
+Total time: 0.119791s
+Temps pour affichage : 0.0145608 secondes
+Thread 0 time: 0.108901s
+Thread 1 time: 0.0718894s
+Thread 2 time: 0.0919394s
+Thread 3 time: 0.108851s
+Total time: 0.112222s
+Temps pour affichage : 0.0123546 secondes
+Thread 0 time: 0.0850664s
+Thread 1 time: 0.0850643s
+Thread 2 time: 0.0993623s
+Thread 3 time: 0.0994907s
+Total time: 0.102815s
+Temps pour affichage : 0.013944 secondes
+Thread 0 time: 0.0842577s
+Thread 1 time: 0.10547s
+Thread 2 time: 0.105594s
+Thread 3 time: 0.0842742s
+Total time: 0.10968s
+Temps pour affichage : 0.0132325 secondes
+Thread 0 time: 0.115122s
+Thread 1 time: 0.103895s
+Thread 2 time: 0.09388s
+Thread 3 time: 0.115096s
+Total time: 0.118711s
+Temps pour affichage : 0.0134448 secondes
+Thread 0 time: 0.126205s
+Thread 1 time: 0.113935s
+Thread 2 time: 0.103969s
+Thread 3 time: 0.126095s
+Total time: 0.129445s
+Temps pour affichage : 0.0124573 secondes
+Thread 0 time: 0.119166s
+Thread 1 time: 0.0966558s
+Thread 2 time: 0.118551s
+Thread 3 time: 0.0966465s
+Total time: 0.123269s
+Temps pour affichage : 0.0120802 secondes
+Thread 0 time: 0.102286s
+Thread 1 time: 0.0733913s
+Thread 2 time: 0.0833953s
+Thread 3 time: 0.102281s
+Total time: 0.105456s
+Temps pour affichage : 0.0132112 secondes
+Thread 0 time: 0.116823s
+Thread 1 time: 0.103719s
+Thread 2 time: 0.11675s
+Thread 3 time: 0.113762s
+Total time: 0.119938s
+Temps pour affichage : 0.0117556 secondes
+Thread 0 time: 0.0840141s
+Thread 1 time: 0.0968245s
+Thread 2 time: 0.0968217s
+Thread 3 time: 0.0839442s
+Total time: 0.100077s
+Temps pour affichage : 0.0126993 secondes
+Thread 0 time: 0.0953082s
+Thread 1 time: 0.0952915s
+Thread 2 time: 0.0828515s
+Thread 3 time: 0.0728934s
+Total time: 0.0984522s
+Temps pour affichage : 0.0134597 secondes
+Thread 0 time: 0.0884394s
+Thread 1 time: 0.102014s
+Thread 2 time: 0.102035s
+Thread 3 time: 0.088431s
+Total time: 0.104658s
+Temps pour affichage : 0.0111443 secondes
+Thread 0 time: 0.0831255s
+Thread 1 time: 0.101693s
+Thread 2 time: 0.0831146s
+Thread 3 time: 0.10159s
+Total time: 0.104825s
+Temps pour affichage : 0.0116074 secondes
+Thread 0 time: 0.103945s
+Thread 1 time: 0.0804621s
+Thread 2 time: 0.103842s
+Thread 3 time: 0.0904515s
+Total time: 0.106991s
+Temps pour affichage : 0.0129505 secondes
+Thread 0 time: 0.097246s
+Thread 1 time: 0.0811964s
+Thread 2 time: 0.0973685s
+Thread 3 time: 0.071197s
+Total time: 0.100076s
+Temps pour affichage : 0.0119724 secondes
+Thread 0 time: 0.139323s
+Thread 1 time: 0.139216s
+Thread 2 time: 0.12347s
+Thread 3 time: 0.113487s
+Total time: 0.142219s
+Temps pour affichage : 0.0132558 secondes
+Thread 0 time: 0.0966715s
+Thread 1 time: 0.0740773s
+Thread 2 time: 0.0840111s
+Thread 3 time: 0.0973182s
+Total time: 0.100306s
+Temps pour affichage : 0.0122993 secondes
+Thread 0 time: 0.090538s
+Thread 1 time: 0.0905293s
+Thread 2 time: 0.0779385s
+Thread 3 time: 0.0679477s
+Total time: 0.0931577s
+Temps pour affichage : 0.0116437 secondes
+Thread 0 time: 0.0914273s
+Thread 1 time: 0.0914084s
+Thread 2 time: 0.0722926s
+Thread 3 time: 0.0822917s
+Total time: 0.0941481s
+Temps pour affichage : 0.0116601 secondes
+Thread 0 time: 0.0890984s
+Thread 1 time: 0.0746263s
+Thread 2 time: 0.0646016s
+Thread 3 time: 0.0893026s
+Total time: 0.0926299s
+Temps pour affichage : 0.0121694 secondes
+Thread 0 time: 0.0804893s
+Thread 1 time: 0.0686362s
+Thread 2 time: 0.0802673s
+Thread 3 time: 0.058727s
+Total time: 0.0832159s
+Temps pour affichage : 0.0131751 secondes
+Thread 0 time: 0.0681874s
+Thread 1 time: 0.0599623s
+Thread 2 time: 0.0498833s
+Thread 3 time: 0.0681326s
+Total time: 0.0706474s
+Temps pour affichage : 0.0133547 secondes
+Thread 0 time: 0.0828486s
+Thread 1 time: 0.0656934s
+Thread 2 time: 0.0827866s
+Thread 3 time: 0.0556583s
+Total time: 0.085691s
+Temps pour affichage : 0.011427 secondes
+Thread 0 time: 0.0621458s
+Thread 1 time: 0.0619875s
+Thread 2 time: 0.0832725s
+Thread 3 time: 0.0831158s
+Total time: 0.0865464s
+Temps pour affichage : 0.0129202 secondes
+Thread 0 time: 0.0679352s
+Thread 1 time: 0.0436895s
+Thread 2 time: 0.0672874s
+Thread 3 time: 0.0536532s
+Total time: 0.0708275s
+Temps pour affichage : 0.0133015 secondes
+Thread 0 time: 0.062679s
+Thread 1 time: 0.0397124s
+Thread 2 time: 0.0497095s
+Thread 3 time: 0.0626252s
+Total time: 0.0653917s
+Temps pour affichage : 0.0110641 secondes
+Thread 0 time: 0.0626568s
+Thread 1 time: 0.0353559s
+Thread 2 time: 0.0623083s
+Thread 3 time: 0.0453214s
+Total time: 0.0655809s
+Temps pour affichage : 0.012006 secondes
+Thread 0 time: 0.059295s
+Thread 1 time: 0.0379633s
+Thread 2 time: 0.059277s
+Thread 3 time: 0.047962s
+Total time: 0.061965s
+Temps pour affichage : 0.0120091 secondes
+Thread 0 time: 0.0552555s
+Thread 1 time: 0.074199s
+Thread 2 time: 0.0741004s
+Thread 3 time: 0.0552251s
+Total time: 0.0767932s
+Temps pour affichage : 0.0113752 secondes
+Thread 0 time: 0.0402362s
+Thread 1 time: 0.0620432s
+Thread 2 time: 0.0619406s
+Thread 3 time: 0.0402446s
+Total time: 0.0644171s
+Temps pour affichage : 0.0122939 secondes
+Thread 0 time: 0.0762249s
+Thread 1 time: 0.0590535s
+Thread 2 time: 0.0760751s
+Thread 3 time: 0.0490811s
+Total time: 0.0785274s
+Temps pour affichage : 0.0101465 secondes
+Thread 0 time: 0.0664523s
+Thread 1 time: 0.0663401s
+Thread 2 time: 0.0481671s
+Thread 3 time: 0.0581565s
+Total time: 0.0691976s
+Temps pour affichage : 0.012765 secondes
+Thread 0 time: 0.0711516s
+Thread 1 time: 0.0624016s
+Thread 2 time: 0.0524099s
+Thread 3 time: 0.0711259s
+Total time: 0.0741298s
+Temps pour affichage : 0.0111448 secondes
+Thread 0 time: 0.0534314s
+Thread 1 time: 0.0676164s
+Thread 2 time: 0.0534383s
+Thread 3 time: 0.0677308s
+Total time: 0.0699746s
+Temps pour affichage : 0.0115747 secondes
+Thread 0 time: 0.0605506s
+Thread 1 time: 0.0462461s
+Thread 2 time: 0.0363573s
+Thread 3 time: 0.0603221s
+Total time: 0.0632612s
+Temps pour affichage : 0.0111646 secondes
+Thread 0 time: 0.0514407s
+Thread 1 time: 0.0410144s
+Thread 2 time: 0.0309673s
+Thread 3 time: 0.0513347s
+Total time: 0.053634s
+Temps pour affichage : 0.0111807 secondes
+Thread 0 time: 0.05446s
+Thread 1 time: 0.0281576s
+Thread 2 time: 0.0546139s
+Thread 3 time: 0.0381617s
+Total time: 0.0572002s
+Temps pour affichage : 0.0109691 secondes
+Thread 0 time: 0.0525534s
+Thread 1 time: 0.0436091s
+Thread 2 time: 0.0523736s
+Thread 3 time: 0.0236597s
+Total time: 0.0554291s
+Temps pour affichage : 0.0104955 secondes
+Thread 0 time: 0.0539942s
+Thread 1 time: 0.0307387s
+Thread 2 time: 0.0407947s
+Thread 3 time: 0.0538645s
+Total time: 0.0559728s
+Temps pour affichage : 0.0112222 secondes
+Thread 0 time: 0.0526849s
+Thread 1 time: 0.0524264s
+Thread 2 time: 0.0257538s
+Thread 3 time: 0.0356469s
+Total time: 0.0546441s
+Temps pour affichage : 0.0114321 secondes
+Thread 0 time: 0.0397841s
+Thread 1 time: 0.0397341s
+Thread 2 time: 0.0278479s
+Thread 3 time: 0.0177892s
+Total time: 0.0420929s
+Temps pour affichage : 0.0122034 secondes
+Thread 0 time: 0.0439393s
+Thread 1 time: 0.0438445s
+Thread 2 time: 0.0243509s
+Thread 3 time: 0.0344161s
+Total time: 0.0458443s
+Temps pour affichage : 0.00876021 secondes
+Thread 0 time: 0.0331201s
+Thread 1 time: 0.0464089s
+Thread 2 time: 0.0331256s
+Thread 3 time: 0.0462798s
+Total time: 0.0480854s
+Temps pour affichage : 0.0116433 secondes
+Thread 0 time: 0.0424723s
+Thread 1 time: 0.0424774s
+Thread 2 time: 0.0278105s
+Thread 3 time: 0.0178067s
+Total time: 0.0441498s
+Temps pour affichage : 0.0110643 secondes
+Thread 0 time: 0.0316799s
+Thread 1 time: 0.0116624s
+Thread 2 time: 0.031667s
+Thread 3 time: 0.0216632s
+Total time: 0.0333755s
+Temps pour affichage : 0.0101891 secondes
+Thread 0 time: 0.0349255s
+Thread 1 time: 0.0348742s
+Thread 2 time: 0.00856377s
+Thread 3 time: 0.0185551s
+Total time: 0.0366389s
+Temps pour affichage : 0.00862608 secondes
+Thread 0 time: 0.0307343s
+Thread 1 time: 0.0114855s
+Thread 2 time: 0.0306764s
+Thread 3 time: 0.0214589s
+Total time: 0.0323914s
+Temps pour affichage : 0.00993992 secondes
+Thread 0 time: 0.0293044s
+Thread 1 time: 0.00330523s
+Thread 2 time: 0.0298387s
+Thread 3 time: 0.0133144s
+Total time: 0.0314383s
+Temps pour affichage : 0.00864035 secondes
+Thread 0 time: 0.0323599s
+Thread 1 time: 0.0322912s
+Thread 2 time: 0.00875718s
+Thread 3 time: 0.0187587s
+Total time: 0.0339625s
+Temps pour affichage : 0.00991768 secondes
+Thread 0 time: 0.0263632s
+Thread 1 time: 0.00701277s
+Thread 2 time: 0.0261728s
+Thread 3 time: 0.0170483s
+Total time: 0.027851s
+Temps pour affichage : 0.00868453 secondes
+Thread 0 time: 0.030616s
+Thread 1 time: 0.0223813s
+Thread 2 time: 0.031074s
+Thread 3 time: 0.0123782s
+Total time: 0.0325103s
+Temps pour affichage : 0.0101649 secondes
+Thread 0 time: 0.0287407s
+Thread 1 time: 0.0293169s
+Thread 2 time: 0.0135221s
+Thread 3 time: 0.00353589s
+Total time: 0.0308169s
+Temps pour affichage : 0.00843215 secondes
+Thread 0 time: 0.0295401s
+Thread 1 time: 0.00561456s
+Thread 2 time: 0.0155652s
+Thread 3 time: 0.0303082s
+Total time: 0.0317293s
+Temps pour affichage : 0.0087207 secondes
+Thread 0 time: 0.0254824s
+Thread 1 time: 0.00307807s
+Thread 2 time: 0.0130316s
+Thread 3 time: 0.0253058s
+Total time: 0.0268904s
+Temps pour affichage : 0.00876673 secondes
+Thread 0 time: 0.0198969s
+Thread 1 time: 0.0197711s
+Thread 2 time: 0.00816624s
+Thread 3 time: 1.4546e-05s
+Total time: 0.0210892s
+Temps pour affichage : 0.00821373 secondes
+Thread 0 time: 0.0174392s
+Thread 1 time: 0.0174309s
+Thread 2 time: 4.161e-05s
+Thread 3 time: 0.00544676s
+Total time: 0.0186848s
+Temps pour affichage : 0.0127957 secondes
+Thread 0 time: 0.0204342s
+Thread 1 time: 5.0213e-05s
+Thread 2 time: 0.008227s
+Thread 3 time: 0.0203493s
+Total time: 0.0218981s
+Temps pour affichage : 0.00741244 secondes
+Thread 0 time: 0.0163551s
+Thread 1 time: 0.0163435s
+Thread 2 time: 0.00798447s
+Thread 3 time: 6.2169e-05s
+Total time: 0.0175828s
+Temps pour affichage : 0.0106281 secondes
+Thread 0 time: 0.0176495s
+Thread 1 time: 0.00778628s
+Thread 2 time: 0.000145265s
+Thread 3 time: 0.0176725s
+Total time: 0.0191588s
+Temps pour affichage : 0.00863519 secondes
+Thread 0 time: 0.0143497s
+Thread 1 time: 0.0147383s
+Thread 2 time: 0.00647181s
+Thread 3 time: 1.1087e-05s
+Total time: 0.015826s
+Temps pour affichage : 0.00757586 secondes
+Thread 0 time: 0.010381s
+Thread 1 time: 0.0103203s
+Thread 2 time: 2.6484e-05s
+Thread 3 time: 0.00183404s
+Total time: 0.0114478s
+Temps pour affichage : 0.010148 secondes
+Thread 0 time: 0.0195036s
+Thread 1 time: 5.5227e-05s
+Thread 2 time: 0.0192895s
+Thread 3 time: 0.00937875s
+Total time: 0.0205409s
+Temps pour affichage : 0.00643626 secondes
+Thread 0 time: 0.0126745s
+Thread 1 time: 0.0126168s
+Thread 2 time: 6.8861e-05s
+Thread 3 time: 0.00367583s
+Total time: 0.0136117s
+Temps pour affichage : 0.0076517 secondes
+Thread 0 time: 0.0146778s
+Thread 1 time: 0.00291993s
+Thread 2 time: 0.0145897s
+Thread 3 time: 5.187e-05s
+Total time: 0.0156774s
+Temps pour affichage : 0.00919673 secondes
+Thread 0 time: 0.0107922s
+Thread 1 time: 0.0115344s
+Thread 2 time: 2.5881e-05s
+Thread 3 time: 2.6509e-05s
+Total time: 0.0123539s
+Temps pour affichage : 0.00786972 secondes
+Thread 0 time: 0.0109173s
+Thread 1 time: 3.4165e-05s
+Thread 2 time: 2.3534e-05s
+Thread 3 time: 0.010831s
+Total time: 0.0117485s
+Temps pour affichage : 0.00754226 secondes
+Thread 0 time: 0.0104078s
+Thread 1 time: 2.5935e-05s
+Thread 2 time: 1.0766e-05s
+Thread 3 time: 0.0105388s
+Total time: 0.0114819s
+Temps pour affichage : 0.0113633 secondes
+Thread 0 time: 0.00784142s
+Thread 1 time: 2.2011e-05s
+Thread 2 time: 1.1302e-05s
+Thread 3 time: 0.00728548s
+Total time: 0.00863358s
+Temps pour affichage : 0.0132658 secondes
+Thread 0 time: 0.00937906s
+Thread 1 time: 0.00937843s
+Thread 2 time: 0.000118081s
+Thread 3 time: 0.0001183s
+Total time: 0.0102893s
+Temps pour affichage : 0.00911297 secondes
+Thread 0 time: 0.00635648s
+Thread 1 time: 1.1099e-05s
+Thread 2 time: 0.00689049s
+Thread 3 time: 2.1892e-05s
+Total time: 0.00758681s
+Temps pour affichage : 0.00767868 secondes
+Thread 0 time: 0.00553631s
+Thread 1 time: 1.3768e-05s
+Thread 2 time: 0.0055501s
+Thread 3 time: 2.4475e-05s
+Total time: 0.00630833s
+Temps pour affichage : 0.00649991 secondes
+Thread 0 time: 0.00477676s
+Thread 1 time: 2.4751e-05s
+Thread 2 time: 1.3907e-05s
+Thread 3 time: 0.00475583s
+Total time: 0.00538496s
+Temps pour affichage : 0.00751504 secondes
+Thread 0 time: 0.00562584s
+Thread 1 time: 0.00534315s
+Thread 2 time: 1.7303e-05s
+Thread 3 time: 2.8145e-05s
+Total time: 0.00653512s
+Temps pour affichage : 0.00942113 secondes
+Thread 0 time: 0.00410901s
+Thread 1 time: 1.495e-05s
+Thread 2 time: 2.6039e-05s
+Thread 3 time: 0.00398008s
+Total time: 0.00473015s
+Temps pour affichage : 0.00613385 secondes
+Thread 0 time: 0.00300762s
+Thread 1 time: 2.5834e-05s
+Thread 2 time: 0.00278486s
+Thread 3 time: 1.4164e-05s
+Total time: 0.00361461s
+Temps pour affichage : 0.00595458 secondes
+Thread 0 time: 0.00334002s
+Thread 1 time: 0.00323391s
+Thread 2 time: 1.5078e-05s
+Thread 3 time: 2.6238e-05s
+Total time: 0.00386658s
+Temps pour affichage : 0.00838754 secondes
+Thread 0 time: 0.00335602s
+Thread 1 time: 1.2885e-05s
+Thread 2 time: 2.4977e-05s
+Thread 3 time: 0.00333565s
+Total time: 0.00403632s
+Temps pour affichage : 0.0063542 secondes
+Thread 0 time: 0.00285068s
+Thread 1 time: 2.9787e-05s
+Thread 2 time: 0.00273612s
+Thread 3 time: 1.775e-05s
+Total time: 0.00344984s
+Temps pour affichage : 0.0055763 secondes
+Thread 0 time: 0.00246895s
+Thread 1 time: 2.6563e-05s
+Thread 2 time: 0.00258784s
+Thread 3 time: 1.5755e-05s
+Total time: 0.00319442s
+Temps pour affichage : 0.00654871 secondes
+Thread 0 time: 0.00234495s
+Thread 1 time: 1.6259e-05s
+Thread 2 time: 0.00224201s
+Thread 3 time: 1.181e-05s
+Total time: 0.0029384s
+Temps pour affichage : 0.00753233 secondes
+Thread 0 time: 0.00253172s
+Thread 1 time: 5.3954e-05s
+Thread 2 time: 0.00293528s
+Thread 3 time: 5.1906e-05s
+Total time: 0.00354184s
+Temps pour affichage : 0.00627417 secondes
+Thread 0 time: 0.0019486s
+Thread 1 time: 1.7544e-05s
+Thread 2 time: 0.00193438s
+Thread 3 time: 5.91e-07s
+Total time: 0.00259761s
+Temps pour affichage : 0.00592961 secondes
+Thread 0 time: 7.814e-06s
+Thread 1 time: 0.00135511s
+Thread 2 time: 0.00169923s
+Thread 3 time: 1.0389e-05s
+Total time: 0.0022908s
+Temps pour affichage : 0.00773974 secondes
+Thread 0 time: 0.0016435s
+Thread 1 time: 1.7156e-05s
+Thread 2 time: 0.00207095s
+Thread 3 time: 2.8932e-05s
+Total time: 0.0025356s
+Temps pour affichage : 0.0091483 secondes
+Thread 0 time: 3.331e-05s
+Thread 1 time: 1.7522e-05s
+Thread 2 time: 0.00146931s
+Thread 3 time: 0.00151923s
+Total time: 0.00221918s
+Temps pour affichage : 0.00505334 secondes
+Thread 0 time: 3.509e-06s
+Thread 1 time: 0.00117078s
+Thread 2 time: 0.00113489s
+Thread 3 time: 3.315e-06s
+Total time: 0.00200345s
+Temps pour affichage : 0.0364303 secondes
+Thread 0 time: 0.000979089s
+Thread 1 time: 2.6116e-05s
+Thread 2 time: 0.000866589s
+Thread 3 time: 1.536e-05s
+Total time: 0.00135906s
+Temps pour affichage : 0.00663134 secondes
+Thread 0 time: 0.000845136s
+Thread 1 time: 2.6853e-05s
+Thread 2 time: 0.000885507s
+Thread 3 time: 1.3407e-05s
+Total time: 0.00164531s
+Temps pour affichage : 0.00741943 secondes
+Thread 0 time: 7.294e-06s
+Thread 1 time: 0.000745749s
+Thread 2 time: 0.000747325s
+Thread 3 time: 4.3151e-05s
+Total time: 0.00119012s
+Temps pour affichage : 0.00465726 secondes
+Thread 0 time: 7.57e-06s
+Thread 1 time: 4.149e-06s
+Thread 2 time: 0.000535309s
+Thread 3 time: 0.000478294s
+Total time: 0.000995163s
+Temps pour affichage : 0.00459911 secondes
+Thread 0 time: 1.2344e-05s
+Thread 1 time: 0.0004s
+Thread 2 time: 0.000511552s
+Thread 3 time: 4.841e-06s
+Total time: 0.000818665s
+Temps pour affichage : 0.00611471 secondes
+Thread 0 time: 0.0001142s
+Thread 1 time: 0.00065195s
+Thread 2 time: 0.00107603s
+Thread 3 time: 0.000158835s
+Total time: 0.00158662s
+Temps pour affichage : 0.0154628 secondes
+Thread 0 time: 0.000648083s
+Thread 1 time: 0.000252369s
+Thread 2 time: 5.0631e-05s
+Thread 3 time: 1.5822e-05s
+Total time: 0.0010659s
+Temps pour affichage : 0.00588642 secondes
+Thread 0 time: 1.58e-06s
+Thread 1 time: 0.000197624s
+Thread 2 time: 4.014e-06s
+Thread 3 time: 0.000624641s
+Total time: 0.00109282s
+Temps pour affichage : 0.00429683 secondes
+Thread 0 time: 7.635e-06s
+Thread 1 time: 0.000352462s
+Thread 2 time: 2.617e-06s
+Thread 3 time: 0.000253452s
+Total time: 0.000657502s
+Temps pour affichage : 0.00570266 secondes
+Thread 0 time: 3.567e-06s
+Thread 1 time: 0.000340661s
+Thread 2 time: 2.913e-06s
+Thread 3 time: 0.000284336s
+Total time: 0.000648404s
+Temps pour affichage : 0.00671376 secondes
+Thread 0 time: 1.298e-06s
+Thread 1 time: 0.000278177s
+Thread 2 time: 0.000176247s
+Thread 3 time: 3.015e-06s
+Total time: 0.000555055s
+Temps pour affichage : 0.00525258 secondes
+Thread 0 time: 2.319e-06s
+Thread 1 time: 0.000150119s
+Thread 2 time: 0.000254382s
+Thread 3 time: 3.378e-06s
+Total time: 0.000504528s
+Temps pour affichage : 0.00410779 secondes
+Thread 0 time: 0.000225083s
+Thread 1 time: 0.00016793s
+Thread 2 time: 1.121e-06s
+Thread 3 time: 3.076e-06s
+Total time: 0.000484267s
+Temps pour affichage : 0.00582403 secondes
+Thread 0 time: 2.808e-06s
+Thread 1 time: 0.000231786s
+Thread 2 time: 0.000145708s
+Thread 3 time: 2.796e-06s
+Total time: 0.00057663s
+Temps pour affichage : 0.00705807 secondes
+Thread 0 time: 8.52e-07s
+Thread 1 time: 0.000238051s
+Thread 2 time: 0.000190235s
+Thread 3 time: 3.119e-06s
+Total time: 0.000763371s
+Temps pour affichage : 0.00760203 secondes
+Thread 0 time: 3.408e-06s
+Thread 1 time: 0.000245171s
+Thread 2 time: 0.000131141s
+Thread 3 time: 3.062e-06s
+Total time: 0.000688604s
+Temps pour affichage : 0.00478347 secondes
+Thread 0 time: 5.8201e-05s
+Thread 1 time: 0.000304567s
+Thread 2 time: 1.8398e-05s
+Thread 3 time: 7.519e-06s
+Total time: 0.000583861s
+Temps pour affichage : 0.00390397 secondes
+Thread 0 time: 4.2377e-05s
+Thread 1 time: 0.000272791s
+Thread 2 time: 4.6516e-05s
+Thread 3 time: 4.3646e-05s
+Total time: 0.000635152s
+Temps pour affichage : 0.00508247 secondes
+Thread 0 time: 7.8339e-05s
+Thread 1 time: 0.000338025s
+Thread 2 time: 5.2575e-05s
+Thread 3 time: 0.000100898s
+Total time: 0.000767909s
+Temps pour affichage : 0.00637098 secondes
+Thread 0 time: 6.6387e-05s
+Thread 1 time: 0.000264857s
+Thread 2 time: 1.8765e-05s
+Thread 3 time: 7.635e-06s
+Total time: 0.000532055s
+Temps pour affichage : 0.00529828 secondes
+Thread 0 time: 0.000147884s
+Thread 1 time: 3.7315e-05s
+Thread 2 time: 1.4145e-05s
+Thread 3 time: 3.992e-06s
+Total time: 0.000337446s
+Temps pour affichage : 0.00396312 secondes
+Thread 0 time: 9.8865e-05s
+Thread 1 time: 8.809e-05s
+Thread 2 time: 4.115e-06s
+Thread 3 time: 1.905e-06s
+Total time: 0.000330009s
+Temps pour affichage : 0.00442091 secondes
+Thread 0 time: 2.652e-06s
+Thread 1 time: 9.0673e-05s
+Thread 2 time: 3.056e-06s
+Thread 3 time: 9.9543e-05s
+Total time: 0.000455558s
+Temps pour affichage : 0.00625854 secondes
+Thread 0 time: 2.961e-06s
+Thread 1 time: 5.5631e-05s
+Thread 2 time: 2.775e-06s
+Thread 3 time: 0.000109806s
+Total time: 0.000337658s
+Temps pour affichage : 0.00676883 secondes
+Thread 0 time: 1.5486e-05s
+Thread 1 time: 4.698e-05s
+Thread 2 time: 5.795e-06s
+Thread 3 time: 0.000159331s
+Total time: 0.000477533s
+Temps pour affichage : 0.0047885 secondes
+Thread 0 time: 5.1225e-05s
+Thread 1 time: 7.335e-06s
+Thread 2 time: 0.000180331s
+Thread 3 time: 1.6999e-05s
+Total time: 0.000551485s
+Temps pour affichage : 0.00395763 secondes
+Thread 0 time: 0.000166179s
+Thread 1 time: 7.609e-06s
+Thread 2 time: 2.3238e-05s
+Thread 3 time: 2.0592e-05s
+Total time: 0.000364393s
+Temps pour affichage : 0.00420837 secondes
+Thread 0 time: 0.000186418s
+Thread 1 time: 1.6145e-05s
+Thread 2 time: 6.3501e-05s
+Thread 3 time: 3.1061e-05s
+Total time: 0.000494061s
+Temps pour affichage : 0.00599566 secondes
+Thread 0 time: 4.5956e-05s
+Thread 1 time: 4.3479e-05s
+Thread 2 time: 0.000155293s
+Thread 3 time: 4.6451e-05s
+Total time: 0.000689685s
+Temps pour affichage : 0.0115267 secondes
+Thread 0 time: 0.000126325s
+Thread 1 time: 2.1937e-05s
+Thread 2 time: 8.0666e-05s
+Thread 3 time: 3.2258e-05s
+Total time: 0.000463132s
+Temps pour affichage : 0.0041798 secondes
+Thread 0 time: 0.000192119s
+Thread 1 time: 1.2057e-05s
+Thread 2 time: 2.9604e-05s
+Thread 3 time: 2.6538e-05s
+Total time: 0.000474524s
+Temps pour affichage : 0.00416208 secondes
+Thread 0 time: 4.3304e-05s
+Thread 1 time: 4.4639e-05s
+Thread 2 time: 0.000177344s
+Thread 3 time: 4.6637e-05s
+Total time: 0.000546981s
+Temps pour affichage : 0.00473122 secondes
+Thread 0 time: 8.1655e-05s
+Thread 1 time: 2.809e-06s
+Thread 2 time: 9.081e-05s
+Thread 3 time: 1.8794e-05s
+Total time: 0.000328679s
+Temps pour affichage : 0.00589882 secondes
+Thread 0 time: 2.79e-06s
+Thread 1 time: 3.102e-06s
+Thread 2 time: 0.000108728s
+Thread 3 time: 7.4708e-05s
+Total time: 0.000411472s
+Temps pour affichage : 0.00570943 secondes
+Thread 0 time: 0.000228764s
+Thread 1 time: 1.331e-05s
+Thread 2 time: 3.6343e-05s
+Thread 3 time: 3.0813e-05s
+Total time: 0.000548615s
+Temps pour affichage : 0.00404303 secondes
+Thread 0 time: 4.3938e-05s
+Thread 1 time: 0.000102718s
+Thread 2 time: 0.00024506s
+Thread 3 time: 0.000113322s
+Total time: 0.000641775s
+Temps pour affichage : 0.00394252 secondes
+Thread 0 time: 0.000266285s
+Thread 1 time: 7.927e-06s
+Thread 2 time: 3.0177e-05s
+Thread 3 time: 2.2353e-05s
+Total time: 0.000540866s
+Temps pour affichage : 0.00466556 secondes
+Thread 0 time: 5.2608e-05s
+Thread 1 time: 5.396e-05s
+Thread 2 time: 0.00017664s
+Thread 3 time: 5.6118e-05s
+Total time: 0.000586803s
+Temps pour affichage : 0.0062323 secondes
+Thread 0 time: 0.000110011s
+Thread 1 time: 1.7017e-05s
+Thread 2 time: 2.7101e-05s
+Thread 3 time: 5.5027e-05s
+Total time: 0.000318018s
+Temps pour affichage : 0.00543012 secondes
+Thread 0 time: 0.00012295s
+Thread 1 time: 1.7103e-05s
+Thread 2 time: 5.9838e-05s
+Thread 3 time: 2.7547e-05s
+Total time: 0.000374663s
+Temps pour affichage : 0.00407916 secondes
+Thread 0 time: 0.000236698s
+Thread 1 time: 1.1263e-05s
+Thread 2 time: 2.8931e-05s
+Thread 3 time: 2.5873e-05s
+Total time: 0.000530288s
+Temps pour affichage : 0.00377103 secondes
+Thread 0 time: 0.000105395s
+Thread 1 time: 1.7227e-05s
+Thread 2 time: 4.6914e-05s
+Thread 3 time: 3.1763e-05s
+Total time: 0.00030467s
+Temps pour affichage : 0.00445096 secondes
+Thread 0 time: 2.377e-06s
+Thread 1 time: 2.198e-06s
+Thread 2 time: 1.2075e-05s
+Thread 3 time: 0.000106603s
+Total time: 0.000334671s
+Temps pour affichage : 0.00681831 secondes
+Thread 0 time: 5.6658e-05s
+Thread 1 time: 0.000142904s
+Thread 2 time: 1.7373e-05s
+Thread 3 time: 7.332e-06s
+Total time: 0.000427521s
+Temps pour affichage : 0.00456322 secondes
+Thread 0 time: 0.000222653s
+Thread 1 time: 7.8412e-05s
+Thread 2 time: 3.3379e-05s
+Thread 3 time: 1.7049e-05s
+Total time: 0.000517421s
+Temps pour affichage : 0.003933 secondes
+Thread 0 time: 0.000129065s
+Thread 1 time: 7.5779e-05s
+Thread 2 time: 2.3403e-05s
+Thread 3 time: 1.2438e-05s
+Total time: 0.000406285s
+Temps pour affichage : 0.00391313 secondes
+Thread 0 time: 0.00016923s
+Thread 1 time: 3.6958e-05s
+Thread 2 time: 3.271e-05s
+Thread 3 time: 1.5727e-05s
+Total time: 0.0004991s
+Temps pour affichage : 0.00788225 secondes
+Thread 0 time: 0.00043393s
+Thread 1 time: 0.000109129s
+Thread 2 time: 3.293e-05s
+Thread 3 time: 1.8072e-05s
+Total time: 0.000732227s
+Temps pour affichage : 0.00634794 secondes
+Thread 0 time: 0.000251536s
+Thread 1 time: 3.194e-05s
+Thread 2 time: 2.7322e-05s
+Thread 3 time: 1.1627e-05s
+Total time: 0.000531104s
+Temps pour affichage : 0.0203566 secondes
+Thread 0 time: 0.000125721s
+Thread 1 time: 3.9096e-05s
+Thread 2 time: 3.4532e-05s
+Thread 3 time: 1.8583e-05s
+Total time: 0.000322743s
+Temps pour affichage : 0.00487222 secondes
+Thread 0 time: 1.0887e-05s
+Thread 1 time: 3.0513e-05s
+Thread 2 time: 1.7235e-05s
+Thread 3 time: 7.9288e-05s
+Total time: 0.000302776s
+Temps pour affichage : 0.00407072 secondes
+Thread 0 time: 6.29e-07s
+Thread 1 time: 5.9561e-05s
+Thread 2 time: 7.6274e-05s
+Thread 3 time: 3.515e-06s
+Total time: 0.000293211s
+Temps pour affichage : 0.00643416 secondes
+Thread 0 time: 9.06e-07s
+Thread 1 time: 6.1455e-05s
+Thread 2 time: 4.8266e-05s
+Thread 3 time: 3.492e-06s
+Total time: 0.000259767s
+Temps pour affichage : 0.00433981 secondes
+Thread 0 time: 5.8221e-05s
+Thread 1 time: 2.856e-06s
+Thread 2 time: 4.5728e-05s
+Thread 3 time: 1.767e-06s
+Total time: 0.000236682s
+Temps pour affichage : 0.0041283 secondes
+Thread 0 time: 6.5193e-05s
+Thread 1 time: 1.6922e-05s
+Thread 2 time: 2.976e-05s
+Thread 3 time: 0.000137511s
+Total time: 0.000327332s
+Temps pour affichage : 0.00454499 secondes
+Thread 0 time: 0.000275162s
+Thread 1 time: 0.000156387s
+Thread 2 time: 0.000159562s
+Thread 3 time: 0.00019473s
+Total time: 0.000499081s
+Temps pour affichage : 0.00395835 secondes
+Thread 0 time: 0.000155072s
+Thread 1 time: 1.1573e-05s
+Thread 2 time: 4.0638e-05s
+Thread 3 time: 3.728e-06s
+Total time: 0.000360286s
+Temps pour affichage : 0.00460389 secondes
+Thread 0 time: 5.987e-05s
+Thread 1 time: 1.028e-05s
+Thread 2 time: 5.033e-05s
+Thread 3 time: 2.834e-06s
+Total time: 0.000248335s
+Temps pour affichage : 0.00504894 secondes
+Thread 0 time: 0.000140866s
+Thread 1 time: 3.623e-05s
+Thread 2 time: 3.2221e-05s
+Thread 3 time: 1.7195e-05s
+Total time: 0.000391088s
+Temps pour affichage : 0.00435784 secondes
+Thread 0 time: 0.000166002s
+Thread 1 time: 3.1924e-05s
+Thread 2 time: 2.7388e-05s
+Thread 3 time: 9.576e-06s
+Total time: 0.000420199s
+Temps pour affichage : 0.00418082 secondes
+Thread 0 time: 0.000129477s
+Thread 1 time: 4.9935e-05s
+Thread 2 time: 1.9904e-05s
+Thread 3 time: 4.5955e-05s
+Total time: 0.000313737s
+Temps pour affichage : 0.00402709 secondes
+Thread 0 time: 0.000105637s
+Thread 1 time: 6.0621e-05s
+Thread 2 time: 5.3002e-05s
+Thread 3 time: 4.1988e-05s
+Total time: 0.000331737s
+Temps pour affichage : 0.00498105 secondes
+Thread 0 time: 0.000151938s
+Thread 1 time: 2.8098e-05s
+Thread 2 time: 2.4425e-05s
+Thread 3 time: 8.671e-06s
+Total time: 0.000415498s
+Temps pour affichage : 0.00459073 secondes
+Thread 0 time: 0.000151212s
+Thread 1 time: 3.3137e-05s
+Thread 2 time: 2.9793e-05s
+Thread 3 time: 1.56e-05s
+Total time: 0.000359978s
+Temps pour affichage : 0.00371962 secondes
+Thread 0 time: 7.5809e-05s
+Thread 1 time: 6.7103e-05s
+Thread 2 time: 2.3837e-05s
+Thread 3 time: 1.012e-05s
+Total time: 0.000282019s
+Temps pour affichage : 0.00422188 secondes
+Thread 0 time: 0.000122364s
+Thread 1 time: 6.0606e-05s
+Thread 2 time: 4.3841e-05s
+Thread 3 time: 2.9838e-05s
+Total time: 0.000403161s
+Temps pour affichage : 0.00397057 secondes
+Thread 0 time: 0.000184353s
+Thread 1 time: 3.5204e-05s
+Thread 2 time: 3.1589e-05s
+Thread 3 time: 1.6551e-05s
+Total time: 0.000405699s
+Temps pour affichage : 0.00458476 secondes
+Thread 0 time: 1.5847e-05s
+Thread 1 time: 0.000153236s
+Thread 2 time: 7.6793e-05s
+Thread 3 time: 6.4805e-05s
+Total time: 0.000483562s
+Temps pour affichage : 0.00478952 secondes
+Thread 0 time: 4.1656e-05s
+Thread 1 time: 4.6955e-05s
+Thread 2 time: 5.8474e-05s
+Thread 3 time: 0.000104043s
+Total time: 0.00040986s
+Temps pour affichage : 0.004129 secondes
+Thread 0 time: 2.409e-06s
+Thread 1 time: 7.4905e-05s
+Thread 2 time: 2.6855e-05s
+Thread 3 time: 0.000105111s
+Total time: 0.00038084s
+Temps pour affichage : 0.00405511 secondes
+Thread 0 time: 4.7131e-05s
+Thread 1 time: 4.8114e-05s
+Thread 2 time: 0.000113262s
+Thread 3 time: 5.0289e-05s
+Total time: 0.000375236s
+Temps pour affichage : 0.00419108 secondes
+Thread 0 time: 0.00013134s
+Thread 1 time: 2.5334e-05s
+Thread 2 time: 2.1871e-05s
+Thread 3 time: 7.736e-06s
+Total time: 0.000366878s
+Temps pour affichage : 0.00487197 secondes
+Thread 0 time: 0.000145532s
+Thread 1 time: 3.7143e-05s
+Thread 2 time: 3.3061e-05s
+Thread 3 time: 1.7463e-05s
+Total time: 0.000389273s
+Temps pour affichage : 0.00411343 secondes
+Thread 0 time: 9.3626e-05s
+Thread 1 time: 2.0711e-05s
+Thread 2 time: 1.0991e-05s
+Thread 3 time: 0.000145295s
+Total time: 0.000332447s
+Temps pour affichage : 0.00367402 secondes
+Thread 0 time: 4.4146e-05s
+Thread 1 time: 4.7464e-05s
+Thread 2 time: 4.5053e-05s
+Thread 3 time: 0.000106127s
+Total time: 0.000378195s
+Temps pour affichage : 0.00392316 secondes
+Thread 0 time: 0.000179549s
+Thread 1 time: 2.3826e-05s
+Thread 2 time: 8.999e-06s
+Thread 3 time: 2.7168e-05s
+Total time: 0.000421563s
+Temps pour affichage : 0.00405033 secondes
+Thread 0 time: 7.4233e-05s
+Thread 1 time: 6.7901e-05s
+Thread 2 time: 6.9842e-05s
+Thread 3 time: 0.000104047s
+Total time: 0.000456099s
+Temps pour affichage : 0.00547039 secondes
+Thread 0 time: 0.000123874s
+Thread 1 time: 3.3447e-05s
+Thread 2 time: 1.0962e-05s
+Thread 3 time: 3.1111e-05s
+Total time: 0.000357078s
+Temps pour affichage : 0.00357063 secondes
+Thread 0 time: 0.000180168s
+Thread 1 time: 3.4138e-05s
+Thread 2 time: 1.6391e-05s
+Thread 3 time: 3.0594e-05s
+Total time: 0.000361391s
+Temps pour affichage : 0.00378595 secondes
+Thread 0 time: 6.6993e-05s
+Thread 1 time: 0.00011515s
+Thread 2 time: 6.7855e-05s
+Thread 3 time: 6.9967e-05s
+Total time: 0.000440724s
+Temps pour affichage : 0.00372884 secondes
+Thread 0 time: 4.1501e-05s
+Thread 1 time: 0.000100646s
+Thread 2 time: 4.2301e-05s
+Thread 3 time: 4.5166e-05s
+Total time: 0.000414119s
+Temps pour affichage : 0.00415749 secondes
+Thread 0 time: 4.1848e-05s
+Thread 1 time: 0.000112146s
+Thread 2 time: 4.3128e-05s
+Thread 3 time: 4.6435e-05s
+Total time: 0.000392424s
+Temps pour affichage : 0.00444041 secondes
+Thread 0 time: 9.9705e-05s
+Thread 1 time: 1.1491e-05s
+Thread 2 time: 2.2218e-05s
+Thread 3 time: 6.4478e-05s
+Total time: 0.000512986s
+Temps pour affichage : 0.00373228 secondes
+Thread 0 time: 0.000104203s
+Thread 1 time: 8.061e-06s
+Thread 2 time: 2.4546e-05s
+Thread 3 time: 2.2225e-05s
+Total time: 0.000286428s
+Temps pour affichage : 0.00397907 secondes
+Thread 0 time: 4.2843e-05s
+Thread 1 time: 4.3788e-05s
+Thread 2 time: 0.00011494s
+Thread 3 time: 4.5511e-05s
+Total time: 0.000459571s
+Temps pour affichage : 0.00389333 secondes
+Thread 0 time: 0.000200704s
+Thread 1 time: 1.7611e-05s
+Thread 2 time: 3.2899e-05s
+Thread 3 time: 3.673e-05s
+Total time: 0.000390371s
+Temps pour affichage : 0.00441854 secondes
+Thread 0 time: 0.000199452s
+Thread 1 time: 1.8525e-05s
+Thread 2 time: 3.5299e-05s
+Thread 3 time: 3.899e-05s
+Total time: 0.000411142s
+Temps pour affichage : 0.00538795 secondes
+Thread 0 time: 0.00011619s
+Thread 1 time: 7.549e-06s
+Thread 2 time: 2.1045e-05s
+Thread 3 time: 2.3986e-05s
+Total time: 0.000327001s
+Temps pour affichage : 0.00367504 secondes
+Thread 0 time: 1.1139e-05s
+Thread 1 time: 3.4191e-05s
+Thread 2 time: 5.1829e-05s
+Thread 3 time: 0.000139237s
+Total time: 0.000362241s
+Temps pour affichage : 0.00441011 secondes
+Thread 0 time: 7.3417e-05s
+Thread 1 time: 1.8194e-05s
+Thread 2 time: 5.3891e-05s
+Thread 3 time: 3.323e-05s
+Total time: 0.000280645s
+Temps pour affichage : 0.00469275 secondes
+Thread 0 time: 3.8282e-05s
+Thread 1 time: 0.000107424s
+Thread 2 time: 8.7635e-05s
+Thread 3 time: 1.5961e-05s
+Total time: 0.00031906s
+Temps pour affichage : 0.00430003 secondes
+Thread 0 time: 5.3651e-05s
+Thread 1 time: 0.000100812s
+Thread 2 time: 1.2227e-05s
+Thread 3 time: 2.2859e-05s
+Total time: 0.000315076s
+Temps pour affichage : 0.00548239 secondes
+Thread 0 time: 9.757e-06s
+Thread 1 time: 2.2961e-05s
+Thread 2 time: 6.7384e-05s
+Thread 3 time: 1.5097e-05s
+Total time: 0.000317874s
+Temps pour affichage : 0.00523841 secondes
+Thread 0 time: 0.000148217s
+Thread 1 time: 2.2696e-05s
+Thread 2 time: 3.8582e-05s
+Thread 3 time: 4.2398e-05s
+Total time: 0.000340048s
+Temps pour affichage : 0.00451035 secondes
+Thread 0 time: 0.000142046s
+Thread 1 time: 1.7388e-05s
+Thread 2 time: 3.199e-05s
+Thread 3 time: 3.5919e-05s
+Total time: 0.000350256s
+Temps pour affichage : 0.00538547 secondes
+Thread 0 time: 5.3792e-05s
+Thread 1 time: 1.668e-06s
+Thread 2 time: 2.963e-06s
+Thread 3 time: 3.5161e-05s
+Total time: 0.000292309s
+Temps pour affichage : 0.00613681 secondes
+Thread 0 time: 4.1846e-05s
+Thread 1 time: 8.58e-06s
+Thread 2 time: 0.000169764s
+Thread 3 time: 5.1594e-05s
+Total time: 0.000460963s
+Temps pour affichage : 0.00368848 secondes
+Thread 0 time: 2.018e-06s
+Thread 1 time: 4.6029e-05s
+Thread 2 time: 5.5881e-05s
+Thread 3 time: 2.865e-06s
+Total time: 0.000336308s
+Temps pour affichage : 0.00393259 secondes
+Thread 0 time: 4.6889e-05s
+Thread 1 time: 5.7663e-05s
+Thread 2 time: 0.000137116s
+Thread 3 time: 4.7984e-05s
+Total time: 0.000375342s
+Temps pour affichage : 0.00417445 secondes
+Thread 0 time: 5.6373e-05s
+Thread 1 time: 3.475e-05s
+Thread 2 time: 1.73e-06s
+Thread 3 time: 7.422e-06s
+Total time: 0.000274725s
+Temps pour affichage : 0.00351065 secondes
+Thread 0 time: 8.1416e-05s
+Thread 1 time: 2.3058e-05s
+Thread 2 time: 2.329e-06s
+Thread 3 time: 1.805e-06s
+Total time: 0.000246674s
+Temps pour affichage : 0.00488514 secondes
+Thread 0 time: 4.7915e-05s
+Thread 1 time: 9.6909e-05s
+Thread 2 time: 4.8698e-05s
+Thread 3 time: 5.0905e-05s
+Total time: 0.000378906s
+Temps pour affichage : 0.00452873 secondes
+Thread 0 time: 7.5964e-05s
+Thread 1 time: 1.3966e-05s
+Thread 2 time: 1.419e-06s
+Thread 3 time: 4.2262e-05s
+Total time: 0.000364169s
+Temps pour affichage : 0.0034741 secondes
+Thread 0 time: 0.000144296s
+Thread 1 time: 3.3609e-05s
+Thread 2 time: 1.8593e-05s
+Thread 3 time: 3.7218e-05s
+Total time: 0.000331311s
+Temps pour affichage : 0.006891 secondes
+Thread 0 time: 0.000128955s
+Thread 1 time: 1.7399e-05s
+Thread 2 time: 0.000188136s
+Thread 3 time: 3.0128e-05s
+Total time: 0.000407831s
+Temps pour affichage : 0.00467578 secondes
+Thread 0 time: 0.000114442s
+Thread 1 time: 2.052e-05s
+Thread 2 time: 0.000197489s
+Thread 3 time: 0.000134284s
+Total time: 0.000507103s
+Temps pour affichage : 0.00736605 secondes
+Thread 0 time: 4.337e-05s
+Thread 1 time: 4.4498e-05s
+Thread 2 time: 0.000108586s
+Thread 3 time: 4.7265e-05s
+Total time: 0.000614223s
+Temps pour affichage : 0.00406527 secondes
+Thread 0 time: 0.000163229s
+Thread 1 time: 6.0277e-05s
+Thread 2 time: 0.000150814s
+Thread 3 time: 6.3869e-05s
+Total time: 0.000463289s
+Temps pour affichage : 0.00389144 secondes
+Thread 0 time: 0.000110734s
+Thread 1 time: 7.2334e-05s
+Thread 2 time: 6.331e-05s
+Thread 3 time: 0.000171721s
+Total time: 0.000421473s
+Temps pour affichage : 0.00354332 secondes
+Thread 0 time: 5.0088e-05s
+Thread 1 time: 7.4188e-05s
+Thread 2 time: 0.000114932s
+Thread 3 time: 7.2506e-05s
+Total time: 0.000389724s
+Temps pour affichage : 0.00397761 secondes
+Thread 0 time: 0.000207809s
+Thread 1 time: 2.9685e-05s
+Thread 2 time: 1.2706e-05s
+Thread 3 time: 2.6189e-05s
+Total time: 0.00041552s
+Temps pour affichage : 0.00598366 secondes
+Thread 0 time: 0.000131202s
+Thread 1 time: 3.8036e-05s
+Thread 2 time: 1.889e-05s
+Thread 3 time: 3.3932e-05s
+Total time: 0.000324034s
+Temps pour affichage : 0.00483868 secondes
+Thread 0 time: 0.000161257s
+Thread 1 time: 2.706e-05s
+Thread 2 time: 7.731e-06s
+Thread 3 time: 2.2723e-05s
+Total time: 0.000488553s
+Temps pour affichage : 0.00375176 secondes
+Thread 0 time: 0.000149771s
+Thread 1 time: 3.5038e-05s
+Thread 2 time: 1.7043e-05s
+Thread 3 time: 3.1428e-05s
+Total time: 0.000397925s
+Temps pour affichage : 0.00444576 secondes
+Thread 0 time: 0.000108783s
+Thread 1 time: 2.3685e-05s
+Thread 2 time: 7.057e-06s
+Thread 3 time: 2.1075e-05s
+Total time: 0.000340922s
+Temps pour affichage : 0.00473733 secondes
+Thread 0 time: 4.1855e-05s
+Thread 1 time: 9.3407e-05s
+Thread 2 time: 4.2667e-05s
+Thread 3 time: 4.5263e-05s
+Total time: 0.000409547s
+Temps pour affichage : 0.00638354 secondes
+Thread 0 time: 2.1206e-05s
+Thread 1 time: 0.000101088s
+Thread 2 time: 2.453e-06s
+Thread 3 time: 1.3705e-05s
+Total time: 0.000388981s
+Temps pour affichage : 0.00388174 secondes
+Thread 0 time: 0.00019561s
+Thread 1 time: 3.5175e-05s
+Thread 2 time: 1.6458e-05s
+Thread 3 time: 3.0967e-05s
+Total time: 0.000403749s
+Temps pour affichage : 0.00370548 secondes
+Thread 0 time: 0.00014742s
+Thread 1 time: 3.8409e-05s
+Thread 2 time: 1.7789e-05s
+Thread 3 time: 3.3676e-05s
+Total time: 0.000391688s
+Temps pour affichage : 0.00438419 secondes
+Thread 0 time: 8.6905e-05s
+Thread 1 time: 6.5293e-05s
+Thread 2 time: 2.2034e-05s
+Thread 3 time: 3.4559e-05s
+Total time: 0.000379791s
+Temps pour affichage : 0.00467201 secondes
+Thread 0 time: 4.227e-05s
+Thread 1 time: 9.0989e-05s
+Thread 2 time: 4.283e-05s
+Thread 3 time: 4.5219e-05s
+Total time: 0.000462862s
+Temps pour affichage : 0.00515096 secondes
+Thread 0 time: 7.0088e-05s
+Thread 1 time: 4.6095e-05s
+Thread 2 time: 1.3576e-05s
+Thread 3 time: 2.7859e-05s
+Total time: 0.000341836s
+Temps pour affichage : 0.00456117 secondes
+Thread 0 time: 0.000189911s
+Thread 1 time: 6.8785e-05s
+Thread 2 time: 1.4029e-05s
+Thread 3 time: 3.2369e-05s
+Total time: 0.000513095s
+Temps pour affichage : 0.00386466 secondes
+Thread 0 time: 0.000128079s
+Thread 1 time: 5.1632e-05s
+Thread 2 time: 1.6144e-05s
+Thread 3 time: 3.2081e-05s
+Total time: 0.000405965s
+Temps pour affichage : 0.00411599 secondes
+Thread 0 time: 0.000177872s
+Thread 1 time: 5.478e-05s
+Thread 2 time: 1.2696e-05s
+Thread 3 time: 3.4919e-05s
+Total time: 0.000419252s
+Temps pour affichage : 0.00409137 secondes
+Thread 0 time: 0.000140303s
+Thread 1 time: 2.7159e-05s
+Thread 2 time: 1.0001e-05s
+Thread 3 time: 2.3849e-05s
+Total time: 0.000359456s
+Temps pour affichage : 0.00661945 secondes
+Thread 0 time: 0.00014124s
+Thread 1 time: 3.591e-05s
+Thread 2 time: 1.7173e-05s
+Thread 3 time: 3.1931e-05s
+Total time: 0.000308859s
+Temps pour affichage : 0.00436658 secondes
+Thread 0 time: 0.000136447s
+Thread 1 time: 3.6779e-05s
+Thread 2 time: 1.7498e-05s
+Thread 3 time: 3.2861e-05s
+Total time: 0.000826179s
+Temps pour affichage : 0.00472943 secondes
+Thread 0 time: 0.000115106s
+Thread 1 time: 4.4807e-05s
+Thread 2 time: 7.13e-06s
+Thread 3 time: 2.0655e-05s
+Total time: 0.000272982s
+Temps pour affichage : 0.00385573 secondes
+Thread 0 time: 0.000108731s
+Thread 1 time: 2.3434e-05s
+Thread 2 time: 8.152e-06s
+Thread 3 time: 2.1607e-05s
+Total time: 0.000286429s
+Temps pour affichage : 0.00439953 secondes
+Thread 0 time: 0.000143305s
+Thread 1 time: 3.8247e-05s
+Thread 2 time: 1.9018e-05s
+Thread 3 time: 3.4586e-05s
+Total time: 0.000398556s
+Temps pour affichage : 0.00736196 secondes
+Thread 0 time: 4.3876e-05s
+Thread 1 time: 5.2856e-05s
+Thread 2 time: 5.0721e-05s
+Thread 3 time: 0.000111462s
+Total time: 0.000404819s
+Temps pour affichage : 0.00446829 secondes
+Thread 0 time: 7.633e-05s
+Thread 1 time: 2.6624e-05s
+Thread 2 time: 1.5308e-05s
+Thread 3 time: 0.000136963s
+Total time: 0.000398594s
+Temps pour affichage : 0.00439806 secondes
+Thread 0 time: 0.000124092s
+Thread 1 time: 3.8157e-05s
+Thread 2 time: 1.7975e-05s
+Thread 3 time: 3.4378e-05s
+Total time: 0.000368881s
+Temps pour affichage : 0.00412365 secondes
+Thread 0 time: 2.2435e-05s
+Thread 1 time: 6.4996e-05s
+Thread 2 time: 4.603e-06s
+Thread 3 time: 1.7067e-05s
+Total time: 0.000402639s
+Temps pour affichage : 0.0053838 secondes
+Thread 0 time: 0.000221767s
+Thread 1 time: 3.6135e-05s
+Thread 2 time: 1.6835e-05s
+Thread 3 time: 3.1954e-05s
+Total time: 0.000477582s
+Temps pour affichage : 0.00444253 secondes
+Thread 0 time: 0.000150091s
+Thread 1 time: 3.5637e-05s
+Thread 2 time: 1.716e-05s
+Thread 3 time: 3.1988e-05s
+Total time: 0.000411783s
+Temps pour affichage : 0.00483174 secondes
+Thread 0 time: 0.000142675s
+Thread 1 time: 3.6344e-05s
+Thread 2 time: 1.8019e-05s
+Thread 3 time: 2.6123e-05s
+Total time: 0.000321639s
+Temps pour affichage : 0.0050448 secondes
+Thread 0 time: 0.000118861s
+Thread 1 time: 2.506e-05s
+Thread 2 time: 1.3428e-05s
+Thread 3 time: 0.000145511s
+Total time: 0.000369787s
+Temps pour affichage : 0.00431455 secondes
+Thread 0 time: 0.000197263s
+Thread 1 time: 3.296e-05s
+Thread 2 time: 1.7439e-05s
+Thread 3 time: 3.7369e-05s
+Total time: 0.000495803s
+Temps pour affichage : 0.00469998 secondes
+Thread 0 time: 5.9137e-05s
+Thread 1 time: 3.414e-06s
+Thread 2 time: 1.721e-06s
+Thread 3 time: 3.8013e-05s
+Total time: 0.000351934s
+Temps pour affichage : 0.00363994 secondes
+Thread 0 time: 6.121e-06s
+Thread 1 time: 7.02e-07s
+Thread 2 time: 3.3483e-05s
+Thread 3 time: 3.0614e-05s
+Total time: 0.000258746s
+Temps pour affichage : 0.00448911 secondes
+Thread 0 time: 9.734e-05s
+Thread 1 time: 1.8698e-05s
+Thread 2 time: 0.000145783s
+Thread 3 time: 3.2704e-05s
+Total time: 0.000449137s
+Temps pour affichage : 0.00505967 secondes
+Thread 0 time: 0.000195566s
+Thread 1 time: 2.095e-06s
+Thread 2 time: 3.5087e-05s
+Thread 3 time: 1.9832e-05s
+Total time: 0.000708014s
+Temps pour affichage : 0.00380258 secondes
+Thread 0 time: 8.63e-05s
+Thread 1 time: 1.068e-05s
+Thread 2 time: 5.3733e-05s
+Thread 3 time: 2.5233e-05s
+Total time: 0.000442203s
+Temps pour affichage : 0.0047056 secondes
+Thread 0 time: 0.000140251s
+Thread 1 time: 1.7616e-05s
+Thread 2 time: 3.6821e-05s
+Thread 3 time: 3.3097e-05s
+Total time: 0.000398338s
+Temps pour affichage : 0.00379846 secondes
+Thread 0 time: 4.2254e-05s
+Thread 1 time: 4.3821e-05s
+Thread 2 time: 4.6611e-05s
+Thread 3 time: 9.3357e-05s
+Total time: 0.000710532s
+Temps pour affichage : 0.00428903 secondes
+Thread 0 time: 0.000107007s
+Thread 1 time: 1.25e-05s
+Thread 2 time: 2.9833e-05s
+Thread 3 time: 2.7254e-05s
+Total time: 0.000348814s
+Temps pour affichage : 0.00368206 secondes
+Thread 0 time: 4.2795e-05s
+Thread 1 time: 4.37e-05s
+Thread 2 time: 0.00011384s
+Thread 3 time: 5.3647e-05s
+Total time: 0.00039422s
+Temps pour affichage : 0.00387918 secondes
+Thread 0 time: 0.000181681s
+Thread 1 time: 4.168e-05s
+Thread 2 time: 4.455e-05s
+Thread 3 time: 9.9e-06s
+Total time: 0.000430197s
+Temps pour affichage : 0.00422634 secondes
+Thread 0 time: 0.000166854s
+Thread 1 time: 0.000192605s
+Thread 2 time: 2.6526e-05s
+Thread 3 time: 1.6116e-05s
+Total time: 0.0003897s
+Temps pour affichage : 0.00402084 secondes
+Thread 0 time: 0.000103861s
+Thread 1 time: 2.3669e-05s
+Thread 2 time: 2.0993e-05s
+Thread 3 time: 7.565e-06s
+Total time: 0.000286392s
+Temps pour affichage : 0.00410435 secondes
+Thread 0 time: 0.000196681s
+Thread 1 time: 2.7587e-05s
+Thread 2 time: 2.3992e-05s
+Thread 3 time: 9.785e-06s
+Total time: 0.000438894s
+Temps pour affichage : 0.0041427 secondes
+Thread 0 time: 4.2555e-05s
+Thread 1 time: 7.997e-05s
+Thread 2 time: 4.5374e-05s
+Thread 3 time: 4.3168e-05s
+Total time: 0.000409155s
+Temps pour affichage : 0.00463592 secondes
+Thread 0 time: 0.000101484s
+Thread 1 time: 2.1799e-05s
+Thread 2 time: 2.5701e-05s
+Thread 3 time: 7.55e-06s
+Total time: 0.000387237s
+Temps pour affichage : 0.00449981 secondes
+Thread 0 time: 4.8408e-05s
+Thread 1 time: 5.2203e-05s
+Thread 2 time: 8.4027e-05s
+Thread 3 time: 4.9309e-05s
+Total time: 0.000347269s
+Temps pour affichage : 0.00353757 secondes
+Thread 0 time: 0.000117512s
+Thread 1 time: 4.3676e-05s
+Thread 2 time: 3.2081e-05s
+Thread 3 time: 1.6006e-05s
+Total time: 0.000328371s
+Temps pour affichage : 0.0041614 secondes
+Thread 0 time: 6.5352e-05s
+Thread 1 time: 4.4835e-05s
+Thread 2 time: 2.3619e-05s
+Thread 3 time: 1.3031e-05s
+Total time: 0.000349995s
+Temps pour affichage : 0.00336614 secondes
+Thread 0 time: 0.000105125s
+Thread 1 time: 7.6335e-05s
+Thread 2 time: 9.0683e-05s
+Thread 3 time: 0.000104135s
+Total time: 0.000473084s
+Temps pour affichage : 0.00433274 secondes
+Thread 0 time: 9.042e-05s
+Thread 1 time: 2.0755e-05s
+Thread 2 time: 2.3247e-05s
+Thread 3 time: 7.427e-06s
+Total time: 0.000303758s
+Temps pour affichage : 0.00466134 secondes
+Thread 0 time: 8.537e-06s
+Thread 1 time: 0.000193325s
+Thread 2 time: 0.000281596s
+Thread 3 time: 0.000159742s
+Total time: 0.000555969s
+Temps pour affichage : 0.00579974 secondes
+Thread 0 time: 6.7474e-05s
+Thread 1 time: 3.6651e-05s
+Thread 2 time: 2.4482e-05s
+Thread 3 time: 1.0531e-05s
+Total time: 0.000242706s
+Temps pour affichage : 0.00363186 secondes
+Thread 0 time: 0.000302904s
+Thread 1 time: 0.000182433s
+Thread 2 time: 0.000179819s
+Thread 3 time: 1.6737e-05s
+Total time: 0.00049441s
+Temps pour affichage : 0.0055601 secondes
+Thread 0 time: 9.7216e-05s
+Thread 1 time: 2.5953e-05s
+Thread 2 time: 2.2992e-05s
+Thread 3 time: 8.269e-06s
+Total time: 0.000395907s
+Temps pour affichage : 0.00440963 secondes
+Thread 0 time: 0.000170198s
+Thread 1 time: 5.0891e-05s
+Thread 2 time: 4.5921e-05s
+Thread 3 time: 1.709e-05s
+Total time: 0.000409654s
+Temps pour affichage : 0.0044313 secondes
+Thread 0 time: 0.00014392s
+Thread 1 time: 0.000126545s
+Thread 2 time: 2.1068e-05s
+Thread 3 time: 1.1121e-05s
+Total time: 0.000341612s
+Temps pour affichage : 0.00393762 secondes
+Thread 0 time: 0.00010817s
+Thread 1 time: 2.5959e-05s
+Thread 2 time: 2.1949e-05s
+Thread 3 time: 7.636e-06s
+Total time: 0.000326423s
+Temps pour affichage : 0.00357855 secondes
+Thread 0 time: 0.000148323s
+Thread 1 time: 3.5616e-05s
+Thread 2 time: 3.214e-05s
+Thread 3 time: 1.762e-05s
+Total time: 0.000313262s
+Temps pour affichage : 0.00346161 secondes
+Thread 0 time: 6.8071e-05s
+Thread 1 time: 5.2656e-05s
+Thread 2 time: 2.0481e-05s
+Thread 3 time: 1.0246e-05s
+Total time: 0.000294152s
+Temps pour affichage : 0.00384053 secondes
+Thread 0 time: 4.1996e-05s
+Thread 1 time: 4.2887e-05s
+Thread 2 time: 4.5627e-05s
+Thread 3 time: 7.8699e-05s
+Total time: 0.000372506s
+Temps pour affichage : 0.00696735 secondes
+Thread 0 time: 0.000159208s
+Thread 1 time: 3.6683e-05s
+Thread 2 time: 3.3033e-05s
+Thread 3 time: 1.7783e-05s
+Total time: 0.000322468s
+Temps pour affichage : 0.00386331 secondes
+Thread 0 time: 4.3858e-05s
+Thread 1 time: 4.8105e-05s
+Thread 2 time: 8.8648e-05s
+Thread 3 time: 4.4945e-05s
+Total time: 0.000378333s
+Temps pour affichage : 0.003947 secondes
+Thread 0 time: 0.000155331s
+Thread 1 time: 3.8991e-05s
+Thread 2 time: 3.4994e-05s
+Thread 3 time: 1.7797e-05s
+Total time: 0.000464481s
+Temps pour affichage : 0.00411414 secondes
+Thread 0 time: 0.000191985s
+Thread 1 time: 3.4538e-05s
+Thread 2 time: 3.0864e-05s
+Thread 3 time: 1.6225e-05s
+Total time: 0.000433853s
+Temps pour affichage : 0.00374013 secondes
+Thread 0 time: 0.000134598s
+Thread 1 time: 4.2221e-05s
+Thread 2 time: 3.0721e-05s
+Thread 3 time: 1.4849e-05s
+Total time: 0.000743097s
+Temps pour affichage : 0.00446431 secondes
+Thread 0 time: 1.4946e-05s
+Thread 1 time: 9.9046e-05s
+Thread 2 time: 5.276e-05s
+Thread 3 time: 3.8146e-05s
+Total time: 0.000641977s
+Temps pour affichage : 0.00438791 secondes
+Thread 0 time: 7.8823e-05s
+Thread 1 time: 2.3914e-05s
+Thread 2 time: 2.1467e-05s
+Thread 3 time: 7.491e-06s
+Total time: 0.000242713s
+Temps pour affichage : 0.00358878 secondes
+Thread 0 time: 4.5185e-05s
+Thread 1 time: 8.3289e-05s
+Thread 2 time: 4.8216e-05s
+Thread 3 time: 4.593e-05s
+Total time: 0.000395014s
+Temps pour affichage : 0.00402112 secondes
+Thread 0 time: 8.907e-05s
+Thread 1 time: 2.5074e-05s
+Thread 2 time: 2.1633e-05s
+Thread 3 time: 7.33e-06s
+Total time: 0.00057283s
+Temps pour affichage : 0.0039052 secondes
+Thread 0 time: 0.000202967s
+Thread 1 time: 3.8493e-05s
+Thread 2 time: 3.4217e-05s
+Thread 3 time: 1.7534e-05s
+Total time: 0.000450928s
+Temps pour affichage : 0.00453471 secondes
+Thread 0 time: 4.6993e-05s
+Thread 1 time: 8.2945e-05s
+Thread 2 time: 5.054e-05s
+Thread 3 time: 4.7647e-05s
+Total time: 0.000463836s
+Temps pour affichage : 0.00386401 secondes
+Thread 0 time: 0.000102185s
+Thread 1 time: 2.9246e-05s
+Thread 2 time: 2.1586e-05s
+Thread 3 time: 7.653e-06s
+Total time: 0.000318842s
+Temps pour affichage : 0.00386966 secondes
+Thread 0 time: 0.000252363s
+Thread 1 time: 3.4066e-05s
+Thread 2 time: 3.0082e-05s
+Thread 3 time: 1.5745e-05s
+Total time: 0.000548898s
+Temps pour affichage : 0.00404473 secondes
+Thread 0 time: 7.4114e-05s
+Thread 1 time: 2.2015e-05s
+Thread 2 time: 2.0051e-05s
+Thread 3 time: 7.054e-06s
+Total time: 0.000231472s
+Temps pour affichage : 0.00391117 secondes
+Thread 0 time: 4.1738e-05s
+Thread 1 time: 8.6052e-05s
+Thread 2 time: 4.5349e-05s
+Thread 3 time: 4.2728e-05s
+Total time: 0.00037472s
+Temps pour affichage : 0.00583501 secondes
+Thread 0 time: 0.00028491s
+Thread 1 time: 4.2099e-05s
+Thread 2 time: 3.9194e-05s
+Thread 3 time: 2.2253e-05s
+Total time: 0.000536147s
+Temps pour affichage : 0.00517216 secondes
+Thread 0 time: 0.000157706s
+Thread 1 time: 4.0325e-05s
+Thread 2 time: 3.5428e-05s
+Thread 3 time: 1.8983e-05s
+Total time: 0.000414903s
+Temps pour affichage : 0.0039988 secondes
+Thread 0 time: 9.4275e-05s
+Thread 1 time: 2.6514e-05s
+Thread 2 time: 2.3162e-05s
+Thread 3 time: 8.11e-06s
+Total time: 0.00037745s
+Temps pour affichage : 0.00355417 secondes
+Thread 0 time: 4.2353e-05s
+Thread 1 time: 9.3625e-05s
+Thread 2 time: 4.8484e-05s
+Thread 3 time: 4.4059e-05s
+Total time: 0.000376245s
+Temps pour affichage : 0.00394835 secondes
+Thread 0 time: 0.000140327s
+Thread 1 time: 3.4141e-05s
+Thread 2 time: 3.0348e-05s
+Thread 3 time: 1.6014e-05s
+Total time: 0.000427966s
+Temps pour affichage : 0.00465578 secondes
+Thread 0 time: 0.000106742s
+Thread 1 time: 4.0917e-05s
+Thread 2 time: 3.6438e-05s
+Thread 3 time: 1.9742e-05s
+Total time: 0.000293524s
+Temps pour affichage : 0.00368356 secondes
+Thread 0 time: 0.000187729s
+Thread 1 time: 3.4753e-05s
+Thread 2 time: 3.1374e-05s
+Thread 3 time: 1.7022e-05s
+Total time: 0.000466642s
+Temps pour affichage : 0.00385422 secondes
+Thread 0 time: 0.000191812s
+Thread 1 time: 6.1252e-05s
+Thread 2 time: 5.5973e-05s
+Thread 3 time: 1.1684e-05s
+Total time: 0.000485229s
+Temps pour affichage : 0.00377875 secondes
+Thread 0 time: 8.9466e-05s
+Thread 1 time: 2.906e-05s
+Thread 2 time: 1.6371e-05s
+Thread 3 time: 2.131e-06s
+Total time: 0.0002917s
+Temps pour affichage : 0.00375738 secondes
+Thread 0 time: 0.000145243s
+Thread 1 time: 3.6622e-05s
+Thread 2 time: 3.2569e-05s
+Thread 3 time: 1.7571e-05s
+Total time: 0.000378447s
+Temps pour affichage : 0.00446721 secondes
+Thread 0 time: 5.2571e-05s
+Thread 1 time: 1.7081e-05s
+Thread 2 time: 7.011e-06s
+Thread 3 time: 7.98e-05s
+Total time: 0.000348821s
+Temps pour affichage : 0.00355718 secondes
+Thread 0 time: 0.00010653s
+Thread 1 time: 2.5163e-05s
+Thread 2 time: 1.3209e-05s
+Thread 3 time: 0.000140128s
+Total time: 0.000353936s
+Temps pour affichage : 0.00374162 secondes
+Thread 0 time: 9.8927e-05s
+Thread 1 time: 2.413e-05s
+Thread 2 time: 1.0582e-05s
+Thread 3 time: 2.6688e-05s
+Total time: 0.000297868s
+Temps pour affichage : 0.00344864 secondes
+Thread 0 time: 9.4843e-05s
+Thread 1 time: 3.0475e-05s
+Thread 2 time: 1.6823e-05s
+Thread 3 time: 3.357e-05s
+Total time: 0.000314109s
+Temps pour affichage : 0.00494887 secondes
+Thread 0 time: 2.348e-06s
+Thread 1 time: 3.198e-06s
+Thread 2 time: 3.5147e-05s
+Thread 3 time: 2.9941e-05s
+Total time: 0.00041489s
+Temps pour affichage : 0.00470259 secondes
+Thread 0 time: 4.2097e-05s
+Thread 1 time: 4.3654e-05s
+Thread 2 time: 4.7268e-05s
+Thread 3 time: 9.2066e-05s
+Total time: 0.000408408s
+Temps pour affichage : 0.00413402 secondes
+Thread 0 time: 9.7204e-05s
+Thread 1 time: 1.733e-05s
+Thread 2 time: 3.6932e-05s
+Thread 3 time: 3.2907e-05s
+Total time: 0.000367763s
+Temps pour affichage : 0.00354794 secondes
+Thread 0 time: 6.924e-06s
+Thread 1 time: 3.221e-06s
+Thread 2 time: 2.6444e-05s
+Thread 3 time: 2.2056e-05s
+Total time: 0.000250453s
+Temps pour affichage : 0.00357015 secondes
+Thread 0 time: 0.000126118s
+Thread 1 time: 1.1711e-05s
+Thread 2 time: 0.000140577s
+Thread 3 time: 2.3206e-05s
+Total time: 0.000326525s
+Temps pour affichage : 0.00394922 secondes
+Thread 0 time: 0.000140877s
+Thread 1 time: 1.5958e-05s
+Thread 2 time: 3.5183e-05s
+Thread 3 time: 3.1317e-05s
+Total time: 0.000333817s
+Temps pour affichage : 0.00477341 secondes
+Thread 0 time: 7.9027e-05s
+Thread 1 time: 7.248e-06s
+Thread 2 time: 2.3184e-05s
+Thread 3 time: 2.1078e-05s
+Total time: 0.000268657s
+Temps pour affichage : 0.00359705 secondes
+Thread 0 time: 4.491e-05s
+Thread 1 time: 4.5648e-05s
+Thread 2 time: 8.9683e-05s
+Thread 3 time: 5.4918e-05s
+Total time: 0.000380765s
+Temps pour affichage : 0.00356137 secondes
+Thread 0 time: 0.000118743s
+Thread 1 time: 2.1746e-05s
+Thread 2 time: 4.4232e-05s
+Thread 3 time: 3.2e-05s
+Total time: 0.000295877s
+Temps pour affichage : 0.00382062 secondes
+Thread 0 time: 7.2487e-05s
+Thread 1 time: 6.996e-06s
+Thread 2 time: 1.9441e-05s
+Thread 3 time: 2.1311e-05s
+Total time: 0.000223893s
+Temps pour affichage : 0.00415888 secondes
+Thread 0 time: 4.4685e-05s
+Thread 1 time: 4.5591e-05s
+Thread 2 time: 4.8396e-05s
+Thread 3 time: 7.983e-05s
+Total time: 0.00035323s
+Temps pour affichage : 0.00476374 secondes
+Thread 0 time: 8.5611e-05s
+Thread 1 time: 7.687e-06s
+Thread 2 time: 2.4408e-05s
+Thread 3 time: 2.1797e-05s
+Total time: 0.000271543s
+Temps pour affichage : 0.00350554 secondes
+Thread 0 time: 4.7416e-05s
+Thread 1 time: 4.8165e-05s
+Thread 2 time: 7.5256e-05s
+Thread 3 time: 4.9757e-05s
+Total time: 0.000310458s
+Temps pour affichage : 0.00401117 secondes
+Thread 0 time: 7.9296e-05s
+Thread 1 time: 6.99e-06s
+Thread 2 time: 2.2702e-05s
+Thread 3 time: 2.0083e-05s
+Total time: 0.000248392s
+Temps pour affichage : 0.00385699 secondes
+Thread 0 time: 4.1882e-05s
+Thread 1 time: 1.0911e-05s
+Thread 2 time: 8.6512e-05s
+Thread 3 time: 2.2266e-05s
+Total time: 0.000413413s
+Temps pour affichage : 0.00412958 secondes
+Thread 0 time: 4.1961e-05s
+Thread 1 time: 6.8253e-05s
+Thread 2 time: 4.2757e-05s
+Thread 3 time: 4.5417e-05s
+Total time: 0.000307875s
+Temps pour affichage : 0.00413633 secondes
+Thread 0 time: 0.000118527s
+Thread 1 time: 1.5876e-05s
+Thread 2 time: 3.1386e-05s
+Thread 3 time: 3.6193e-05s
+Total time: 0.000451878s
+Temps pour affichage : 0.00344324 secondes
+Thread 0 time: 0.000124479s
+Thread 1 time: 1.1539e-05s
+Thread 2 time: 2.5359e-05s
+Thread 3 time: 3.5652e-05s
+Total time: 0.000306522s
+Temps pour affichage : 0.00488613 secondes
+Thread 0 time: 9.7996e-05s
+Thread 1 time: 1.6983e-05s
+Thread 2 time: 3.2478e-05s
+Thread 3 time: 3.6648e-05s
+Total time: 0.000303856s
+Temps pour affichage : 0.0619607 secondes
+Thread 0 time: 6.8277e-05s
+Thread 1 time: 8.4056e-05s
+Thread 2 time: 1.7284e-05s
+Thread 3 time: 3.0008e-05s
+Total time: 0.000249641s
+Temps pour affichage : 0.0297129 secondes
+Thread 0 time: 0.000154898s
+Thread 1 time: 3.6069e-05s
+Thread 2 time: 1.7164e-05s
+Thread 3 time: 3.2327e-05s
+Total time: 0.00041395s
+Temps pour affichage : 0.044479 secondes
+Thread 0 time: 0.000177025s
+Thread 1 time: 3.0047e-05s
+Thread 2 time: 0.00018976s
+Thread 3 time: 1.7661e-05s
+Total time: 0.000454161s
+Temps pour affichage : 0.0038003 secondes
+Thread 0 time: 8.6821e-05s
+Thread 1 time: 2.4704e-05s
+Thread 2 time: 9.2403e-05s
+Thread 3 time: 1.3614e-05s
+Total time: 0.000366612s
+Temps pour affichage : 0.0147696 secondes
+Thread 0 time: 0.000107944s
+Thread 1 time: 3.6025e-05s
+Thread 2 time: 4.0431e-05s
+Thread 3 time: 1.931e-05s
+Total time: 0.00034931s
+Temps pour affichage : 0.016818 secondes
+Thread 0 time: 0.0002058s
+Thread 1 time: 3.4751e-05s
+Thread 2 time: 3.8979e-05s
+Thread 3 time: 1.9098e-05s
+Total time: 0.000413144s
+Temps pour affichage : 0.00426392 secondes
+Thread 0 time: 0.000111479s
+Thread 1 time: 3.8046e-05s
+Thread 2 time: 8.7573e-05s
+Thread 3 time: 1.3686e-05s
+Total time: 0.000352534s
+Temps pour affichage : 0.00449341 secondes
+Thread 0 time: 0.000139516s
+Thread 1 time: 3.3138e-05s
+Thread 2 time: 3.7164e-05s
+Thread 3 time: 1.7641e-05s
+Total time: 0.000314208s
+Temps pour affichage : 0.00432719 secondes
+Thread 0 time: 6.3189e-05s
+Thread 1 time: 8.579e-06s
+Thread 2 time: 2.0194e-05s
+Thread 3 time: 8.1432e-05s
+Total time: 0.000340112s
+Temps pour affichage : 0.00405006 secondes
+Thread 0 time: 4.2138e-05s
+Thread 1 time: 4.8072e-05s
+Thread 2 time: 5.0596e-05s
+Thread 3 time: 7.0604e-05s
+Total time: 0.000337081s
+Temps pour affichage : 0.00355013 secondes
+Thread 0 time: 4.4551e-05s
+Thread 1 time: 4.5387e-05s
+Thread 2 time: 4.7234e-05s
+Thread 3 time: 6.6829e-05s
+Total time: 0.000333394s
+Temps pour affichage : 0.00405699 secondes
+Thread 0 time: 4.203e-05s
+Thread 1 time: 4.3128e-05s
+Thread 2 time: 4.5869e-05s
+Thread 3 time: 6.613e-05s
+Total time: 0.000343959s
+Temps pour affichage : 0.00521193 secondes
+Thread 0 time: 0.000207506s
+Thread 1 time: 1.7551e-05s
+Thread 2 time: 3.3608e-05s
+Thread 3 time: 3.8167e-05s
+Total time: 0.000440434s
+Temps pour affichage : 0.00386079 secondes
+Thread 0 time: 0.000123973s
+Thread 1 time: 1.865e-05s
+Thread 2 time: 3.1365e-05s
+Thread 3 time: 0.000147087s
+Total time: 0.000543203s
+Temps pour affichage : 0.00355817 secondes
+Thread 0 time: 4.2718e-05s
+Thread 1 time: 1.0317e-05s
+Thread 2 time: 2.4883e-05s
+Thread 3 time: 2.8562e-05s
+Total time: 0.000222859s
+Temps pour affichage : 0.071326 secondes
+Thread 0 time: 0.000240602s
+Thread 1 time: 1.6986e-05s
+Thread 2 time: 3.1686e-05s
+Thread 3 time: 3.7759e-05s
+Total time: 0.000449783s
+Temps pour affichage : 0.00465495 secondes
+Thread 0 time: 0.00010524s
+Thread 1 time: 1.2667e-05s
+Thread 2 time: 2.7466e-05s
+Thread 3 time: 3.1074e-05s
+Total time: 0.000433901s
+Temps pour affichage : 0.00342548 secondes
+Thread 0 time: 4.2671e-05s
+Thread 1 time: 6.4318e-05s
+Thread 2 time: 4.353e-05s
+Thread 3 time: 4.5831e-05s
+Total time: 0.000327562s
+Temps pour affichage : 0.00433412 secondes
+Thread 0 time: 0.000288247s
+Thread 1 time: 1.5619e-05s
+Thread 2 time: 3.051e-05s
+Thread 3 time: 3.5059e-05s
+Total time: 0.00054766s
+Temps pour affichage : 0.00390514 secondes
+Thread 0 time: 9.4604e-05s
+Thread 1 time: 9.473e-06s
+Thread 2 time: 2.6331e-05s
+Thread 3 time: 2.9576e-05s
+Total time: 0.000320635s
+Temps pour affichage : 0.00379913 secondes
+Thread 0 time: 4.1548e-05s
+Thread 1 time: 4.219e-05s
+Thread 2 time: 4.5226e-05s
+Thread 3 time: 6.5134e-05s
+Total time: 0.000330449s
+Temps pour affichage : 0.00432473 secondes
+Thread 0 time: 3.0541e-05s
+Thread 1 time: 0.000117192s
+Thread 2 time: 0.000127847s
+Thread 3 time: 6.2524e-05s
+Total time: 0.000563846s
+Temps pour affichage : 0.00407323 secondes
+Thread 0 time: 0.000151281s
+Thread 1 time: 1.1774e-05s
+Thread 2 time: 2.2045e-05s
+Thread 3 time: 0.000164187s
+Total time: 0.000415275s
+Temps pour affichage : 0.00356924 secondes
+Thread 0 time: 4.1638e-05s
+Thread 1 time: 4.2235e-05s
+Thread 2 time: 4.3994e-05s
+Thread 3 time: 6.0312e-05s
+Total time: 0.000305652s
+Temps pour affichage : 0.00344618 secondes
+Thread 0 time: 4.2377e-05s
+Thread 1 time: 4.3358e-05s
+Thread 2 time: 4.5427e-05s
+Thread 3 time: 6.7544e-05s
+Total time: 0.000398341s
+Temps pour affichage : 0.00609267 secondes
+Thread 0 time: 0.000147307s
+Thread 1 time: 1.7739e-05s
+Thread 2 time: 3.3044e-05s
+Thread 3 time: 3.6586e-05s
+Total time: 0.000473207s
+Temps pour affichage : 0.0371904 secondes
+Thread 0 time: 8.0787e-05s
+Thread 1 time: 1.7943e-05s
+Thread 2 time: 3.0814e-05s
+Thread 3 time: 9.1384e-05s
+Total time: 0.000496697s
+Temps pour affichage : 0.00449944 secondes
+Thread 0 time: 0.000160416s
+Thread 1 time: 1.8861e-05s
+Thread 2 time: 4.0892e-05s
+Thread 3 time: 3.6393e-05s
+Total time: 0.000397688s
+Temps pour affichage : 0.00335528 secondes
+Thread 0 time: 4.2283e-05s
+Thread 1 time: 4.4951e-05s
+Thread 2 time: 4.2798e-05s
+Thread 3 time: 5.9793e-05s
+Total time: 0.000304691s
+Temps pour affichage : 0.00385944 secondes
+Thread 0 time: 0.000392839s
+Thread 1 time: 8.215e-05s
+Thread 2 time: 6.3604e-05s
+Thread 3 time: 4.4347e-05s
+Total time: 0.00071253s
+Temps pour affichage : 0.00411405 secondes
+Thread 0 time: 0.000154184s
+Thread 1 time: 4.2396e-05s
+Thread 2 time: 2.9374e-05s
+Thread 3 time: 1.7933e-05s
+Total time: 0.000389321s
+Temps pour affichage : 0.00481972 secondes
+Thread 0 time: 0.000166588s
+Thread 1 time: 2.7041e-05s
+Thread 2 time: 3.9253e-05s
+Thread 3 time: 1.6438e-05s
+Total time: 0.000472569s
+Temps pour affichage : 0.00449627 secondes
+Thread 0 time: 0.000103024s
+Thread 1 time: 2.7185e-05s
+Thread 2 time: 2.425e-05s
+Thread 3 time: 9.675e-06s
+Total time: 0.000296973s
+Temps pour affichage : 0.00356666 secondes
+Thread 0 time: 4.5894e-05s
+Thread 1 time: 6.5362e-05s
+Thread 2 time: 4.935e-05s
+Thread 3 time: 4.707e-05s
+Total time: 0.000319376s
+Temps pour affichage : 0.00374002 secondes
+Thread 0 time: 0.000184484s
+Thread 1 time: 2.6711e-05s
+Thread 2 time: 3.954e-05s
+Thread 3 time: 1.5559e-05s
+Total time: 0.000355758s
+Temps pour affichage : 0.00365458 secondes
+Thread 0 time: 0.000272019s
+Thread 1 time: 3.3831e-05s
+Thread 2 time: 2.2229e-05s
+Thread 3 time: 1.2072e-05s
+Total time: 0.000467326s
+Temps pour affichage : 0.00523767 secondes
+Thread 0 time: 8.3329e-05s
+Thread 1 time: 1.282e-05s
+Thread 2 time: 3.188e-05s
+Thread 3 time: 2.795e-05s
+Total time: 0.000249534s
+Temps pour affichage : 0.00377074 secondes
+Thread 0 time: 5.7408e-05s
+Thread 1 time: 1.3384e-05s
+Thread 2 time: 3.1966e-05s
+Thread 3 time: 2.7709e-05s
+Total time: 0.000226667s
+Temps pour affichage : 0.00393968 secondes
+Thread 0 time: 0.00010051s
+Thread 1 time: 7.452e-06s
+Thread 2 time: 5.4617e-05s
+Thread 3 time: 5.2007e-05s
+Total time: 0.00025146s
+Temps pour affichage : 0.00429779 secondes
+Thread 0 time: 9.7577e-05s
+Thread 1 time: 9.97e-06s
+Thread 2 time: 3.1339e-05s
+Thread 3 time: 2.7959e-05s
+Total time: 0.000308222s
+Temps pour affichage : 0.00393114 secondes
+Thread 0 time: 0.000110497s
+Thread 1 time: 1.585e-05s
+Thread 2 time: 2.5901e-05s
+Thread 3 time: 3.807e-05s
+Total time: 0.000387358s
+Temps pour affichage : 0.00599882 secondes
+Thread 0 time: 8.5203e-05s
+Thread 1 time: 1.1814e-05s
+Thread 2 time: 3.2704e-05s
+Thread 3 time: 2.2039e-05s
+Total time: 0.000282846s
+Temps pour affichage : 0.00371604 secondes
+Thread 0 time: 8.9885e-05s
+Thread 1 time: 1.2182e-05s
+Thread 2 time: 7.2489e-05s
+Thread 3 time: 2.7011e-05s
+Total time: 0.00031775s
+Temps pour affichage : 0.00352594 secondes
+Thread 0 time: 4.3662e-05s
+Thread 1 time: 4.4186e-05s
+Thread 2 time: 4.5144e-05s
+Thread 3 time: 6.0643e-05s
+Total time: 0.000308767s
+Temps pour affichage : 0.00476052 secondes
+Thread 0 time: 0.000125457s
+Thread 1 time: 1.6963e-05s
+Thread 2 time: 4.4508e-05s
+Thread 3 time: 3.1785e-05s
+Total time: 0.000324932s
+Temps pour affichage : 0.00460653 secondes
+Thread 0 time: 0.000179262s
+Thread 1 time: 0.000195131s
+Thread 2 time: 2.9742e-05s
+Thread 3 time: 1.718e-05s
+Total time: 0.000464023s
+Temps pour affichage : 0.0056815 secondes
+Thread 0 time: 9.275e-05s
+Thread 1 time: 4.7903e-05s
+Thread 2 time: 4.5544e-05s
+Thread 3 time: 7.591e-06s
+Total time: 0.000349932s
+Temps pour affichage : 0.00389334 secondes
+Thread 0 time: 4.1791e-05s
+Thread 1 time: 6.6235e-05s
+Thread 2 time: 4.5713e-05s
+Thread 3 time: 4.2813e-05s
+Total time: 0.000467457s
+Temps pour affichage : 0.00343287 secondes
+Thread 0 time: 2.0341e-05s
+Thread 1 time: 5.3753e-05s
+Thread 2 time: 1.4326e-05s
+Thread 3 time: 3.054e-06s
+Total time: 0.000290661s
+Temps pour affichage : 0.00468245 secondes
+Thread 0 time: 8.1825e-05s
+Thread 1 time: 2.5933e-05s
+Thread 2 time: 2.2267e-05s
+Thread 3 time: 7.952e-06s
+Total time: 0.000386219s
+Temps pour affichage : 0.00357544 secondes
+Thread 0 time: 5.1246e-05s
+Thread 1 time: 7.1064e-05s
+Thread 2 time: 5.4237e-05s
+Thread 3 time: 5.223e-05s
+Total time: 0.00033965s
+Temps pour affichage : 0.00417505 secondes
+Thread 0 time: 2.2133e-05s
+Thread 1 time: 0.000124369s
+Thread 2 time: 1.5503e-05s
+Thread 3 time: 2.724e-06s
+Total time: 0.000366044s
+Temps pour affichage : 0.00424037 secondes
+Thread 0 time: 8.287e-05s
+Thread 1 time: 2.6564e-05s
+Thread 2 time: 2.2438e-05s
+Thread 3 time: 7.552e-06s
+Total time: 0.000369414s
+Temps pour affichage : 0.00361404 secondes
+Thread 0 time: 0.000235323s
+Thread 1 time: 3.7104e-05s
+Thread 2 time: 3.2893e-05s
+Thread 3 time: 1.6943e-05s
+Total time: 0.000536248s
+Temps pour affichage : 0.00391228 secondes
+Thread 0 time: 5.2655e-05s
+Thread 1 time: 7.2921e-05s
+Thread 2 time: 5.685e-05s
+Thread 3 time: 5.4958e-05s
+Total time: 0.000480645s
+Temps pour affichage : 0.00389823 secondes
+Thread 0 time: 8.2598e-05s
+Thread 1 time: 2.9394e-05s
+Thread 2 time: 2.6608e-05s
+Thread 3 time: 9.609e-06s
+Total time: 0.000255605s
+Temps pour affichage : 0.00522834 secondes
+Thread 0 time: 0.000174721s
+Thread 1 time: 2.848e-05s
+Thread 2 time: 2.6179e-05s
+Thread 3 time: 1.1578e-05s
+Total time: 0.000417899s
+Temps pour affichage : 0.00418728 secondes
+Thread 0 time: 0.000203468s
+Thread 1 time: 3.745e-05s
+Thread 2 time: 3.3855e-05s
+Thread 3 time: 1.7052e-05s
+Total time: 0.000522673s
+Temps pour affichage : 0.00384977 secondes
+Thread 0 time: 4.5407e-05s
+Thread 1 time: 6.4132e-05s
+Thread 2 time: 4.8898e-05s
+Thread 3 time: 4.6379e-05s
+Total time: 0.000354412s
+Temps pour affichage : 0.00424114 secondes
+Thread 0 time: 4.9335e-05s
+Thread 1 time: 3.1427e-05s
+Thread 2 time: 2.781e-05s
+Thread 3 time: 1.4473e-05s
+Total time: 0.000203818s
+Temps pour affichage : 0.00553018 secondes
+Thread 0 time: 0.000193298s
+Thread 1 time: 3.4378e-05s
+Thread 2 time: 3.0776e-05s
+Thread 3 time: 1.6738e-05s
+Total time: 0.000378647s
+Temps pour affichage : 0.00555514 secondes
+Thread 0 time: 5.5863e-05s
+Thread 1 time: 3.3642e-05s
+Thread 2 time: 2.932e-05s
+Thread 3 time: 1.4608e-05s
+Total time: 0.000233833s
+Temps pour affichage : 0.00381963 secondes
+Thread 0 time: 0.000185831s
+Thread 1 time: 7.3082e-05s
+Thread 2 time: 6.8796e-05s
+Thread 3 time: 1.664e-05s
+Total time: 0.00057132s
+Temps pour affichage : 0.00398014 secondes
+Thread 0 time: 1.6483e-05s
+Thread 1 time: 3.5844e-05s
+Thread 2 time: 1.3179e-05s
+Thread 3 time: 3.108e-06s
+Total time: 0.000256453s
+Temps pour affichage : 0.00431659 secondes
+Thread 0 time: 7.4342e-05s
+Thread 1 time: 2.9148e-05s
+Thread 2 time: 1.8024e-05s
+Thread 3 time: 7.897e-06s
+Total time: 0.000277549s
+Temps pour affichage : 0.00376873 secondes
+Thread 0 time: 0.000135392s
+Thread 1 time: 2.43e-05s
+Thread 2 time: 0.000158989s
+Thread 3 time: 1.2799e-05s
+Total time: 0.000361247s
+Temps pour affichage : 0.00489749 secondes
+Thread 0 time: 0.000175105s
+Thread 1 time: 0.000120595s
+Thread 2 time: 0.000122867s
+Thread 3 time: 8.292e-06s
+Total time: 0.000340859s
+Temps pour affichage : 0.00311679 secondes
+Thread 0 time: 1.3786e-05s
+Thread 1 time: 1.8373e-05s
+Thread 2 time: 2.7609e-05s
+Thread 3 time: 3.171e-06s
+Total time: 0.000214832s
+Temps pour affichage : 0.0032392 secondes
+Thread 0 time: 1.7595e-05s
+Thread 1 time: 2.1361e-05s
+Thread 2 time: 1.641e-06s
+Thread 3 time: 1.626e-06s
+Total time: 0.00025947s
+Temps pour affichage : 0.00339922 secondes
+Thread 0 time: 1.8309e-05s
+Thread 1 time: 2.2635e-05s
+Thread 2 time: 2.9145e-05s
+Thread 3 time: 5.044e-06s
+Total time: 0.000224716s
+Temps pour affichage : 0.00380662 secondes
+Thread 0 time: 0.000223657s
+Thread 1 time: 3.1873e-05s
+Thread 2 time: 4.5641e-05s
+Thread 3 time: 1.5942e-05s
+Total time: 0.000402944s
+Temps pour affichage : 0.0045874 secondes
+Thread 0 time: 8.3438e-05s
+Thread 1 time: 2.7429e-05s
+Thread 2 time: 3.1236e-05s
+Thread 3 time: 1.2867e-05s
+Total time: 0.000249263s
+Temps pour affichage : 0.00384843 secondes
+Thread 0 time: 4.2187e-05s
+Thread 1 time: 5.9763e-05s
+Thread 2 time: 4.5464e-05s
+Thread 3 time: 4.2896e-05s
+Total time: 0.000312986s
+Temps pour affichage : 0.00408325 secondes
+Thread 0 time: 7.9297e-05s
+Thread 1 time: 2.2384e-05s
+Thread 2 time: 2.5678e-05s
+Thread 3 time: 7.632e-06s
+Total time: 0.000302923s
+Temps pour affichage : 0.00381715 secondes
+Thread 0 time: 7.0466e-05s
+Thread 1 time: 5.8828e-05s
+Thread 2 time: 8.3693e-05s
+Thread 3 time: 4.9373e-05s
+Total time: 0.000388288s
+Temps pour affichage : 0.00327724 secondes
+Thread 0 time: 4.1924e-05s
+Thread 1 time: 4.4839e-05s
+Thread 2 time: 5.7178e-05s
+Thread 3 time: 4.2608e-05s
+Total time: 0.000304391s
+Temps pour affichage : 0.00554642 secondes
+Thread 0 time: 0.00015811s
+Thread 1 time: 4.1878e-05s
+Thread 2 time: 3.6436e-05s
+Thread 3 time: 1.9177e-05s
+Total time: 0.000423118s
+Temps pour affichage : 0.0040056 secondes
+Thread 0 time: 0.000150465s
+Thread 1 time: 4.2875e-05s
+Thread 2 time: 3.0287e-05s
+Thread 3 time: 1.9242e-05s
+Total time: 0.000325773s
+Temps pour affichage : 0.00453195 secondes
+Thread 0 time: 0.00019749s
+Thread 1 time: 3.7487e-05s
+Thread 2 time: 2.6224e-05s
+Thread 3 time: 1.5891e-05s
+Total time: 0.000371291s
+Temps pour affichage : 0.00373786 secondes
+Thread 0 time: 0.000145854s
+Thread 1 time: 2.5989e-05s
+Thread 2 time: 3.8333e-05s
+Thread 3 time: 1.4364e-05s
+Total time: 0.000468377s
+Temps pour affichage : 0.00390492 secondes
+Thread 0 time: 5.672e-05s
+Thread 1 time: 4.045e-05s
+Thread 2 time: 3.5701e-05s
+Thread 3 time: 1.175e-05s
+Total time: 0.000254622s
+Temps pour affichage : 0.00459387 secondes
+Thread 0 time: 0.000139843s
+Thread 1 time: 4.0833e-05s
+Thread 2 time: 2.8325e-05s
+Thread 3 time: 1.7466e-05s
+Total time: 0.000322646s
+Temps pour affichage : 0.00409718 secondes
+Thread 0 time: 0.00016455s
+Thread 1 time: 2.749e-05s
+Thread 2 time: 1.4706e-05s
+Thread 3 time: 0.00017367s
+Total time: 0.000412149s
+Temps pour affichage : 0.00461558 secondes
+Thread 0 time: 0.000170291s
+Thread 1 time: 2.8143e-05s
+Thread 2 time: 1.1168e-05s
+Thread 3 time: 3.1034e-05s
+Total time: 0.000459552s
+Temps pour affichage : 0.00379228 secondes
+Thread 0 time: 4.5699e-05s
+Thread 1 time: 4.989e-05s
+Thread 2 time: 4.6519e-05s
+Thread 3 time: 6.3644e-05s
+Total time: 0.000402546s
+Temps pour affichage : 0.00397999 secondes
+Thread 0 time: 4.5657e-05s
+Thread 1 time: 4.9542e-05s
+Thread 2 time: 4.6668e-05s
+Thread 3 time: 6.3846e-05s
+Total time: 0.000352698s
+Temps pour affichage : 0.00455363 secondes
+Thread 0 time: 4.4654e-05s
+Thread 1 time: 2.7344e-05s
+Thread 2 time: 1.1929e-05s
+Thread 3 time: 3.107e-05s
+Total time: 0.00030869s
+Temps pour affichage : 0.00361554 secondes
+Thread 0 time: 3.6883e-05s
+Thread 1 time: 1.6321e-05s
+Thread 2 time: 4.9637e-05s
+Thread 3 time: 3.137e-05s
+Total time: 0.000302456s
+Temps pour affichage : 0.013135 secondes
+Thread 0 time: 3.7917e-05s
+Thread 1 time: 1.1552e-05s
+Thread 2 time: 1.4724e-05s
+Thread 3 time: 3.006e-06s
+Total time: 0.00024042s
+Temps pour affichage : 0.00363742 secondes
+Thread 0 time: 0.00014952s
+Thread 1 time: 3.8272e-05s
+Thread 2 time: 3.3781e-05s
+Thread 3 time: 1.8059e-05s
+Total time: 0.000312532s
+Temps pour affichage : 0.00334473 secondes
+Thread 0 time: 4.6769e-05s
+Thread 1 time: 4.9565e-05s
+Thread 2 time: 5.9487e-05s
+Thread 3 time: 4.7298e-05s
+Total time: 0.000328376s
+Temps pour affichage : 0.00484 secondes
+Thread 0 time: 6.0594e-05s
+Thread 1 time: 3.4912e-05s
+Thread 2 time: 3.0942e-05s
+Thread 3 time: 1.6014e-05s
+Total time: 0.000254843s
+Temps pour affichage : 0.00467816 secondes
