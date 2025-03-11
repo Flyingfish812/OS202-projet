@@ -3,9 +3,8 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "model.hpp"
-#include <omp.h>
 #include <chrono>
+#include "model.hpp"
 
 extern std::ofstream logFile;
 
@@ -77,117 +76,97 @@ Model::Model( double t_length, unsigned t_discretization, std::array<double,2> t
     }
 }
 // --------------------------------------------------------------------------------------------------------------------
-bool Model::update() {
+bool 
+Model::update()
+{
     auto start_time = std::chrono::high_resolution_clock::now();
-
-    // 线程本地存储的临时容器，用于收集每个线程的更新
-    std::vector<std::unordered_map<std::size_t, std::uint8_t>> thread_local_next_fronts(omp_get_max_threads());
-    std::vector<std::vector<std::size_t>> thread_local_erased_keys(omp_get_max_threads());
-
-    // 并行处理每个火点
-    #pragma omp parallel for schedule(dynamic, 4)
-    for (size_t i = 0; i < m_fire_front.size(); i++) {
-        int tid = omp_get_thread_num();  // 获取当前线程ID
-        auto& local_next_front = thread_local_next_fronts[tid];  // 当前线程的本地更新容器
-        auto& local_erased = thread_local_erased_keys[tid];      // 当前线程的待删除键容器
-
-        auto it = std::next(m_fire_front.begin(), i);
-        auto f = *it;
-
-        // 获取当前火点的坐标和强度
-        LexicoIndices coord = get_lexicographic_from_index(f.first);
-        double power = log_factor(f.second);
-
-        // 检查并更新相邻单元格
-        if (coord.row < m_geometry - 1) {
-            double tirage = pseudo_random(f.first + m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first + m_geometry];
-            double correction = power * log_factor(green_power);
-            if (tirage < alphaSouthNorth * p1 * correction) {
-                m_fire_map[f.first + m_geometry] = 255;  // 更新火点
-                local_next_front[f.first + m_geometry] = 255;  // 本地记录新增火点
-            }
-        }
-
-        if (coord.row > 0) {
-            double tirage = pseudo_random(f.first * 13427 + m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first - m_geometry];
-            double correction = power * log_factor(green_power);
-            if (tirage < alphaNorthSouth * p1 * correction) {
-                m_fire_map[f.first - m_geometry] = 255;
-                local_next_front[f.first - m_geometry] = 255;
-            }
-        }
-
-        if (coord.column < m_geometry - 1) {
-            double tirage = pseudo_random(f.first * 13427 * 13427 + m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first + 1];
-            double correction = power * log_factor(green_power);
-            if (tirage < alphaEastWest * p1 * correction) {
-                m_fire_map[f.first + 1] = 255;
-                local_next_front[f.first + 1] = 255;
-            }
-        }
-
-        if (coord.column > 0) {
-            double tirage = pseudo_random(f.first * 13427 * 13427 * 13427 + m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first - 1];
-            double correction = power * log_factor(green_power);
-            if (tirage < alphaWestEast * p1 * correction) {
-                m_fire_map[f.first - 1] = 255;
-                local_next_front[f.first - 1] = 255;
-            }
-        }
-
-        // 处理火势减弱
-        if (f.second == 255) {
-            double tirage = pseudo_random(f.first * 52513 + m_time_step, m_time_step);
-            if (tirage < p2) {
-                m_fire_map[f.first] >>= 1;
-                local_next_front[f.first] = f.second >> 1;  // 火势减弱
-            } else {
-                local_next_front[f.first] = f.second;  // 火势保持不变
-            }
-        } else {
-            m_fire_map[f.first] >>= 1;
-            local_next_front[f.first] = f.second >> 1;  // 火势继续减弱
-        }
-
-        // 如果火势减弱到0，记录待删除的键
-        if (local_next_front[f.first] == 0) {
-            local_erased.push_back(f.first);
-        }
-    }
-
-    // 串行合并所有线程的更新
     auto next_front = m_fire_front;
-    for (auto& local_front : thread_local_next_fronts) {
-        for (auto& [key, val] : local_front) {
-            next_front[key] = val;
-        }
-    }
+    for (auto f : m_fire_front)
+    {
+        // Récupération de la coordonnée lexicographique de la case en feu :
+        LexicoIndices coord = get_lexicographic_from_index(f.first);
+        // Et de la puissance du foyer
+        double        power = log_factor(f.second);
 
-    // 处理删除操作
-    for (auto& local_erased : thread_local_erased_keys) {
-        for (auto key : local_erased) {
-            next_front.erase(key);
-            m_fire_map[key] = 0;
-        }
-    }
 
-    // 更新火点状态
+        // On va tester les cases voisines pour contamination par le feu :
+        if (coord.row < m_geometry-1)
+        {
+            double tirage      = pseudo_random( f.first+m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first+m_geometry];
+            double correction  = power*log_factor(green_power);
+            if (tirage < alphaSouthNorth*p1*correction)
+            {
+                m_fire_map[f.first + m_geometry]   = 255.;
+                next_front[f.first + m_geometry] = 255.;
+            }
+        }
+
+        if (coord.row > 0)
+        {
+            double tirage      = pseudo_random( f.first*13427+m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first - m_geometry];
+            double correction  = power*log_factor(green_power);
+            if (tirage < alphaNorthSouth*p1*correction)
+            {
+                m_fire_map[f.first - m_geometry] = 255.;
+                next_front[f.first - m_geometry] = 255.;
+            }
+        }
+
+        if (coord.column < m_geometry-1)
+        {
+            double tirage      = pseudo_random( f.first*13427*13427+m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first+1];
+            double correction  = power*log_factor(green_power);
+            if (tirage < alphaEastWest*p1*correction)
+            {
+                m_fire_map[f.first + 1] = 255.;
+                next_front[f.first + 1] = 255.;
+            }
+        }
+
+        if (coord.column > 0)
+        {
+            double tirage      = pseudo_random( f.first*13427*13427*13427+m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first - 1];
+            double correction  = power*log_factor(green_power);
+            if (tirage < alphaWestEast*p1*correction)
+            {
+                m_fire_map[f.first - 1] = 255.;
+                next_front[f.first - 1] = 255.;
+            }
+        }
+        // Si le feu est à son max,
+        if (f.second == 255)
+        {   // On regarde si il commence à faiblir pour s'éteindre au bout d'un moment :
+            double tirage = pseudo_random( f.first * 52513 + m_time_step, m_time_step);
+            if (tirage < p2)
+            {
+                m_fire_map[f.first] >>= 1;
+                next_front[f.first] >>= 1;
+            }
+        }
+        else
+        {
+            // Foyer en train de s'éteindre.
+            m_fire_map[f.first] >>= 1;
+            next_front[f.first] >>= 1;
+            if (next_front[f.first] == 0)
+            {
+                next_front.erase(f.first);
+            }
+        }
+
+    }    
+    // A chaque itération, la végétation à l'endroit d'un foyer diminue
     m_fire_front = next_front;
-
-    // 更新植被状态
-    for (auto f : m_fire_front) {
-        if (m_vegetation_map[f.first] > 0) {
+    for (auto f : m_fire_front)
+    {
+        if (m_vegetation_map[f.first] > 0)
             m_vegetation_map[f.first] -= 1;
-        }
     }
-
-    // 更新时间步
     m_time_step += 1;
-
     // 每 100 步保存一次火势和植被状态
     if (m_time_step % 100 == 0) {
         std::ostringstream fire_filename, vegetation_filename;
@@ -213,12 +192,10 @@ bool Model::update() {
         }
     }
 
-    // 输出执行时间
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
     logFile << "Temps pour une étape : " << elapsed.count() << " secondes" << std::endl;
-
-    // 返回是否还有活跃火点
+    
     return !m_fire_front.empty();
 }
 // ====================================================================================================================
