@@ -2,43 +2,14 @@
 #include <cstdlib>
 #include <cassert>
 #include <iostream>
-#include <fstream>
-#include <iomanip>
 #include <thread>
 #include <chrono>
-
-#include <omp.h>
-#include <sys/sysinfo.h>
-#include <unistd.h>
 
 #include "model.hpp"
 #include "display.hpp"
 
 using namespace std::string_literals;
 using namespace std::chrono_literals;
-
-std::ofstream logFile;
-
-void initLog() {
-    // Get current time
-    auto t = std::time(nullptr);
-    auto tm = *std::localtime(&t);
-
-    // Format time as YYYY-MM-DD_HH-MM-SS
-    std::ostringstream oss;
-    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_log.txt";
-    std::string logFilePath = oss.str();
-
-    logFile.open(logFilePath, std::ios::out | std::ios::trunc);
-    if (!logFile) {
-        std::cerr << "Failed to open log file: " << logFilePath << std::endl;
-        exit(1);
-    }
-    logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
-
-    // Personalized information
-    logFile << "Test for first try of OpenMP optimization" << std::endl;
-}
 
 struct ParamsType
 {
@@ -221,26 +192,8 @@ void display_params(ParamsType const& params)
               << "\tPosition initiale du foyer (col, ligne) : " << params.start.column << ", " << params.start.row << std::endl;
 }
 
-// -------------------- Personal functions --------------------
-
-// Fonction pour récupérer les informations système (new-1)
-void get_system_info() {
-    // Nombre de coeurs physiques
-    int num_cores = sysconf(_SC_NPROCESSORS_ONLN);
-    logFile << "Nombre de coeurs physiques : " << num_cores << std::endl;
-
-    // Taille du cache L1
-    long cache_size = sysconf(_SC_LEVEL1_DCACHE_SIZE);
-    logFile << "Taille du cache L1 : " << cache_size / 1024 << " KB" << std::endl;
-}
-
-// ------------------------------------------------------------
-
 int main( int nargs, char* args[] )
 {
-    initLog();
-    // omp_set_num_threads(4); // Nombre de threads à utiliser (new-1)
-    get_system_info();
     auto params = parse_arguments(nargs-1, &args[1]);
     display_params(params);
     if (!check_params(params)) return EXIT_FAILURE;
@@ -249,23 +202,14 @@ int main( int nargs, char* args[] )
     auto simu = Model( params.length, params.discretization, params.wind,
                        params.start);
     SDL_Event event;
-
-    auto global_start_time = std::chrono::high_resolution_clock::now();
-    while (1)
+    while (simu.update())
     {
-        if (!simu.update()) break;
         if ((simu.time_step() & 31) == 0) 
             std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
         displayer->update( simu.vegetal_map(), simu.fire_map() );
-        if (SDL_PollEvent(&event) && event.type == SDL_QUIT){
+        if (SDL_PollEvent(&event) && event.type == SDL_QUIT)
             break;
-        }
-        std::this_thread::sleep_for(0.02s);
+        std::this_thread::sleep_for(0.1s);
     }
-    auto global_end_time = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = global_end_time - global_start_time;
-    logFile << "Temps total de simulation : " << elapsed.count() << " secondes" << std::endl;
-    logFile << "Temps pour étape : " << elapsed.count() / simu.time_step() << " secondes" << std::endl;
-    logFile << "Simulation finished. Total time step: " << simu.time_step() << std::endl;
     return EXIT_SUCCESS;
 }
