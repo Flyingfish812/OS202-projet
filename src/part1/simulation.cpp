@@ -249,8 +249,11 @@ int main( int nargs, char* args[] )
     auto simu = Model( params.length, params.discretization, params.wind,
                        params.start);
     SDL_Event event;
-    while (simu.update())
+
+    auto global_start_time = std::chrono::high_resolution_clock::now();
+    while (1)
     {
+        if (!simu.update()) break;
         if ((simu.time_step() & 31) == 0) 
             std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
         displayer->update( simu.vegetal_map(), simu.fire_map() );
@@ -259,6 +262,10 @@ int main( int nargs, char* args[] )
         }
         std::this_thread::sleep_for(0.02s);
     }
+    auto global_end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = global_end_time - global_start_time;
+    logFile << "Temps total de simulation : " << elapsed.count() << " secondes" << std::endl;
+    logFile << "Temps pour étape : " << elapsed.count() / simu.time_step() << " secondes" << std::endl;
     logFile << "Simulation finished. Total time step: " << simu.time_step() << std::endl;
     return EXIT_SUCCESS;
 }
