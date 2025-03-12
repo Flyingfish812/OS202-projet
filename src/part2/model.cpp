@@ -169,7 +169,8 @@ Model::update()
     m_time_step += 1;
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
-    logFile << "Temps pour une étape : " << elapsed.count() << " secondes" << std::endl;
+    // Log du temps d'exécution pour l'avancement
+    logFile << "Temps pour avancement : " << elapsed.count() << " secondes" << std::endl;
 
     return !m_fire_front.empty();
 }

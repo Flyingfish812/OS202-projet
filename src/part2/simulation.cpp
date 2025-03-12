@@ -220,13 +220,13 @@ void display_params(ParamsType const& params)
 
 int main(int nargs, char* args[])
 {
-    MPI_Init(&nargs, &args); // 初始化MPI
+    MPI_Init(&nargs, &args); // Initialisation de MPI
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     initLog();
 
-    // 参数解析
+    // Analyse des paramètres
     ParamsType params;
     params = parse_arguments(nargs-1, &args[1]);
     if (!check_params(params)) {
@@ -237,20 +237,29 @@ int main(int nargs, char* args[])
     const int size = params.discretization * params.discretization;
 
     if (rank == 1) { 
-        // 计算进程初始化模型
-        while (simu.update()) {
+        auto global_start_time = std::chrono::high_resolution_clock::now();
+        // Initialisation du modèle dans le processus de calcul
+        while (simu.update()){
             if ((simu.time_step() & 31) == 0) 
                 std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
-            // 发送植被和火势数据
+            // Envoi des données sur la végétation et le feu
             MPI_Send(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
             MPI_Send(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
         }
-        // 发送终止信号
+        
+        auto global_end_time = std::chrono::high_resolution_clock::now();
+        double global_compute_time = std::chrono::duration<double>(global_end_time - global_start_time).count();
+        double average_time_per_iteration = global_compute_time / simu.time_step();
+        logFile << "Temps total de simulation : " << global_compute_time << " secondes" << std::endl;
+        logFile << "Temps pour étape : " << average_time_per_iteration << " secondes" << std::endl;
+
+        // Envoi du signal de terminaison
         int stop_flag = 1;
         MPI_Send(&stop_flag, 1, MPI_INT, 0, 3, MPI_COMM_WORLD);
-        std::cout << "Simulation finished." << std::endl;
+        std::cout << "Simulation terminée." << std::endl;
+
     } else if (rank == 0) { 
-        // 渲染进程初始化
+        // Initialisation du processus de rendu
         auto displayer = Displayer::init_instance(params.discretization, params.discretization);
         SDL_Event event;
         bool running = true;
@@ -259,36 +268,38 @@ int main(int nargs, char* args[])
         MPI_Status status;
         
         while (running) {
-            // 监听来自进程1的任意标签消息（数据或终止信号）
+            // Surveillance des messages envoyés par le processus 1 (données ou signal d'arrêt)
             MPI_Iprobe(1, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
             if (flag) {
-                // 根据消息标签处理数据或终止信号
+                // Traitement des données reçues en fonction du tag du message
                 if (status.MPI_TAG == 3) { 
-                    // 接收终止信号
+                    // Réception du signal d'arrêt
                     MPI_Recv(&flag, 1, MPI_INT, 1, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                    std::cout << "End signal received. Quit." << std::endl;
+                    std::cout << "Signal d'arrêt reçu. Fermeture." << std::endl;
                     running = false;
                     break;
                 } else if (status.MPI_TAG == 1) { 
-                    // 接收植被和火势数据（标签1和标签2必须成对接收）
+                    // Réception des données sur la végétation et le feu (les tags 1 et 2 doivent être reçus ensemble)
                     MPI_Recv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &status);
                     MPI_Recv(fire_data.data(), size, MPI_BYTE, 1, 2, MPI_COMM_WORLD, &status);
+
+                    // Mesure du temps de mise à jour de l'affichage
                     displayer->update(vegetation_data, fire_data);
                 }
             }
     
-            // 处理SDL退出事件
+            // Gestion des événements SDL (fermeture de la fenêtre)
             if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
                 running = false;
-                // 可选：向进程1发送终止信号（补充代码见下文）
             }
-            std::this_thread::sleep_for(0.02s); // 避免忙等待
+            std::this_thread::sleep_for(0.02s); // Évite l'attente active
         }
     }
 
-    // 确保所有进程都正确退出
-    MPI_Barrier(MPI_COMM_WORLD); // 同步所有进程
-    MPI_Finalize(); // 结束MPI环境
+    // S'assurer que tous les processus terminent correctement
+    MPI_Barrier(MPI_COMM_WORLD); // Synchronisation de tous les processus
+    MPI_Finalize(); // Fermeture de l'environnement MPI
     logFile.close();
     return EXIT_SUCCESS;
 }
+
