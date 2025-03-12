@@ -1,12 +1,7 @@
 #include <cassert>
 #include <stdexcept>
 #include <string> 
-#include <chrono>
-#include <iostream>
-#include <fstream>
 #include "display.hpp"
-
-extern std::ofstream logFile;
 
 using namespace std::string_literals;
 
@@ -65,7 +60,6 @@ Displayer::update( std::vector<std::uint8_t> const & vegetation_global_map,
     SDL_GetWindowSize(m_pt_window, &w, &h );
     SDL_SetRenderDrawColor(m_pt_renderer, 0,0,0, 255);
     SDL_RenderClear(m_pt_renderer);
-    auto start_time = std::chrono::high_resolution_clock::now();   // Mesure du temps d'exécution (new-1)
     for (int i = 0; i < h; ++i )
       for (int j =  0; j < w; ++j )
       {
@@ -73,9 +67,6 @@ Displayer::update( std::vector<std::uint8_t> const & vegetation_global_map,
         SDL_RenderDrawPoint(m_pt_renderer, j, h-i-1); 
       }
     SDL_RenderPresent(m_pt_renderer);
-    auto end_time = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = end_time - start_time;
-    logFile << "Temps pour affichage : " << elapsed.count() << " secondes" << std::endl;
 }
 // ####################################################################################################################
 //                      Définition des méthodes statiques associées au pattern singleton utilisé
