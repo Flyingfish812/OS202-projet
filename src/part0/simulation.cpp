@@ -3,12 +3,14 @@
 #include <cassert>
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 #include <thread>
 #include <chrono>
-#include <iomanip>
 
+#include <omp.h>
 #include <sys/sysinfo.h>
 #include <unistd.h>
+
 #include "model.hpp"
 #include "display.hpp"
 
@@ -16,14 +18,6 @@ using namespace std::string_literals;
 using namespace std::chrono_literals;
 
 std::ofstream logFile;
-
-struct ParamsType
-{
-    double length{1.};
-    unsigned discretization{20u};
-    std::array<double,2> wind{0.,0.};
-    Model::LexicoIndices start{10u,10u};
-};
 
 void initLog() {
     // Get current time
@@ -45,6 +39,14 @@ void initLog() {
     // Personalized information
     logFile << "Test for first try of OpenMP optimization" << std::endl;
 }
+
+struct ParamsType
+{
+    double length{1.};
+    unsigned discretization{20u};
+    std::array<double,2> wind{0.,0.};
+    Model::LexicoIndices start{10u,10u};
+};
 
 void analyze_arg( int nargs, char* args[], ParamsType& params )
 {
@@ -219,6 +221,9 @@ void display_params(ParamsType const& params)
               << "\tPosition initiale du foyer (col, ligne) : " << params.start.column << ", " << params.start.row << std::endl;
 }
 
+// -------------------- Personal functions --------------------
+
+// Fonction pour récupérer les informations système (new-1)
 void get_system_info() {
     // Nombre de coeurs physiques
     int num_cores = sysconf(_SC_NPROCESSORS_ONLN);
@@ -229,9 +234,12 @@ void get_system_info() {
     logFile << "Taille du cache L1 : " << cache_size / 1024 << " KB" << std::endl;
 }
 
+// ------------------------------------------------------------
+
 int main( int nargs, char* args[] )
 {
     initLog();
+    // omp_set_num_threads(4); // Nombre de threads à utiliser (new-1)
     get_system_info();
     auto params = parse_arguments(nargs-1, &args[1]);
     display_params(params);
@@ -241,15 +249,23 @@ int main( int nargs, char* args[] )
     auto simu = Model( params.length, params.discretization, params.wind,
                        params.start);
     SDL_Event event;
-    while (simu.update())
+
+    auto global_start_time = std::chrono::high_resolution_clock::now();
+    while (1)
     {
+        if (!simu.update()) break;
         if ((simu.time_step() & 31) == 0) 
             std::cout << "Time step " << simu.time_step() << "\n===============" << std::endl;
         displayer->update( simu.vegetal_map(), simu.fire_map() );
-        if (SDL_PollEvent(&event) && event.type == SDL_QUIT)
+        if (SDL_PollEvent(&event) && event.type == SDL_QUIT){
             break;
+        }
         std::this_thread::sleep_for(0.02s);
     }
+    auto global_end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = global_end_time - global_start_time;
+    logFile << "Temps total de simulation : " << elapsed.count() << " secondes" << std::endl;
+    logFile << "Temps pour étape : " << elapsed.count() / simu.time_step() << " secondes" << std::endl;
     logFile << "Simulation finished. Total time step: " << simu.time_step() << std::endl;
     return EXIT_SUCCESS;
 }

@@ -3,8 +3,10 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <chrono>
+#include <algorithm>
 #include "model.hpp"
+#include <omp.h>
+#include <chrono>
 
 extern std::ofstream logFile;
 
@@ -76,98 +78,127 @@ Model::Model( double t_length, unsigned t_discretization, std::array<double,2> t
     }
 }
 // --------------------------------------------------------------------------------------------------------------------
-bool 
-Model::update()
-{
-    auto start_time = std::chrono::high_resolution_clock::now();
-    auto next_front = m_fire_front;
-    for (auto f : m_fire_front)
-    {
-        // Récupération de la coordonnée lexicographique de la case en feu :
-        LexicoIndices coord = get_lexicographic_from_index(f.first);
-        // Et de la puissance du foyer
-        double        power = log_factor(f.second);
+bool Model::update() {
 
+    // Stockage local des threads pour collecter les mises à jour de chaque thread
+    std::vector<std::unordered_map<std::size_t, std::uint8_t>> thread_local_next_fronts(omp_get_max_threads());
+    std::vector<std::vector<std::size_t>> thread_local_erased_keys(omp_get_max_threads());
 
-        // On va tester les cases voisines pour contamination par le feu :
-        if (coord.row < m_geometry-1)
-        {
-            double tirage      = pseudo_random( f.first+m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first+m_geometry];
-            double correction  = power*log_factor(green_power);
-            if (tirage < alphaSouthNorth*p1*correction)
-            {
-                m_fire_map[f.first + m_geometry]   = 255.;
-                next_front[f.first + m_geometry] = 255.;
-            }
-        }
-
-        if (coord.row > 0)
-        {
-            double tirage      = pseudo_random( f.first*13427+m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first - m_geometry];
-            double correction  = power*log_factor(green_power);
-            if (tirage < alphaNorthSouth*p1*correction)
-            {
-                m_fire_map[f.first - m_geometry] = 255.;
-                next_front[f.first - m_geometry] = 255.;
-            }
-        }
-
-        if (coord.column < m_geometry-1)
-        {
-            double tirage      = pseudo_random( f.first*13427*13427+m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first+1];
-            double correction  = power*log_factor(green_power);
-            if (tirage < alphaEastWest*p1*correction)
-            {
-                m_fire_map[f.first + 1] = 255.;
-                next_front[f.first + 1] = 255.;
-            }
-        }
-
-        if (coord.column > 0)
-        {
-            double tirage      = pseudo_random( f.first*13427*13427*13427+m_time_step, m_time_step);
-            double green_power = m_vegetation_map[f.first - 1];
-            double correction  = power*log_factor(green_power);
-            if (tirage < alphaWestEast*p1*correction)
-            {
-                m_fire_map[f.first - 1] = 255.;
-                next_front[f.first - 1] = 255.;
-            }
-        }
-        // Si le feu est à son max,
-        if (f.second == 255)
-        {   // On regarde si il commence à faiblir pour s'éteindre au bout d'un moment :
-            double tirage = pseudo_random( f.first * 52513 + m_time_step, m_time_step);
-            if (tirage < p2)
-            {
-                m_fire_map[f.first] >>= 1;
-                next_front[f.first] >>= 1;
-            }
-        }
-        else
-        {
-            // Foyer en train de s'éteindre.
-            m_fire_map[f.first] >>= 1;
-            next_front[f.first] >>= 1;
-            if (next_front[f.first] == 0)
-            {
-                next_front.erase(f.first);
-            }
-        }
-
-    }    
-    // A chaque itération, la végétation à l'endroit d'un foyer diminue
-    m_fire_front = next_front;
-    for (auto f : m_fire_front)
-    {
-        if (m_vegetation_map[f.first] > 0)
-            m_vegetation_map[f.first] -= 1;
+    // Obtenir les indices de tous les points de feu pour assurer un ordre de parcours cohérent
+    std::vector<std::size_t> keys;
+    keys.reserve(m_fire_front.size());
+    for (const auto& f : m_fire_front) {
+        keys.push_back(f.first);
     }
+
+    auto start_time = std::chrono::high_resolution_clock::now();
+    // Traitement parallèle de chaque point de feu
+    #pragma omp parallel for schedule(guided)
+    for (size_t i = 0; i < keys.size(); i++) {
+        int tid = omp_get_thread_num();  // Obtenir l'ID du thread actuel
+        auto& local_next_front = thread_local_next_fronts[tid];  // Conteneur local de mise à jour du thread
+        auto& local_erased = thread_local_erased_keys[tid];      // Conteneur local des clés à supprimer
+
+        std::size_t fire_index = keys[i];
+        auto it = m_fire_front.find(fire_index);
+        if (it == m_fire_front.end()) continue;
+        auto f = *it;
+
+        // Obtenir les coordonnées et l'intensité du point de feu actuel
+        LexicoIndices coord = get_lexicographic_from_index(f.first);
+        double power = log_factor(f.second);
+
+        // Vérifier et mettre à jour les cellules adjacentes
+        if (coord.row < m_geometry - 1) {
+            double tirage = pseudo_random(f.first + m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first + m_geometry];
+            double correction = power * log_factor(green_power);
+            if (tirage < alphaSouthNorth * p1 * correction) {
+                m_fire_map[f.first + m_geometry] = 255;  // Mise à jour du point de feu
+                local_next_front[f.first + m_geometry] = 255;  // Enregistrement local du nouveau point de feu
+            }
+        }
+
+        if (coord.row > 0) {
+            double tirage = pseudo_random(f.first * 13427 + m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first - m_geometry];
+            double correction = power * log_factor(green_power);
+            if (tirage < alphaNorthSouth * p1 * correction) {
+                m_fire_map[f.first - m_geometry] = 255;
+                local_next_front[f.first - m_geometry] = 255;
+            }
+        }
+
+        if (coord.column < m_geometry - 1) {
+            double tirage = pseudo_random(f.first * 13427 * 13427 + m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first + 1];
+            double correction = power * log_factor(green_power);
+            if (tirage < alphaEastWest * p1 * correction) {
+                m_fire_map[f.first + 1] = 255;
+                local_next_front[f.first + 1] = 255;
+            }
+        }
+
+        if (coord.column > 0) {
+            double tirage = pseudo_random(f.first * 13427 * 13427 * 13427 + m_time_step, m_time_step);
+            double green_power = m_vegetation_map[f.first - 1];
+            double correction = power * log_factor(green_power);
+            if (tirage < alphaWestEast * p1 * correction) {
+                m_fire_map[f.first - 1] = 255;
+                local_next_front[f.first - 1] = 255;
+            }
+        }
+
+        // Gérer la diminution de l'intensité du feu
+        if (f.second == 255) {
+            double tirage = pseudo_random(f.first * 52513 + m_time_step, m_time_step);
+            if (tirage < p2) {
+                m_fire_map[f.first] >>= 1;
+                local_next_front[f.first] = f.second >> 1;  // Réduction de l'intensité du feu
+            } else {
+                local_next_front[f.first] = f.second;  // L'intensité du feu reste inchangée
+            }
+        } else {
+            m_fire_map[f.first] >>= 1;
+            local_next_front[f.first] = f.second >> 1;  // Continuer à réduire l'intensité du feu
+        }
+
+        // Si l'intensité du feu atteint 0, enregistrer la clé pour suppression
+        if (local_next_front[f.first] == 0) {
+            local_erased.push_back(f.first);
+        }
+    }
+
+    // Fusionner en série toutes les mises à jour des threads
+    auto next_front = m_fire_front;
+    for (auto& local_front : thread_local_next_fronts) {
+        for (auto& [key, val] : local_front) {
+            next_front[key] = val;
+        }
+    }
+
+    // Gérer les suppressions
+    for (auto& local_erased : thread_local_erased_keys) {
+        for (auto key : local_erased) {
+            next_front.erase(key);
+            m_fire_map[key] = 0;
+        }
+    }
+
+    // Mettre à jour l'état des points de feu
+    m_fire_front = next_front;
+
+    // Mettre à jour l'état de la végétation
+    for (auto f : m_fire_front) {
+        if (m_vegetation_map[f.first] > 0) {
+            m_vegetation_map[f.first] -= 1;
+        }
+    }
+
+    // Mettre à jour le pas de temps
     m_time_step += 1;
-    // 每 100 步保存一次火势和植被状态
+
+    // Sauvegarder l'état du feu et de la végétation tous les 100 pas
     if (m_time_step % 100 == 0) {
         std::ostringstream fire_filename, vegetation_filename;
         fire_filename << "outputs/fire_map_step_" << m_time_step << ".txt";
@@ -186,18 +217,21 @@ Model::update()
                 fire_file << "\n";
                 vegetation_file << "\n";
             }
-            logFile << "Saved fire and vegetation map at step " << m_time_step << std::endl;
+            logFile << "Sauvegarde des cartes du feu et de la végétation à l'étape " << m_time_step << std::endl;
         } else {
-            logFile << "Error: Could not open output files for step " << m_time_step << std::endl;
+            logFile << "Erreur : Impossible d'ouvrir les fichiers de sortie pour l'étape " << m_time_step << std::endl;
         }
     }
 
+    // Afficher le temps d'exécution
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
-    logFile << "Temps pour une étape : " << elapsed.count() << " secondes" << std::endl;
-    
+    logFile << "Temps pour avancement : " << elapsed.count() << " secondes" << std::endl;
+
+    // Retourner si des points de feu sont encore actifs
     return !m_fire_front.empty();
 }
+
 // ====================================================================================================================
 std::size_t   
 Model::get_index_from_lexicographic_indices( LexicoIndices t_lexico_indices  ) const

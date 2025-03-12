@@ -1,6 +1,6 @@
 #include <cassert>
 #include <stdexcept>
-#include <string>
+#include <string> 
 #include <chrono>
 #include <iostream>
 #include <fstream>
@@ -65,7 +65,7 @@ Displayer::update( std::vector<std::uint8_t> const & vegetation_global_map,
     SDL_GetWindowSize(m_pt_window, &w, &h );
     SDL_SetRenderDrawColor(m_pt_renderer, 0,0,0, 255);
     SDL_RenderClear(m_pt_renderer);
-    auto start_time = std::chrono::high_resolution_clock::now();
+    auto start_time = std::chrono::high_resolution_clock::now();   // Mesure du temps d'exécution (new-1)
     for (int i = 0; i < h; ++i )
       for (int j =  0; j < w; ++j )
       {
