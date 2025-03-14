@@ -252,7 +252,8 @@ int main(int nargs, char* args[]) {
 
     Model simu(params.length, params.discretization, params.wind, params.start);
     const int size = params.discretization * params.discretization;
-    const int num_threads = 4;  // 进程 1 计算时的 OpenMP 线程数
+    const int num_threads = 8;  // 进程 1 计算时的 OpenMP 线程数
+    logFile << "Nombre de threads OpenMP : " << num_threads << std::endl;
 
     auto global_start_time = std::chrono::high_resolution_clock::now();
     if (rank == 1) {
