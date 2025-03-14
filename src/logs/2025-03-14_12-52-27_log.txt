@@ -1,0 +1,1449 @@
+Log initialized at: 2025-03-14 12:52:27
+Test for MPI with 2 threads
+Temps total de simulation : 51.51 secondes
+Temps pour étape : 0.0712448 secondes
+ pour avancement : 9.281e-06s
+Temps pour affichage : 0.00411293 secondes
+Temps pour avancement : 1.3247e-05s
+Temps pour affichage : 0.00458228 secondes
+Temps pour avancement : 1.6952e-05s
+Temps pour affichage : 0.0748843 secondes
+Temps pour avancement : 2.4625e-05s
+Temps pour affichage : 0.00499801 secondes
+Temps pour avancement : 6.5648e-05s
+Temps pour affichage : 0.00645075 secondes
+Temps pour avancement : 1.9751e-05s
+Temps pour affichage : 0.00525026 secondes
+Temps pour avancement : 2.8345e-05s
+Temps pour affichage : 0.00906559 secondes
+Temps pour avancement : 4.4144e-05s
+Temps pour affichage : 0.0047496 secondes
+Temps pour avancement : 3.2962e-05s
+Temps pour affichage : 0.0048364 secondes
+Temps pour avancement : 3.9457e-05s
+Temps pour affichage : 0.00486923 secondes
+Temps pour avancement : 5.0662e-05s
+Temps pour affichage : 0.0046373 secondes
+Temps pour avancement : 0.00010122s
+Temps pour affichage : 0.00451569 secondes
+Temps pour avancement : 8.1364e-05s
+Temps pour affichage : 0.00460641 secondes
+Temps pour avancement : 6.5594e-05s
+Temps pour affichage : 0.0055067 secondes
+Temps pour avancement : 7.9619e-05s
+Temps pour affichage : 0.00574204 secondes
+Temps pour avancement : 8.8861e-05s
+Temps pour affichage : 0.00570155 secondes
+Temps pour avancement : 0.000122929s
+Temps pour affichage : 0.00805541 secondes
+Temps pour avancement : 9.4635e-05s
+Temps pour affichage : 0.00554128 secondes
+Temps pour avancement : 0.000108513s
+Temps pour affichage : 0.00652819 secondes
+Temps pour avancement : 0.000119354s
+Temps pour affichage : 0.0055787 secondes
+Temps pour avancement : 0.000159292s
+Temps pour affichage : 0.00534105 secondes
+Temps pour avancement : 0.000166431s
+Temps pour affichage : 0.00714314 secondes
+Temps pour avancement : 0.000220764s
+Temps pour affichage : 0.00634791 secondes
+Temps pour avancement : 0.000174386s
+Temps pour affichage : 0.00639139 secondes
+Temps pour avancement : 0.000228155s
+Temps pour affichage : 0.00655906 secondes
+Temps pour avancement : 0.000249652s
+Temps pour affichage : 0.00669978 secondes
+Temps pour avancement : 0.00022901s
+Temps pour affichage : 0.00591831 secondes
+Temps pour avancement : 0.000264915s
+Temps pour affichage : 0.0068875 secondes
+Temps pour avancement : 0.000314013s
+Temps pour affichage : 0.00627514 secondes
+Temps pour avancement : 0.000265728s
+Temps pour affichage : 0.00695325 secondes
+Temps pour avancement : 0.000292136s
+Temps pour affichage : 0.00617711 secondes
+Temps pour avancement : 0.000339934s
+Temps pour affichage : 0.00678926 secondes
+Temps pour avancement : 0.00035533s
+Temps pour affichage : 0.00594852 secondes
+Temps pour avancement : 0.000297567s
+Temps pour affichage : 0.0066074 secondes
+Temps pour avancement : 0.00038778s
+Temps pour affichage : 0.00770662 secondes
+Temps pour avancement : 0.00035891s
+Temps pour affichage : 0.00629925 secondes
+Temps pour avancement : 0.000459763s
+Temps pour affichage : 0.0067522 secondes
+Temps pour avancement : 0.000432873s
+Temps pour affichage : 0.00758285 secondes
+Temps pour avancement : 0.000396475s
+Temps pour affichage : 0.00800188 secondes
+Temps pour avancement : 0.000450278s
+Temps pour affichage : 0.00688047 secondes
+Temps pour avancement : 0.00046814s
+Temps pour affichage : 0.00622089 secondes
+Temps pour avancement : 0.000456707s
+Temps pour affichage : 0.00751267 secondes
+Temps pour avancement : 0.000656732s
+Temps pour affichage : 0.00646689 secondes
+Temps pour avancement : 0.000578568s
+Temps pour affichage : 0.00866375 secondes
+Temps pour avancement : 0.000591488s
+Temps pour affichage : 0.00689392 secondes
+Temps pour avancement : 0.000709589s
+Temps pour affichage : 0.0106352 secondes
+Temps pour avancement : 0.000795963s
+Temps pour affichage : 0.0134925 secondes
+Temps pour avancement : 0.00110516s
+Temps pour affichage : 0.00871658 secondes
+Temps pour avancement : 0.000656228s
+Temps pour affichage : 0.00760546 secondes
+Temps pour avancement : 0.000645508s
+Temps pour affichage : 0.00854788 secondes
+Temps pour avancement : 0.000681613s
+Temps pour affichage : 0.00771264 secondes
+Temps pour avancement : 0.00168909s
+Temps pour affichage : 0.00557432 secondes
+Temps pour avancement : 0.000869048s
+Temps pour affichage : 0.00794617 secondes
+Temps pour avancement : 0.000825824s
+Temps pour affichage : 0.00749858 secondes
+Temps pour avancement : 0.000922312s
+Temps pour affichage : 0.00802973 secondes
+Temps pour avancement : 0.000876079s
+Temps pour affichage : 0.00643869 secondes
+Temps pour avancement : 0.000983436s
+Temps pour affichage : 0.00848035 secondes
+Temps pour avancement : 0.000944257s
+Temps pour affichage : 0.00733743 secondes
+Temps pour avancement : 0.00160113s
+Temps pour affichage : 0.00666725 secondes
+Temps pour avancement : 0.000934467s
+Temps pour affichage : 0.0076173 secondes
+Temps pour avancement : 0.00147377s
+Temps pour affichage : 0.00789351 secondes
+Temps pour avancement : 0.00116785s
+Temps pour affichage : 0.0126144 secondes
+Temps pour avancement : 0.00111481s
+Temps pour affichage : 0.00783496 secondes
+Temps pour avancement : 0.0011563s
+Temps pour affichage : 0.00778948 secondes
+Temps pour avancement : 0.00243432s
+Temps pour affichage : 0.00698765 secondes
+Temps pour avancement : 0.00114157s
+Temps pour affichage : 0.00808866 secondes
+Temps pour avancement : 0.00155296s
+Temps pour affichage : 0.00607779 secondes
+Temps pour avancement : 0.00114584s
+Temps pour affichage : 0.00799208 secondes
+Temps pour avancement : 0.00176941s
+Temps pour affichage : 0.00781904 secondes
+Temps pour avancement : 0.00200061s
+Temps pour affichage : 0.00655136 secondes
+Temps pour avancement : 0.00209697s
+Temps pour affichage : 0.00786393 secondes
+Temps pour avancement : 0.00134923s
+Temps pour affichage : 0.00893208 secondes
+Temps pour avancement : 0.00170241s
+Temps pour affichage : 0.00723229 secondes
+Temps pour avancement : 0.00157702s
+Temps pour affichage : 0.00911533 secondes
+Temps pour avancement : 0.00149161s
+Temps pour affichage : 0.0104061 secondes
+Temps pour avancement : 0.00193913s
+Temps pour affichage : 0.00730117 secondes
+Temps pour avancement : 0.00154279s
+Temps pour affichage : 0.00749584 secondes
+Temps pour avancement : 0.00300735s
+Temps pour affichage : 0.00910402 secondes
+Temps pour avancement : 0.00206921s
+Temps pour affichage : 0.00723675 secondes
+Temps pour avancement : 0.00273902s
+Temps pour affichage : 0.00839554 secondes
+Temps pour avancement : 0.00186091s
+Temps pour affichage : 0.0110042 secondes
+Temps pour avancement : 0.0016384s
+Temps pour affichage : 0.00676935 secondes
+Temps pour avancement : 0.00259031s
+Temps pour affichage : 0.00755231 secondes
+Temps pour avancement : 0.00182514s
+Temps pour affichage : 0.0129186 secondes
+Temps pour avancement : 0.00190416s
+Temps pour affichage : 0.00689201 secondes
+Temps pour avancement : 0.00199292s
+Temps pour affichage : 0.00978598 secondes
+Temps pour avancement : 0.0021517s
+Temps pour affichage : 0.008252 secondes
+Temps pour avancement : 0.00193275s
+Temps pour affichage : 0.00685581 secondes
+Temps pour avancement : 0.00228386s
+Temps pour affichage : 0.012144 secondes
+Temps pour avancement : 0.00227419s
+Temps pour affichage : 0.00890942 secondes
+Temps pour avancement : 0.00328511s
+Temps pour affichage : 0.0119382 secondes
+Temps pour avancement : 0.00228903s
+Temps pour affichage : 0.00962464 secondes
+Temps pour avancement : 0.00240002s
+Temps pour affichage : 0.00757608 secondes
+Temps pour avancement : 0.00233913s
+Temps pour affichage : 0.0111309 secondes
+Temps pour avancement : 0.00225095s
+Temps pour affichage : 0.00909655 secondes
+Temps pour avancement : 0.00265198s
+Temps pour affichage : 0.00937999 secondes
+Temps pour avancement : 0.00405324s
+Temps pour affichage : 0.00879985 secondes
+Temps pour avancement : 0.00410485s
+Temps pour affichage : 0.0106967 secondes
+Temps pour avancement : 0.00295695s
+Temps pour affichage : 0.0104315 secondes
+Temps pour avancement : 0.00258952s
+Temps pour affichage : 0.00963692 secondes
+Temps pour avancement : 0.00322108s
+Temps pour affichage : 0.0136685 secondes
+Temps pour avancement : 0.00353584s
+Temps pour affichage : 0.00934282 secondes
+Temps pour avancement : 0.00307185s
+Temps pour affichage : 0.0126949 secondes
+Temps pour avancement : 0.00427214s
+Temps pour affichage : 0.00792631 secondes
+Temps pour avancement : 0.00403752s
+Temps pour affichage : 0.0328944 secondes
+Temps pour avancement : 0.00332392s
+Temps pour affichage : 0.00953316 secondes
+Temps pour avancement : 0.00362184s
+Temps pour affichage : 0.0122199 secondes
+Temps pour avancement : 0.00366979s
+Temps pour affichage : 0.00954485 secondes
+Temps pour avancement : 0.00375007s
+Temps pour affichage : 0.0159796 secondes
+Temps pour avancement : 0.00445966s
+Temps pour affichage : 0.00955857 secondes
+Temps pour avancement : 0.0046441s
+Temps pour affichage : 0.0101419 secondes
+Temps pour avancement : 0.0035263s
+Temps pour affichage : 0.0105626 secondes
+Temps pour avancement : 0.0038656s
+Temps pour affichage : 0.0134851 secondes
+Temps pour avancement : 0.00385041s
+Temps pour affichage : 0.0109488 secondes
+Temps pour avancement : 0.00451291s
+Temps pour affichage : 0.0104728 secondes
+Temps pour avancement : 0.00380006s
+Temps pour affichage : 0.012239 secondes
+Temps pour avancement : 0.00413168s
+Temps pour affichage : 0.0107294 secondes
+Temps pour avancement : 0.00414317s
+Temps pour affichage : 0.0156055 secondes
+Temps pour avancement : 0.00401109s
+Temps pour affichage : 0.0243859 secondes
+Temps pour avancement : 0.00362056s
+Temps pour affichage : 0.0109102 secondes
+Temps pour avancement : 0.00415295s
+Temps pour affichage : 0.0133402 secondes
+Temps pour avancement : 0.00494546s
+Temps pour affichage : 0.0109063 secondes
+Temps pour avancement : 0.00407212s
+Temps pour affichage : 0.0143192 secondes
+Temps pour avancement : 0.00405106s
+Temps pour affichage : 0.0105914 secondes
+Temps pour avancement : 0.0045311s
+Temps pour affichage : 0.0105013 secondes
+Temps pour avancement : 0.00554394s
+Temps pour affichage : 0.0128453 secondes
+Temps pour avancement : 0.00549776s
+Temps pour affichage : 0.010924 secondes
+Temps pour avancement : 0.0054398s
+Temps pour affichage : 0.0136206 secondes
+Temps pour avancement : 0.00489399s
+Temps pour affichage : 0.0136716 secondes
+Temps pour avancement : 0.00532783s
+Temps pour affichage : 0.0121474 secondes
+Temps pour avancement : 0.00509166s
+Temps pour affichage : 0.0132761 secondes
+Temps pour avancement : 0.00443989s
+Temps pour affichage : 0.0107397 secondes
+Temps pour avancement : 0.00474652s
+Temps pour affichage : 0.0157891 secondes
+Temps pour avancement : 0.00529822s
+Temps pour affichage : 0.0141954 secondes
+Temps pour avancement : 0.00484993s
+Temps pour affichage : 0.0107322 secondes
+Temps pour avancement : 0.00641237s
+Temps pour affichage : 0.0148622 secondes
+Temps pour avancement : 0.00789851s
+Temps pour affichage : 0.0133397 secondes
+Temps pour avancement : 0.00507459s
+Temps pour affichage : 0.0145294 secondes
+Temps pour avancement : 0.00467605s
+Temps pour affichage : 0.0146286 secondes
+Temps pour avancement : 0.00609328s
+Temps pour affichage : 0.0154494 secondes
+Temps pour avancement : 0.00481843s
+Temps pour affichage : 0.0147733 secondes
+Temps pour avancement : 0.00518218s
+Temps pour affichage : 0.0141638 secondes
+Temps pour avancement : 0.00523726s
+Temps pour affichage : 0.0140299 secondes
+Temps pour avancement : 0.00592115s
+Temps pour affichage : 0.0127157 secondes
+Temps pour avancement : 0.00619106s
+Temps pour affichage : 0.0121204 secondes
+Temps pour avancement : 0.00509349s
+Temps pour affichage : 0.0131404 secondes
+Temps pour avancement : 0.00490539s
+Temps pour affichage : 0.0145793 secondes
+Temps pour avancement : 0.00516392s
+Temps pour affichage : 0.013205 secondes
+Temps pour avancement : 0.00639909s
+Temps pour affichage : 0.0215401 secondes
+Temps pour avancement : 0.0075849s
+Temps pour affichage : 0.0145898 secondes
+Temps pour avancement : 0.00535656s
+Temps pour affichage : 0.0160996 secondes
+Temps pour avancement : 0.00533564s
+Temps pour affichage : 0.0118304 secondes
+Temps pour avancement : 0.0052708s
+Temps pour affichage : 0.0149443 secondes
+Temps pour avancement : 0.00616641s
+Temps pour affichage : 0.0140372 secondes
+Temps pour avancement : 0.00558077s
+Temps pour affichage : 0.0112952 secondes
+Temps pour avancement : 0.00599272s
+Temps pour affichage : 0.0138619 secondes
+Temps pour avancement : 0.00520379s
+Temps pour affichage : 0.0138367 secondes
+Temps pour avancement : 0.00537552s
+Temps pour affichage : 0.0160002 secondes
+Temps pour avancement : 0.00554764s
+Temps pour affichage : 0.0126965 secondes
+Temps pour avancement : 0.00533677s
+Temps pour affichage : 0.0160173 secondes
+Temps pour avancement : 0.00545051s
+Temps pour affichage : 0.0159752 secondes
+Temps pour avancement : 0.00592442s
+Temps pour affichage : 0.0144862 secondes
+Temps pour avancement : 0.00637628s
+Temps pour affichage : 0.0125648 secondes
+Temps pour avancement : 0.00544732s
+Temps pour affichage : 0.0136054 secondes
+Temps pour avancement : 0.00633924s
+Temps pour affichage : 0.014814 secondes
+Temps pour avancement : 0.00543473s
+Temps pour affichage : 0.0150967 secondes
+Temps pour avancement : 0.00541592s
+Temps pour affichage : 0.0135835 secondes
+Temps pour avancement : 0.00580987s
+Temps pour affichage : 0.0126596 secondes
+Temps pour avancement : 0.00689832s
+Temps pour affichage : 0.0153319 secondes
+Temps pour avancement : 0.00593644s
+Temps pour affichage : 0.016942 secondes
+Temps pour avancement : 0.00587902s
+Temps pour affichage : 0.0152676 secondes
+Temps pour avancement : 0.00706688s
+Temps pour affichage : 0.0116648 secondes
+Temps pour avancement : 0.0052551s
+Temps pour affichage : 0.0147349 secondes
+Temps pour avancement : 0.00534312s
+Temps pour affichage : 0.0139505 secondes
+Temps pour avancement : 0.00622479s
+Temps pour affichage : 0.014993 secondes
+Temps pour avancement : 0.00555412s
+Temps pour affichage : 0.0139438 secondes
+Temps pour avancement : 0.0062488s
+Temps pour affichage : 0.0128454 secondes
+Temps pour avancement : 0.00606522s
+Temps pour affichage : 0.0151134 secondes
+Temps pour avancement : 0.00648318s
+Temps pour affichage : 0.0160515 secondes
+Temps pour avancement : 0.00572697s
+Temps pour affichage : 0.01271 secondes
+Temps pour avancement : 0.00574185s
+Temps pour affichage : 0.0153667 secondes
+Temps pour avancement : 0.00710843s
+Temps pour affichage : 0.0137763 secondes
+Temps pour avancement : 0.00532571s
+Temps pour affichage : 0.0158887 secondes
+Temps pour avancement : 0.00600017s
+Temps pour affichage : 0.012725 secondes
+Temps pour avancement : 0.00693321s
+Temps pour affichage : 0.0158171 secondes
+Temps pour avancement : 0.00582726s
+Temps pour affichage : 0.0136354 secondes
+Temps pour avancement : 0.00560114s
+Temps pour affichage : 0.0151045 secondes
+Temps pour avancement : 0.00522734s
+Temps pour affichage : 0.0132073 secondes
+Temps pour avancement : 0.00593772s
+Temps pour affichage : 0.0138693 secondes
+Temps pour avancement : 0.00635518s
+Temps pour affichage : 0.0156303 secondes
+Temps pour avancement : 0.00561505s
+Temps pour affichage : 0.0123742 secondes
+Temps pour avancement : 0.00563784s
+Temps pour affichage : 0.0137472 secondes
+Temps pour avancement : 0.00601971s
+Temps pour affichage : 0.0149507 secondes
+Temps pour avancement : 0.00651854s
+Temps pour affichage : 0.0128652 secondes
+Temps pour avancement : 0.00618527s
+Temps pour affichage : 0.0131004 secondes
+Temps pour avancement : 0.00581997s
+Temps pour affichage : 0.0154894 secondes
+Temps pour avancement : 0.0058954s
+Temps pour affichage : 0.0140579 secondes
+Temps pour avancement : 0.00773163s
+Temps pour affichage : 0.0135887 secondes
+Temps pour avancement : 0.00704553s
+Temps pour affichage : 0.0156195 secondes
+Temps pour avancement : 0.00610834s
+Temps pour affichage : 0.0123311 secondes
+Temps pour avancement : 0.00608496s
+Temps pour affichage : 0.0138916 secondes
+Temps pour avancement : 0.00692288s
+Temps pour affichage : 0.014866 secondes
+Temps pour avancement : 0.00567959s
+Temps pour affichage : 0.0146693 secondes
+Temps pour avancement : 0.00551538s
+Temps pour affichage : 0.012222 secondes
+Temps pour avancement : 0.00527234s
+Temps pour affichage : 0.0134574 secondes
+Temps pour avancement : 0.00527138s
+Temps pour affichage : 0.0161894 secondes
+Temps pour avancement : 0.00559228s
+Temps pour affichage : 0.0148879 secondes
+Temps pour avancement : 0.00534558s
+Temps pour affichage : 0.0130313 secondes
+Temps pour avancement : 0.00552464s
+Temps pour affichage : 0.0159137 secondes
+Temps pour avancement : 0.00537398s
+Temps pour affichage : 0.0148181 secondes
+Temps pour avancement : 0.00571814s
+Temps pour affichage : 0.0140495 secondes
+Temps pour avancement : 0.00575024s
+Temps pour affichage : 0.0135101 secondes
+Temps pour avancement : 0.00579627s
+Temps pour affichage : 0.0142299 secondes
+Temps pour avancement : 0.00729219s
+Temps pour affichage : 0.0149122 secondes
+Temps pour avancement : 0.00647842s
+Temps pour affichage : 0.0134396 secondes
+Temps pour avancement : 0.00618657s
+Temps pour affichage : 0.0161665 secondes
+Temps pour avancement : 0.00523128s
+Temps pour affichage : 0.0149848 secondes
+Temps pour avancement : 0.00555895s
+Temps pour affichage : 0.0142813 secondes
+Temps pour avancement : 0.00762108s
+Temps pour affichage : 0.0148464 secondes
+Temps pour avancement : 0.00553619s
+Temps pour affichage : 0.0132179 secondes
+Temps pour avancement : 0.00572727s
+Temps pour affichage : 0.0141317 secondes
+Temps pour avancement : 0.00724192s
+Temps pour affichage : 0.0149101 secondes
+Temps pour avancement : 0.00657321s
+Temps pour affichage : 0.0128335 secondes
+Temps pour avancement : 0.00573949s
+Temps pour affichage : 0.0253655 secondes
+Temps pour avancement : 0.00532319s
+Temps pour affichage : 0.0143824 secondes
+Temps pour avancement : 0.00603762s
+Temps pour affichage : 0.0138687 secondes
+Temps pour avancement : 0.00602952s
+Temps pour affichage : 0.0145799 secondes
+Temps pour avancement : 0.00691463s
+Temps pour affichage : 0.0135688 secondes
+Temps pour avancement : 0.00657499s
+Temps pour affichage : 0.0154487 secondes
+Temps pour avancement : 0.00565561s
+Temps pour affichage : 0.0146831 secondes
+Temps pour avancement : 0.00550402s
+Temps pour affichage : 0.014612 secondes
+Temps pour avancement : 0.00612702s
+Temps pour affichage : 0.01307 secondes
+Temps pour avancement : 0.00528271s
+Temps pour affichage : 0.0134587 secondes
+Temps pour avancement : 0.00518782s
+Temps pour affichage : 0.0131709 secondes
+Temps pour avancement : 0.00535437s
+Temps pour affichage : 0.0232521 secondes
+Temps pour avancement : 0.00567784s
+Temps pour affichage : 0.0136786 secondes
+Temps pour avancement : 0.00559615s
+Temps pour affichage : 0.0146125 secondes
+Temps pour avancement : 0.00569186s
+Temps pour affichage : 0.0143961 secondes
+Temps pour avancement : 0.00704104s
+Temps pour affichage : 0.0136808 secondes
+Temps pour avancement : 0.00599305s
+Temps pour affichage : 0.0144609 secondes
+Temps pour avancement : 0.00542272s
+Temps pour affichage : 0.0161815 secondes
+Temps pour avancement : 0.00522166s
+Temps pour affichage : 0.0141683 secondes
+Temps pour avancement : 0.00575135s
+Temps pour affichage : 0.0129414 secondes
+Temps pour avancement : 0.00515148s
+Temps pour affichage : 0.0832905 secondes
+Temps pour avancement : 0.00485747s
+Temps pour affichage : 0.0143883 secondes
+Temps pour avancement : 0.00649523s
+Temps pour affichage : 0.0154596 secondes
+Temps pour avancement : 0.00631095s
+Temps pour affichage : 0.0144569 secondes
+Temps pour avancement : 0.00536181s
+Temps pour affichage : 0.0141585 secondes
+Temps pour avancement : 0.00567688s
+Temps pour affichage : 0.0155752 secondes
+Temps pour avancement : 0.0059017s
+Temps pour affichage : 0.0150148 secondes
+Temps pour avancement : 0.00565958s
+Temps pour affichage : 0.0142197 secondes
+Temps pour avancement : 0.0058178s
+Temps pour affichage : 0.0137665 secondes
+Temps pour avancement : 0.00654228s
+Temps pour affichage : 0.0137069 secondes
+Temps pour avancement : 0.00552945s
+Temps pour affichage : 0.0138478 secondes
+Temps pour avancement : 0.0052541s
+Temps pour affichage : 0.0139754 secondes
+Temps pour avancement : 0.00557443s
+Temps pour affichage : 0.0154879 secondes
+Temps pour avancement : 0.00525107s
+Temps pour affichage : 0.0128371 secondes
+Temps pour avancement : 0.0053402s
+Temps pour affichage : 0.0165809 secondes
+Temps pour avancement : 0.00745222s
+Temps pour affichage : 0.0138591 secondes
+Temps pour avancement : 0.00643499s
+Temps pour affichage : 0.0138438 secondes
+Temps pour avancement : 0.00577327s
+Temps pour affichage : 0.0130385 secondes
+Temps pour avancement : 0.0052936s
+Temps pour affichage : 0.0139878 secondes
+Temps pour avancement : 0.00518881s
+Temps pour affichage : 0.0192237 secondes
+Temps pour avancement : 0.00600968s
+Temps pour affichage : 0.0147648 secondes
+Temps pour avancement : 0.00511433s
+Temps pour affichage : 0.0142163 secondes
+Temps pour avancement : 0.00514085s
+Temps pour affichage : 0.0146257 secondes
+Temps pour avancement : 0.00522578s
+Temps pour affichage : 0.0154096 secondes
+Temps pour avancement : 0.00629303s
+Temps pour affichage : 0.0155978 secondes
+Temps pour avancement : 0.00554741s
+Temps pour affichage : 0.0131378 secondes
+Temps pour avancement : 0.00510428s
+Temps pour affichage : 0.0154841 secondes
+Temps pour avancement : 0.00544231s
+Temps pour affichage : 0.0143086 secondes
+Temps pour avancement : 0.00575148s
+Temps pour affichage : 0.0277117 secondes
+Temps pour avancement : 0.00515866s
+Temps pour affichage : 0.0154453 secondes
+Temps pour avancement : 0.00567097s
+Temps pour affichage : 0.0131374 secondes
+Temps pour avancement : 0.00506828s
+Temps pour affichage : 0.0150945 secondes
+Temps pour avancement : 0.00545474s
+Temps pour affichage : 0.0142112 secondes
+Temps pour avancement : 0.0084859s
+Temps pour affichage : 0.016145 secondes
+Temps pour avancement : 0.00525722s
+Temps pour affichage : 0.0125068 secondes
+Temps pour avancement : 0.00537559s
+Temps pour affichage : 0.0140913 secondes
+Temps pour avancement : 0.00535647s
+Temps pour affichage : 0.015701 secondes
+Temps pour avancement : 0.00638828s
+Temps pour affichage : 0.0163963 secondes
+Temps pour avancement : 0.0058481s
+Temps pour affichage : 0.0127094 secondes
+Temps pour avancement : 0.00613959s
+Temps pour affichage : 0.0143937 secondes
+Temps pour avancement : 0.00533331s
+Temps pour affichage : 0.0139416 secondes
+Temps pour avancement : 0.00722241s
+Temps pour affichage : 0.0140227 secondes
+Temps pour avancement : 0.0047346s
+Temps pour affichage : 0.0122052 secondes
+Temps pour avancement : 0.00551247s
+Temps pour affichage : 0.0239468 secondes
+Temps pour avancement : 0.00456548s
+Temps pour affichage : 0.0162963 secondes
+Temps pour avancement : 0.00530741s
+Temps pour affichage : 0.0148564 secondes
+Temps pour avancement : 0.00524428s
+Temps pour affichage : 0.0136397 secondes
+Temps pour avancement : 0.00445704s
+Temps pour affichage : 0.0141254 secondes
+Temps pour avancement : 0.00532453s
+Temps pour affichage : 0.0139179 secondes
+Temps pour avancement : 0.00484804s
+Temps pour affichage : 0.0133036 secondes
+Temps pour avancement : 0.00502082s
+Temps pour affichage : 0.0125945 secondes
+Temps pour avancement : 0.00550511s
+Temps pour affichage : 0.0150526 secondes
+Temps pour avancement : 0.0050136s
+Temps pour affichage : 0.0152769 secondes
+Temps pour avancement : 0.00613409s
+Temps pour affichage : 0.0125101 secondes
+Temps pour avancement : 0.00464921s
+Temps pour affichage : 0.0138316 secondes
+Temps pour avancement : 0.00512812s
+Temps pour affichage : 0.0135234 secondes
+Temps pour avancement : 0.00495201s
+Temps pour affichage : 0.0132101 secondes
+Temps pour avancement : 0.00703384s
+Temps pour affichage : 0.0140203 secondes
+Temps pour avancement : 0.00624097s
+Temps pour affichage : 0.0139218 secondes
+Temps pour avancement : 0.00575768s
+Temps pour affichage : 0.0141294 secondes
+Temps pour avancement : 0.00440484s
+Temps pour affichage : 0.0134375 secondes
+Temps pour avancement : 0.00498439s
+Temps pour affichage : 0.0129289 secondes
+Temps pour avancement : 0.00542468s
+Temps pour affichage : 0.0134098 secondes
+Temps pour avancement : 0.00477845s
+Temps pour affichage : 0.0145558 secondes
+Temps pour avancement : 0.00565523s
+Temps pour affichage : 0.0130441 secondes
+Temps pour avancement : 0.00421406s
+Temps pour affichage : 0.0127091 secondes
+Temps pour avancement : 0.00473283s
+Temps pour affichage : 0.0137479 secondes
+Temps pour avancement : 0.00493557s
+Temps pour affichage : 0.0126014 secondes
+Temps pour avancement : 0.00629533s
+Temps pour affichage : 0.0131375 secondes
+Temps pour avancement : 0.00503262s
+Temps pour affichage : 0.0136965 secondes
+Temps pour avancement : 0.00560633s
+Temps pour affichage : 0.0152851 secondes
+Temps pour avancement : 0.00573809s
+Temps pour affichage : 0.0129698 secondes
+Temps pour avancement : 0.00524904s
+Temps pour affichage : 0.011183 secondes
+Temps pour avancement : 0.00410501s
+Temps pour affichage : 0.0133492 secondes
+Temps pour avancement : 0.00468005s
+Temps pour affichage : 0.0135634 secondes
+Temps pour avancement : 0.00471144s
+Temps pour affichage : 0.0107464 secondes
+Temps pour avancement : 0.00598374s
+Temps pour affichage : 0.0142012 secondes
+Temps pour avancement : 0.00661263s
+Temps pour affichage : 0.0144708 secondes
+Temps pour avancement : 0.00593316s
+Temps pour affichage : 0.0139813 secondes
+Temps pour avancement : 0.00422385s
+Temps pour affichage : 0.0128115 secondes
+Temps pour avancement : 0.00473009s
+Temps pour affichage : 0.0130239 secondes
+Temps pour avancement : 0.0058597s
+Temps pour affichage : 0.0179027 secondes
+Temps pour avancement : 0.00369129s
+Temps pour affichage : 0.0139957 secondes
+Temps pour avancement : 0.00460059s
+Temps pour affichage : 0.0121763 secondes
+Temps pour avancement : 0.00427485s
+Temps pour affichage : 0.0129318 secondes
+Temps pour avancement : 0.00474612s
+Temps pour affichage : 0.0151591 secondes
+Temps pour avancement : 0.00554926s
+Temps pour affichage : 0.0166557 secondes
+Temps pour avancement : 0.00435125s
+Temps pour affichage : 0.0112223 secondes
+Temps pour avancement : 0.00381248s
+Temps pour affichage : 0.0129332 secondes
+Temps pour avancement : 0.00523398s
+Temps pour affichage : 0.0133566 secondes
+Temps pour avancement : 0.00377065s
+Temps pour affichage : 0.010954 secondes
+Temps pour avancement : 0.00481985s
+Temps pour affichage : 0.0116553 secondes
+Temps pour avancement : 0.0043152s
+Temps pour affichage : 0.0123163 secondes
+Temps pour avancement : 0.00437142s
+Temps pour affichage : 0.0112568 secondes
+Temps pour avancement : 0.00351041s
+Temps pour affichage : 0.0112184 secondes
+Temps pour avancement : 0.00332804s
+Temps pour affichage : 0.0128679 secondes
+Temps pour avancement : 0.00476889s
+Temps pour affichage : 0.0102795 secondes
+Temps pour avancement : 0.00416911s
+Temps pour affichage : 0.0112962 secondes
+Temps pour avancement : 0.0039264s
+Temps pour affichage : 0.0109587 secondes
+Temps pour avancement : 0.00330927s
+Temps pour affichage : 0.0110728 secondes
+Temps pour avancement : 0.00419197s
+Temps pour affichage : 0.0117714 secondes
+Temps pour avancement : 0.0034231s
+Temps pour affichage : 0.011383 secondes
+Temps pour avancement : 0.0102545s
+Temps pour affichage : 0.0146181 secondes
+Temps pour avancement : 0.00263323s
+Temps pour affichage : 0.010124 secondes
+Temps pour avancement : 0.00298105s
+Temps pour affichage : 0.0114684 secondes
+Temps pour avancement : 0.00293708s
+Temps pour affichage : 0.00992821 secondes
+Temps pour avancement : 0.00276716s
+Temps pour affichage : 0.0122723 secondes
+Temps pour avancement : 0.00374618s
+Temps pour affichage : 0.0123598 secondes
+Temps pour avancement : 0.00297582s
+Temps pour affichage : 0.00958806 secondes
+Temps pour avancement : 0.00264655s
+Temps pour affichage : 0.0126769 secondes
+Temps pour avancement : 0.00247056s
+Temps pour affichage : 0.0098844 secondes
+Temps pour avancement : 0.00355247s
+Temps pour affichage : 0.0103148 secondes
+Temps pour avancement : 0.00315872s
+Temps pour affichage : 0.0100195 secondes
+Temps pour avancement : 0.00282308s
+Temps pour affichage : 0.0110492 secondes
+Temps pour avancement : 0.00390655s
+Temps pour affichage : 0.0098914 secondes
+Temps pour avancement : 0.00379042s
+Temps pour affichage : 0.00972856 secondes
+Temps pour avancement : 0.00328779s
+Temps pour affichage : 0.0105973 secondes
+Temps pour avancement : 0.00385923s
+Temps pour affichage : 0.00978404 secondes
+Temps pour avancement : 0.00214316s
+Temps pour affichage : 0.00891781 secondes
+Temps pour avancement : 0.00227951s
+Temps pour affichage : 0.00944575 secondes
+Temps pour avancement : 0.00293823s
+Temps pour affichage : 0.0101184 secondes
+Temps pour avancement : 0.00255767s
+Temps pour affichage : 0.0104466 secondes
+Temps pour avancement : 0.0026818s
+Temps pour affichage : 0.00903947 secondes
+Temps pour avancement : 0.00341626s
+Temps pour affichage : 0.00889794 secondes
+Temps pour avancement : 0.00205803s
+Temps pour affichage : 0.00983698 secondes
+Temps pour avancement : 0.00285618s
+Temps pour affichage : 0.0088616 secondes
+Temps pour avancement : 0.00238683s
+Temps pour affichage : 0.0084484 secondes
+Temps pour avancement : 0.00244474s
+Temps pour affichage : 0.0105789 secondes
+Temps pour avancement : 0.0016253s
+Temps pour affichage : 0.00887537 secondes
+Temps pour avancement : 0.00150009s
+Temps pour affichage : 0.0101542 secondes
+Temps pour avancement : 0.00206234s
+Temps pour affichage : 0.00854606 secondes
+Temps pour avancement : 0.00185435s
+Temps pour affichage : 0.00805219 secondes
+Temps pour avancement : 0.00169672s
+Temps pour affichage : 0.00838351 secondes
+Temps pour avancement : 0.00193365s
+Temps pour affichage : 0.00790848 secondes
+Temps pour avancement : 0.00141242s
+Temps pour affichage : 0.0409239 secondes
+Temps pour avancement : 0.00138644s
+Temps pour affichage : 0.00844605 secondes
+Temps pour avancement : 0.00122921s
+Temps pour affichage : 0.00899878 secondes
+Temps pour avancement : 0.00128055s
+Temps pour affichage : 0.00784948 secondes
+Temps pour avancement : 0.00228249s
+Temps pour affichage : 0.00952323 secondes
+Temps pour avancement : 0.00126959s
+Temps pour affichage : 0.0096427 secondes
+Temps pour avancement : 0.0011612s
+Temps pour affichage : 0.00641075 secondes
+Temps pour avancement : 0.00118135s
+Temps pour affichage : 0.0063693 secondes
+Temps pour avancement : 0.00205468s
+Temps pour affichage : 0.0122549 secondes
+Temps pour avancement : 0.00100232s
+Temps pour affichage : 0.00692259 secondes
+Temps pour avancement : 0.0009649s
+Temps pour affichage : 0.0063739 secondes
+Temps pour avancement : 0.000834302s
+Temps pour affichage : 0.00805396 secondes
+Temps pour avancement : 0.00088637s
+Temps pour affichage : 0.00628242 secondes
+Temps pour avancement : 0.00135408s
+Temps pour affichage : 0.00660418 secondes
+Temps pour avancement : 0.000846889s
+Temps pour affichage : 0.0157454 secondes
+Temps pour avancement : 0.000788836s
+Temps pour affichage : 0.00700869 secondes
+Temps pour avancement : 0.000668279s
+Temps pour affichage : 0.00579898 secondes
+Temps pour avancement : 0.000807175s
+Temps pour affichage : 0.0067433 secondes
+Temps pour avancement : 0.00177667s
+Temps pour affichage : 0.00803981 secondes
+Temps pour avancement : 0.000662986s
+Temps pour affichage : 0.00501741 secondes
+Temps pour avancement : 0.00076234s
+Temps pour affichage : 0.00555609 secondes
+Temps pour avancement : 0.0019817s
+Temps pour affichage : 0.00694514 secondes
+Temps pour avancement : 0.000647991s
+Temps pour affichage : 0.0103159 secondes
+Temps pour avancement : 0.000616271s
+Temps pour affichage : 0.00489883 secondes
+Temps pour avancement : 0.000528803s
+Temps pour affichage : 0.00591402 secondes
+Temps pour avancement : 0.000558221s
+Temps pour affichage : 0.00638919 secondes
+Temps pour avancement : 0.000440077s
+Temps pour affichage : 0.00561474 secondes
+Temps pour avancement : 0.000426898s
+Temps pour affichage : 0.00455415 secondes
+Temps pour avancement : 0.000445061s
+Temps pour affichage : 0.00583696 secondes
+Temps pour avancement : 0.000387248s
+Temps pour affichage : 0.00546556 secondes
+Temps pour avancement : 0.000364957s
+Temps pour affichage : 0.00678426 secondes
+Temps pour avancement : 0.0003606s
+Temps pour affichage : 0.00404195 secondes
+Temps pour avancement : 0.000363879s
+Temps pour affichage : 0.00615327 secondes
+Temps pour avancement : 0.000316853s
+Temps pour affichage : 0.0137418 secondes
+Temps pour avancement : 0.000370314s
+Temps pour affichage : 0.00523805 secondes
+Temps pour avancement : 0.000300718s
+Temps pour affichage : 0.00441827 secondes
+Temps pour avancement : 0.000273431s
+Temps pour affichage : 0.00465695 secondes
+Temps pour avancement : 0.00027031s
+Temps pour affichage : 0.00451311 secondes
+Temps pour avancement : 0.000269602s
+Temps pour affichage : 0.0064429 secondes
+Temps pour avancement : 0.000313882s
+Temps pour affichage : 0.00601198 secondes
+Temps pour avancement : 0.000238841s
+Temps pour affichage : 0.00475283 secondes
+Temps pour avancement : 0.000226827s
+Temps pour affichage : 0.00393216 secondes
+Temps pour avancement : 0.000255534s
+Temps pour affichage : 0.00427387 secondes
+Temps pour avancement : 0.000212026s
+Temps pour affichage : 0.00498478 secondes
+Temps pour avancement : 0.000199285s
+Temps pour affichage : 0.00629106 secondes
+Temps pour avancement : 0.000250059s
+Temps pour affichage : 0.00504086 secondes
+Temps pour avancement : 0.00023848s
+Temps pour affichage : 0.00449006 secondes
+Temps pour avancement : 0.000201224s
+Temps pour affichage : 0.017005 secondes
+Temps pour avancement : 0.000189368s
+Temps pour affichage : 0.0121815 secondes
+Temps pour avancement : 0.00016102s
+Temps pour affichage : 0.0125101 secondes
+Temps pour avancement : 0.000215942s
+Temps pour affichage : 0.0135675 secondes
+Temps pour avancement : 0.000154722s
+Temps pour affichage : 0.00348733 secondes
+Temps pour avancement : 0.000170265s
+Temps pour affichage : 0.00417414 secondes
+Temps pour avancement : 0.000159455s
+Temps pour affichage : 0.00486153 secondes
+Temps pour avancement : 0.000244526s
+Temps pour affichage : 0.00487911 secondes
+Temps pour avancement : 0.000369049s
+Temps pour affichage : 0.00539706 secondes
+Temps pour avancement : 0.000164116s
+Temps pour affichage : 0.0044998 secondes
+Temps pour avancement : 0.000183869s
+Temps pour affichage : 0.00379609 secondes
+Temps pour avancement : 0.000156032s
+Temps pour affichage : 0.0035618 secondes
+Temps pour avancement : 0.000201993s
+Temps pour affichage : 0.0244726 secondes
+Temps pour avancement : 0.000162653s
+Temps pour affichage : 0.00514985 secondes
+Temps pour avancement : 0.000153769s
+Temps pour affichage : 0.004133 secondes
+Temps pour avancement : 0.000155927s
+Temps pour affichage : 0.0033206 secondes
+Temps pour avancement : 0.000154219s
+Temps pour affichage : 0.00936911 secondes
+Temps pour avancement : 0.000151359s
+Temps pour affichage : 0.00661298 secondes
+Temps pour avancement : 0.00016249s
+Temps pour affichage : 0.00458837 secondes
+Temps pour avancement : 0.000160988s
+Temps pour affichage : 0.00529809 secondes
+Temps pour avancement : 0.000145628s
+Temps pour affichage : 0.00429817 secondes
+Temps pour avancement : 0.000292149s
+Temps pour affichage : 0.00314266 secondes
+Temps pour avancement : 0.000157965s
+Temps pour affichage : 0.00353409 secondes
+Temps pour avancement : 0.000179589s
+Temps pour affichage : 0.00416671 secondes
+Temps pour avancement : 0.000145372s
+Temps pour affichage : 0.0052293 secondes
+Temps pour avancement : 0.000152047s
+Temps pour affichage : 0.00547279 secondes
+Temps pour avancement : 0.000144917s
+Temps pour affichage : 0.00394692 secondes
+Temps pour avancement : 0.00013092s
+Temps pour affichage : 0.00463186 secondes
+Temps pour avancement : 0.000526638s
+Temps pour affichage : 0.00314025 secondes
+Temps pour avancement : 0.000353807s
+Temps pour affichage : 0.00631563 secondes
+Temps pour avancement : 0.000161832s
+Temps pour affichage : 0.00405475 secondes
+Temps pour avancement : 0.000133474s
+Temps pour affichage : 0.00537404 secondes
+Temps pour avancement : 0.000167034s
+Temps pour affichage : 0.0035293 secondes
+Temps pour avancement : 0.000180001s
+Temps pour affichage : 0.00313851 secondes
+Temps pour avancement : 0.000164288s
+Temps pour affichage : 0.00335023 secondes
+Temps pour avancement : 0.000681302s
+Temps pour affichage : 0.00440023 secondes
+Temps pour avancement : 0.000172089s
+Temps pour affichage : 0.00584042 secondes
+Temps pour avancement : 0.000136604s
+Temps pour affichage : 0.00409438 secondes
+Temps pour avancement : 0.000169068s
+Temps pour affichage : 0.00272965 secondes
+Temps pour avancement : 0.000432994s
+Temps pour affichage : 0.0036603 secondes
+Temps pour avancement : 0.000212136s
+Temps pour affichage : 0.00334464 secondes
+Temps pour avancement : 0.000139707s
+Temps pour affichage : 0.0032679 secondes
+Temps pour avancement : 0.00014902s
+Temps pour affichage : 0.00552685 secondes
+Temps pour avancement : 0.00151374s
+Temps pour affichage : 0.00361038 secondes
+Temps pour avancement : 0.000129232s
+Temps pour affichage : 0.00341025 secondes
+Temps pour avancement : 0.00052599s
+Temps pour affichage : 0.00397969 secondes
+Temps pour avancement : 0.000159868s
+Temps pour affichage : 0.00807968 secondes
+Temps pour avancement : 0.000174678s
+Temps pour affichage : 0.00374519 secondes
+Temps pour avancement : 0.000163522s
+Temps pour affichage : 0.00849527 secondes
+Temps pour avancement : 0.000631036s
+Temps pour affichage : 0.0038255 secondes
+Temps pour avancement : 0.000197879s
+Temps pour affichage : 0.00330382 secondes
+Temps pour avancement : 0.000149106s
+Temps pour affichage : 0.00365672 secondes
+Temps pour avancement : 0.000158644s
+Temps pour affichage : 0.00359401 secondes
+Temps pour avancement : 0.000142596s
+Temps pour affichage : 0.00575572 secondes
+Temps pour avancement : 0.000174585s
+Temps pour affichage : 0.00586387 secondes
+Temps pour avancement : 0.0001407s
+Temps pour affichage : 0.00361938 secondes
+Temps pour avancement : 0.00014665s
+Temps pour affichage : 0.0045815 secondes
+Temps pour avancement : 0.000237382s
+Temps pour affichage : 0.00606885 secondes
+Temps pour avancement : 0.000190839s
+Temps pour affichage : 0.00406417 secondes
+Temps pour avancement : 0.000197781s
+Temps pour affichage : 0.00452805 secondes
+Temps pour avancement : 0.000215158s
+Temps pour affichage : 0.00397768 secondes
+Temps pour avancement : 0.000135562s
+Temps pour affichage : 0.00315925 secondes
+Temps pour avancement : 0.000141589s
+Temps pour affichage : 0.0034757 secondes
+Temps pour avancement : 0.000170975s
+Temps pour affichage : 0.00540915 secondes
+Temps pour avancement : 0.000222245s
+Temps pour affichage : 0.00316145 secondes
+Temps pour avancement : 0.000183058s
+Temps pour affichage : 0.00382812 secondes
+Temps pour avancement : 0.000154682s
+Temps pour affichage : 0.0208326 secondes
+Temps pour avancement : 0.000152092s
+Temps pour affichage : 0.00371736 secondes
+Temps pour avancement : 0.00022463s
+Temps pour affichage : 0.00272626 secondes
+Temps pour avancement : 0.000144874s
+Temps pour affichage : 0.00370854 secondes
+Temps pour avancement : 0.000193829s
+Temps pour affichage : 0.00341361 secondes
+Temps pour avancement : 0.000175507s
+Temps pour affichage : 0.00476967 secondes
+Temps pour avancement : 0.000195074s
+Temps pour affichage : 0.0087405 secondes
+Temps pour avancement : 0.00047431s
+Temps pour affichage : 0.00493974 secondes
+Temps pour avancement : 0.000201805s
+Temps pour affichage : 0.00314584 secondes
+Temps pour avancement : 0.000188824s
+Temps pour affichage : 0.00343218 secondes
+Temps pour avancement : 0.000276128s
+Temps pour affichage : 0.00391199 secondes
+Temps pour avancement : 0.000172166s
+Temps pour affichage : 0.00548661 secondes
+Temps pour avancement : 0.000171645s
+Temps pour affichage : 0.00325249 secondes
+Temps pour avancement : 0.0001719s
+Temps pour affichage : 0.0032225 secondes
+Temps pour avancement : 0.000169327s
+Temps pour affichage : 0.00357819 secondes
+Temps pour avancement : 0.000139244s
+Temps pour affichage : 0.00339945 secondes
+Temps pour avancement : 0.000171499s
+Temps pour affichage : 0.00305759 secondes
+Temps pour avancement : 0.000134586s
+Temps pour affichage : 0.00568034 secondes
+Temps pour avancement : 0.000147146s
+Temps pour affichage : 0.00334829 secondes
+Temps pour avancement : 0.000145096s
+Temps pour affichage : 0.00300993 secondes
+Temps pour avancement : 0.000150009s
+Temps pour affichage : 0.00283395 secondes
+Temps pour avancement : 0.000140787s
+Temps pour affichage : 0.00332994 secondes
+Temps pour avancement : 0.000145343s
+Temps pour affichage : 0.0035517 secondes
+Temps pour avancement : 0.000221735s
+Temps pour affichage : 0.00423857 secondes
+Temps pour avancement : 0.000144718s
+Temps pour affichage : 0.00312416 secondes
+Temps pour avancement : 0.000150724s
+Temps pour affichage : 0.00309583 secondes
+Temps pour avancement : 0.000225317s
+Temps pour affichage : 0.0035416 secondes
+Temps pour avancement : 0.00019708s
+Temps pour affichage : 0.00375542 secondes
+Temps pour avancement : 0.000189125s
+Temps pour affichage : 0.00384502 secondes
+Temps pour avancement : 0.000138581s
+Temps pour affichage : 0.00305953 secondes
+Temps pour avancement : 0.000162881s
+Temps pour affichage : 0.00368039 secondes
+Temps pour avancement : 0.000153133s
+Temps pour affichage : 0.0026096 secondes
+Temps pour avancement : 0.000134393s
+Temps pour affichage : 0.00304878 secondes
+Temps pour avancement : 0.000137635s
+Temps pour affichage : 0.0407954 secondes
+Temps pour avancement : 0.000153354s
+Temps pour affichage : 0.0045798 secondes
+Temps pour avancement : 0.000192334s
+Temps pour affichage : 0.00293985 secondes
+Temps pour avancement : 0.000191536s
+Temps pour affichage : 0.00338607 secondes
+Temps pour avancement : 0.00018094s
+Temps pour affichage : 0.00320941 secondes
+Temps pour avancement : 0.000137759s
+Temps pour affichage : 0.00340902 secondes
+Temps pour avancement : 0.000181569s
+Temps pour affichage : 0.00344004 secondes
+Temps pour avancement : 0.000141365s
+Temps pour affichage : 0.0039118 secondes
+Temps pour avancement : 0.00013719s
+Temps pour affichage : 0.00297305 secondes
+Temps pour avancement : 0.000184474s
+Temps pour affichage : 0.00346449 secondes
+Temps pour avancement : 0.0001344s
+Temps pour affichage : 0.00308389 secondes
+Temps pour avancement : 0.00013243s
+Temps pour affichage : 0.00379562 secondes
+Temps pour avancement : 0.000170156s
+Temps pour affichage : 0.00373117 secondes
+Temps pour avancement : 0.000173088s
+Temps pour affichage : 0.00387502 secondes
+Temps pour avancement : 0.000204145s
+Temps pour affichage : 0.00373854 secondes
+Temps pour avancement : 0.000181762s
+Temps pour affichage : 0.00339973 secondes
+Temps pour avancement : 0.000170991s
+Temps pour affichage : 0.00391489 secondes
+Temps pour avancement : 0.000135446s
+Temps pour affichage : 0.00534791 secondes
+Temps pour avancement : 0.000139122s
+Temps pour affichage : 0.00397902 secondes
+Temps pour avancement : 0.000129338s
+Temps pour affichage : 0.00325161 secondes
+Temps pour avancement : 0.000148182s
+Temps pour affichage : 0.00328882 secondes
+Temps pour avancement : 0.000148389s
+Temps pour affichage : 0.00557885 secondes
+Temps pour avancement : 0.000131989s
+Temps pour affichage : 0.00387653 secondes
+Temps pour avancement : 0.000136809s
+Temps pour affichage : 0.00322814 secondes
+Temps pour avancement : 0.000133261s
+Temps pour affichage : 0.00955465 secondes
+Temps pour avancement : 0.000136104s
+Temps pour affichage : 0.00290527 secondes
+Temps pour avancement : 0.000124599s
+Temps pour affichage : 0.00298961 secondes
+Temps pour avancement : 0.000133272s
+Temps pour affichage : 0.00311767 secondes
+Temps pour avancement : 0.000168612s
+Temps pour affichage : 0.00317521 secondes
+Temps pour avancement : 0.000208288s
+Temps pour affichage : 0.00358928 secondes
+Temps pour avancement : 0.000167204s
+Temps pour affichage : 0.00527364 secondes
+Temps pour avancement : 0.000160252s
+Temps pour affichage : 0.00345958 secondes
+Temps pour avancement : 0.000151775s
+Temps pour affichage : 0.00328238 secondes
+Temps pour avancement : 0.000180785s
+Temps pour affichage : 0.00323402 secondes
+Temps pour avancement : 0.000134383s
+Temps pour affichage : 0.00403577 secondes
+Temps pour avancement : 0.000194094s
+Temps pour affichage : 0.00332858 secondes
+Temps pour avancement : 0.000148077s
+Temps pour affichage : 0.00404491 secondes
+Temps pour avancement : 0.00014337s
+Temps pour affichage : 0.00351393 secondes
+Temps pour avancement : 0.00018669s
+Temps pour affichage : 0.00331067 secondes
+Temps pour avancement : 0.000182417s
+Temps pour affichage : 0.00346057 secondes
+Temps pour avancement : 0.000135144s
+Temps pour affichage : 0.00404032 secondes
+Temps pour avancement : 0.000131914s
+Temps pour affichage : 0.00357196 secondes
+Temps pour avancement : 0.000179598s
+Temps pour affichage : 0.00383301 secondes
+Temps pour avancement : 0.000164974s
+Temps pour affichage : 0.00294961 secondes
+Temps pour avancement : 0.000139637s
+Temps pour affichage : 0.00283638 secondes
+Temps pour avancement : 0.00017356s
+Temps pour affichage : 0.00338838 secondes
+Temps pour avancement : 0.000220181s
+Temps pour affichage : 0.0035036 secondes
+Temps pour avancement : 0.000164297s
+Temps pour affichage : 0.00459397 secondes
+Temps pour avancement : 0.000187221s
+Temps pour affichage : 0.00313365 secondes
+Temps pour avancement : 0.00022024s
+Temps pour affichage : 0.00293159 secondes
+Temps pour avancement : 0.000145006s
+Temps pour affichage : 0.00437261 secondes
+Temps pour avancement : 0.000128534s
+Temps pour affichage : 0.00426064 secondes
+Temps pour avancement : 0.000136857s
+Temps pour affichage : 0.00380154 secondes
+Temps pour avancement : 0.00014466s
+Temps pour affichage : 0.0039408 secondes
+Temps pour avancement : 0.000129801s
+Temps pour affichage : 0.00300088 secondes
+Temps pour avancement : 0.000183908s
+Temps pour affichage : 0.00351096 secondes
+Temps pour avancement : 0.00016044s
+Temps pour affichage : 0.00299987 secondes
+Temps pour avancement : 0.000144994s
+Temps pour affichage : 0.00308293 secondes
+Temps pour avancement : 0.000190686s
+Temps pour affichage : 0.00330622 secondes
+Temps pour avancement : 0.000323727s
+Temps pour affichage : 0.00350516 secondes
+Temps pour avancement : 0.000139294s
+Temps pour affichage : 0.00363766 secondes
+Temps pour avancement : 0.000207731s
+Temps pour affichage : 0.00287851 secondes
+Temps pour avancement : 0.00014679s
+Temps pour affichage : 0.00320472 secondes
+Temps pour avancement : 0.000210169s
+Temps pour affichage : 0.00374457 secondes
+Temps pour avancement : 0.000142154s
+Temps pour affichage : 0.00377788 secondes
+Temps pour avancement : 0.000188754s
+Temps pour affichage : 0.00375716 secondes
+Temps pour avancement : 0.000181141s
+Temps pour affichage : 0.00388657 secondes
+Temps pour avancement : 0.000144372s
+Temps pour affichage : 0.00439408 secondes
+Temps pour avancement : 0.000150331s
+Temps pour affichage : 0.00375709 secondes
+Temps pour avancement : 0.000148962s
+Temps pour affichage : 0.00321034 secondes
+Temps pour avancement : 0.000236976s
+Temps pour affichage : 0.00294862 secondes
+Temps pour avancement : 0.000147996s
+Temps pour affichage : 0.00422853 secondes
+Temps pour avancement : 0.000153364s
+Temps pour affichage : 0.00310376 secondes
+Temps pour avancement : 0.000883511s
+Temps pour affichage : 0.00482857 secondes
+Temps pour avancement : 0.000225048s
+Temps pour affichage : 0.00299222 secondes
+Temps pour avancement : 0.0001722s
+Temps pour affichage : 0.00317278 secondes
+Temps pour avancement : 0.00014331s
+Temps pour affichage : 0.00479014 secondes
+Temps pour avancement : 0.000177528s
+Temps pour affichage : 0.00315255 secondes
+Temps pour avancement : 0.00014249s
+Temps pour affichage : 0.003567 secondes
+Temps pour avancement : 0.000182137s
+Temps pour affichage : 0.0032453 secondes
+Temps pour avancement : 0.000129401s
+Temps pour affichage : 0.003375 secondes
+Temps pour avancement : 0.000159714s
+Temps pour affichage : 0.00417313 secondes
+Temps pour avancement : 0.000157682s
+Temps pour affichage : 0.0040089 secondes
+Temps pour avancement : 0.000161524s
+Temps pour affichage : 0.00298247 secondes
+Temps pour avancement : 0.000133223s
+Temps pour affichage : 0.00375112 secondes
+Temps pour avancement : 0.000152612s
+Temps pour affichage : 0.00286893 secondes
+Temps pour avancement : 0.000130728s
+Temps pour affichage : 0.00296798 secondes
+Temps pour avancement : 0.000140966s
+Temps pour affichage : 0.00408446 secondes
+Temps pour avancement : 0.000151872s
+Temps pour affichage : 0.0033934 secondes
+Temps pour avancement : 0.000138266s
+Temps pour affichage : 0.00298943 secondes
+Temps pour avancement : 0.000132362s
+Temps pour affichage : 0.00313684 secondes
+Temps pour avancement : 0.00013779s
+Temps pour affichage : 0.00329782 secondes
+Temps pour avancement : 0.000127547s
+Temps pour affichage : 0.00324239 secondes
+Temps pour avancement : 0.000133487s
+Temps pour affichage : 0.00393179 secondes
+Temps pour avancement : 0.000172185s
+Temps pour affichage : 0.00388302 secondes
+Temps pour avancement : 0.000170427s
+Temps pour affichage : 0.00312059 secondes
+Temps pour avancement : 0.000195672s
+Temps pour affichage : 0.00272059 secondes
+Temps pour avancement : 0.000124352s
+Temps pour affichage : 0.00302719 secondes
+Temps pour avancement : 0.000133039s
+Temps pour affichage : 0.00307624 secondes
+Temps pour avancement : 0.00018795s
+Temps pour affichage : 0.00421746 secondes
+Temps pour avancement : 0.000134633s
+Temps pour affichage : 0.00304111 secondes
+Temps pour avancement : 0.000177408s
+Temps pour affichage : 0.016845 secondes
+Temps pour avancement : 0.000128s
+Temps pour affichage : 0.00479225 secondes
+Temps pour avancement : 0.000125972s
+Temps pour affichage : 0.00275606 secondes
+Temps pour avancement : 0.000126197s
+Temps pour affichage : 0.00323309 secondes
+Temps pour avancement : 0.000131833s
+Temps pour affichage : 0.0035569 secondes
+Temps pour avancement : 0.000136467s
+Temps pour affichage : 0.00284904 secondes
+Temps pour avancement : 0.000177774s
+Temps pour affichage : 0.00424435 secondes
+Temps pour avancement : 0.000120039s
+Temps pour affichage : 0.0027554 secondes
+Temps pour avancement : 0.000124094s
+Temps pour affichage : 0.00338378 secondes
+Temps pour avancement : 0.000156141s
+Temps pour affichage : 0.0042725 secondes
+Temps pour avancement : 0.000159671s
+Temps pour affichage : 0.00472469 secondes
+Temps pour avancement : 0.000154631s
+Temps pour affichage : 0.00308505 secondes
+Temps pour avancement : 0.00020143s
+Temps pour affichage : 0.00357292 secondes
+Temps pour avancement : 0.000186038s
+Temps pour affichage : 0.00318595 secondes
+Temps pour avancement : 0.000138777s
+Temps pour affichage : 0.00329977 secondes
+Temps pour avancement : 0.000182678s
+Temps pour affichage : 0.00339736 secondes
+Temps pour avancement : 0.000143807s
+Temps pour affichage : 0.00401407 secondes
+Temps pour avancement : 0.000193988s
+Temps pour affichage : 0.00296279 secondes
+Temps pour avancement : 0.000359294s
+Temps pour affichage : 0.00326054 secondes
+Temps pour avancement : 0.000121038s
+Temps pour affichage : 0.00308316 secondes
+Temps pour avancement : 0.000136804s
+Temps pour affichage : 0.00309725 secondes
+Temps pour avancement : 0.000135039s
+Temps pour affichage : 0.00408118 secondes
+Temps pour avancement : 0.000239466s
+Temps pour affichage : 0.00337414 secondes
+Temps pour avancement : 0.00013098s
+Temps pour affichage : 0.003338 secondes
+Temps pour avancement : 0.000140478s
+Temps pour affichage : 0.00277661 secondes
+Temps pour avancement : 0.000133141s
+Temps pour affichage : 0.00308535 secondes
+Temps pour avancement : 0.000239366s
+Temps pour affichage : 0.00322985 secondes
+Temps pour avancement : 0.000131425s
+Temps pour affichage : 0.00391416 secondes
+Temps pour avancement : 0.000135246s
+Temps pour affichage : 0.00348787 secondes
+Temps pour avancement : 0.000138263s
+Temps pour affichage : 0.0029788 secondes
+Temps pour avancement : 0.000120344s
+Temps pour affichage : 0.00332057 secondes
+Temps pour avancement : 0.000182162s
+Temps pour affichage : 0.00274355 secondes
+Temps pour avancement : 0.00017545s
+Temps pour affichage : 0.00302176 secondes
+Temps pour avancement : 0.000130247s
+Temps pour affichage : 0.00433223 secondes
+Temps pour avancement : 0.000126762s
+Temps pour affichage : 0.00300684 secondes
+Temps pour avancement : 0.000170535s
+Temps pour affichage : 0.00342531 secondes
+Temps pour avancement : 0.000133504s
+Temps pour affichage : 0.00828598 secondes
+Temps pour avancement : 0.000135911s
+Temps pour affichage : 0.00290438 secondes
+Temps pour avancement : 0.00013096s
+Temps pour affichage : 0.00284047 secondes
+Temps pour avancement : 0.000128615s
+Temps pour affichage : 0.00359249 secondes
+Temps pour avancement : 0.000125904s
+Temps pour affichage : 0.00282359 secondes
+Temps pour avancement : 0.000161835s
+Temps pour affichage : 0.00314658 secondes
+Temps pour avancement : 0.00012934s
+Temps pour affichage : 0.00337426 secondes
+Temps pour avancement : 0.000187954s
+Temps pour affichage : 0.00295269 secondes
+Temps pour avancement : 0.000161009s
+Temps pour affichage : 0.00353593 secondes
+Temps pour avancement : 0.000211654s
+Temps pour affichage : 0.00436377 secondes
+Temps pour avancement : 0.000320838s
+Temps pour affichage : 0.0030287 secondes
+Temps pour avancement : 0.000135993s
+Temps pour affichage : 0.00315215 secondes
+Temps pour avancement : 0.000204905s
+Temps pour affichage : 0.00337504 secondes
+Temps pour avancement : 0.00014238s
+Temps pour affichage : 0.00431202 secondes
+Temps pour avancement : 0.000208295s
+Temps pour affichage : 0.00313582 secondes
+Temps pour avancement : 0.000133879s
+Temps pour affichage : 0.00518213 secondes
+Temps pour avancement : 0.000163334s
+Temps pour affichage : 0.00348048 secondes
+Temps pour avancement : 0.000137706s
+Temps pour affichage : 0.0106014 secondes
+Temps pour avancement : 0.00015017s
+Temps pour affichage : 0.00299281 secondes
+Temps pour avancement : 0.00013663s
+Temps pour affichage : 0.00322357 secondes
+Temps pour avancement : 0.000132391s
+Temps pour affichage : 0.00316924 secondes
+Temps pour avancement : 0.000193996s
+Temps pour affichage : 0.00421317 secondes
+Temps pour avancement : 0.000135356s
+Temps pour affichage : 0.00367644 secondes
+Temps pour avancement : 0.000143472s
+Temps pour affichage : 0.0045778 secondes
+Temps pour avancement : 0.000123009s
+Temps pour affichage : 0.00331346 secondes
+Temps pour avancement : 0.000123243s
+Temps pour affichage : 0.0035237 secondes
+Temps pour avancement : 0.000158912s
+Temps pour affichage : 0.00420608 secondes
+Temps pour avancement : 0.000158325s
+Temps pour affichage : 0.00311638 secondes
+Temps pour avancement : 0.000166913s
+Temps pour affichage : 0.00307359 secondes
+Temps pour avancement : 0.000170363s
+Temps pour affichage : 0.00318143 secondes
+Temps pour avancement : 0.000159s
+Temps pour affichage : 0.00354891 secondes
+Temps pour avancement : 0.000159846s
+Temps pour affichage : 0.00390298 secondes
+Temps pour avancement : 0.000145393s
+Temps pour affichage : 0.00783079 secondes
+Temps pour avancement : 0.000153501s
+Temps pour affichage : 0.0456805 secondes
+Temps pour avancement : 0.000126075s
+Temps pour affichage : 0.00344215 secondes
+Temps pour avancement : 0.000170567s
+Temps pour affichage : 0.00565418 secondes
+Temps pour avancement : 0.000154677s
+Temps pour affichage : 0.00323312 secondes
+Temps pour avancement : 0.00017499s
+Temps pour affichage : 0.00304142 secondes
+Temps pour avancement : 0.000156578s
+Temps pour affichage : 0.00365571 secondes
+Temps pour avancement : 0.000198764s
+Temps pour affichage : 0.00284878 secondes
+Temps pour avancement : 0.00016382s
+Temps pour affichage : 0.00337709 secondes
+Temps pour avancement : 0.000164969s
+Temps pour affichage : 0.00546569 secondes
+Temps pour avancement : 0.000156304s
+Temps pour affichage : 0.00342384 secondes
+Temps pour avancement : 0.000151516s
+Temps pour affichage : 0.00314725 secondes
+Temps pour avancement : 0.000779304s
+Temps pour affichage : 0.00324622 secondes
+Temps pour avancement : 0.000126095s
+Temps pour affichage : 0.00317088 secondes
+Temps pour avancement : 0.000175465s
+Temps pour affichage : 0.00265408 secondes
+Temps pour avancement : 0.000122983s
+Temps pour affichage : 0.00361297 secondes
+Temps pour avancement : 0.000181524s
+Temps pour affichage : 0.00284577 secondes
+Temps pour avancement : 0.000117892s
+Temps pour affichage : 0.00374055 secondes
+Temps pour avancement : 0.000158332s
+Temps pour affichage : 0.00444968 secondes
+Temps pour avancement : 0.000121631s
+Temps pour affichage : 0.00295121 secondes
+Temps pour avancement : 0.000148651s
+Temps pour affichage : 0.0031484 secondes
+Temps pour avancement : 0.00013061s
+Temps pour affichage : 0.00375342 secondes
+Temps pour avancement : 0.000125237s
+Temps pour affichage : 0.0121584 secondes
+Temps pour avancement : 0.000127889s
+Temps pour affichage : 0.00394505 secondes
+Temps pour avancement : 0.00013461s
+Temps pour affichage : 0.00282187 secondes
+Temps pour avancement : 0.000134023s
+Temps pour affichage : 0.00319283 secondes
+Temps pour avancement : 0.000174068s
+Temps pour affichage : 0.00332147 secondes
+Temps pour avancement : 0.000159598s
+Temps pour affichage : 0.00290355 secondes
+Temps pour avancement : 0.000141101s
+Temps pour affichage : 0.00423851 secondes
+Temps pour avancement : 0.000176589s
+Temps total de simulation : 51.2564 secondes
+Simulation finished. Total time step: 0

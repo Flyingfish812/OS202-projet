@@ -169,8 +169,13 @@ Model::update()
     m_time_step += 1;
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
+    double execution_time = elapsed.count();
+
     // Log du temps d'exécution pour l'avancement
-    logFile << "Temps pour avancement : " << elapsed.count() << " secondes" << std::endl;
+    MPI_Request request;
+    MPI_Isend(&execution_time, 1, MPI_DOUBLE, 0, 4, MPI_COMM_WORLD, &request);
+    MPI_Wait(&request, MPI_STATUS_IGNORE);
+    // logFile << "Temps pour avancement : " << elapsed.count() << " secondes" << std::endl;
 
     return !m_fire_front.empty();
 }

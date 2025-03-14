@@ -266,6 +266,7 @@ int main(int nargs, char* args[])
         std::vector<uint8_t> vegetation_data(size), fire_data(size);
         int flag;
         MPI_Status status;
+        MPI_Request request_time;
         
         while (running) {
             // Surveillance des messages envoyés par le processus 1 (données ou signal d'arrêt)
@@ -278,11 +279,14 @@ int main(int nargs, char* args[])
                     std::cout << "Signal d'arrêt reçu. Fermeture." << std::endl;
                     running = false;
                     break;
+                } else if (status.MPI_TAG == 4) {
+                    MPI_Irecv(&elapsed_time, 1, MPI_DOUBLE, 1, 4, MPI_COMM_WORLD, &request_time);
+                    logFile << "Temps pour avancement : " << elapsed_time << "s\n";
                 } else if (status.MPI_TAG == 1) { 
                     // Réception des données sur la végétation et le feu (les tags 1 et 2 doivent être reçus ensemble)
                     MPI_Recv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &status);
                     MPI_Recv(fire_data.data(), size, MPI_BYTE, 1, 2, MPI_COMM_WORLD, &status);
-
+                    
                     // Mesure du temps de mise à jour de l'affichage
                     displayer->update(vegetation_data, fire_data);
                 }

@@ -26,7 +26,6 @@ public:
     Model& operator = ( Model      && ) = delete;
 
     bool update();
-    bool is_my_region(LexicoIndices coord) const;
 
     unsigned geometry() const { return m_geometry; }
     std::vector<std::uint8_t> vegetal_map() const { return m_vegetation_map; }
