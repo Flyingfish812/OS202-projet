@@ -26,7 +26,6 @@ public:
     Model& operator = ( Model      && ) = delete;
 
     bool update();
-    bool is_my_region(LexicoIndices coord) const;
 
     unsigned geometry() const { return m_geometry; }
     std::vector<std::uint8_t> vegetal_map() const { return m_vegetation_map; }
@@ -40,7 +39,6 @@ private:
     double m_length;                    // Taille du carré représentant le terrain (en km)
     double m_distance;                  // Taille d'une case du terrain modélisé
     std::size_t m_time_step;            // Dernier numéro du pas de temps calculé
-    double m_execution_time;          // Temps d'exécution du programme (en secondes)
     unsigned m_geometry;                // Taille en nombre de cases de la carte 2D
     std::array<double,2> m_wind{0.,0.}; // Vitesse et direction du vent suivant les axes x et y en km/h
     double m_wind_speed;                // Norme euclidienne de la vitesse du vent

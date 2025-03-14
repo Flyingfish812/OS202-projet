@@ -7,7 +7,7 @@ ifdef DEBUG
 CXXFLAGS += -g -O0 -Wall -fbounds-check -pedantic -D_GLIBCXX_DEBUG
 CXXFLAGS2 = CXXFLAGS
 else
-CXXFLAGS2 = ${CXXFLAGS} -O2 -march=native -Wall -fsanitize=address
+CXXFLAGS2 = ${CXXFLAGS} -O2 -march=native -Wall
 CXXFLAGS += -O3 -march=native -Wall
 endif
 

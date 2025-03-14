@@ -43,7 +43,7 @@ void initLog() {
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
     // Personalized information
-    logFile << "Test for original version, without optimization" << std::endl;
+    logFile << "Part 0 : Test for original version, without optimization" << std::endl;
 }
 
 void analyze_arg( int nargs, char* args[], ParamsType& params )

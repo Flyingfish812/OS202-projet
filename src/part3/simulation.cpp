@@ -20,14 +20,14 @@ using namespace std::chrono_literals;
 
 std::ofstream logFile;
 
-void initLog() {
+void initLog(int rank) {
     // Get current time
     auto t = std::time(nullptr);
     auto tm = *std::localtime(&t);
 
     // Format time as YYYY-MM-DD_HH-MM-SS
     std::ostringstream oss;
-    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_log.txt";
+    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_thread_" << rank << "_log.txt";
     std::string logFilePath = oss.str();
 
     logFile.open(logFilePath, std::ios::out | std::ios::trunc);
@@ -38,7 +38,7 @@ void initLog() {
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
     // Personalized information
-    logFile << "Test for OpenMP + MPI version + async io" << std::endl;
+    logFile << "Part 3 : Test for OpenMP + MPI version + async io" << std::endl;
 }
 
 struct ParamsType
@@ -242,7 +242,7 @@ int main(int nargs, char* args[]) {
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    initLog();
+    initLog(rank);
 
     ParamsType params = parse_arguments(nargs-1, &args[1]);
     if (!check_params(params)) {
@@ -254,15 +254,19 @@ int main(int nargs, char* args[]) {
     const int size = params.discretization * params.discretization;
     const int num_threads = 4;  // 进程 1 计算时的 OpenMP 线程数
 
+    auto global_start_time = std::chrono::high_resolution_clock::now();
     if (rank == 1) {
         omp_set_num_threads(num_threads);
         while (simu.update()) {
             MPI_Request request_vegetation, request_fire;
+            // MPI_Send(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
+            // MPI_Send(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
             MPI_Isend(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD, &request_vegetation);
-            MPI_Isend(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD, &request_fire);
             MPI_Wait(&request_vegetation, MPI_STATUS_IGNORE);
+            MPI_Isend(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD, &request_fire);
             MPI_Wait(&request_fire, MPI_STATUS_IGNORE);
         }
+        logFile << "Total step: " << simu.time_step() << std::endl;
         int stop_flag = 1;
         MPI_Request request_stop;
         MPI_Isend(&stop_flag, 1, MPI_INT, 0, 5, MPI_COMM_WORLD, &request_stop);
@@ -273,8 +277,7 @@ int main(int nargs, char* args[]) {
         bool running = true;
         std::vector<uint8_t> vegetation_data(size), fire_data(size);
         std::vector<double> thread_times(num_threads);
-        MPI_Request request_vegetation, request_fire, request_stop, request_time, request_global_time;
-        double global_elapsed_time;
+        MPI_Request request_vegetation, request_fire, request_stop;
 
         while (running) {
             MPI_Status status;
@@ -283,14 +286,6 @@ int main(int nargs, char* args[]) {
                 MPI_Irecv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &request_vegetation);
                 MPI_Irecv(fire_data.data(), size, MPI_BYTE, 1, 2, MPI_COMM_WORLD, &request_fire);
                 displayer->update(vegetation_data, fire_data);
-            } else if (status.MPI_TAG == 3) {
-                MPI_Irecv(thread_times.data(), num_threads, MPI_DOUBLE, 1, 3, MPI_COMM_WORLD, &request_time);
-                for (int i = 0; i < num_threads; i++) {
-                    logFile << "Thread " << i << " time: " << thread_times[i] << "s\n";
-                }
-            } else if (status.MPI_TAG == 4) {
-                MPI_Irecv(&global_elapsed_time, 1, MPI_DOUBLE, 1, 4, MPI_COMM_WORLD, &request_global_time);
-                logFile << "Total time: " << global_elapsed_time << "s\n";
             } else if (status.MPI_TAG == 5) {
                 MPI_Irecv(&running, 1, MPI_INT, 1, 5, MPI_COMM_WORLD, &request_stop);
                 std::cout << "End signal received. Quit." << std::endl;
@@ -300,11 +295,14 @@ int main(int nargs, char* args[]) {
             if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
                 running = false;
             }
-            std::this_thread::sleep_for(0.02s);
+            // std::this_thread::sleep_for(0.02s);
         }
     }
 
     MPI_Barrier(MPI_COMM_WORLD);
+    auto global_end_time = std::chrono::high_resolution_clock::now();
+    double global_compute_time = std::chrono::duration<double>(global_end_time - global_start_time).count();
+    logFile << "Temps global de lancement dans ce processus : " << global_compute_time << " secondes" << std::endl;
     MPI_Finalize();
     logFile.close();
     return EXIT_SUCCESS;

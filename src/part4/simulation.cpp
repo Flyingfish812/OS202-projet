@@ -17,14 +17,14 @@ using namespace std::chrono_literals;
 
 std::ofstream logFile;
 
-void initLog() {
+void initLog(int rank) {
     // 获取当前时间
     auto t = std::time(nullptr);
     auto tm = *std::localtime(&t);
 
     // 格式化时间为 YYYY-MM-DD_HH-MM-SS
     std::ostringstream oss;
-    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_log.txt";
+    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_thread_" << rank << "_log.txt";
     std::string logFilePath = oss.str();
 
     logFile.open(logFilePath, std::ios::out | std::ios::trunc);
@@ -34,7 +34,7 @@ void initLog() {
     }
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
-    logFile << "Test for MPI with multiple compute processes" << std::endl;
+    logFile << "Part 4 : Test for MPI with multiple compute processes" << std::endl;
 }
 
 struct ParamsType
@@ -225,7 +225,7 @@ int main(int nargs, char* args[])
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
-    initLog();
+    initLog(world_rank);
     ParamsType params = parse_arguments(nargs-1, &args[1]);
     if (!check_params(params)) {
         MPI_Abort(MPI_COMM_WORLD, EXIT_FAILURE);
@@ -301,7 +301,7 @@ int main(int nargs, char* args[])
                     MPI_Send(&dummy, 1, MPI_INT, dest, 4, MPI_COMM_WORLD);
                 }
             }
-            std::this_thread::sleep_for(20ms);
+            // std::this_thread::sleep_for(20ms);
         }
     } else {
         // 计算进程部分

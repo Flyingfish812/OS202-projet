@@ -1,0 +1,5797 @@
+Log initialized at: 2025-03-14 16:08:30
+Part 1 : Test for first try of OpenMP optimization
+Nombre de coeurs physiques : 32
+Taille du cache L1 : 48 KB
+Thread 0 time: 8.056e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 0.0032974s
+Temps pour affichage : 0.0121109 secondes
+Thread 0 time: 2.018e-06s
+Thread 1 time: 0s
+Thread 2 time: 3.7645e-05s
+Thread 3 time: 0s
+Thread 4 time: 5.0268e-05s
+Thread 5 time: 6.1147e-05s
+Global execution time: 9.657e-05s
+Temps pour affichage : 0.00304203 secondes
+Thread 0 time: 6.72e-07s
+Thread 1 time: 4.58e-07s
+Thread 2 time: 1.456e-06s
+Thread 3 time: 3.4226e-05s
+Thread 4 time: 1.42e-06s
+Thread 5 time: 1.72e-06s
+Global execution time: 4.3806e-05s
+Temps pour affichage : 0.0042418 secondes
+Thread 0 time: 1.056e-06s
+Thread 1 time: 5.86e-07s
+Thread 2 time: 4.53e-07s
+Thread 3 time: 2.14e-06s
+Thread 4 time: 5.34e-07s
+Thread 5 time: 3.46e-07s
+Global execution time: 1.0215e-05s
+Temps pour affichage : 0.00454767 secondes
+Thread 0 time: 7.64e-07s
+Thread 1 time: 3.17e-07s
+Thread 2 time: 3.29e-07s
+Thread 3 time: 5.64e-07s
+Thread 4 time: 3.41e-07s
+Thread 5 time: 5.31e-07s
+Global execution time: 1.1635e-05s
+Temps pour affichage : 0.00414569 secondes
+Thread 0 time: 9.24e-07s
+Thread 1 time: 9.5e-07s
+Thread 2 time: 0s
+Thread 3 time: 3.58e-07s
+Thread 4 time: 8.96e-07s
+Thread 5 time: 5.35e-07s
+Global execution time: 1.8989e-05s
+Temps pour affichage : 0.00397854 secondes
+Thread 0 time: 1.209e-06s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 2.45e-07s
+Thread 3 time: 5.9e-07s
+Thread 4 time: 2.96e-07s
+Thread 5 time: 9.76e-07s
+Global execution time: 1.525e-05s
+Temps pour affichage : 0.00356848 secondes
+Thread 0 time: 3.33e-07s
+Thread 1 time: 3.63e-07s
+Thread 2 time: 4.24e-07s
+Thread 3 time: 3.64e-07s
+Thread 4 time: 6.88e-07s
+Thread 5 time: 5.41e-07s
+Global execution time: 1.8896e-05s
+Temps pour affichage : 0.00366565 secondes
+Thread 0 time: 9.24e-07s
+Thread 1 time: 4.042e-06s
+Thread 2 time: 2.03e-07s
+Thread 3 time: 3.603e-06s
+Thread 4 time: 6.7e-07s
+Thread 5 time: 7.45e-07s
+Global execution time: 3.0544e-05s
+Temps pour affichage : 0.00396701 secondes
+Thread 0 time: 4.04e-07s
+Thread 1 time: 5.08e-07s
+Thread 2 time: 2.84e-07s
+Thread 3 time: 1.02e-06s
+Thread 4 time: 1.77e-07s
+Thread 5 time: 1.09e-07s
+Global execution time: 2.2317e-05s
+Temps pour affichage : 0.00406758 secondes
+Thread 0 time: 3.06e-07s
+Thread 1 time: 7.14e-07s
+Thread 2 time: 5.09e-07s
+Thread 3 time: 9.09e-07s
+Thread 4 time: 8.08e-07s
+Thread 5 time: 4.04e-07s
+Global execution time: 2.5016e-05s
+Temps pour affichage : 0.00330769 secondes
+Thread 0 time: 1.537e-06s
+Thread 1 time: 2.46e-07s
+Thread 2 time: 2.64e-07s
+Thread 3 time: 2.01e-07s
+Thread 4 time: 3.67e-07s
+Thread 5 time: 4.77e-07s
+Global execution time: 3.6437e-05s
+Temps pour affichage : 0.00749647 secondes
+Thread 0 time: 2.73e-07s
+Thread 1 time: 4.75e-07s
+Thread 2 time: 2.8e-07s
+Thread 3 time: 0s
+Thread 4 time: 2.32e-07s
+Thread 5 time: 2.5e-07s
+Global execution time: 4.3688e-05s
+Temps pour affichage : 0.00448509 secondes
+Thread 0 time: 2.91e-07s
+Thread 1 time: 2.36e-07s
+Thread 2 time: 6.02e-07s
+Thread 3 time: 1.85e-07s
+Thread 4 time: 1.343e-06s
+Thread 5 time: 1.116e-06s
+Global execution time: 4.7141e-05s
+Temps pour affichage : 0.00457721 secondes
+Thread 0 time: 5.16e-07s
+Thread 1 time: 5.346e-06s
+Thread 2 time: 1.493e-06s
+Thread 3 time: 4.77e-07s
+Thread 4 time: 3.37e-07s
+Thread 5 time: 2.39e-07s
+Global execution time: 0.000141501s
+Temps pour affichage : 0.0048208 secondes
+Thread 0 time: 1.815e-06s
+Thread 1 time: 2.77e-07s
+Thread 2 time: 4.47e-07s
+Thread 3 time: 4.28e-07s
+Thread 4 time: 4.31e-07s
+Thread 5 time: 7.93e-07s
+Global execution time: 8.2273e-05s
+Temps pour affichage : 0.00553213 secondes
+Thread 0 time: 2.35e-07s
+Thread 1 time: 1.83e-07s
+Thread 2 time: 2.19e-07s
+Thread 3 time: 6.75e-07s
+Thread 4 time: 1.876e-06s
+Thread 5 time: 4.6e-07s
+Global execution time: 7.4156e-05s
+Temps pour affichage : 0.00456621 secondes
+Thread 0 time: 1.92e-07s
+Thread 1 time: 4.21e-07s
+Thread 2 time: 3.44e-07s
+Thread 3 time: 2.89e-07s
+Thread 4 time: 2.02e-07s
+Thread 5 time: 3.93e-07s
+Global execution time: 9.4136e-05s
+Temps pour affichage : 0.00462351 secondes
+Thread 0 time: 1.643e-06s
+Thread 1 time: 4.57e-07s
+Thread 2 time: 1.474e-06s
+Thread 3 time: 5.155e-06s
+Thread 4 time: 1.337e-06s
+Thread 5 time: 2.75e-07s
+Global execution time: 9.5796e-05s
+Temps pour affichage : 0.00383898 secondes
+Thread 0 time: 3.06e-07s
+Thread 1 time: 3.63e-07s
+Thread 2 time: 5.62e-07s
+Thread 3 time: 0s
+Thread 4 time: 8.64e-07s
+Thread 5 time: 1.75e-07s
+Global execution time: 0.000133597s
+Temps pour affichage : 0.0049679 secondes
+Thread 0 time: 3.18e-07s
+Thread 1 time: 3.87e-07s
+Thread 2 time: 3.25e-07s
+Thread 3 time: 2.95e-07s
+Thread 4 time: 2.34e-07s
+Thread 5 time: 2.04e-07s
+Global execution time: 0.000225516s
+Temps pour affichage : 0.00361997 secondes
+Thread 0 time: 3.52e-07s
+Thread 1 time: 3.26e-07s
+Thread 2 time: 2.96e-07s
+Thread 3 time: 3.58e-07s
+Thread 4 time: 3.94e-07s
+Thread 5 time: 2.92e-07s
+Global execution time: 0.000109912s
+Temps pour affichage : 0.00378917 secondes
+Thread 0 time: 4.91e-07s
+Thread 1 time: 4.11e-07s
+Thread 2 time: 5.05e-07s
+Thread 3 time: 2.18e-07s
+Thread 4 time: 3.08e-07s
+Thread 5 time: 1.95e-07s
+Global execution time: 9.0211e-05s
+Temps pour affichage : 0.00363638 secondes
+Thread 0 time: 3.64e-07s
+Thread 1 time: 4.64e-07s
+Thread 2 time: 3.14e-07s
+Thread 3 time: 6.292e-06s
+Thread 4 time: 3.18e-07s
+Thread 5 time: 4.1e-07s
+Global execution time: 0.000132516s
+Temps pour affichage : 0.00478722 secondes
+Thread 0 time: 2.7e-07s
+Thread 1 time: 2.77e-07s
+Thread 2 time: 2.36e-07s
+Thread 3 time: 2.67e-07s
+Thread 4 time: 4.41e-07s
+Thread 5 time: 1.68e-07s
+Global execution time: 0.000180625s
+Temps pour affichage : 0.00359968 secondes
+Thread 0 time: 2.34e-07s
+Thread 1 time: 2.59e-07s
+Thread 2 time: 2.56e-07s
+Thread 3 time: 2.01e-07s
+Thread 4 time: 2.41e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.000151033s
+Temps pour affichage : 0.0042703 secondes
+Thread 0 time: 3.99e-07s
+Thread 1 time: 1.97e-07s
+Thread 2 time: 2.8e-07s
+Thread 3 time: 4e-07s
+Thread 4 time: 3.2e-07s
+Thread 5 time: 2.86e-07s
+Global execution time: 0.000175606s
+Temps pour affichage : 0.00348049 secondes
+Thread 0 time: 2.37e-07s
+Thread 1 time: 2.33e-07s
+Thread 2 time: 2e-07s
+Thread 3 time: 3.59e-07s
+Thread 4 time: 2.44e-07s
+Thread 5 time: 9.487e-06s
+Global execution time: 0.000334214s
+Temps pour affichage : 0.00401681 secondes
+Thread 0 time: 3.75e-07s
+Thread 1 time: 3.95e-07s
+Thread 2 time: 1.19e-07s
+Thread 3 time: 3.05e-07s
+Thread 4 time: 2.79e-07s
+Thread 5 time: 4.03e-07s
+Global execution time: 0.000125766s
+Temps pour affichage : 0.00387218 secondes
+Thread 0 time: 4e-07s
+Thread 1 time: 5.47e-07s
+Thread 2 time: 3.24e-07s
+Thread 3 time: 3.46e-07s
+Thread 4 time: 3.98e-07s
+Thread 5 time: 1.67e-07s
+Global execution time: 0.000142505s
+Temps pour affichage : 0.00407511 secondes
+Thread 0 time: 2.32e-07s
+Thread 1 time: 2.5e-07s
+Thread 2 time: 3.73e-07s
+Thread 3 time: 1.78e-07s
+Thread 4 time: 1.83e-07s
+Thread 5 time: 2.4e-07s
+Global execution time: 0.000139468s
+Temps pour affichage : 0.00438794 secondes
+Thread 0 time: 3.9e-07s
+Thread 1 time: 1.96e-07s
+Thread 2 time: 1.75e-07s
+Thread 3 time: 4.07e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 2.92e-07s
+Global execution time: 0.000209038s
+Temps pour affichage : 0.00619452 secondes
+Thread 0 time: 1.92e-07s
+Thread 1 time: 2.13e-07s
+Thread 2 time: 3.09e-07s
+Thread 3 time: 1.94e-07s
+Thread 4 time: 5.1e-07s
+Thread 5 time: 2.08e-07s
+Global execution time: 0.000333026s
+Temps pour affichage : 0.00382898 secondes
+Thread 0 time: 5.77e-07s
+Thread 1 time: 6.05e-07s
+Thread 2 time: 4.98e-07s
+Thread 3 time: 2.66e-07s
+Thread 4 time: 2.51e-07s
+Thread 5 time: 3.23e-07s
+Global execution time: 0.00019291s
+Temps pour affichage : 0.00392727 secondes
+Thread 0 time: 1.73e-07s
+Thread 1 time: 2.48e-07s
+Thread 2 time: 1.28e-07s
+Thread 3 time: 2.55e-07s
+Thread 4 time: 4.74e-07s
+Thread 5 time: 2.34e-07s
+Global execution time: 0.000176595s
+Temps pour affichage : 0.00380929 secondes
+Thread 0 time: 3.11e-07s
+Thread 1 time: 4.46e-07s
+Thread 2 time: 4.27e-07s
+Thread 3 time: 4.68e-07s
+Thread 4 time: 3.77e-07s
+Thread 5 time: 3.24e-07s
+Global execution time: 0.000178889s
+Temps pour affichage : 0.00371106 secondes
+Thread 0 time: 3.67e-07s
+Thread 1 time: 3.82e-07s
+Thread 2 time: 4.25e-07s
+Thread 3 time: 3.47e-07s
+Thread 4 time: 2.726e-06s
+Thread 5 time: 3.26e-07s
+Global execution time: 0.00019058s
+Temps pour affichage : 0.00358279 secondes
+Thread 0 time: 3.27e-07s
+Thread 1 time: 2.9e-07s
+Thread 2 time: 7.71e-07s
+Thread 3 time: 3.1e-07s
+Thread 4 time: 1.74e-07s
+Thread 5 time: 3.6e-07s
+Global execution time: 0.000197183s
+Temps pour affichage : 0.00402767 secondes
+Thread 0 time: 1.93e-07s
+Thread 1 time: 1.81e-07s
+Thread 2 time: 7.5e-08s
+Thread 3 time: 5.81e-07s
+Thread 4 time: 4.67e-07s
+Thread 5 time: 2.98e-07s
+Global execution time: 0.000233872s
+Temps pour affichage : 0.00360596 secondes
+Thread 0 time: 3.35e-07s
+Thread 1 time: 3.32e-07s
+Thread 2 time: 2.89e-07s
+Thread 3 time: 4.17e-07s
+Thread 4 time: 2.64e-07s
+Thread 5 time: 8.256e-06s
+Global execution time: 0.000231228s
+Temps pour affichage : 0.00351169 secondes
+Thread 0 time: 3.31e-07s
+Thread 1 time: 3.19e-07s
+Thread 2 time: 2.57e-07s
+Thread 3 time: 5.19e-07s
+Thread 4 time: 2.59e-07s
+Thread 5 time: 2.44e-07s
+Global execution time: 0.000312208s
+Temps pour affichage : 0.00748151 secondes
+Thread 0 time: 2.96e-07s
+Thread 1 time: 2.04e-07s
+Thread 2 time: 1.57e-07s
+Thread 3 time: 2.55e-07s
+Thread 4 time: 2.2e-07s
+Thread 5 time: 1.55e-07s
+Global execution time: 0.000240908s
+Temps pour affichage : 0.00383078 secondes
+Thread 0 time: 2.13e-07s
+Thread 1 time: 2.68e-07s
+Thread 2 time: 3.32e-07s
+Thread 3 time: 4.18e-07s
+Thread 4 time: 1.68e-07s
+Thread 5 time: 1.74e-07s
+Global execution time: 0.000245224s
+Temps pour affichage : 0.00470073 secondes
+Thread 0 time: 2.53e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 4.19e-07s
+Thread 3 time: 2.3e-07s
+Thread 4 time: 1.74e-07s
+Thread 5 time: 3.55e-07s
+Global execution time: 0.000283075s
+Temps pour affichage : 0.00373989 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 1.86e-07s
+Thread 2 time: 3.85e-07s
+Thread 3 time: 4.89e-07s
+Thread 4 time: 2.03e-07s
+Thread 5 time: 2.28e-07s
+Global execution time: 0.000257511s
+Temps pour affichage : 0.00343723 secondes
+Thread 0 time: 1.53e-07s
+Thread 1 time: 5.66e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 3.29e-07s
+Thread 4 time: 3.34e-07s
+Thread 5 time: 1.69e-07s
+Global execution time: 0.000283083s
+Temps pour affichage : 0.00407882 secondes
+Thread 0 time: 1.54e-07s
+Thread 1 time: 2.24e-07s
+Thread 2 time: 2.3e-07s
+Thread 3 time: 5.33e-07s
+Thread 4 time: 1.15e-07s
+Thread 5 time: 1.87e-07s
+Global execution time: 0.000389418s
+Temps pour affichage : 0.00420552 secondes
+Thread 0 time: 2.16e-07s
+Thread 1 time: 1.86e-07s
+Thread 2 time: 5.71e-07s
+Thread 3 time: 4.73e-07s
+Thread 4 time: 2.03e-07s
+Thread 5 time: 1.71e-07s
+Global execution time: 0.00032761s
+Temps pour affichage : 0.00363281 secondes
+Thread 0 time: 2.73e-07s
+Thread 1 time: 1.29e-07s
+Thread 2 time: 3.23e-07s
+Thread 3 time: 3.5e-07s
+Thread 4 time: 2.26e-07s
+Thread 5 time: 1.9e-07s
+Global execution time: 0.000726151s
+Temps pour affichage : 0.00385465 secondes
+Thread 0 time: 3.67e-07s
+Thread 1 time: 4.118e-06s
+Thread 2 time: 2.65e-07s
+Thread 3 time: 3.05e-07s
+Thread 4 time: 3.73e-07s
+Thread 5 time: 2.8e-07s
+Global execution time: 0.000361258s
+Temps pour affichage : 0.00364002 secondes
+Thread 0 time: 1.83e-07s
+Thread 1 time: 2.36e-07s
+Thread 2 time: 2.63e-07s
+Thread 3 time: 2.24e-07s
+Thread 4 time: 3.43e-07s
+Thread 5 time: 2.57e-07s
+Global execution time: 0.000349322s
+Temps pour affichage : 0.00360641 secondes
+Thread 0 time: 2.1e-07s
+Thread 1 time: 5.89e-07s
+Thread 2 time: 1.59e-07s
+Thread 3 time: 1.56e-07s
+Thread 4 time: 2.54e-07s
+Thread 5 time: 3.32e-07s
+Global execution time: 0.000417361s
+Temps pour affichage : 0.00394699 secondes
+Thread 0 time: 1.92e-07s
+Thread 1 time: 9e-08s
+Thread 2 time: 1.93e-07s
+Thread 3 time: 2.59e-07s
+Thread 4 time: 4.63e-07s
+Thread 5 time: 3.03e-07s
+Global execution time: 0.00052923s
+Temps pour affichage : 0.00410488 secondes
+Thread 0 time: 3.79e-07s
+Thread 1 time: 3.15e-07s
+Thread 2 time: 3.69e-07s
+Thread 3 time: 1.4e-07s
+Thread 4 time: 2.79e-07s
+Thread 5 time: 3.2e-07s
+Global execution time: 0.000478998s
+Temps pour affichage : 0.0035823 secondes
+Thread 0 time: 4.23e-07s
+Thread 1 time: 3.59e-07s
+Thread 2 time: 4.9534e-05s
+Thread 3 time: 2.4e-07s
+Thread 4 time: 2.59e-07s
+Thread 5 time: 1.32e-07s
+Global execution time: 0.000450032s
+Temps pour affichage : 0.00345811 secondes
+Thread 0 time: 1.98e-07s
+Thread 1 time: 4.68e-07s
+Thread 2 time: 1.68e-07s
+Thread 3 time: 3.24e-07s
+Thread 4 time: 2.27e-07s
+Thread 5 time: 3.03e-07s
+Global execution time: 0.000728302s
+Temps pour affichage : 0.00392548 secondes
+Thread 0 time: 6.33e-07s
+Thread 1 time: 3.55e-07s
+Thread 2 time: 2.27e-07s
+Thread 3 time: 2.96e-07s
+Thread 4 time: 1.31e-07s
+Thread 5 time: 1.93e-07s
+Global execution time: 0.000511272s
+Temps pour affichage : 0.00364024 secondes
+Thread 0 time: 4.11e-07s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 3.31e-07s
+Thread 3 time: 5.53e-07s
+Thread 4 time: 2.2e-07s
+Thread 5 time: 1.96e-07s
+Global execution time: 0.000466575s
+Temps pour affichage : 0.00387888 secondes
+Thread 0 time: 1.64e-07s
+Thread 1 time: 4.47e-07s
+Thread 2 time: 3.18e-07s
+Thread 3 time: 5.79e-07s
+Thread 4 time: 2.08e-07s
+Thread 5 time: 3.12e-07s
+Global execution time: 0.000453009s
+Temps pour affichage : 0.00421509 secondes
+Thread 0 time: 2.89e-07s
+Thread 1 time: 5.56e-07s
+Thread 2 time: 4.8e-07s
+Thread 3 time: 1.48e-07s
+Thread 4 time: 3.34e-07s
+Thread 5 time: 1.86e-07s
+Global execution time: 0.000510144s
+Temps pour affichage : 0.00399973 secondes
+Thread 0 time: 3.83e-07s
+Thread 1 time: 2.81e-07s
+Thread 2 time: 1.22e-07s
+Thread 3 time: 1.073e-06s
+Thread 4 time: 2.09e-07s
+Thread 5 time: 2.66e-07s
+Global execution time: 0.000541786s
+Temps pour affichage : 0.00430303 secondes
+Thread 0 time: 3.48e-07s
+Thread 1 time: 1.66e-07s
+Thread 2 time: 1.41e-07s
+Thread 3 time: 2.13e-07s
+Thread 4 time: 4.39e-07s
+Thread 5 time: 4.71e-07s
+Global execution time: 0.000501694s
+Temps pour affichage : 0.00446424 secondes
+Thread 0 time: 2.53e-07s
+Thread 1 time: 6.66e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 2.16e-07s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 1.34e-07s
+Global execution time: 0.000658875s
+Temps pour affichage : 0.00448069 secondes
+Thread 0 time: 3.73e-07s
+Thread 1 time: 2.86e-07s
+Thread 2 time: 1.2259e-05s
+Thread 3 time: 1.63e-07s
+Thread 4 time: 5.81e-07s
+Thread 5 time: 2.09e-07s
+Global execution time: 0.000744218s
+Temps pour affichage : 0.00481773 secondes
+Thread 0 time: 2.17e-07s
+Thread 1 time: 2.27e-07s
+Thread 2 time: 3.52e-07s
+Thread 3 time: 2.85e-07s
+Thread 4 time: 1.5353e-05s
+Thread 5 time: 1.55e-07s
+Global execution time: 0.000564281s
+Temps pour affichage : 0.00471466 secondes
+Thread 0 time: 1.5e-07s
+Thread 1 time: 1.52e-07s
+Thread 2 time: 3.09e-07s
+Thread 3 time: 3.49e-07s
+Thread 4 time: 2.27e-07s
+Thread 5 time: 1.93e-07s
+Global execution time: 0.000937537s
+Temps pour affichage : 0.00453242 secondes
+Thread 0 time: 1.74e-07s
+Thread 1 time: 2.23e-07s
+Thread 2 time: 2.8e-07s
+Thread 3 time: 3.71e-07s
+Thread 4 time: 2.63e-07s
+Thread 5 time: 3.22e-07s
+Global execution time: 0.000723901s
+Temps pour affichage : 0.00433305 secondes
+Thread 0 time: 2.55e-07s
+Thread 1 time: 3.82e-07s
+Thread 2 time: 2.13e-07s
+Thread 3 time: 4.56e-07s
+Thread 4 time: 1.9048e-05s
+Thread 5 time: 2.06e-07s
+Global execution time: 0.000906737s
+Temps pour affichage : 0.00475602 secondes
+Thread 0 time: 4.88e-07s
+Thread 1 time: 2.71e-07s
+Thread 2 time: 3.84e-07s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 2.05e-07s
+Thread 5 time: 3.82e-07s
+Global execution time: 0.00101557s
+Temps pour affichage : 0.00412904 secondes
+Thread 0 time: 3.67e-07s
+Thread 1 time: 2.83e-07s
+Thread 2 time: 1.59e-07s
+Thread 3 time: 3.63e-07s
+Thread 4 time: 1.48e-07s
+Thread 5 time: 1.33e-07s
+Global execution time: 0.000747728s
+Temps pour affichage : 0.00760805 secondes
+Thread 0 time: 1.36e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 5.18e-07s
+Thread 3 time: 4.44e-07s
+Thread 4 time: 1.53e-07s
+Thread 5 time: 2.32e-07s
+Global execution time: 0.000950174s
+Temps pour affichage : 0.00429841 secondes
+Thread 0 time: 3.84e-07s
+Thread 1 time: 3.14e-07s
+Thread 2 time: 3.37e-07s
+Thread 3 time: 2.55e-07s
+Thread 4 time: 3.45e-07s
+Thread 5 time: 1.64e-07s
+Global execution time: 0.000796592s
+Temps pour affichage : 0.00462957 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 2.88e-07s
+Thread 2 time: 3.73e-07s
+Thread 3 time: 2.95e-07s
+Thread 4 time: 2.39e-07s
+Thread 5 time: 3.22e-07s
+Global execution time: 0.000770873s
+Temps pour affichage : 0.00444873 secondes
+Thread 0 time: 4.78e-07s
+Thread 1 time: 2.39e-07s
+Thread 2 time: 3.45e-07s
+Thread 3 time: 2.45e-07s
+Thread 4 time: 4.35e-07s
+Thread 5 time: 1.24e-07s
+Global execution time: 0.00106271s
+Temps pour affichage : 0.00498275 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 2.07e-07s
+Thread 2 time: 3.16e-07s
+Thread 3 time: 3.42e-07s
+Thread 4 time: 3.56e-07s
+Thread 5 time: 2.38e-07s
+Global execution time: 0.000742151s
+Temps pour affichage : 0.00715242 secondes
+Thread 0 time: 2.4e-07s
+Thread 1 time: 3.9e-07s
+Thread 2 time: 1.92e-07s
+Thread 3 time: 4.25e-07s
+Thread 4 time: 4.03e-07s
+Thread 5 time: 3e-07s
+Global execution time: 0.000795666s
+Temps pour affichage : 0.0057974 secondes
+Thread 0 time: 3.47e-07s
+Thread 1 time: 1.38e-07s
+Thread 2 time: 1.57e-07s
+Thread 3 time: 1.81e-07s
+Thread 4 time: 2.72e-07s
+Thread 5 time: 2.1e-07s
+Global execution time: 0.00087513s
+Temps pour affichage : 0.0057153 secondes
+Thread 0 time: 2.95e-07s
+Thread 1 time: 3.16e-07s
+Thread 2 time: 1.58e-07s
+Thread 3 time: 1.19e-07s
+Thread 4 time: 3.36e-07s
+Thread 5 time: 4.42e-07s
+Global execution time: 0.00118841s
+Temps pour affichage : 0.004524 secondes
+Thread 0 time: 1.36e-07s
+Thread 1 time: 4.36e-07s
+Thread 2 time: 2.85e-07s
+Thread 3 time: 2.8e-07s
+Thread 4 time: 2.52e-07s
+Thread 5 time: 1.53e-07s
+Global execution time: 0.00117168s
+Temps pour affichage : 0.0053416 secondes
+Thread 0 time: 4.37e-07s
+Thread 1 time: 2.31e-07s
+Thread 2 time: 1.85e-07s
+Thread 3 time: 1.46e-07s
+Thread 4 time: 3.41e-07s
+Thread 5 time: 2.94e-07s
+Global execution time: 0.000908635s
+Temps pour affichage : 0.00474273 secondes
+Thread 0 time: 2.98e-07s
+Thread 1 time: 4.3e-07s
+Thread 2 time: 2.65e-07s
+Thread 3 time: 4.25e-07s
+Thread 4 time: 3.37e-07s
+Thread 5 time: 2.82e-07s
+Global execution time: 0.00121896s
+Temps pour affichage : 0.00588775 secondes
+Thread 0 time: 5.36e-07s
+Thread 1 time: 4.34e-07s
+Thread 2 time: 3.4e-07s
+Thread 3 time: 3.68e-07s
+Thread 4 time: 6.55e-07s
+Thread 5 time: 2.21e-07s
+Global execution time: 0.00111252s
+Temps pour affichage : 0.00505975 secondes
+Thread 0 time: 2.68e-07s
+Thread 1 time: 1.41e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 3.74e-07s
+Thread 4 time: 1.14e-07s
+Thread 5 time: 3.19e-07s
+Global execution time: 0.00101032s
+Temps pour affichage : 0.00672656 secondes
+Thread 0 time: 2.38e-07s
+Thread 1 time: 2.5e-07s
+Thread 2 time: 2.82e-07s
+Thread 3 time: 2.64e-07s
+Thread 4 time: 2.51e-07s
+Thread 5 time: 2.42e-07s
+Global execution time: 0.00128471s
+Temps pour affichage : 0.00614883 secondes
+Thread 0 time: 3.95e-07s
+Thread 1 time: 1.63e-07s
+Thread 2 time: 2.9496e-05s
+Thread 3 time: 2.0116e-05s
+Thread 4 time: 3.1e-07s
+Thread 5 time: 2.7446e-05s
+Global execution time: 0.00113408s
+Temps pour affichage : 0.0059794 secondes
+Thread 0 time: 3.2e-07s
+Thread 1 time: 2.12e-07s
+Thread 2 time: 2.21e-07s
+Thread 3 time: 1.81e-07s
+Thread 4 time: 2.04e-07s
+Thread 5 time: 3.86e-07s
+Global execution time: 0.00130653s
+Temps pour affichage : 0.00556709 secondes
+Thread 0 time: 3.73e-07s
+Thread 1 time: 5.21e-07s
+Thread 2 time: 4.73e-07s
+Thread 3 time: 3.83e-07s
+Thread 4 time: 4.23e-07s
+Thread 5 time: 1.29e-07s
+Global execution time: 0.00142888s
+Temps pour affichage : 0.00587424 secondes
+Thread 0 time: 4.57e-07s
+Thread 1 time: 2.96e-07s
+Thread 2 time: 6.28e-07s
+Thread 3 time: 6.39e-07s
+Thread 4 time: 2.57e-07s
+Thread 5 time: 4.78e-07s
+Global execution time: 0.00150772s
+Temps pour affichage : 0.00545595 secondes
+Thread 0 time: 3.47e-07s
+Thread 1 time: 5.9e-07s
+Thread 2 time: 2.46e-07s
+Thread 3 time: 1.84e-07s
+Thread 4 time: 2.01e-07s
+Thread 5 time: 6.71e-07s
+Global execution time: 0.00191307s
+Temps pour affichage : 0.00692883 secondes
+Thread 0 time: 1.35e-07s
+Thread 1 time: 3.85e-07s
+Thread 2 time: 3.34e-07s
+Thread 3 time: 2.14e-07s
+Thread 4 time: 2.67e-07s
+Thread 5 time: 3.45e-07s
+Global execution time: 0.00169151s
+Temps pour affichage : 0.00635777 secondes
+Thread 0 time: 5.67e-07s
+Thread 1 time: 2.13e-07s
+Thread 2 time: 3.22e-07s
+Thread 3 time: 2.69e-07s
+Thread 4 time: 2.3e-07s
+Thread 5 time: 1.68e-07s
+Global execution time: 0.00129057s
+Temps pour affichage : 0.00670999 secondes
+Thread 0 time: 2.5926e-05s
+Thread 1 time: 1.88e-07s
+Thread 2 time: 6.19e-07s
+Thread 3 time: 2.06e-07s
+Thread 4 time: 2.98e-07s
+Thread 5 time: 2.03e-07s
+Global execution time: 0.00139109s
+Temps pour affichage : 0.00602513 secondes
+Thread 0 time: 1.11e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 2.88e-07s
+Thread 3 time: 3.03e-07s
+Thread 4 time: 3.11e-07s
+Thread 5 time: 2.69e-07s
+Global execution time: 0.00151407s
+Temps pour affichage : 0.00695669 secondes
+Thread 0 time: 3.62e-07s
+Thread 1 time: 8.5e-08s
+Thread 2 time: 3.74e-07s
+Thread 3 time: 2.56e-07s
+Thread 4 time: 4.42e-07s
+Thread 5 time: 5.98e-07s
+Global execution time: 0.00145756s
+Temps pour affichage : 0.00652259 secondes
+Thread 0 time: 2.92e-07s
+Thread 1 time: 2.76e-07s
+Thread 2 time: 2.96e-07s
+Thread 3 time: 2.87e-07s
+Thread 4 time: 1.98e-07s
+Thread 5 time: 1.73e-07s
+Global execution time: 0.00194922s
+Temps pour affichage : 0.00681451 secondes
+Thread 0 time: 2.29e-07s
+Thread 1 time: 6.86e-07s
+Thread 2 time: 2.36e-07s
+Thread 3 time: 2.92e-07s
+Thread 4 time: 3.14e-07s
+Thread 5 time: 2.33e-07s
+Global execution time: 0.0016316s
+Temps pour affichage : 0.00691565 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 1.72e-07s
+Thread 2 time: 1.39e-07s
+Thread 3 time: 3.87e-07s
+Thread 4 time: 1.91e-07s
+Thread 5 time: 1.87e-07s
+Global execution time: 0.0015807s
+Temps pour affichage : 0.00614522 secondes
+Thread 0 time: 1.97e-07s
+Thread 1 time: 2.62e-07s
+Thread 2 time: 3.02e-07s
+Thread 3 time: 2.53e-07s
+Thread 4 time: 3.39e-07s
+Thread 5 time: 2.9e-07s
+Global execution time: 0.00190904s
+Temps pour affichage : 0.00602892 secondes
+Thread 0 time: 5.99e-07s
+Thread 1 time: 3.67e-07s
+Thread 2 time: 2.5e-07s
+Thread 3 time: 4.4e-07s
+Thread 4 time: 5.2e-07s
+Thread 5 time: 3.19e-07s
+Global execution time: 0.00174844s
+Temps pour affichage : 0.00605136 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 100
+Thread 0 time: 3.27e-07s
+Thread 1 time: 1.24e-07s
+Thread 2 time: 2.12e-07s
+Thread 3 time: 1.34e-07s
+Thread 4 time: 3.16e-07s
+Thread 5 time: 2.11e-07s
+Global execution time: 0.0147195s
+Temps pour affichage : 0.00635096 secondes
+Thread 0 time: 1.6e-07s
+Thread 1 time: 1.33e-07s
+Thread 2 time: 3.26e-07s
+Thread 3 time: 2.35e-07s
+Thread 4 time: 2.07e-07s
+Thread 5 time: 2.43e-07s
+Global execution time: 0.00163498s
+Temps pour affichage : 0.00619639 secondes
+Thread 0 time: 5.15e-07s
+Thread 1 time: 4.5e-07s
+Thread 2 time: 4.16e-07s
+Thread 3 time: 2.11e-07s
+Thread 4 time: 1.56e-07s
+Thread 5 time: 1.66e-07s
+Global execution time: 0.00151767s
+Temps pour affichage : 0.0066157 secondes
+Thread 0 time: 2.32e-07s
+Thread 1 time: 2.32e-07s
+Thread 2 time: 2.79e-07s
+Thread 3 time: 4.31e-07s
+Thread 4 time: 3.48e-07s
+Thread 5 time: 2.7e-07s
+Global execution time: 0.0014197s
+Temps pour affichage : 0.00656208 secondes
+Thread 0 time: 3.43e-07s
+Thread 1 time: 3.69e-07s
+Thread 2 time: 3.73e-07s
+Thread 3 time: 1.88e-07s
+Thread 4 time: 3.5e-07s
+Thread 5 time: 4.78e-07s
+Global execution time: 0.00179449s
+Temps pour affichage : 0.00624904 secondes
+Thread 0 time: 3.57e-07s
+Thread 1 time: 3.12e-07s
+Thread 2 time: 2.63e-07s
+Thread 3 time: 2.53e-07s
+Thread 4 time: 2.86e-07s
+Thread 5 time: 2.33e-07s
+Global execution time: 0.00211278s
+Temps pour affichage : 0.00656615 secondes
+Thread 0 time: 3.67e-07s
+Thread 1 time: 1.94e-07s
+Thread 2 time: 1.96e-07s
+Thread 3 time: 2.7974e-05s
+Thread 4 time: 2.16e-07s
+Thread 5 time: 3.34e-07s
+Global execution time: 0.00188979s
+Temps pour affichage : 0.00670389 secondes
+Thread 0 time: 4.02e-07s
+Thread 1 time: 3.8e-07s
+Thread 2 time: 3.06e-07s
+Thread 3 time: 1.53e-07s
+Thread 4 time: 3.55e-07s
+Thread 5 time: 4.04e-07s
+Global execution time: 0.00157115s
+Temps pour affichage : 0.00654534 secondes
+Thread 0 time: 2.33e-07s
+Thread 1 time: 2.41e-07s
+Thread 2 time: 5.02e-07s
+Thread 3 time: 2.77e-07s
+Thread 4 time: 1.62e-07s
+Thread 5 time: 1.03e-07s
+Global execution time: 0.0016449s
+Temps pour affichage : 0.00674378 secondes
+Thread 0 time: 2.63e-07s
+Thread 1 time: 2.52e-07s
+Thread 2 time: 2.18e-07s
+Thread 3 time: 2.62e-07s
+Thread 4 time: 1.49e-07s
+Thread 5 time: 1.25e-07s
+Global execution time: 0.00217348s
+Temps pour affichage : 0.00715238 secondes
+Thread 0 time: 3.72e-07s
+Thread 1 time: 3.91e-07s
+Thread 2 time: 5.51e-07s
+Thread 3 time: 3.4e-07s
+Thread 4 time: 5.58e-07s
+Thread 5 time: 2.78e-07s
+Global execution time: 0.00230757s
+Temps pour affichage : 0.00700299 secondes
+Thread 0 time: 4.16e-07s
+Thread 1 time: 1.95e-07s
+Thread 2 time: 4.65e-07s
+Thread 3 time: 5.82e-07s
+Thread 4 time: 2.91e-07s
+Thread 5 time: 2.94e-07s
+Global execution time: 0.00236469s
+Temps pour affichage : 0.00741111 secondes
+Thread 0 time: 3.41e-07s
+Thread 1 time: 2.46e-07s
+Thread 2 time: 2.76e-07s
+Thread 3 time: 1.48e-07s
+Thread 4 time: 2.58e-07s
+Thread 5 time: 2.4e-07s
+Global execution time: 0.00217625s
+Temps pour affichage : 0.00672469 secondes
+Thread 0 time: 5.17e-07s
+Thread 1 time: 1.88e-07s
+Thread 2 time: 2.32e-07s
+Thread 3 time: 3.76e-07s
+Thread 4 time: 2.54e-07s
+Thread 5 time: 1.54e-07s
+Global execution time: 0.00187254s
+Temps pour affichage : 0.0070415 secondes
+Thread 0 time: 4.54e-07s
+Thread 1 time: 4.2e-07s
+Thread 2 time: 3.03e-07s
+Thread 3 time: 1.59e-07s
+Thread 4 time: 2.12e-07s
+Thread 5 time: 3.09e-07s
+Global execution time: 0.00216012s
+Temps pour affichage : 0.00685612 secondes
+Thread 0 time: 2.55e-07s
+Thread 1 time: 2.11e-07s
+Thread 2 time: 4.57e-07s
+Thread 3 time: 1.73e-07s
+Thread 4 time: 2.68e-07s
+Thread 5 time: 1.56e-07s
+Global execution time: 0.00190244s
+Temps pour affichage : 0.00735683 secondes
+Thread 0 time: 4.67e-07s
+Thread 1 time: 1.67e-07s
+Thread 2 time: 4.87e-07s
+Thread 3 time: 2.15e-07s
+Thread 4 time: 3.29e-07s
+Thread 5 time: 1.57e-07s
+Global execution time: 0.00198526s
+Temps pour affichage : 0.00671282 secondes
+Thread 0 time: 4.37e-07s
+Thread 1 time: 2.17e-07s
+Thread 2 time: 1.81e-07s
+Thread 3 time: 1.62e-07s
+Thread 4 time: 2.98e-07s
+Thread 5 time: 2.68e-07s
+Global execution time: 0.0019974s
+Temps pour affichage : 0.00705208 secondes
+Thread 0 time: 3.36e-07s
+Thread 1 time: 2.14e-07s
+Thread 2 time: 3.16e-07s
+Thread 3 time: 2.5e-07s
+Thread 4 time: 2.49e-07s
+Thread 5 time: 2.84e-07s
+Global execution time: 0.00197147s
+Temps pour affichage : 0.00720285 secondes
+Thread 0 time: 2.25e-07s
+Thread 1 time: 1.86e-07s
+Thread 2 time: 3.12e-07s
+Thread 3 time: 3.91e-07s
+Thread 4 time: 2.07e-07s
+Thread 5 time: 2.08e-07s
+Global execution time: 0.00198016s
+Temps pour affichage : 0.00696147 secondes
+Thread 0 time: 4.56e-07s
+Thread 1 time: 6.34e-07s
+Thread 2 time: 4.83e-07s
+Thread 3 time: 3.69e-07s
+Thread 4 time: 4.28e-07s
+Thread 5 time: 3.08e-07s
+Global execution time: 0.00286855s
+Temps pour affichage : 0.00786713 secondes
+Thread 0 time: 1.76e-07s
+Thread 1 time: 3.12e-07s
+Thread 2 time: 2.25e-07s
+Thread 3 time: 3.51e-07s
+Thread 4 time: 4.32e-07s
+Thread 5 time: 3.07e-07s
+Global execution time: 0.00202971s
+Temps pour affichage : 0.00692067 secondes
+Thread 0 time: 2.59e-07s
+Thread 1 time: 2.3e-07s
+Thread 2 time: 1.17e-07s
+Thread 3 time: 3.02e-07s
+Thread 4 time: 1.84e-07s
+Thread 5 time: 2.46e-07s
+Global execution time: 0.0019879s
+Temps pour affichage : 0.00726456 secondes
+Thread 0 time: 4.52e-07s
+Thread 1 time: 2.9e-07s
+Thread 2 time: 2.09e-07s
+Thread 3 time: 3.1e-07s
+Thread 4 time: 5.45e-07s
+Thread 5 time: 3.26e-07s
+Global execution time: 0.00268469s
+Temps pour affichage : 0.00718068 secondes
+Thread 0 time: 1.69e-07s
+Thread 1 time: 2.77e-07s
+Thread 2 time: 2.45e-07s
+Thread 3 time: 4.14e-07s
+Thread 4 time: 4.78e-07s
+Thread 5 time: 2.82e-07s
+Global execution time: 0.00221417s
+Temps pour affichage : 0.00682959 secondes
+Thread 0 time: 2.21e-07s
+Thread 1 time: 7.657e-06s
+Thread 2 time: 4.6e-07s
+Thread 3 time: 4.77e-07s
+Thread 4 time: 3.47e-07s
+Thread 5 time: 2.89e-07s
+Global execution time: 0.00215099s
+Temps pour affichage : 0.007785 secondes
+Thread 0 time: 2.47e-07s
+Thread 1 time: 2.24e-07s
+Thread 2 time: 3.27e-07s
+Thread 3 time: 2.61e-07s
+Thread 4 time: 1.45e-07s
+Thread 5 time: 1.82e-07s
+Global execution time: 0.00208637s
+Temps pour affichage : 0.00775734 secondes
+Thread 0 time: 9.7e-08s
+Thread 1 time: 1.87e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 1.92e-07s
+Thread 4 time: 2.44e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.00216277s
+Temps pour affichage : 0.00912252 secondes
+Thread 0 time: 2.72e-07s
+Thread 1 time: 5.52e-07s
+Thread 2 time: 1.82e-07s
+Thread 3 time: 2.25e-07s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 2.49e-07s
+Global execution time: 0.00235989s
+Temps pour affichage : 0.00782723 secondes
+Thread 0 time: 1.98e-07s
+Thread 1 time: 3.2e-07s
+Thread 2 time: 3.92e-07s
+Thread 3 time: 3.67e-07s
+Thread 4 time: 2.41e-07s
+Thread 5 time: 1.62e-07s
+Global execution time: 0.00228855s
+Temps pour affichage : 0.00773234 secondes
+Thread 0 time: 1.47e-07s
+Thread 1 time: 2.26e-07s
+Thread 2 time: 2.34e-07s
+Thread 3 time: 1.4e-07s
+Thread 4 time: 3.67e-07s
+Thread 5 time: 2.71e-07s
+Global execution time: 0.00267851s
+Temps pour affichage : 0.00738826 secondes
+Thread 0 time: 3.65e-07s
+Thread 1 time: 2.67e-07s
+Thread 2 time: 1.71e-07s
+Thread 3 time: 1.75e-07s
+Thread 4 time: 3.31e-07s
+Thread 5 time: 3.46e-07s
+Global execution time: 0.00224083s
+Temps pour affichage : 0.00784374 secondes
+Thread 0 time: 4.36e-07s
+Thread 1 time: 3.28e-07s
+Thread 2 time: 2.36e-07s
+Thread 3 time: 4.29e-07s
+Thread 4 time: 2.03e-07s
+Thread 5 time: 1.65e-07s
+Global execution time: 0.00246378s
+Temps pour affichage : 0.00754682 secondes
+Thread 0 time: 3.01e-07s
+Thread 1 time: 3.15e-07s
+Thread 2 time: 3.08e-07s
+Thread 3 time: 3.51e-07s
+Thread 4 time: 3.05e-07s
+Thread 5 time: 1.85e-07s
+Global execution time: 0.00313335s
+Temps pour affichage : 0.00806391 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 1.88e-07s
+Thread 2 time: 9.43e-07s
+Thread 3 time: 2.41e-07s
+Thread 4 time: 2.84e-07s
+Thread 5 time: 2.43e-07s
+Global execution time: 0.00262907s
+Temps pour affichage : 0.00846537 secondes
+Thread 0 time: 1.4e-07s
+Thread 1 time: 2.14e-07s
+Thread 2 time: 4.11e-07s
+Thread 3 time: 2.46e-07s
+Thread 4 time: 3.11e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 0.00281749s
+Temps pour affichage : 0.00777729 secondes
+Thread 0 time: 2.14e-07s
+Thread 1 time: 5.56e-07s
+Thread 2 time: 3.93e-07s
+Thread 3 time: 2.43e-07s
+Thread 4 time: 4.36e-07s
+Thread 5 time: 2.25e-07s
+Global execution time: 0.00269685s
+Temps pour affichage : 0.00865433 secondes
+Thread 0 time: 1.96e-07s
+Thread 1 time: 3.24e-07s
+Thread 2 time: 2.65e-07s
+Thread 3 time: 1.79e-07s
+Thread 4 time: 3.45e-07s
+Thread 5 time: 4.16e-07s
+Global execution time: 0.00255615s
+Temps pour affichage : 0.00859297 secondes
+Thread 0 time: 1.65e-07s
+Thread 1 time: 1.84e-07s
+Thread 2 time: 2.21e-07s
+Thread 3 time: 4.08e-07s
+Thread 4 time: 2.05e-07s
+Thread 5 time: 1.24e-07s
+Global execution time: 0.003244s
+Temps pour affichage : 0.00911567 secondes
+Thread 0 time: 2.22e-07s
+Thread 1 time: 3.11e-07s
+Thread 2 time: 4.54e-07s
+Thread 3 time: 3.08e-07s
+Thread 4 time: 2.57e-07s
+Thread 5 time: 3.87e-07s
+Global execution time: 0.0030675s
+Temps pour affichage : 0.00842489 secondes
+Thread 0 time: 3.69e-07s
+Thread 1 time: 1.73e-07s
+Thread 2 time: 1.44e-07s
+Thread 3 time: 5.38e-07s
+Thread 4 time: 3.71e-07s
+Thread 5 time: 2.25e-07s
+Global execution time: 0.00297814s
+Temps pour affichage : 0.01124 secondes
+Thread 0 time: 3.56e-07s
+Thread 1 time: 1.92e-07s
+Thread 2 time: 3.45e-07s
+Thread 3 time: 3.51e-07s
+Thread 4 time: 1.81e-07s
+Thread 5 time: 3.66e-07s
+Global execution time: 0.00280245s
+Temps pour affichage : 0.00846053 secondes
+Thread 0 time: 4.09e-07s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 3.6e-07s
+Thread 3 time: 3.85e-07s
+Thread 4 time: 2.61e-07s
+Thread 5 time: 2.08e-07s
+Global execution time: 0.00267985s
+Temps pour affichage : 0.0115256 secondes
+Thread 0 time: 2.88e-07s
+Thread 1 time: 4.47e-07s
+Thread 2 time: 5.12e-07s
+Thread 3 time: 2.03e-07s
+Thread 4 time: 1.61e-07s
+Thread 5 time: 1.93e-07s
+Global execution time: 0.00291957s
+Temps pour affichage : 0.00856262 secondes
+Thread 0 time: 3.05e-07s
+Thread 1 time: 1.69e-07s
+Thread 2 time: 2.57e-07s
+Thread 3 time: 1.33e-07s
+Thread 4 time: 4.15e-07s
+Thread 5 time: 1.78e-07s
+Global execution time: 0.00308639s
+Temps pour affichage : 0.00848129 secondes
+Thread 0 time: 2.39e-07s
+Thread 1 time: 2.26e-07s
+Thread 2 time: 3.51e-07s
+Thread 3 time: 2.87e-07s
+Thread 4 time: 2.62e-07s
+Thread 5 time: 1.29e-07s
+Global execution time: 0.00303335s
+Temps pour affichage : 0.00832403 secondes
+Thread 0 time: 2.05e-07s
+Thread 1 time: 4.1e-07s
+Thread 2 time: 1.63e-07s
+Thread 3 time: 2.85e-07s
+Thread 4 time: 1.52e-07s
+Thread 5 time: 1.85e-07s
+Global execution time: 0.00272012s
+Temps pour affichage : 0.00842353 secondes
+Thread 0 time: 3.62e-07s
+Thread 1 time: 1.25e-07s
+Thread 2 time: 2.41e-07s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 2.73e-07s
+Thread 5 time: 2.68e-07s
+Global execution time: 0.00415041s
+Temps pour affichage : 0.00837153 secondes
+Thread 0 time: 4.91e-07s
+Thread 1 time: 3.46e-07s
+Thread 2 time: 1.39e-07s
+Thread 3 time: 2.26e-07s
+Thread 4 time: 3.51e-07s
+Thread 5 time: 2.34e-07s
+Global execution time: 0.00299478s
+Temps pour affichage : 0.00841555 secondes
+Thread 0 time: 5.05e-07s
+Thread 1 time: 1.27e-07s
+Thread 2 time: 4.41e-07s
+Thread 3 time: 4.51e-07s
+Thread 4 time: 4.98e-07s
+Thread 5 time: 1.05e-07s
+Global execution time: 0.00317867s
+Temps pour affichage : 0.00842543 secondes
+Thread 0 time: 3.45e-07s
+Thread 1 time: 3.88e-07s
+Thread 2 time: 2.6e-07s
+Thread 3 time: 2.76e-07s
+Thread 4 time: 2.88e-07s
+Thread 5 time: 1.76e-07s
+Global execution time: 0.00269198s
+Temps pour affichage : 0.00905598 secondes
+Thread 0 time: 3.43e-07s
+Thread 1 time: 6.05e-07s
+Thread 2 time: 6.62e-07s
+Thread 3 time: 2.24e-07s
+Thread 4 time: 4.15e-07s
+Thread 5 time: 2.69e-07s
+Global execution time: 0.00293425s
+Temps pour affichage : 0.00908552 secondes
+Thread 0 time: 1.96e-07s
+Thread 1 time: 3.1e-07s
+Thread 2 time: 2.62e-07s
+Thread 3 time: 2.52e-07s
+Thread 4 time: 1.97e-07s
+Thread 5 time: 2.4e-07s
+Global execution time: 0.0028686s
+Temps pour affichage : 0.00850097 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 2.42e-07s
+Thread 3 time: 2.19e-07s
+Thread 4 time: 5.51e-07s
+Thread 5 time: 1.83e-07s
+Global execution time: 0.00302401s
+Temps pour affichage : 0.00907012 secondes
+Thread 0 time: 1.77e-07s
+Thread 1 time: 3.52e-07s
+Thread 2 time: 1.83e-07s
+Thread 3 time: 2.89e-07s
+Thread 4 time: 4.9e-07s
+Thread 5 time: 2.87e-07s
+Global execution time: 0.00296933s
+Temps pour affichage : 0.00872175 secondes
+Thread 0 time: 2.67e-07s
+Thread 1 time: 8.3e-08s
+Thread 2 time: 6.53e-07s
+Thread 3 time: 3.68e-07s
+Thread 4 time: 2.2e-07s
+Thread 5 time: 2.03e-07s
+Global execution time: 0.00289432s
+Temps pour affichage : 0.00808286 secondes
+Thread 0 time: 2.96e-07s
+Thread 1 time: 2.34e-07s
+Thread 2 time: 3.4e-07s
+Thread 3 time: 2.77e-07s
+Thread 4 time: 3.1e-07s
+Thread 5 time: 2.03e-07s
+Global execution time: 0.0026894s
+Temps pour affichage : 0.00856987 secondes
+Thread 0 time: 2.4e-07s
+Thread 1 time: 2.22e-07s
+Thread 2 time: 2.69e-07s
+Thread 3 time: 3.56e-07s
+Thread 4 time: 2.14e-07s
+Thread 5 time: 2.21e-07s
+Global execution time: 0.0028916s
+Temps pour affichage : 0.00824794 secondes
+Thread 0 time: 2.6e-07s
+Thread 1 time: 4.36e-07s
+Thread 2 time: 1.24e-07s
+Thread 3 time: 3.27e-07s
+Thread 4 time: 1.31e-07s
+Thread 5 time: 2.19e-07s
+Global execution time: 0.00310096s
+Temps pour affichage : 0.00830477 secondes
+Thread 0 time: 6.98e-07s
+Thread 1 time: 2.17e-07s
+Thread 2 time: 6.48e-07s
+Thread 3 time: 2.62e-07s
+Thread 4 time: 2.1e-07s
+Thread 5 time: 3.2e-07s
+Global execution time: 0.0028067s
+Temps pour affichage : 0.00836171 secondes
+Thread 0 time: 3.86e-07s
+Thread 1 time: 4.25e-07s
+Thread 2 time: 5.49e-07s
+Thread 3 time: 7.25e-07s
+Thread 4 time: 2.81e-07s
+Thread 5 time: 2.02e-07s
+Global execution time: 0.00277584s
+Temps pour affichage : 0.00901241 secondes
+Thread 0 time: 4.25e-07s
+Thread 1 time: 2.36e-07s
+Thread 2 time: 3.97e-07s
+Thread 3 time: 4.45e-07s
+Thread 4 time: 3.97e-07s
+Thread 5 time: 2.87e-07s
+Global execution time: 0.00280793s
+Temps pour affichage : 0.00846238 secondes
+Thread 0 time: 2.27e-07s
+Thread 1 time: 3.5e-07s
+Thread 2 time: 3.58e-07s
+Thread 3 time: 2.13e-07s
+Thread 4 time: 1.74e-07s
+Thread 5 time: 3.21e-07s
+Global execution time: 0.00307349s
+Temps pour affichage : 0.00818802 secondes
+Thread 0 time: 3.61e-07s
+Thread 1 time: 2.39e-07s
+Thread 2 time: 7.13e-07s
+Thread 3 time: 6.16e-07s
+Thread 4 time: 1.38e-07s
+Thread 5 time: 2.86e-07s
+Global execution time: 0.00299363s
+Temps pour affichage : 0.00837896 secondes
+Thread 0 time: 2.39e-07s
+Thread 1 time: 2.15e-07s
+Thread 2 time: 2.92e-07s
+Thread 3 time: 5.04e-07s
+Thread 4 time: 2.68e-07s
+Thread 5 time: 2.19e-07s
+Global execution time: 0.00294315s
+Temps pour affichage : 0.00889913 secondes
+Thread 0 time: 3.64e-07s
+Thread 1 time: 2.71e-07s
+Thread 2 time: 2.85e-07s
+Thread 3 time: 1.9e-07s
+Thread 4 time: 3.05e-07s
+Thread 5 time: 6.36e-07s
+Global execution time: 0.0029815s
+Temps pour affichage : 0.00848672 secondes
+Thread 0 time: 3.95e-07s
+Thread 1 time: 4.3e-07s
+Thread 2 time: 2.31e-07s
+Thread 3 time: 4.18e-07s
+Thread 4 time: 3.05e-07s
+Thread 5 time: 2.65e-07s
+Global execution time: 0.00301845s
+Temps pour affichage : 0.0121593 secondes
+Thread 0 time: 5.57e-07s
+Thread 1 time: 5.78e-07s
+Thread 2 time: 1.28e-07s
+Thread 3 time: 6.13e-07s
+Thread 4 time: 4.1e-07s
+Thread 5 time: 4.19e-07s
+Global execution time: 0.00303649s
+Temps pour affichage : 0.00872264 secondes
+Thread 0 time: 2.58e-07s
+Thread 1 time: 3.36e-07s
+Thread 2 time: 2.59e-07s
+Thread 3 time: 4.78e-07s
+Thread 4 time: 1.35e-07s
+Thread 5 time: 4.13e-07s
+Global execution time: 0.00291549s
+Temps pour affichage : 0.00869698 secondes
+Thread 0 time: 5.44e-07s
+Thread 1 time: 3.56e-07s
+Thread 2 time: 4.7e-07s
+Thread 3 time: 1.78e-07s
+Thread 4 time: 2.13e-07s
+Thread 5 time: 1.94e-07s
+Global execution time: 0.00288694s
+Temps pour affichage : 0.0085008 secondes
+Thread 0 time: 3.5e-07s
+Thread 1 time: 2.95e-07s
+Thread 2 time: 4.73e-07s
+Thread 3 time: 4.87e-07s
+Thread 4 time: 2.19e-07s
+Thread 5 time: 6e-08s
+Global execution time: 0.00305872s
+Temps pour affichage : 0.00848069 secondes
+Thread 0 time: 5.8965e-05s
+Thread 1 time: 5.13e-07s
+Thread 2 time: 2.64e-07s
+Thread 3 time: 3.25e-07s
+Thread 4 time: 1.24e-07s
+Thread 5 time: 1.6e-07s
+Global execution time: 0.00295821s
+Temps pour affichage : 0.00905392 secondes
+Thread 0 time: 3.52e-07s
+Thread 1 time: 2.77e-07s
+Thread 2 time: 2.42e-07s
+Thread 3 time: 3.75e-07s
+Thread 4 time: 2.99e-07s
+Thread 5 time: 2.12e-07s
+Global execution time: 0.00305043s
+Temps pour affichage : 0.00856813 secondes
+Thread 0 time: 2.17e-07s
+Thread 1 time: 3.33e-07s
+Thread 2 time: 2.34e-07s
+Thread 3 time: 3.46e-07s
+Thread 4 time: 4.26e-07s
+Thread 5 time: 3.82e-07s
+Global execution time: 0.00287125s
+Temps pour affichage : 0.0083261 secondes
+Thread 0 time: 4.24e-07s
+Thread 1 time: 1.61e-07s
+Thread 2 time: 4.33e-07s
+Thread 3 time: 3.59e-07s
+Thread 4 time: 3.982e-05s
+Thread 5 time: 2.3e-07s
+Global execution time: 0.00285399s
+Temps pour affichage : 0.00864694 secondes
+Thread 0 time: 2.22e-07s
+Thread 1 time: 3.49e-07s
+Thread 2 time: 2.35e-07s
+Thread 3 time: 2.61e-07s
+Thread 4 time: 2.98e-07s
+Thread 5 time: 2.75e-07s
+Global execution time: 0.00303694s
+Temps pour affichage : 0.0100045 secondes
+Thread 0 time: 2.66e-07s
+Thread 1 time: 1.53e-07s
+Thread 2 time: 2.97e-07s
+Thread 3 time: 3.17e-07s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 3.01e-07s
+Global execution time: 0.00303543s
+Temps pour affichage : 0.00835846 secondes
+Thread 0 time: 4.68e-07s
+Thread 1 time: 3.45e-07s
+Thread 2 time: 3.83e-07s
+Thread 3 time: 3.03e-07s
+Thread 4 time: 2.12e-07s
+Thread 5 time: 3.04e-07s
+Global execution time: 0.00283904s
+Temps pour affichage : 0.00874365 secondes
+Thread 0 time: 2.33e-07s
+Thread 1 time: 5.71e-07s
+Thread 2 time: 3.3e-07s
+Thread 3 time: 2.95e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 3.28e-07s
+Global execution time: 0.00293269s
+Temps pour affichage : 0.00862604 secondes
+Thread 0 time: 1.96e-07s
+Thread 1 time: 4.37e-07s
+Thread 2 time: 5.29e-07s
+Thread 3 time: 3.41e-07s
+Thread 4 time: 3.32e-07s
+Thread 5 time: 2.77e-07s
+Global execution time: 0.00311393s
+Temps pour affichage : 0.00852615 secondes
+Thread 0 time: 3.51e-07s
+Thread 1 time: 1.93e-07s
+Thread 2 time: 2.51e-07s
+Thread 3 time: 2.88e-07s
+Thread 4 time: 2.99e-07s
+Thread 5 time: 3.18e-07s
+Global execution time: 0.00302982s
+Temps pour affichage : 0.00869613 secondes
+Thread 0 time: 1.78e-07s
+Thread 1 time: 5.44e-07s
+Thread 2 time: 3.54e-07s
+Thread 3 time: 5.38e-07s
+Thread 4 time: 2.37e-07s
+Thread 5 time: 3.71e-07s
+Global execution time: 0.00302305s
+Temps pour affichage : 0.00839914 secondes
+Thread 0 time: 1.75e-07s
+Thread 1 time: 3.56e-07s
+Thread 2 time: 2.75e-07s
+Thread 3 time: 4.1e-07s
+Thread 4 time: 2.1e-07s
+Thread 5 time: 3.15e-07s
+Global execution time: 0.00292352s
+Temps pour affichage : 0.00898543 secondes
+Thread 0 time: 2.83e-07s
+Thread 1 time: 1.23e-07s
+Thread 2 time: 3.89e-07s
+Thread 3 time: 2.64e-07s
+Thread 4 time: 4.76e-07s
+Thread 5 time: 2.99e-07s
+Global execution time: 0.00296098s
+Temps pour affichage : 0.00867254 secondes
+Thread 0 time: 3.82e-07s
+Thread 1 time: 1.87e-07s
+Thread 2 time: 4.1411e-05s
+Thread 3 time: 4.25e-07s
+Thread 4 time: 3.03e-07s
+Thread 5 time: 2.74e-07s
+Global execution time: 0.00294294s
+Temps pour affichage : 0.00860947 secondes
+Thread 0 time: 5.18e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 4.26e-07s
+Thread 3 time: 3.4e-07s
+Thread 4 time: 2.37e-07s
+Thread 5 time: 2.83e-07s
+Global execution time: 0.00294125s
+Temps pour affichage : 0.0082587 secondes
+Thread 0 time: 6.17e-07s
+Thread 1 time: 2.79e-07s
+Thread 2 time: 2.72e-07s
+Thread 3 time: 3.05e-07s
+Thread 4 time: 3.51e-07s
+Thread 5 time: 3.36e-07s
+Global execution time: 0.00315972s
+Temps pour affichage : 0.00829711 secondes
+Thread 0 time: 4.83e-07s
+Thread 1 time: 1.62e-07s
+Thread 2 time: 3.25e-07s
+Thread 3 time: 2.3e-07s
+Thread 4 time: 3.46e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.00293207s
+Temps pour affichage : 0.00853457 secondes
+Thread 0 time: 2.65e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 4.57e-07s
+Thread 3 time: 2.73e-07s
+Thread 4 time: 2.97e-07s
+Thread 5 time: 2.33e-07s
+Global execution time: 0.00290698s
+Temps pour affichage : 0.00879746 secondes
+Thread 0 time: 3.33e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 4.2e-07s
+Thread 3 time: 3.77e-07s
+Thread 4 time: 3.11e-07s
+Thread 5 time: 4.73e-07s
+Global execution time: 0.00301822s
+Temps pour affichage : 0.00835614 secondes
+Thread 0 time: 3.05e-07s
+Thread 1 time: 1.45e-07s
+Thread 2 time: 3.41e-07s
+Thread 3 time: 4.06e-07s
+Thread 4 time: 4.89e-07s
+Thread 5 time: 3.48e-07s
+Global execution time: 0.00298152s
+Temps pour affichage : 0.00849162 secondes
+Thread 0 time: 3.99e-07s
+Thread 1 time: 4.86e-07s
+Thread 2 time: 1.67e-07s
+Thread 3 time: 3.59e-07s
+Thread 4 time: 6.37e-07s
+Thread 5 time: 2.19e-07s
+Global execution time: 0.00289749s
+Temps pour affichage : 0.00873256 secondes
+Thread 0 time: 1.52e-07s
+Thread 1 time: 2.95e-07s
+Thread 2 time: 2.21e-07s
+Thread 3 time: 2.8e-07s
+Thread 4 time: 4.95e-07s
+Thread 5 time: 3.33e-07s
+Global execution time: 0.00305978s
+Temps pour affichage : 0.00844879 secondes
+Thread 0 time: 6.94e-07s
+Thread 1 time: 5.45e-07s
+Thread 2 time: 2.34e-07s
+Thread 3 time: 3.81e-07s
+Thread 4 time: 4.28e-07s
+Thread 5 time: 2.21e-07s
+Global execution time: 0.00298452s
+Temps pour affichage : 0.00844115 secondes
+Thread 0 time: 2.17e-07s
+Thread 1 time: 4.06e-07s
+Thread 2 time: 3.82e-07s
+Thread 3 time: 3.4e-07s
+Thread 4 time: 2.93e-07s
+Thread 5 time: 1.83e-07s
+Global execution time: 0.00302074s
+Temps pour affichage : 0.00805831 secondes
+Thread 0 time: 3.01e-07s
+Thread 1 time: 3.87e-07s
+Thread 2 time: 2.68e-07s
+Thread 3 time: 3.15e-07s
+Thread 4 time: 3.45e-07s
+Thread 5 time: 3.5e-07s
+Global execution time: 0.00323799s
+Temps pour affichage : 0.00853784 secondes
+Thread 0 time: 2.34e-07s
+Thread 1 time: 2.41e-07s
+Thread 2 time: 5.19e-07s
+Thread 3 time: 1.1e-07s
+Thread 4 time: 1.1e-07s
+Thread 5 time: 3.63e-07s
+Global execution time: 0.0029898s
+Temps pour affichage : 0.00832577 secondes
+Thread 0 time: 3.68e-07s
+Thread 1 time: 3.98e-07s
+Thread 2 time: 3.57e-07s
+Thread 3 time: 2.07e-07s
+Thread 4 time: 2.49e-07s
+Thread 5 time: 2.74e-07s
+Global execution time: 0.00291078s
+Temps pour affichage : 0.00833654 secondes
+Thread 0 time: 3.28e-07s
+Thread 1 time: 4.14e-07s
+Thread 2 time: 1.29e-07s
+Thread 3 time: 3.81e-07s
+Thread 4 time: 2.45e-07s
+Thread 5 time: 2.71e-07s
+Global execution time: 0.00306725s
+Temps pour affichage : 0.00855824 secondes
+Thread 0 time: 2.18e-07s
+Thread 1 time: 3.48e-07s
+Thread 2 time: 1.5e-07s
+Thread 3 time: 4.08e-07s
+Thread 4 time: 3.75e-07s
+Thread 5 time: 3.95e-07s
+Global execution time: 0.00285012s
+Temps pour affichage : 0.00833741 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 200
+Thread 0 time: 2.09e-07s
+Thread 1 time: 1.85e-07s
+Thread 2 time: 3.02e-07s
+Thread 3 time: 2.28e-07s
+Thread 4 time: 4.13e-07s
+Thread 5 time: 2.99e-07s
+Global execution time: 0.0140436s
+Temps pour affichage : 0.00803236 secondes
+Thread 0 time: 2.6e-07s
+Thread 1 time: 5.02e-07s
+Thread 2 time: 5.45e-07s
+Thread 3 time: 2.46e-07s
+Thread 4 time: 3.98e-07s
+Thread 5 time: 4.1e-07s
+Global execution time: 0.003183s
+Temps pour affichage : 0.00834029 secondes
+Thread 0 time: 4.33e-07s
+Thread 1 time: 4.57e-07s
+Thread 2 time: 2.31e-07s
+Thread 3 time: 3.88e-07s
+Thread 4 time: 3.06e-07s
+Thread 5 time: 3.59e-07s
+Global execution time: 0.00282388s
+Temps pour affichage : 0.00879135 secondes
+Thread 0 time: 4.73e-07s
+Thread 1 time: 2.8e-07s
+Thread 2 time: 1.37e-07s
+Thread 3 time: 4.5e-07s
+Thread 4 time: 5.21e-07s
+Thread 5 time: 2.68e-07s
+Global execution time: 0.00283551s
+Temps pour affichage : 0.00853087 secondes
+Thread 0 time: 4.13e-07s
+Thread 1 time: 3.33e-07s
+Thread 2 time: 9.4e-08s
+Thread 3 time: 2.63e-07s
+Thread 4 time: 1.81e-07s
+Thread 5 time: 1.97e-07s
+Global execution time: 0.00299429s
+Temps pour affichage : 0.00821642 secondes
+Thread 0 time: 4.51e-07s
+Thread 1 time: 4.17e-07s
+Thread 2 time: 6.61e-07s
+Thread 3 time: 2.9e-07s
+Thread 4 time: 1.76e-07s
+Thread 5 time: 3.81e-07s
+Global execution time: 0.00283963s
+Temps pour affichage : 0.00864972 secondes
+Thread 0 time: 2.76e-07s
+Thread 1 time: 4.09e-07s
+Thread 2 time: 7.2e-08s
+Thread 3 time: 3.6e-07s
+Thread 4 time: 2.74e-07s
+Thread 5 time: 3.42e-07s
+Global execution time: 0.00302391s
+Temps pour affichage : 0.00832079 secondes
+Thread 0 time: 4.4e-07s
+Thread 1 time: 1.38e-07s
+Thread 2 time: 2.67e-07s
+Thread 3 time: 5.02e-07s
+Thread 4 time: 2.26e-07s
+Thread 5 time: 3.21e-07s
+Global execution time: 0.00283197s
+Temps pour affichage : 0.00836508 secondes
+Thread 0 time: 3.14e-07s
+Thread 1 time: 2.88e-07s
+Thread 2 time: 2.29e-07s
+Thread 3 time: 3.24e-07s
+Thread 4 time: 2.49e-07s
+Thread 5 time: 2.71e-07s
+Global execution time: 0.00297669s
+Temps pour affichage : 0.00832138 secondes
+Thread 0 time: 5.33e-07s
+Thread 1 time: 4.32e-07s
+Thread 2 time: 1.94e-07s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 5.21e-07s
+Thread 5 time: 3.56e-07s
+Global execution time: 0.00287665s
+Temps pour affichage : 0.00862006 secondes
+Thread 0 time: 5.07e-07s
+Thread 1 time: 1.6e-07s
+Thread 2 time: 5.12e-07s
+Thread 3 time: 4.53e-07s
+Thread 4 time: 3.02e-07s
+Thread 5 time: 3.5e-07s
+Global execution time: 0.00293688s
+Temps pour affichage : 0.00852662 secondes
+Thread 0 time: 1.61e-07s
+Thread 1 time: 1.41e-07s
+Thread 2 time: 1.93e-07s
+Thread 3 time: 3.18e-07s
+Thread 4 time: 2.69e-07s
+Thread 5 time: 2.33e-07s
+Global execution time: 0.00305318s
+Temps pour affichage : 0.00821377 secondes
+Thread 0 time: 4.4e-07s
+Thread 1 time: 8.15e-07s
+Thread 2 time: 7.44e-07s
+Thread 3 time: 2.047e-06s
+Thread 4 time: 2.07e-07s
+Thread 5 time: 3.57e-07s
+Global execution time: 0.00302694s
+Temps pour affichage : 0.00870199 secondes
+Thread 0 time: 2.75e-07s
+Thread 1 time: 2.49e-07s
+Thread 2 time: 1.76e-07s
+Thread 3 time: 4.71e-07s
+Thread 4 time: 1.89e-07s
+Thread 5 time: 3.34e-07s
+Global execution time: 0.00293211s
+Temps pour affichage : 0.00851589 secondes
+Thread 0 time: 4.26e-07s
+Thread 1 time: 1.5e-07s
+Thread 2 time: 5.41e-07s
+Thread 3 time: 4.12e-07s
+Thread 4 time: 4.75e-07s
+Thread 5 time: 3.7e-07s
+Global execution time: 0.00295442s
+Temps pour affichage : 0.00840439 secondes
+Thread 0 time: 4.92e-07s
+Thread 1 time: 4.77e-07s
+Thread 2 time: 2.53e-07s
+Thread 3 time: 4.85e-07s
+Thread 4 time: 3.72e-07s
+Thread 5 time: 4.46e-07s
+Global execution time: 0.00301974s
+Temps pour affichage : 0.00879147 secondes
+Thread 0 time: 2.16e-07s
+Thread 1 time: 2.67e-07s
+Thread 2 time: 3.77e-07s
+Thread 3 time: 3.56e-07s
+Thread 4 time: 5.49e-07s
+Thread 5 time: 2.5e-07s
+Global execution time: 0.00289903s
+Temps pour affichage : 0.00843858 secondes
+Thread 0 time: 3.62e-07s
+Thread 1 time: 2.78e-07s
+Thread 2 time: 1.79e-07s
+Thread 3 time: 4.75e-07s
+Thread 4 time: 1.78e-07s
+Thread 5 time: 3.96e-07s
+Global execution time: 0.00295058s
+Temps pour affichage : 0.00850591 secondes
+Thread 0 time: 2.48e-07s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 2.99e-07s
+Thread 3 time: 2.02e-07s
+Thread 4 time: 4.36e-07s
+Thread 5 time: 3.65e-07s
+Global execution time: 0.00286575s
+Temps pour affichage : 0.00844336 secondes
+Thread 0 time: 4.36e-07s
+Thread 1 time: 2.42e-07s
+Thread 2 time: 2.86e-07s
+Thread 3 time: 2.51e-07s
+Thread 4 time: 3.35e-07s
+Thread 5 time: 2.47e-07s
+Global execution time: 0.00281486s
+Temps pour affichage : 0.00872209 secondes
+Thread 0 time: 2.84e-07s
+Thread 1 time: 3.66e-07s
+Thread 2 time: 3.34e-07s
+Thread 3 time: 2.66e-07s
+Thread 4 time: 1.86e-07s
+Thread 5 time: 3.28e-07s
+Global execution time: 0.00281748s
+Temps pour affichage : 0.00822897 secondes
+Thread 0 time: 4.53e-07s
+Thread 1 time: 9.5e-08s
+Thread 2 time: 3.11e-07s
+Thread 3 time: 3.69e-07s
+Thread 4 time: 2.54e-07s
+Thread 5 time: 3.2e-07s
+Global execution time: 0.00304711s
+Temps pour affichage : 0.00810962 secondes
+Thread 0 time: 4.56e-07s
+Thread 1 time: 1.43e-07s
+Thread 2 time: 2.63e-07s
+Thread 3 time: 3.61e-07s
+Thread 4 time: 2.37e-07s
+Thread 5 time: 2.21e-07s
+Global execution time: 0.00288858s
+Temps pour affichage : 0.00870438 secondes
+Thread 0 time: 4.98e-07s
+Thread 1 time: 3.01e-07s
+Thread 2 time: 2.45e-07s
+Thread 3 time: 1.84e-07s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 2.76e-07s
+Global execution time: 0.00293228s
+Temps pour affichage : 0.00816428 secondes
+Thread 0 time: 2.78e-07s
+Thread 1 time: 4.24e-07s
+Thread 2 time: 4.41e-07s
+Thread 3 time: 2.13e-07s
+Thread 4 time: 2.8e-07s
+Thread 5 time: 4.15e-07s
+Global execution time: 0.00285235s
+Temps pour affichage : 0.00863852 secondes
+Thread 0 time: 2.73e-07s
+Thread 1 time: 1.84e-07s
+Thread 2 time: 2.67e-07s
+Thread 3 time: 2.66e-07s
+Thread 4 time: 3.15e-07s
+Thread 5 time: 3.47e-07s
+Global execution time: 0.00293795s
+Temps pour affichage : 0.00866686 secondes
+Thread 0 time: 1.5e-07s
+Thread 1 time: 3.49e-07s
+Thread 2 time: 2.84e-07s
+Thread 3 time: 4.85e-07s
+Thread 4 time: 4e-07s
+Thread 5 time: 3.94e-07s
+Global execution time: 0.00334248s
+Temps pour affichage : 0.00879254 secondes
+Thread 0 time: 6.34e-07s
+Thread 1 time: 4.74e-07s
+Thread 2 time: 2.76e-07s
+Thread 3 time: 4.37e-07s
+Thread 4 time: 3.61e-07s
+Thread 5 time: 3.55e-07s
+Global execution time: 0.00338794s
+Temps pour affichage : 0.00864016 secondes
+Thread 0 time: 4.07e-07s
+Thread 1 time: 3.18e-07s
+Thread 2 time: 1.67e-07s
+Thread 3 time: 2.07e-07s
+Thread 4 time: 3.97e-07s
+Thread 5 time: 2.47e-07s
+Global execution time: 0.00316566s
+Temps pour affichage : 0.00860438 secondes
+Thread 0 time: 2.94e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 2.48e-07s
+Thread 3 time: 4.44e-07s
+Thread 4 time: 2.71e-07s
+Thread 5 time: 2.41e-07s
+Global execution time: 0.00299797s
+Temps pour affichage : 0.00884309 secondes
+Thread 0 time: 3.58e-07s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 2.47e-07s
+Thread 3 time: 2.29e-07s
+Thread 4 time: 2.4e-07s
+Thread 5 time: 2.63e-07s
+Global execution time: 0.00317745s
+Temps pour affichage : 0.00870237 secondes
+Thread 0 time: 5.63e-07s
+Thread 1 time: 3.21e-07s
+Thread 2 time: 4.88e-07s
+Thread 3 time: 4.25e-07s
+Thread 4 time: 1.77e-07s
+Thread 5 time: 2.98e-07s
+Global execution time: 0.00307814s
+Temps pour affichage : 0.00879061 secondes
+Thread 0 time: 2.6e-07s
+Thread 1 time: 2.76e-07s
+Thread 2 time: 8.3e-08s
+Thread 3 time: 1.4e-07s
+Thread 4 time: 3.26e-07s
+Thread 5 time: 2.72e-07s
+Global execution time: 0.00302114s
+Temps pour affichage : 0.00870484 secondes
+Thread 0 time: 3.83e-07s
+Thread 1 time: 3.38e-07s
+Thread 2 time: 2.66e-07s
+Thread 3 time: 6.02e-07s
+Thread 4 time: 1.76e-07s
+Thread 5 time: 2.96e-07s
+Global execution time: 0.00319923s
+Temps pour affichage : 0.00866199 secondes
+Thread 0 time: 3.51e-07s
+Thread 1 time: 1.27e-07s
+Thread 2 time: 2.15e-07s
+Thread 3 time: 1.51e-07s
+Thread 4 time: 2.76e-07s
+Thread 5 time: 2.77e-07s
+Global execution time: 0.00296508s
+Temps pour affichage : 0.00859075 secondes
+Thread 0 time: 1.94e-07s
+Thread 1 time: 4.12e-07s
+Thread 2 time: 1.66e-07s
+Thread 3 time: 3.84e-07s
+Thread 4 time: 4.36e-07s
+Thread 5 time: 2.46e-07s
+Global execution time: 0.0032138s
+Temps pour affichage : 0.00866946 secondes
+Thread 0 time: 5.16e-07s
+Thread 1 time: 4.04e-07s
+Thread 2 time: 1.71e-07s
+Thread 3 time: 2.88e-07s
+Thread 4 time: 2.36e-07s
+Thread 5 time: 1.57e-07s
+Global execution time: 0.00305468s
+Temps pour affichage : 0.00870182 secondes
+Thread 0 time: 4.54e-07s
+Thread 1 time: 2.7e-07s
+Thread 2 time: 3.59e-07s
+Thread 3 time: 3.8e-07s
+Thread 4 time: 2.82e-07s
+Thread 5 time: 2.3e-07s
+Global execution time: 0.00298839s
+Temps pour affichage : 0.00849212 secondes
+Thread 0 time: 3.84e-07s
+Thread 1 time: 1.43e-07s
+Thread 2 time: 6.87e-07s
+Thread 3 time: 3.5e-07s
+Thread 4 time: 2.18e-07s
+Thread 5 time: 2.11e-07s
+Global execution time: 0.00339404s
+Temps pour affichage : 0.0101601 secondes
+Thread 0 time: 3.45e-07s
+Thread 1 time: 4.6e-07s
+Thread 2 time: 2.5e-07s
+Thread 3 time: 1.94e-07s
+Thread 4 time: 4.63e-07s
+Thread 5 time: 3.17e-07s
+Global execution time: 0.00324655s
+Temps pour affichage : 0.0101519 secondes
+Thread 0 time: 2.01e-07s
+Thread 1 time: 4.15e-07s
+Thread 2 time: 2.79e-07s
+Thread 3 time: 3.87e-07s
+Thread 4 time: 2.27e-07s
+Thread 5 time: 2.71e-07s
+Global execution time: 0.00314277s
+Temps pour affichage : 0.00929425 secondes
+Thread 0 time: 2.71e-07s
+Thread 1 time: 1.36e-07s
+Thread 2 time: 3.67e-07s
+Thread 3 time: 6.33e-07s
+Thread 4 time: 3.18e-07s
+Thread 5 time: 3.43e-07s
+Global execution time: 0.0028993s
+Temps pour affichage : 0.00877725 secondes
+Thread 0 time: 3.89e-07s
+Thread 1 time: 4.16e-07s
+Thread 2 time: 3.83e-07s
+Thread 3 time: 3.56e-07s
+Thread 4 time: 1.81e-07s
+Thread 5 time: 3.43e-07s
+Global execution time: 0.00317502s
+Temps pour affichage : 0.00876465 secondes
+Thread 0 time: 2.87e-07s
+Thread 1 time: 2.28e-07s
+Thread 2 time: 3.35e-07s
+Thread 3 time: 2.99e-07s
+Thread 4 time: 3.17e-07s
+Thread 5 time: 3.34e-07s
+Global execution time: 0.00312923s
+Temps pour affichage : 0.00884935 secondes
+Thread 0 time: 4.31e-07s
+Thread 1 time: 1.57e-07s
+Thread 2 time: 3.51e-07s
+Thread 3 time: 3.31e-07s
+Thread 4 time: 3.91e-07s
+Thread 5 time: 2.7e-07s
+Global execution time: 0.00312788s
+Temps pour affichage : 0.00895523 secondes
+Thread 0 time: 1.85e-07s
+Thread 1 time: 4.66e-07s
+Thread 2 time: 3.36e-07s
+Thread 3 time: 2.35e-07s
+Thread 4 time: 2.01e-07s
+Thread 5 time: 3.19e-07s
+Global execution time: 0.00318929s
+Temps pour affichage : 0.00876576 secondes
+Thread 0 time: 2.41e-07s
+Thread 1 time: 5.34e-07s
+Thread 2 time: 3.12e-07s
+Thread 3 time: 3.54e-07s
+Thread 4 time: 2.36e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.00330672s
+Temps pour affichage : 0.00914291 secondes
+Thread 0 time: 1.81e-07s
+Thread 1 time: 3.71e-07s
+Thread 2 time: 1.56e-07s
+Thread 3 time: 2.6e-07s
+Thread 4 time: 5.33e-07s
+Thread 5 time: 2.64e-07s
+Global execution time: 0.00285766s
+Temps pour affichage : 0.00833109 secondes
+Thread 0 time: 3.11e-07s
+Thread 1 time: 3.03e-07s
+Thread 2 time: 2.09e-07s
+Thread 3 time: 3.34e-07s
+Thread 4 time: 4.23e-07s
+Thread 5 time: 1.63e-07s
+Global execution time: 0.00302466s
+Temps pour affichage : 0.00848761 secondes
+Thread 0 time: 3.15e-07s
+Thread 1 time: 1.81e-07s
+Thread 2 time: 3.07e-07s
+Thread 3 time: 4.45e-07s
+Thread 4 time: 3.29e-07s
+Thread 5 time: 2.93e-07s
+Global execution time: 0.0029274s
+Temps pour affichage : 0.00904322 secondes
+Thread 0 time: 3.92e-07s
+Thread 1 time: 1.24e-07s
+Thread 2 time: 1.9e-07s
+Thread 3 time: 3.5e-07s
+Thread 4 time: 2.93e-07s
+Thread 5 time: 3.26e-07s
+Global execution time: 0.0032182s
+Temps pour affichage : 0.008109 secondes
+Thread 0 time: 4.71e-07s
+Thread 1 time: 3.39e-07s
+Thread 2 time: 2.63e-07s
+Thread 3 time: 3.03e-07s
+Thread 4 time: 2.89e-07s
+Thread 5 time: 6.69e-07s
+Global execution time: 0.00296s
+Temps pour affichage : 0.00843428 secondes
+Thread 0 time: 1.97e-07s
+Thread 1 time: 4.01e-07s
+Thread 2 time: 1.97e-07s
+Thread 3 time: 1.97e-07s
+Thread 4 time: 2.59e-07s
+Thread 5 time: 2.4e-07s
+Global execution time: 0.00294676s
+Temps pour affichage : 0.00832179 secondes
+Thread 0 time: 3.68e-07s
+Thread 1 time: 3.15e-07s
+Thread 2 time: 2.26e-07s
+Thread 3 time: 4.36e-07s
+Thread 4 time: 3.63e-07s
+Thread 5 time: 2.01e-07s
+Global execution time: 0.00287447s
+Temps pour affichage : 0.00848429 secondes
+Thread 0 time: 1.77e-07s
+Thread 1 time: 1.83e-07s
+Thread 2 time: 1.58e-07s
+Thread 3 time: 1.01e-07s
+Thread 4 time: 2.2e-07s
+Thread 5 time: 2.8e-07s
+Global execution time: 0.00281767s
+Temps pour affichage : 0.00832118 secondes
+Thread 0 time: 3.55e-07s
+Thread 1 time: 3.12e-07s
+Thread 2 time: 1.74e-07s
+Thread 3 time: 3.41e-07s
+Thread 4 time: 1.64e-07s
+Thread 5 time: 2.5e-07s
+Global execution time: 0.0029258s
+Temps pour affichage : 0.00831554 secondes
+Thread 0 time: 1.39e-07s
+Thread 1 time: 4.0884e-05s
+Thread 2 time: 2.72e-07s
+Thread 3 time: 3.07e-07s
+Thread 4 time: 2.13e-07s
+Thread 5 time: 2.63e-07s
+Global execution time: 0.00293438s
+Temps pour affichage : 0.00867086 secondes
+Thread 0 time: 2.75e-07s
+Thread 1 time: 3.15e-07s
+Thread 2 time: 4.19e-07s
+Thread 3 time: 1.02e-07s
+Thread 4 time: 4.27e-07s
+Thread 5 time: 2.62e-07s
+Global execution time: 0.00381343s
+Temps pour affichage : 0.00889928 secondes
+Thread 0 time: 4.6e-07s
+Thread 1 time: 4.18e-07s
+Thread 2 time: 2.6e-07s
+Thread 3 time: 3.5e-07s
+Thread 4 time: 2.41e-07s
+Thread 5 time: 2.59e-07s
+Global execution time: 0.0028459s
+Temps pour affichage : 0.00832461 secondes
+Thread 0 time: 2.77e-07s
+Thread 1 time: 3.67e-07s
+Thread 2 time: 2.84e-07s
+Thread 3 time: 3.5e-07s
+Thread 4 time: 3.71e-07s
+Thread 5 time: 3.54e-07s
+Global execution time: 0.00284451s
+Temps pour affichage : 0.00870288 secondes
+Thread 0 time: 2.71e-07s
+Thread 1 time: 2.05e-07s
+Thread 2 time: 3.23e-07s
+Thread 3 time: 3.97e-07s
+Thread 4 time: 4.15e-07s
+Thread 5 time: 2.09e-07s
+Global execution time: 0.00286403s
+Temps pour affichage : 0.00831818 secondes
+Thread 0 time: 2.62e-07s
+Thread 1 time: 3.78e-07s
+Thread 2 time: 1.52e-07s
+Thread 3 time: 2.38e-07s
+Thread 4 time: 3.08e-07s
+Thread 5 time: 3.35e-07s
+Global execution time: 0.00299001s
+Temps pour affichage : 0.00880582 secondes
+Thread 0 time: 3.22e-07s
+Thread 1 time: 1.59e-07s
+Thread 2 time: 1.66e-07s
+Thread 3 time: 2.44e-07s
+Thread 4 time: 3.28e-07s
+Thread 5 time: 3.28e-07s
+Global execution time: 0.00302751s
+Temps pour affichage : 0.00824805 secondes
+Thread 0 time: 2.46e-07s
+Thread 1 time: 3.8e-07s
+Thread 2 time: 3.4e-07s
+Thread 3 time: 2.53e-07s
+Thread 4 time: 2.32e-07s
+Thread 5 time: 4.1e-07s
+Global execution time: 0.00292112s
+Temps pour affichage : 0.0100853 secondes
+Thread 0 time: 3.32e-07s
+Thread 1 time: 1.93e-07s
+Thread 2 time: 4.19e-07s
+Thread 3 time: 2.84e-07s
+Thread 4 time: 3.42e-07s
+Thread 5 time: 2.37e-07s
+Global execution time: 0.00290485s
+Temps pour affichage : 0.00846144 secondes
+Thread 0 time: 1.67e-07s
+Thread 1 time: 3.53e-07s
+Thread 2 time: 4.08e-07s
+Thread 3 time: 4.21e-07s
+Thread 4 time: 3.27e-07s
+Thread 5 time: 2.61e-07s
+Global execution time: 0.00300169s
+Temps pour affichage : 0.00844111 secondes
+Thread 0 time: 2.65e-07s
+Thread 1 time: 2.94e-07s
+Thread 2 time: 3.88e-07s
+Thread 3 time: 6.03e-07s
+Thread 4 time: 1.08e-07s
+Thread 5 time: 3.82e-07s
+Global execution time: 0.00318506s
+Temps pour affichage : 0.00897761 secondes
+Thread 0 time: 2.06e-07s
+Thread 1 time: 3.98e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 3.08e-07s
+Thread 4 time: 1.81e-07s
+Thread 5 time: 1.69e-07s
+Global execution time: 0.0029641s
+Temps pour affichage : 0.0083429 secondes
+Thread 0 time: 4.19e-07s
+Thread 1 time: 2.66e-07s
+Thread 2 time: 4.29e-07s
+Thread 3 time: 2.87e-07s
+Thread 4 time: 2.6e-07s
+Thread 5 time: 2.78e-07s
+Global execution time: 0.00284051s
+Temps pour affichage : 0.00866256 secondes
+Thread 0 time: 4.29e-07s
+Thread 1 time: 1.97e-07s
+Thread 2 time: 4.41e-07s
+Thread 3 time: 2.71e-07s
+Thread 4 time: 5.64e-07s
+Thread 5 time: 1.4e-07s
+Global execution time: 0.00283226s
+Temps pour affichage : 0.00836146 secondes
+Thread 0 time: 4.77e-07s
+Thread 1 time: 2.37e-07s
+Thread 2 time: 4.13e-07s
+Thread 3 time: 1e-07s
+Thread 4 time: 3.6e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.00291988s
+Temps pour affichage : 0.00916773 secondes
+Thread 0 time: 3.42e-07s
+Thread 1 time: 2.04e-07s
+Thread 2 time: 1.19e-07s
+Thread 3 time: 3.83e-07s
+Thread 4 time: 2.59e-07s
+Thread 5 time: 3.27e-07s
+Global execution time: 0.00317136s
+Temps pour affichage : 0.0085957 secondes
+Thread 0 time: 3.5e-07s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 3.98e-07s
+Thread 3 time: 1.81e-07s
+Thread 4 time: 1.34e-07s
+Thread 5 time: 2.64e-07s
+Global execution time: 0.00291416s
+Temps pour affichage : 0.0085891 secondes
+Thread 0 time: 1.72e-07s
+Thread 1 time: 3.43e-07s
+Thread 2 time: 2.29e-07s
+Thread 3 time: 3.15e-07s
+Thread 4 time: 1.65e-07s
+Thread 5 time: 2.16e-07s
+Global execution time: 0.00307459s
+Temps pour affichage : 0.00890031 secondes
+Thread 0 time: 3.72e-07s
+Thread 1 time: 1.96e-07s
+Thread 2 time: 2.27e-07s
+Thread 3 time: 1.96e-07s
+Thread 4 time: 2.19e-07s
+Thread 5 time: 2.77e-07s
+Global execution time: 0.00309291s
+Temps pour affichage : 0.00882814 secondes
+Thread 0 time: 3.11e-07s
+Thread 1 time: 4.72e-07s
+Thread 2 time: 2.76e-07s
+Thread 3 time: 1.97e-07s
+Thread 4 time: 4.9e-07s
+Thread 5 time: 4.23e-07s
+Global execution time: 0.00313112s
+Temps pour affichage : 0.0091741 secondes
+Thread 0 time: 2.8e-07s
+Thread 1 time: 3.78e-07s
+Thread 2 time: 3.75e-07s
+Thread 3 time: 2.61e-07s
+Thread 4 time: 3.46e-07s
+Thread 5 time: 2.14e-07s
+Global execution time: 0.00352064s
+Temps pour affichage : 0.00968196 secondes
+Thread 0 time: 3.55e-07s
+Thread 1 time: 5.92e-07s
+Thread 2 time: 3.45e-07s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 3.09e-07s
+Thread 5 time: 2.56e-07s
+Global execution time: 0.00301659s
+Temps pour affichage : 0.00875433 secondes
+Thread 0 time: 5.95e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 1.66e-07s
+Thread 3 time: 4.41e-07s
+Thread 4 time: 3.29e-07s
+Thread 5 time: 2.87e-07s
+Global execution time: 0.00282419s
+Temps pour affichage : 0.00890015 secondes
+Thread 0 time: 1.5e-07s
+Thread 1 time: 3.36e-07s
+Thread 2 time: 2.97e-07s
+Thread 3 time: 2.93e-07s
+Thread 4 time: 4.35e-07s
+Thread 5 time: 2.38e-07s
+Global execution time: 0.00288286s
+Temps pour affichage : 0.00848296 secondes
+Thread 0 time: 4.88e-07s
+Thread 1 time: 3.35e-07s
+Thread 2 time: 2.39e-07s
+Thread 3 time: 3.26e-07s
+Thread 4 time: 3.21e-07s
+Thread 5 time: 2.14e-07s
+Global execution time: 0.00301993s
+Temps pour affichage : 0.0106752 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 5.51e-07s
+Thread 2 time: 4.36e-07s
+Thread 3 time: 3.02e-07s
+Thread 4 time: 4.63e-07s
+Thread 5 time: 3.26e-07s
+Global execution time: 0.00303618s
+Temps pour affichage : 0.00849759 secondes
+Thread 0 time: 3.89e-07s
+Thread 1 time: 4.82e-07s
+Thread 2 time: 4.67e-07s
+Thread 3 time: 2.47e-07s
+Thread 4 time: 3.25e-07s
+Thread 5 time: 3.5e-07s
+Global execution time: 0.0029284s
+Temps pour affichage : 0.00869459 secondes
+Thread 0 time: 2.9e-07s
+Thread 1 time: 2.27e-07s
+Thread 2 time: 3.19e-07s
+Thread 3 time: 3.62e-07s
+Thread 4 time: 4.63e-07s
+Thread 5 time: 2.7e-07s
+Global execution time: 0.00301597s
+Temps pour affichage : 0.00899334 secondes
+Thread 0 time: 3.05e-07s
+Thread 1 time: 3.08e-07s
+Thread 2 time: 3.31e-07s
+Thread 3 time: 2.27e-07s
+Thread 4 time: 1.4e-07s
+Thread 5 time: 1.69e-07s
+Global execution time: 0.00302871s
+Temps pour affichage : 0.00874118 secondes
+Thread 0 time: 2.26e-07s
+Thread 1 time: 3.45e-07s
+Thread 2 time: 3.28e-07s
+Thread 3 time: 4.56e-07s
+Thread 4 time: 2.92e-07s
+Thread 5 time: 6.15e-07s
+Global execution time: 0.00309181s
+Temps pour affichage : 0.00869453 secondes
+Thread 0 time: 3.75e-07s
+Thread 1 time: 3.29e-07s
+Thread 2 time: 2.44e-07s
+Thread 3 time: 4.74e-07s
+Thread 4 time: 3.61e-07s
+Thread 5 time: 3.35e-07s
+Global execution time: 0.0028621s
+Temps pour affichage : 0.00886253 secondes
+Thread 0 time: 4.53e-07s
+Thread 1 time: 1.85e-07s
+Thread 2 time: 2.46e-07s
+Thread 3 time: 2.6e-07s
+Thread 4 time: 1.74e-07s
+Thread 5 time: 2.78e-07s
+Global execution time: 0.00273914s
+Temps pour affichage : 0.00870915 secondes
+Thread 0 time: 5.21e-07s
+Thread 1 time: 2e-07s
+Thread 2 time: 3.8e-07s
+Thread 3 time: 1.96e-07s
+Thread 4 time: 3.42e-07s
+Thread 5 time: 3.6e-07s
+Global execution time: 0.00307566s
+Temps pour affichage : 0.00869016 secondes
+Thread 0 time: 1.83e-07s
+Thread 1 time: 2.49e-07s
+Thread 2 time: 4.11e-07s
+Thread 3 time: 4.29e-07s
+Thread 4 time: 1.09e-07s
+Thread 5 time: 1.16e-07s
+Global execution time: 0.00304054s
+Temps pour affichage : 0.00879042 secondes
+Thread 0 time: 3.05e-07s
+Thread 1 time: 1.54e-07s
+Thread 2 time: 2.67e-07s
+Thread 3 time: 2.89e-07s
+Thread 4 time: 2.23e-07s
+Thread 5 time: 2.48e-07s
+Global execution time: 0.00326249s
+Temps pour affichage : 0.00933581 secondes
+Thread 0 time: 3.61e-07s
+Thread 1 time: 2.73e-07s
+Thread 2 time: 1.73e-07s
+Thread 3 time: 3.49e-07s
+Thread 4 time: 3.14e-07s
+Thread 5 time: 2.51e-07s
+Global execution time: 0.00296911s
+Temps pour affichage : 0.00893474 secondes
+Thread 0 time: 1.13e-07s
+Thread 1 time: 1.87e-07s
+Thread 2 time: 2.08e-07s
+Thread 3 time: 2.59e-07s
+Thread 4 time: 2.72e-07s
+Thread 5 time: 1.63e-07s
+Global execution time: 0.00395698s
+Temps pour affichage : 0.00892952 secondes
+Thread 0 time: 3.8e-07s
+Thread 1 time: 4.44e-07s
+Thread 2 time: 4.46e-07s
+Thread 3 time: 2.25e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 2.66e-07s
+Global execution time: 0.00452347s
+Temps pour affichage : 0.00964282 secondes
+Thread 0 time: 2.49e-07s
+Thread 1 time: 2.79e-07s
+Thread 2 time: 1.02e-07s
+Thread 3 time: 1.68e-07s
+Thread 4 time: 1.92e-07s
+Thread 5 time: 2.41e-07s
+Global execution time: 0.00304467s
+Temps pour affichage : 0.00863842 secondes
+Thread 0 time: 3.23e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 1.29e-07s
+Thread 3 time: 1.2e-07s
+Thread 4 time: 1.85e-07s
+Thread 5 time: 1.56e-07s
+Global execution time: 0.00288191s
+Temps pour affichage : 0.00833075 secondes
+Thread 0 time: 4.52e-07s
+Thread 1 time: 2.96e-07s
+Thread 2 time: 1.27e-07s
+Thread 3 time: 3.29e-07s
+Thread 4 time: 1.36e-07s
+Thread 5 time: 8.7e-08s
+Global execution time: 0.00278132s
+Temps pour affichage : 0.00863877 secondes
+Thread 0 time: 4.89e-07s
+Thread 1 time: 2.9e-07s
+Thread 2 time: 4.91e-07s
+Thread 3 time: 2.93e-07s
+Thread 4 time: 4.79e-07s
+Thread 5 time: 1.58e-07s
+Global execution time: 0.00278493s
+Temps pour affichage : 0.0082727 secondes
+Thread 0 time: 1.78e-07s
+Thread 1 time: 4.33e-07s
+Thread 2 time: 1.94e-07s
+Thread 3 time: 2e-07s
+Thread 4 time: 3.18e-07s
+Thread 5 time: 2.32e-07s
+Global execution time: 0.0026551s
+Temps pour affichage : 0.00860631 secondes
+Thread 0 time: 1.31e-07s
+Thread 1 time: 2.71e-07s
+Thread 2 time: 2.88e-07s
+Thread 3 time: 3.99e-07s
+Thread 4 time: 2.42e-07s
+Thread 5 time: 1.08e-07s
+Global execution time: 0.00256954s
+Temps pour affichage : 0.00841132 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 300
+Thread 0 time: 5.2e-07s
+Thread 1 time: 1.74e-07s
+Thread 2 time: 2.8e-07s
+Thread 3 time: 5.04e-07s
+Thread 4 time: 3.4e-07s
+Thread 5 time: 2.24e-07s
+Global execution time: 0.0125129s
+Temps pour affichage : 0.00807202 secondes
+Thread 0 time: 1.16e-07s
+Thread 1 time: 4.53e-07s
+Thread 2 time: 3.27e-07s
+Thread 3 time: 2.36e-07s
+Thread 4 time: 1.77e-07s
+Thread 5 time: 1.52e-07s
+Global execution time: 0.00261758s
+Temps pour affichage : 0.0085413 secondes
+Thread 0 time: 3.7e-07s
+Thread 1 time: 1.72e-07s
+Thread 2 time: 5.65e-07s
+Thread 3 time: 2.38e-07s
+Thread 4 time: 2.82e-07s
+Thread 5 time: 1.46e-07s
+Global execution time: 0.00263074s
+Temps pour affichage : 0.0085321 secondes
+Thread 0 time: 2.1e-07s
+Thread 1 time: 1.87e-07s
+Thread 2 time: 2.74e-07s
+Thread 3 time: 1.96e-07s
+Thread 4 time: 2.88e-07s
+Thread 5 time: 1.65e-07s
+Global execution time: 0.00254313s
+Temps pour affichage : 0.00842602 secondes
+Thread 0 time: 2.4e-07s
+Thread 1 time: 1.56e-07s
+Thread 2 time: 1.57e-07s
+Thread 3 time: 4.8e-07s
+Thread 4 time: 3.69e-07s
+Thread 5 time: 1.76e-07s
+Global execution time: 0.00260504s
+Temps pour affichage : 0.00825948 secondes
+Thread 0 time: 2.24e-07s
+Thread 1 time: 1.63e-07s
+Thread 2 time: 2.18e-07s
+Thread 3 time: 1.33e-07s
+Thread 4 time: 3.37e-07s
+Thread 5 time: 3.01e-07s
+Global execution time: 0.00274998s
+Temps pour affichage : 0.00840831 secondes
+Thread 0 time: 1.88e-07s
+Thread 1 time: 2.83e-07s
+Thread 2 time: 1.17e-07s
+Thread 3 time: 8.2e-08s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 3.92e-07s
+Global execution time: 0.00245386s
+Temps pour affichage : 0.00829592 secondes
+Thread 0 time: 2.31e-07s
+Thread 1 time: 3.1e-07s
+Thread 2 time: 3.59e-07s
+Thread 3 time: 4.48e-07s
+Thread 4 time: 1.95e-07s
+Thread 5 time: 1.79e-07s
+Global execution time: 0.00261578s
+Temps pour affichage : 0.00874272 secondes
+Thread 0 time: 2.84e-07s
+Thread 1 time: 2.92e-07s
+Thread 2 time: 2.14e-07s
+Thread 3 time: 3.07e-07s
+Thread 4 time: 1.13e-07s
+Thread 5 time: 2.75e-07s
+Global execution time: 0.00266136s
+Temps pour affichage : 0.00852392 secondes
+Thread 0 time: 2.05e-07s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 3.33e-07s
+Thread 3 time: 4.65e-07s
+Thread 4 time: 1.71e-07s
+Thread 5 time: 2.51e-07s
+Global execution time: 0.00250178s
+Temps pour affichage : 0.00829594 secondes
+Thread 0 time: 3.11e-07s
+Thread 1 time: 3.8e-07s
+Thread 2 time: 5.2e-07s
+Thread 3 time: 2.18e-07s
+Thread 4 time: 1.98e-07s
+Thread 5 time: 3.51e-07s
+Global execution time: 0.00262941s
+Temps pour affichage : 0.00850673 secondes
+Thread 0 time: 1.96e-07s
+Thread 1 time: 1.42e-07s
+Thread 2 time: 3.57e-07s
+Thread 3 time: 3.04e-07s
+Thread 4 time: 1.73e-07s
+Thread 5 time: 2.84e-07s
+Global execution time: 0.00277429s
+Temps pour affichage : 0.00805992 secondes
+Thread 0 time: 3.69e-07s
+Thread 1 time: 8.3e-08s
+Thread 2 time: 4.82e-07s
+Thread 3 time: 1.73e-07s
+Thread 4 time: 1.64e-07s
+Thread 5 time: 1.95e-07s
+Global execution time: 0.00250363s
+Temps pour affichage : 0.00802934 secondes
+Thread 0 time: 3.41e-07s
+Thread 1 time: 1.74e-07s
+Thread 2 time: 1.91e-07s
+Thread 3 time: 2.62e-07s
+Thread 4 time: 1.41e-07s
+Thread 5 time: 1.79e-07s
+Global execution time: 0.00249757s
+Temps pour affichage : 0.00804709 secondes
+Thread 0 time: 3.29e-07s
+Thread 1 time: 3.65e-07s
+Thread 2 time: 2.97e-07s
+Thread 3 time: 5.02e-07s
+Thread 4 time: 1.14e-07s
+Thread 5 time: 2.22e-07s
+Global execution time: 0.00248565s
+Temps pour affichage : 0.00828774 secondes
+Thread 0 time: 1.03e-07s
+Thread 1 time: 1.9e-07s
+Thread 2 time: 1.51e-07s
+Thread 3 time: 1.91e-07s
+Thread 4 time: 9.7e-08s
+Thread 5 time: 1.24e-07s
+Global execution time: 0.00240098s
+Temps pour affichage : 0.0085874 secondes
+Thread 0 time: 1.24e-07s
+Thread 1 time: 1.21e-07s
+Thread 2 time: 2.61e-07s
+Thread 3 time: 5.96e-07s
+Thread 4 time: 1.19e-07s
+Thread 5 time: 3.45e-07s
+Global execution time: 0.00238715s
+Temps pour affichage : 0.00811726 secondes
+Thread 0 time: 4.91e-07s
+Thread 1 time: 2.73e-07s
+Thread 2 time: 3.31e-07s
+Thread 3 time: 4.94e-07s
+Thread 4 time: 1.6e-07s
+Thread 5 time: 9.6e-08s
+Global execution time: 0.00243701s
+Temps pour affichage : 0.00809346 secondes
+Thread 0 time: 3.25e-07s
+Thread 1 time: 2.19e-07s
+Thread 2 time: 4.6e-07s
+Thread 3 time: 1.27e-07s
+Thread 4 time: 2.35e-07s
+Thread 5 time: 2.63e-07s
+Global execution time: 0.00248923s
+Temps pour affichage : 0.00815445 secondes
+Thread 0 time: 1.38e-07s
+Thread 1 time: 1.41e-07s
+Thread 2 time: 2.05e-07s
+Thread 3 time: 2.58e-07s
+Thread 4 time: 2.48e-07s
+Thread 5 time: 1.76e-07s
+Global execution time: 0.00246717s
+Temps pour affichage : 0.00789531 secondes
+Thread 0 time: 2.92e-07s
+Thread 1 time: 1.93e-07s
+Thread 2 time: 9.2e-08s
+Thread 3 time: 3e-07s
+Thread 4 time: 4.16e-07s
+Thread 5 time: 2.13e-07s
+Global execution time: 0.00239294s
+Temps pour affichage : 0.00823947 secondes
+Thread 0 time: 3.78e-07s
+Thread 1 time: 3.1e-07s
+Thread 2 time: 3.97e-07s
+Thread 3 time: 1.84e-07s
+Thread 4 time: 1.95e-07s
+Thread 5 time: 2.55e-07s
+Global execution time: 0.00234134s
+Temps pour affichage : 0.00802608 secondes
+Thread 0 time: 2.78e-07s
+Thread 1 time: 3.28e-07s
+Thread 2 time: 9.6e-08s
+Thread 3 time: 2.87e-07s
+Thread 4 time: 1.72e-07s
+Thread 5 time: 1.42e-07s
+Global execution time: 0.00245239s
+Temps pour affichage : 0.00805164 secondes
+Thread 0 time: 1.87e-07s
+Thread 1 time: 3.08e-07s
+Thread 2 time: 2.17e-07s
+Thread 3 time: 1.2e-07s
+Thread 4 time: 1.9e-07s
+Thread 5 time: 1.31e-07s
+Global execution time: 0.00232817s
+Temps pour affichage : 0.00979303 secondes
+Thread 0 time: 2.11e-07s
+Thread 1 time: 1.42e-07s
+Thread 2 time: 5.02e-07s
+Thread 3 time: 1.82e-07s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 2.79e-07s
+Global execution time: 0.00236279s
+Temps pour affichage : 0.00826308 secondes
+Thread 0 time: 1.95e-07s
+Thread 1 time: 1.94e-07s
+Thread 2 time: 2.38e-07s
+Thread 3 time: 1.5e-07s
+Thread 4 time: 2.52e-07s
+Thread 5 time: 3.8e-07s
+Global execution time: 0.00240402s
+Temps pour affichage : 0.00823991 secondes
+Thread 0 time: 2.26e-07s
+Thread 1 time: 2.68e-07s
+Thread 2 time: 2.85e-07s
+Thread 3 time: 3.64e-07s
+Thread 4 time: 2.48e-07s
+Thread 5 time: 1.69e-07s
+Global execution time: 0.00241302s
+Temps pour affichage : 0.00766241 secondes
+Thread 0 time: 3.6e-07s
+Thread 1 time: 2.14e-07s
+Thread 2 time: 2.38e-07s
+Thread 3 time: 3.11e-07s
+Thread 4 time: 2.78e-07s
+Thread 5 time: 1.07e-07s
+Global execution time: 0.00298009s
+Temps pour affichage : 0.00797603 secondes
+Thread 0 time: 3.25e-07s
+Thread 1 time: 4.34e-07s
+Thread 2 time: 2.8e-07s
+Thread 3 time: 2.64e-07s
+Thread 4 time: 2.03e-07s
+Thread 5 time: 1.9e-07s
+Global execution time: 0.00231758s
+Temps pour affichage : 0.00820728 secondes
+Thread 0 time: 3.48e-07s
+Thread 1 time: 3.17e-07s
+Thread 2 time: 2.62e-07s
+Thread 3 time: 2.04e-07s
+Thread 4 time: 2.62e-07s
+Thread 5 time: 2.57e-07s
+Global execution time: 0.0023576s
+Temps pour affichage : 0.00805962 secondes
+Thread 0 time: 1.19e-07s
+Thread 1 time: 1.76e-07s
+Thread 2 time: 3.06e-07s
+Thread 3 time: 3.13e-07s
+Thread 4 time: 2.12e-07s
+Thread 5 time: 1.01e-07s
+Global execution time: 0.00258627s
+Temps pour affichage : 0.00803747 secondes
+Thread 0 time: 1.95e-07s
+Thread 1 time: 3.67e-07s
+Thread 2 time: 2.64e-07s
+Thread 3 time: 2.88e-07s
+Thread 4 time: 3.45e-07s
+Thread 5 time: 1.77e-07s
+Global execution time: 0.0024206s
+Temps pour affichage : 0.00812378 secondes
+Thread 0 time: 2.56e-07s
+Thread 1 time: 3.16e-07s
+Thread 2 time: 4.03e-07s
+Thread 3 time: 3.59e-07s
+Thread 4 time: 2.98e-07s
+Thread 5 time: 1.99e-07s
+Global execution time: 0.00210943s
+Temps pour affichage : 0.00817002 secondes
+Thread 0 time: 1.44e-07s
+Thread 1 time: 1.6e-07s
+Thread 2 time: 4.23e-07s
+Thread 3 time: 4.08e-07s
+Thread 4 time: 2.97e-07s
+Thread 5 time: 1.75e-07s
+Global execution time: 0.00223484s
+Temps pour affichage : 0.00780741 secondes
+Thread 0 time: 2.66e-07s
+Thread 1 time: 1.17e-07s
+Thread 2 time: 2.71e-07s
+Thread 3 time: 3.2e-07s
+Thread 4 time: 3.38e-07s
+Thread 5 time: 2.15e-07s
+Global execution time: 0.00220146s
+Temps pour affichage : 0.00797223 secondes
+Thread 0 time: 1.79e-07s
+Thread 1 time: 3.86e-07s
+Thread 2 time: 4.91e-07s
+Thread 3 time: 2.78e-07s
+Thread 4 time: 2.05e-07s
+Thread 5 time: 1.05e-07s
+Global execution time: 0.00214836s
+Temps pour affichage : 0.00743537 secondes
+Thread 0 time: 3.42e-07s
+Thread 1 time: 3.18e-07s
+Thread 2 time: 4.22e-07s
+Thread 3 time: 1.45e-07s
+Thread 4 time: 2.91e-07s
+Thread 5 time: 2.25e-07s
+Global execution time: 0.00228607s
+Temps pour affichage : 0.00751404 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 1.59e-07s
+Thread 2 time: 3.76e-07s
+Thread 3 time: 5.05e-07s
+Thread 4 time: 2.85e-07s
+Thread 5 time: 3.08e-07s
+Global execution time: 0.00236135s
+Temps pour affichage : 0.0085337 secondes
+Thread 0 time: 2.19e-07s
+Thread 1 time: 1.95e-07s
+Thread 2 time: 2.67e-07s
+Thread 3 time: 1.81e-07s
+Thread 4 time: 5.4e-07s
+Thread 5 time: 2.69e-07s
+Global execution time: 0.00230519s
+Temps pour affichage : 0.00763167 secondes
+Thread 0 time: 2.91e-07s
+Thread 1 time: 3.07e-07s
+Thread 2 time: 2.06e-07s
+Thread 3 time: 4.49e-07s
+Thread 4 time: 2.28e-07s
+Thread 5 time: 3.14e-07s
+Global execution time: 0.00218282s
+Temps pour affichage : 0.00779667 secondes
+Thread 0 time: 3.42e-07s
+Thread 1 time: 3.05e-07s
+Thread 2 time: 1.82e-07s
+Thread 3 time: 1.96e-07s
+Thread 4 time: 5.94e-07s
+Thread 5 time: 3.88e-07s
+Global execution time: 0.0021731s
+Temps pour affichage : 0.00768768 secondes
+Thread 0 time: 2.14e-07s
+Thread 1 time: 4.76e-07s
+Thread 2 time: 1.25e-07s
+Thread 3 time: 1.89e-07s
+Thread 4 time: 1.58e-07s
+Thread 5 time: 1.43e-07s
+Global execution time: 0.00234986s
+Temps pour affichage : 0.00813737 secondes
+Thread 0 time: 9.8e-08s
+Thread 1 time: 4.52e-07s
+Thread 2 time: 1.49e-07s
+Thread 3 time: 4.52e-07s
+Thread 4 time: 4.1e-07s
+Thread 5 time: 2.41e-07s
+Global execution time: 0.00249816s
+Temps pour affichage : 0.00784523 secondes
+Thread 0 time: 2.19e-07s
+Thread 1 time: 4.54e-07s
+Thread 2 time: 3.62e-07s
+Thread 3 time: 1.45e-07s
+Thread 4 time: 2.3e-07s
+Thread 5 time: 2.23e-07s
+Global execution time: 0.00198099s
+Temps pour affichage : 0.00745432 secondes
+Thread 0 time: 1.3e-07s
+Thread 1 time: 1.29e-07s
+Thread 2 time: 4.66e-07s
+Thread 3 time: 3.33e-07s
+Thread 4 time: 1.12e-07s
+Thread 5 time: 3.5e-07s
+Global execution time: 0.00207057s
+Temps pour affichage : 0.00709904 secondes
+Thread 0 time: 2.54e-07s
+Thread 1 time: 3.95e-07s
+Thread 2 time: 3.78e-07s
+Thread 3 time: 1.78e-07s
+Thread 4 time: 1.62e-07s
+Thread 5 time: 1.71e-07s
+Global execution time: 0.00203158s
+Temps pour affichage : 0.00723747 secondes
+Thread 0 time: 2.82e-07s
+Thread 1 time: 2.65e-07s
+Thread 2 time: 2.54e-07s
+Thread 3 time: 1.93e-07s
+Thread 4 time: 2.19e-07s
+Thread 5 time: 2.57e-07s
+Global execution time: 0.00195251s
+Temps pour affichage : 0.00748142 secondes
+Thread 0 time: 4.19e-07s
+Thread 1 time: 4.02e-07s
+Thread 2 time: 4e-07s
+Thread 3 time: 8.2e-08s
+Thread 4 time: 4.23e-07s
+Thread 5 time: 3.52e-07s
+Global execution time: 0.00194906s
+Temps pour affichage : 0.00718237 secondes
+Thread 0 time: 2.78e-07s
+Thread 1 time: 3.65e-07s
+Thread 2 time: 1.97e-07s
+Thread 3 time: 3.28e-07s
+Thread 4 time: 4.08e-07s
+Thread 5 time: 1.96e-07s
+Global execution time: 0.00187083s
+Temps pour affichage : 0.00759081 secondes
+Thread 0 time: 2.49e-07s
+Thread 1 time: 2.64e-07s
+Thread 2 time: 1.75e-07s
+Thread 3 time: 2.7e-07s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 1.73e-07s
+Global execution time: 0.00242487s
+Temps pour affichage : 0.00701316 secondes
+Thread 0 time: 1.96e-07s
+Thread 1 time: 4.85e-07s
+Thread 2 time: 3.05e-07s
+Thread 3 time: 3.48e-07s
+Thread 4 time: 3.53e-07s
+Thread 5 time: 2.79e-07s
+Global execution time: 0.0017065s
+Temps pour affichage : 0.00860722 secondes
+Thread 0 time: 2.57e-07s
+Thread 1 time: 2.13e-07s
+Thread 2 time: 4.55e-07s
+Thread 3 time: 2.02e-07s
+Thread 4 time: 2.8e-07s
+Thread 5 time: 2.4e-07s
+Global execution time: 0.00172602s
+Temps pour affichage : 0.00709031 secondes
+Thread 0 time: 2.21e-07s
+Thread 1 time: 1.48e-07s
+Thread 2 time: 1.05e-07s
+Thread 3 time: 9.8e-08s
+Thread 4 time: 3.56e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 0.00183627s
+Temps pour affichage : 0.0070724 secondes
+Thread 0 time: 3.48e-07s
+Thread 1 time: 1.15e-07s
+Thread 2 time: 1.81e-07s
+Thread 3 time: 3.12e-07s
+Thread 4 time: 4.9e-07s
+Thread 5 time: 2.14e-07s
+Global execution time: 0.00185079s
+Temps pour affichage : 0.00698421 secondes
+Thread 0 time: 2.76e-07s
+Thread 1 time: 2.3e-07s
+Thread 2 time: 3.12e-07s
+Thread 3 time: 2.1e-07s
+Thread 4 time: 2.32e-07s
+Thread 5 time: 1.25e-07s
+Global execution time: 0.00155975s
+Temps pour affichage : 0.00771413 secondes
+Thread 0 time: 2.51e-07s
+Thread 1 time: 2.84e-07s
+Thread 2 time: 5.53e-07s
+Thread 3 time: 4.93e-07s
+Thread 4 time: 2.9e-07s
+Thread 5 time: 2.17e-07s
+Global execution time: 0.00153272s
+Temps pour affichage : 0.00701156 secondes
+Thread 0 time: 4.05e-07s
+Thread 1 time: 1.78e-07s
+Thread 2 time: 3.53e-07s
+Thread 3 time: 3.07e-07s
+Thread 4 time: 1.82e-07s
+Thread 5 time: 2.49e-07s
+Global execution time: 0.00155081s
+Temps pour affichage : 0.00702126 secondes
+Thread 0 time: 1.22e-07s
+Thread 1 time: 1.11e-07s
+Thread 2 time: 2.12e-07s
+Thread 3 time: 1.2e-07s
+Thread 4 time: 1.54e-07s
+Thread 5 time: 3.73e-07s
+Global execution time: 0.00160908s
+Temps pour affichage : 0.00653082 secondes
+Thread 0 time: 2.64e-07s
+Thread 1 time: 2.34e-07s
+Thread 2 time: 2.6e-07s
+Thread 3 time: 1.76e-07s
+Thread 4 time: 1.21e-07s
+Thread 5 time: 1.84e-07s
+Global execution time: 0.00149899s
+Temps pour affichage : 0.00669402 secondes
+Thread 0 time: 2.27e-07s
+Thread 1 time: 2.33e-07s
+Thread 2 time: 3.75e-07s
+Thread 3 time: 1.57e-07s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 1.29e-07s
+Global execution time: 0.00177191s
+Temps pour affichage : 0.00705509 secondes
+Thread 0 time: 2.62e-07s
+Thread 1 time: 1.98e-07s
+Thread 2 time: 1.36e-07s
+Thread 3 time: 1.55e-07s
+Thread 4 time: 2.54e-07s
+Thread 5 time: 2.93e-07s
+Global execution time: 0.00141411s
+Temps pour affichage : 0.00643049 secondes
+Thread 0 time: 1.28e-07s
+Thread 1 time: 2.88e-07s
+Thread 2 time: 3.65e-07s
+Thread 3 time: 3.92e-07s
+Thread 4 time: 2.72e-07s
+Thread 5 time: 1.58e-07s
+Global execution time: 0.00147663s
+Temps pour affichage : 0.00628009 secondes
+Thread 0 time: 4.64e-07s
+Thread 1 time: 2.15e-07s
+Thread 2 time: 1.88e-07s
+Thread 3 time: 1.89e-07s
+Thread 4 time: 1.22e-07s
+Thread 5 time: 3.03e-07s
+Global execution time: 0.00151273s
+Temps pour affichage : 0.0066432 secondes
+Thread 0 time: 3.42e-07s
+Thread 1 time: 2.82e-07s
+Thread 2 time: 2.69e-07s
+Thread 3 time: 1.4e-07s
+Thread 4 time: 2.08e-07s
+Thread 5 time: 1.69e-07s
+Global execution time: 0.00132598s
+Temps pour affichage : 0.00701789 secondes
+Thread 0 time: 3.42e-07s
+Thread 1 time: 1.51e-07s
+Thread 2 time: 8.7e-08s
+Thread 3 time: 4.17e-07s
+Thread 4 time: 1.82e-07s
+Thread 5 time: 1.6e-07s
+Global execution time: 0.00172513s
+Temps pour affichage : 0.00635359 secondes
+Thread 0 time: 3.94e-07s
+Thread 1 time: 1.76e-07s
+Thread 2 time: 1.34e-07s
+Thread 3 time: 2.39e-07s
+Thread 4 time: 3.4e-07s
+Thread 5 time: 2.08e-07s
+Global execution time: 0.00130739s
+Temps pour affichage : 0.00629892 secondes
+Thread 0 time: 3.15e-07s
+Thread 1 time: 3.79e-07s
+Thread 2 time: 1.78e-07s
+Thread 3 time: 1.18e-07s
+Thread 4 time: 1.59e-07s
+Thread 5 time: 1.2e-07s
+Global execution time: 0.00122553s
+Temps pour affichage : 0.00602122 secondes
+Thread 0 time: 2.86e-07s
+Thread 1 time: 3.8e-07s
+Thread 2 time: 9.2e-08s
+Thread 3 time: 2.46e-07s
+Thread 4 time: 1.62e-07s
+Thread 5 time: 1.1e-07s
+Global execution time: 0.00180524s
+Temps pour affichage : 0.00645463 secondes
+Thread 0 time: 1.94e-07s
+Thread 1 time: 2.37e-07s
+Thread 2 time: 1.92e-07s
+Thread 3 time: 1.29e-07s
+Thread 4 time: 2.39e-07s
+Thread 5 time: 2.43e-07s
+Global execution time: 0.00131746s
+Temps pour affichage : 0.00611057 secondes
+Thread 0 time: 2.04e-07s
+Thread 1 time: 1.41e-07s
+Thread 2 time: 2.07e-07s
+Thread 3 time: 1.94e-07s
+Thread 4 time: 2.11e-07s
+Thread 5 time: 2.22e-07s
+Global execution time: 0.00121867s
+Temps pour affichage : 0.00619525 secondes
+Thread 0 time: 1.32e-07s
+Thread 1 time: 5.56e-07s
+Thread 2 time: 1.78e-07s
+Thread 3 time: 1.68e-07s
+Thread 4 time: 1.75e-07s
+Thread 5 time: 2.51e-07s
+Global execution time: 0.00129918s
+Temps pour affichage : 0.00661951 secondes
+Thread 0 time: 4.42e-07s
+Thread 1 time: 1.04e-07s
+Thread 2 time: 1.96e-07s
+Thread 3 time: 1.7e-07s
+Thread 4 time: 1.54e-07s
+Thread 5 time: 1.7e-07s
+Global execution time: 0.00118603s
+Temps pour affichage : 0.00592151 secondes
+Thread 0 time: 2.44e-07s
+Thread 1 time: 1.65e-07s
+Thread 2 time: 2.04e-07s
+Thread 3 time: 1.44e-07s
+Thread 4 time: 3.36e-07s
+Thread 5 time: 1.57e-07s
+Global execution time: 0.00108714s
+Temps pour affichage : 0.00598796 secondes
+Thread 0 time: 1.25e-07s
+Thread 1 time: 1.47e-07s
+Thread 2 time: 1.76e-07s
+Thread 3 time: 1.86e-07s
+Thread 4 time: 1.01e-07s
+Thread 5 time: 1.4e-07s
+Global execution time: 0.00121878s
+Temps pour affichage : 0.00574633 secondes
+Thread 0 time: 4.02e-07s
+Thread 1 time: 1.25e-07s
+Thread 2 time: 1.32e-07s
+Thread 3 time: 1.16e-07s
+Thread 4 time: 2.02e-07s
+Thread 5 time: 1.59e-07s
+Global execution time: 0.00106184s
+Temps pour affichage : 0.00624078 secondes
+Thread 0 time: 4.02e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 1.96e-07s
+Thread 3 time: 3.01e-07s
+Thread 4 time: 1.41e-07s
+Thread 5 time: 1.9047e-05s
+Global execution time: 0.00113397s
+Temps pour affichage : 0.00578347 secondes
+Thread 0 time: 1.9e-07s
+Thread 1 time: 1.66e-07s
+Thread 2 time: 1.59e-07s
+Thread 3 time: 1.87e-07s
+Thread 4 time: 2.16e-07s
+Thread 5 time: 1.52e-07s
+Global execution time: 0.000927934s
+Temps pour affichage : 0.00598135 secondes
+Thread 0 time: 1.6e-07s
+Thread 1 time: 3.31e-07s
+Thread 2 time: 1.46e-07s
+Thread 3 time: 1.14e-07s
+Thread 4 time: 3.06e-07s
+Thread 5 time: 1.89e-07s
+Global execution time: 0.00125674s
+Temps pour affichage : 0.00658633 secondes
+Thread 0 time: 3.95e-07s
+Thread 1 time: 2.62e-07s
+Thread 2 time: 3.33e-07s
+Thread 3 time: 2.84e-07s
+Thread 4 time: 1.86e-07s
+Thread 5 time: 2.76e-07s
+Global execution time: 0.000928301s
+Temps pour affichage : 0.0058302 secondes
+Thread 0 time: 5.6e-07s
+Thread 1 time: 1.36e-07s
+Thread 2 time: 2.18e-07s
+Thread 3 time: 3.56e-07s
+Thread 4 time: 1.76e-07s
+Thread 5 time: 1.04e-07s
+Global execution time: 0.0014188s
+Temps pour affichage : 0.00842744 secondes
+Thread 0 time: 3.22e-07s
+Thread 1 time: 1.1e-07s
+Thread 2 time: 2.93e-07s
+Thread 3 time: 1.86e-07s
+Thread 4 time: 4.31e-07s
+Thread 5 time: 1.58e-07s
+Global execution time: 0.000991607s
+Temps pour affichage : 0.00583104 secondes
+Thread 0 time: 3.83e-07s
+Thread 1 time: 1.66e-07s
+Thread 2 time: 3e-07s
+Thread 3 time: 1.46e-07s
+Thread 4 time: 1.5e-07s
+Thread 5 time: 1.04e-07s
+Global execution time: 0.000893193s
+Temps pour affichage : 0.00881472 secondes
+Thread 0 time: 2.4e-07s
+Thread 1 time: 2.89e-07s
+Thread 2 time: 2.79e-07s
+Thread 3 time: 3.63e-07s
+Thread 4 time: 1.16e-07s
+Thread 5 time: 1.85e-07s
+Global execution time: 0.000917008s
+Temps pour affichage : 0.00557319 secondes
+Thread 0 time: 5.4e-07s
+Thread 1 time: 2.27e-07s
+Thread 2 time: 2.13e-07s
+Thread 3 time: 1.75e-07s
+Thread 4 time: 1.34e-07s
+Thread 5 time: 3.01e-07s
+Global execution time: 0.000814272s
+Temps pour affichage : 0.00699862 secondes
+Thread 0 time: 1.44e-07s
+Thread 1 time: 1.07e-07s
+Thread 2 time: 3.23e-07s
+Thread 3 time: 8.5e-08s
+Thread 4 time: 2.21e-07s
+Thread 5 time: 8.7e-08s
+Global execution time: 0.000871927s
+Temps pour affichage : 0.00560338 secondes
+Thread 0 time: 1.48e-07s
+Thread 1 time: 1.18e-07s
+Thread 2 time: 1.29e-07s
+Thread 3 time: 1.39e-07s
+Thread 4 time: 1.29e-07s
+Thread 5 time: 1.07e-07s
+Global execution time: 0.000835471s
+Temps pour affichage : 0.00607274 secondes
+Thread 0 time: 4.59e-07s
+Thread 1 time: 1.02e-07s
+Thread 2 time: 3.64e-07s
+Thread 3 time: 1.63e-07s
+Thread 4 time: 2.25e-07s
+Thread 5 time: 3.42e-07s
+Global execution time: 0.000844291s
+Temps pour affichage : 0.00540319 secondes
+Thread 0 time: 1.6e-07s
+Thread 1 time: 3.99e-07s
+Thread 2 time: 3.22e-07s
+Thread 3 time: 1.59e-07s
+Thread 4 time: 1.41e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 0.000737713s
+Temps pour affichage : 0.00575022 secondes
+Thread 0 time: 1.3e-07s
+Thread 1 time: 1.34e-07s
+Thread 2 time: 1.8e-07s
+Thread 3 time: 2.09e-07s
+Thread 4 time: 2.86e-07s
+Thread 5 time: 1.83e-07s
+Global execution time: 0.000688048s
+Temps pour affichage : 0.00605905 secondes
+Thread 0 time: 4.26e-07s
+Thread 1 time: 3.3e-07s
+Thread 2 time: 4.38e-07s
+Thread 3 time: 1.01e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 1.1e-07s
+Global execution time: 0.000931123s
+Temps pour affichage : 0.00511576 secondes
+Thread 0 time: 1.66e-07s
+Thread 1 time: 1.89e-07s
+Thread 2 time: 2.08e-07s
+Thread 3 time: 3.19e-07s
+Thread 4 time: 1.79e-07s
+Thread 5 time: 1.95e-07s
+Global execution time: 0.000919569s
+Temps pour affichage : 0.00500009 secondes
+Thread 0 time: 2.58e-07s
+Thread 1 time: 3.06e-07s
+Thread 2 time: 2.27e-07s
+Thread 3 time: 1.77e-07s
+Thread 4 time: 1.07e-07s
+Thread 5 time: 1.55e-07s
+Global execution time: 0.000638639s
+Temps pour affichage : 0.00517876 secondes
+Thread 0 time: 1.13e-07s
+Thread 1 time: 6.65e-07s
+Thread 2 time: 2.53e-07s
+Thread 3 time: 1.06e-07s
+Thread 4 time: 1.62e-07s
+Thread 5 time: 2.57e-07s
+Global execution time: 0.000703603s
+Temps pour affichage : 0.00544816 secondes
+Thread 0 time: 2.18e-07s
+Thread 1 time: 2.2e-07s
+Thread 2 time: 2e-07s
+Thread 3 time: 1.86e-07s
+Thread 4 time: 2.4e-07s
+Thread 5 time: 2.36e-07s
+Global execution time: 0.000779241s
+Temps pour affichage : 0.00580307 secondes
+Thread 0 time: 9e-08s
+Thread 1 time: 1.58e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 3.32e-07s
+Thread 4 time: 3.64e-07s
+Thread 5 time: 1.46e-07s
+Global execution time: 0.000564418s
+Temps pour affichage : 0.00500945 secondes
+Thread 0 time: 8.22e-07s
+Thread 1 time: 2.21e-07s
+Thread 2 time: 2.07e-07s
+Thread 3 time: 1.39e-07s
+Thread 4 time: 1.1e-07s
+Thread 5 time: 1.01e-07s
+Global execution time: 0.000736347s
+Temps pour affichage : 0.0053531 secondes
+Thread 0 time: 1.54e-07s
+Thread 1 time: 1.22e-07s
+Thread 2 time: 1.93e-07s
+Thread 3 time: 1.16e-07s
+Thread 4 time: 1.15e-07s
+Thread 5 time: 1.4571e-05s
+Global execution time: 0.000837219s
+Temps pour affichage : 0.0048162 secondes
+Thread 0 time: 1.55e-07s
+Thread 1 time: 2.18e-07s
+Thread 2 time: 1.54e-07s
+Thread 3 time: 1.5e-07s
+Thread 4 time: 2.29e-07s
+Thread 5 time: 1.66e-07s
+Global execution time: 0.000654012s
+Temps pour affichage : 0.00462985 secondes
+Thread 0 time: 4.54e-07s
+Thread 1 time: 1.24e-07s
+Thread 2 time: 2.35e-07s
+Thread 3 time: 1.39e-07s
+Thread 4 time: 1.65e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 0.000638481s
+Temps pour affichage : 0.00453044 secondes
+Thread 0 time: 9.3e-08s
+Thread 1 time: 1.48e-07s
+Thread 2 time: 1.59e-07s
+Thread 3 time: 1.54e-07s
+Thread 4 time: 2.11e-07s
+Thread 5 time: 2.14e-07s
+Global execution time: 0.000435468s
+Temps pour affichage : 0.00456888 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 400
+Thread 0 time: 3.74e-07s
+Thread 1 time: 2.02e-07s
+Thread 2 time: 2.33e-07s
+Thread 3 time: 2.32e-07s
+Thread 4 time: 1.64e-07s
+Thread 5 time: 1.99e-07s
+Global execution time: 0.0103983s
+Temps pour affichage : 0.00433103 secondes
+Thread 0 time: 1.43e-07s
+Thread 1 time: 2.15e-07s
+Thread 2 time: 1.53e-07s
+Thread 3 time: 1.33e-07s
+Thread 4 time: 4.864e-06s
+Thread 5 time: 9.1e-08s
+Global execution time: 0.000472505s
+Temps pour affichage : 0.00472115 secondes
+Thread 0 time: 1.86e-07s
+Thread 1 time: 1.48e-07s
+Thread 2 time: 1e-07s
+Thread 3 time: 2.07e-07s
+Thread 4 time: 1.29e-07s
+Thread 5 time: 1.01e-07s
+Global execution time: 0.000605191s
+Temps pour affichage : 0.00483737 secondes
+Thread 0 time: 7.8e-08s
+Thread 1 time: 1.01e-07s
+Thread 2 time: 1.28e-07s
+Thread 3 time: 1.47e-07s
+Thread 4 time: 1.47e-07s
+Thread 5 time: 1.38e-07s
+Global execution time: 0.000325172s
+Temps pour affichage : 0.0044586 secondes
+Thread 0 time: 1.28e-07s
+Thread 1 time: 2.45e-07s
+Thread 2 time: 1.49e-07s
+Thread 3 time: 1.82e-07s
+Thread 4 time: 1.5e-07s
+Thread 5 time: 2.8e-07s
+Global execution time: 0.000419556s
+Temps pour affichage : 0.00487783 secondes
+Thread 0 time: 2.49e-07s
+Thread 1 time: 1.57e-07s
+Thread 2 time: 1.58e-07s
+Thread 3 time: 1.87e-07s
+Thread 4 time: 2.04e-07s
+Thread 5 time: 1.16e-07s
+Global execution time: 0.000429117s
+Temps pour affichage : 0.00453432 secondes
+Thread 0 time: 1.48e-07s
+Thread 1 time: 1.8e-07s
+Thread 2 time: 2.12e-07s
+Thread 3 time: 1.07e-07s
+Thread 4 time: 2.15e-07s
+Thread 5 time: 1.85e-07s
+Global execution time: 0.00027402s
+Temps pour affichage : 0.00525956 secondes
+Thread 0 time: 9.4e-08s
+Thread 1 time: 1.71e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 1.09e-07s
+Thread 4 time: 1.05e-07s
+Thread 5 time: 1.13e-07s
+Global execution time: 0.000271887s
+Temps pour affichage : 0.0060629 secondes
+Thread 0 time: 1.81e-07s
+Thread 1 time: 9.6e-08s
+Thread 2 time: 5.76e-07s
+Thread 3 time: 2.21e-07s
+Thread 4 time: 1.97e-07s
+Thread 5 time: 1.13e-07s
+Global execution time: 0.000445738s
+Temps pour affichage : 0.00415103 secondes
+Thread 0 time: 1.2e-07s
+Thread 1 time: 1.2e-07s
+Thread 2 time: 1.72e-07s
+Thread 3 time: 1.42e-07s
+Thread 4 time: 2e-07s
+Thread 5 time: 1.03e-07s
+Global execution time: 0.000308321s
+Temps pour affichage : 0.00402807 secondes
+Thread 0 time: 8.68e-07s
+Thread 1 time: 1.17e-07s
+Thread 2 time: 1.48e-07s
+Thread 3 time: 1.89e-07s
+Thread 4 time: 1.05e-07s
+Thread 5 time: 1.83e-07s
+Global execution time: 0.000341616s
+Temps pour affichage : 0.0040565 secondes
+Thread 0 time: 8.9e-08s
+Thread 1 time: 2.37e-07s
+Thread 2 time: 1.37e-07s
+Thread 3 time: 2.01e-07s
+Thread 4 time: 1.5e-07s
+Thread 5 time: 2.03e-07s
+Global execution time: 0.00029205s
+Temps pour affichage : 0.00364095 secondes
+Thread 0 time: 1.19e-07s
+Thread 1 time: 1.79e-07s
+Thread 2 time: 2.494e-06s
+Thread 3 time: 1.52e-07s
+Thread 4 time: 1.4e-07s
+Thread 5 time: 1.13e-07s
+Global execution time: 0.000216932s
+Temps pour affichage : 0.00379036 secondes
+Thread 0 time: 3.22e-07s
+Thread 1 time: 1.83e-07s
+Thread 2 time: 1.73e-07s
+Thread 3 time: 1.11e-07s
+Thread 4 time: 1.24e-07s
+Thread 5 time: 1.22e-07s
+Global execution time: 0.000271227s
+Temps pour affichage : 0.00371849 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 1.46e-07s
+Thread 2 time: 1.55e-07s
+Thread 3 time: 1.65e-07s
+Thread 4 time: 1.07e-07s
+Thread 5 time: 1.98e-07s
+Global execution time: 0.000377569s
+Temps pour affichage : 0.0035949 secondes
+Thread 0 time: 8.9e-08s
+Thread 1 time: 1.71e-07s
+Thread 2 time: 1.41e-07s
+Thread 3 time: 1.42e-07s
+Thread 4 time: 1.46e-07s
+Thread 5 time: 8.2e-08s
+Global execution time: 0.000178416s
+Temps pour affichage : 0.0037505 secondes
+Thread 0 time: 5.87e-07s
+Thread 1 time: 1.23e-07s
+Thread 2 time: 1.99e-07s
+Thread 3 time: 2.03e-07s
+Thread 4 time: 2.44e-07s
+Thread 5 time: 1.5e-07s
+Global execution time: 0.000249155s
+Temps pour affichage : 0.00426015 secondes
+Thread 0 time: 1.63e-07s
+Thread 1 time: 2.62e-07s
+Thread 2 time: 2.88e-07s
+Thread 3 time: 1.58e-07s
+Thread 4 time: 1.49e-07s
+Thread 5 time: 1.12e-07s
+Global execution time: 0.000177794s
+Temps pour affichage : 0.00363729 secondes
+Thread 0 time: 5.65e-07s
+Thread 1 time: 2.47e-07s
+Thread 2 time: 1.52e-07s
+Thread 3 time: 1.44e-07s
+Thread 4 time: 1.35e-07s
+Thread 5 time: 1.07e-07s
+Global execution time: 0.000200845s
+Temps pour affichage : 0.00405215 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 1.34e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 1.38e-07s
+Thread 4 time: 1.51e-07s
+Thread 5 time: 2.52e-07s
+Global execution time: 0.000152802s
+Temps pour affichage : 0.0036819 secondes
+Thread 0 time: 1.48e-07s
+Thread 1 time: 1.66e-07s
+Thread 2 time: 1.885e-06s
+Thread 3 time: 2.73e-07s
+Thread 4 time: 1.395e-06s
+Thread 5 time: 3.37e-07s
+Global execution time: 0.000140861s
+Temps pour affichage : 0.00371063 secondes
+Thread 0 time: 1.59e-07s
+Thread 1 time: 1.75e-07s
+Thread 2 time: 1.43e-07s
+Thread 3 time: 1.5e-07s
+Thread 4 time: 2.54e-07s
+Thread 5 time: 1.82e-07s
+Global execution time: 0.000192054s
+Temps pour affichage : 0.00390201 secondes
+Thread 0 time: 1.04e-07s
+Thread 1 time: 2.13e-07s
+Thread 2 time: 1.32e-07s
+Thread 3 time: 1.77e-07s
+Thread 4 time: 1.86e-07s
+Thread 5 time: 1.76e-07s
+Global execution time: 0.000117369s
+Temps pour affichage : 0.00333613 secondes
+Thread 0 time: 1.63e-07s
+Thread 1 time: 5.25e-07s
+Thread 2 time: 1.58e-07s
+Thread 3 time: 2.39e-07s
+Thread 4 time: 1.48e-07s
+Thread 5 time: 1.67e-07s
+Global execution time: 0.000255394s
+Temps pour affichage : 0.00336511 secondes
+Thread 0 time: 6.89e-07s
+Thread 1 time: 1.88e-07s
+Thread 2 time: 4.14e-07s
+Thread 3 time: 1.99e-07s
+Thread 4 time: 1.93e-07s
+Thread 5 time: 2.22e-07s
+Global execution time: 0.000150248s
+Temps pour affichage : 0.00337138 secondes
+Thread 0 time: 2.29e-07s
+Thread 1 time: 4.47e-07s
+Thread 2 time: 1.88e-07s
+Thread 3 time: 1.44e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 1.51e-07s
+Global execution time: 0.000136666s
+Temps pour affichage : 0.00368696 secondes
+Thread 0 time: 1.192e-06s
+Thread 1 time: 3.53e-07s
+Thread 2 time: 1.36e-07s
+Thread 3 time: 4.39e-07s
+Thread 4 time: 1.29e-07s
+Thread 5 time: 1.25e-07s
+Global execution time: 0.000174639s
+Temps pour affichage : 0.00338142 secondes
+Thread 0 time: 2.52e-07s
+Thread 1 time: 2.26e-07s
+Thread 2 time: 1.66e-07s
+Thread 3 time: 1.19e-07s
+Thread 4 time: 1.09e-07s
+Thread 5 time: 1.22e-07s
+Global execution time: 0.000107976s
+Temps pour affichage : 0.00335831 secondes
+Thread 0 time: 5.39e-07s
+Thread 1 time: 2.79e-07s
+Thread 2 time: 3.15e-07s
+Thread 3 time: 1.66e-07s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 1.47e-07s
+Global execution time: 8.6681e-05s
+Temps pour affichage : 0.00357765 secondes
+Thread 0 time: 1.1e-07s
+Thread 1 time: 1.62e-07s
+Thread 2 time: 2.1e-07s
+Thread 3 time: 2.32e-07s
+Thread 4 time: 1.76e-07s
+Thread 5 time: 2.883e-06s
+Global execution time: 0.00010772s
+Temps pour affichage : 0.00345395 secondes
+Thread 0 time: 1.33e-07s
+Thread 1 time: 1.76e-07s
+Thread 2 time: 2.26e-07s
+Thread 3 time: 3.02e-07s
+Thread 4 time: 2.96e-07s
+Thread 5 time: 2.7e-07s
+Global execution time: 0.00011509s
+Temps pour affichage : 0.00359842 secondes
+Thread 0 time: 8e-08s
+Thread 1 time: 1.41e-07s
+Thread 2 time: 1.22e-07s
+Thread 3 time: 1.46e-07s
+Thread 4 time: 1.48e-07s
+Thread 5 time: 1.98e-07s
+Global execution time: 0.000110718s
+Temps pour affichage : 0.00335227 secondes
+Thread 0 time: 1.31e-07s
+Thread 1 time: 2.22e-07s
+Thread 2 time: 1.88e-07s
+Thread 3 time: 0s
+Thread 4 time: 1.92e-07s
+Thread 5 time: 3.04e-07s
+Global execution time: 0.000215177s
+Temps pour affichage : 0.00345008 secondes
+Thread 0 time: 2.6e-07s
+Thread 1 time: 1.33e-07s
+Thread 2 time: 0s
+Thread 3 time: 2.61e-07s
+Thread 4 time: 2.06e-07s
+Thread 5 time: 1.13e-07s
+Global execution time: 0.000123991s
+Temps pour affichage : 0.00377291 secondes
+Thread 0 time: 2.36e-07s
+Thread 1 time: 1.067e-06s
+Thread 2 time: 1.3e-07s
+Thread 3 time: 1.27e-07s
+Thread 4 time: 1.7e-07s
+Thread 5 time: 1.06e-07s
+Global execution time: 0.000123161s
+Temps pour affichage : 0.00362197 secondes
+Thread 0 time: 1.83e-07s
+Thread 1 time: 1.378e-06s
+Thread 2 time: 3.43e-07s
+Thread 3 time: 8.94e-07s
+Thread 4 time: 0s
+Thread 5 time: 1.7e-07s
+Global execution time: 0.000116799s
+Temps pour affichage : 0.00337424 secondes
+Thread 0 time: 2.43e-07s
+Thread 1 time: 1.11e-07s
+Thread 2 time: 1.67e-07s
+Thread 3 time: 1.65e-07s
+Thread 4 time: 1.66e-07s
+Thread 5 time: 1.47e-07s
+Global execution time: 8.9508e-05s
+Temps pour affichage : 0.00760427 secondes
+Thread 0 time: 5.14e-07s
+Thread 1 time: 0s
+Thread 2 time: 1.02e-07s
+Thread 3 time: 1.65e-07s
+Thread 4 time: 1.74e-07s
+Thread 5 time: 3.78e-07s
+Global execution time: 9.9773e-05s
+Temps pour affichage : 0.00372593 secondes
+Thread 0 time: 1.22e-07s
+Thread 1 time: 1.17e-07s
+Thread 2 time: 3.97e-07s
+Thread 3 time: 2.01e-07s
+Thread 4 time: 1.6e-07s
+Thread 5 time: 2.16e-07s
+Global execution time: 0.000109501s
+Temps pour affichage : 0.00343466 secondes
+Thread 0 time: 4.33e-07s
+Thread 1 time: 4.2e-07s
+Thread 2 time: 4.36e-07s
+Thread 3 time: 2.07e-07s
+Thread 4 time: 2.45e-07s
+Thread 5 time: 2.53e-07s
+Global execution time: 0.00010011s
+Temps pour affichage : 0.00351113 secondes
+Thread 0 time: 1.77e-07s
+Thread 1 time: 2.94e-07s
+Thread 2 time: 2.49e-07s
+Thread 3 time: 2.34e-07s
+Thread 4 time: 2.99e-07s
+Thread 5 time: 1.04e-07s
+Global execution time: 7.4591e-05s
+Temps pour affichage : 0.0040362 secondes
+Thread 0 time: 1.66e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 1.79e-07s
+Thread 3 time: 1.1e-07s
+Thread 4 time: 2.76e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 7.5148e-05s
+Temps pour affichage : 0.00377038 secondes
+Thread 0 time: 8.7e-07s
+Thread 1 time: 7.61e-07s
+Thread 2 time: 8.99e-07s
+Thread 3 time: 2.35e-07s
+Thread 4 time: 1.36e-07s
+Thread 5 time: 5.55e-07s
+Global execution time: 6.5223e-05s
+Temps pour affichage : 0.00412154 secondes
+Thread 0 time: 1.51e-07s
+Thread 1 time: 1.94e-07s
+Thread 2 time: 2.41e-07s
+Thread 3 time: 2.74e-07s
+Thread 4 time: 1.84e-07s
+Thread 5 time: 0s
+Global execution time: 0.00014395s
+Temps pour affichage : 0.00347622 secondes
+Thread 0 time: 1.376e-06s
+Thread 1 time: 1.58e-07s
+Thread 2 time: 2.62e-07s
+Thread 3 time: 2.25e-07s
+Thread 4 time: 5.89e-07s
+Thread 5 time: 1.61e-07s
+Global execution time: 0.000100084s
+Temps pour affichage : 0.00386266 secondes
+Thread 0 time: 9.55e-07s
+Thread 1 time: 3.08e-07s
+Thread 2 time: 2.96e-07s
+Thread 3 time: 2.73e-07s
+Thread 4 time: 5.91e-07s
+Thread 5 time: 1.34e-07s
+Global execution time: 9.747e-05s
+Temps pour affichage : 0.00339027 secondes
+Thread 0 time: 2.05e-07s
+Thread 1 time: 2.57e-07s
+Thread 2 time: 5.24e-07s
+Thread 3 time: 4.08e-07s
+Thread 4 time: 4.49e-07s
+Thread 5 time: 1.67e-07s
+Global execution time: 0.000129143s
+Temps pour affichage : 0.00356421 secondes
+Thread 0 time: 1.79e-07s
+Thread 1 time: 2.73e-07s
+Thread 2 time: 1.56e-07s
+Thread 3 time: 1.91e-07s
+Thread 4 time: 3.88e-07s
+Thread 5 time: 2.5e-07s
+Global execution time: 8.8008e-05s
+Temps pour affichage : 0.00335296 secondes
+Thread 0 time: 6.59e-07s
+Thread 1 time: 2.43e-07s
+Thread 2 time: 4.77e-07s
+Thread 3 time: 1.75e-07s
+Thread 4 time: 1.33e-07s
+Thread 5 time: 1.63e-07s
+Global execution time: 5.7802e-05s
+Temps pour affichage : 0.00374925 secondes
+Thread 0 time: 1.75e-07s
+Thread 1 time: 5.4e-07s
+Thread 2 time: 3.6e-07s
+Thread 3 time: 2.04e-07s
+Thread 4 time: 1.37e-07s
+Thread 5 time: 1.64e-07s
+Global execution time: 7.128e-05s
+Temps pour affichage : 0.00360917 secondes
+Thread 0 time: 2.86e-07s
+Thread 1 time: 3.58e-07s
+Thread 2 time: 1.76e-07s
+Thread 3 time: 2.5e-07s
+Thread 4 time: 2.31e-07s
+Thread 5 time: 1.93e-07s
+Global execution time: 8.7209e-05s
+Temps pour affichage : 0.00355709 secondes
+Thread 0 time: 1.38e-07s
+Thread 1 time: 1.7e-07s
+Thread 2 time: 1.2e-06s
+Thread 3 time: 1.92e-07s
+Thread 4 time: 5.25e-07s
+Thread 5 time: 3.35e-07s
+Global execution time: 7.3248e-05s
+Temps pour affichage : 0.0038979 secondes
+Thread 0 time: 1.123e-06s
+Thread 1 time: 3.43e-07s
+Thread 2 time: 3.77e-07s
+Thread 3 time: 3.03e-07s
+Thread 4 time: 1.11e-07s
+Thread 5 time: 1.47e-07s
+Global execution time: 8.9784e-05s
+Temps pour affichage : 0.00330964 secondes
+Thread 0 time: 2.68e-07s
+Thread 1 time: 1.6e-07s
+Thread 2 time: 1.202e-06s
+Thread 3 time: 1.17e-07s
+Thread 4 time: 6.4e-07s
+Thread 5 time: 4.36e-07s
+Global execution time: 5.5404e-05s
+Temps pour affichage : 0.00335134 secondes
+Thread 0 time: 2.42e-07s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 1.24e-07s
+Thread 3 time: 2.39e-07s
+Thread 4 time: 1.09e-07s
+Thread 5 time: 1.85e-07s
+Global execution time: 8.5307e-05s
+Temps pour affichage : 0.00314275 secondes
+Thread 0 time: 1.98e-07s
+Thread 1 time: 2.18e-07s
+Thread 2 time: 1.37e-07s
+Thread 3 time: 1.95e-07s
+Thread 4 time: 6.93e-07s
+Thread 5 time: 1.32e-07s
+Global execution time: 6.1112e-05s
+Temps pour affichage : 0.00318411 secondes
+Thread 0 time: 9.92e-07s
+Thread 1 time: 1.61e-07s
+Thread 2 time: 5.36e-07s
+Thread 3 time: 6.74e-07s
+Thread 4 time: 2.41e-07s
+Thread 5 time: 4.64e-07s
+Global execution time: 0.000169771s
+Temps pour affichage : 0.0032094 secondes
+Thread 0 time: 2.22e-07s
+Thread 1 time: 1.78e-07s
+Thread 2 time: 2.1e-07s
+Thread 3 time: 1.76e-07s
+Thread 4 time: 1.75e-07s
+Thread 5 time: 1.38e-07s
+Global execution time: 9.1314e-05s
+Temps pour affichage : 0.00353606 secondes
+Thread 0 time: 2e-07s
+Thread 1 time: 2.14e-07s
+Thread 2 time: 2.47e-07s
+Thread 3 time: 1.36e-07s
+Thread 4 time: 1.78e-07s
+Thread 5 time: 8e-07s
+Global execution time: 6.0451e-05s
+Temps pour affichage : 0.00319307 secondes
+Thread 0 time: 2.16e-07s
+Thread 1 time: 1.78e-07s
+Thread 2 time: 1.5e-07s
+Thread 3 time: 1.51e-07s
+Thread 4 time: 1.33e-07s
+Thread 5 time: 2.06e-07s
+Global execution time: 8.0262e-05s
+Temps pour affichage : 0.00322754 secondes
+Thread 0 time: 1.006e-06s
+Thread 1 time: 1.72e-07s
+Thread 2 time: 2.43e-07s
+Thread 3 time: 1.61e-07s
+Thread 4 time: 2e-07s
+Thread 5 time: 2.1e-07s
+Global execution time: 5.2375e-05s
+Temps pour affichage : 0.00352173 secondes
+Thread 0 time: 1.11e-07s
+Thread 1 time: 1.24e-07s
+Thread 2 time: 1.59e-07s
+Thread 3 time: 5.06e-07s
+Thread 4 time: 1.1e-07s
+Thread 5 time: 1.48e-07s
+Global execution time: 5.1779e-05s
+Temps pour affichage : 0.00324255 secondes
+Thread 0 time: 1.82e-07s
+Thread 1 time: 1.59e-07s
+Thread 2 time: 2.86e-07s
+Thread 3 time: 1.42e-07s
+Thread 4 time: 1.59e-07s
+Thread 5 time: 1.98e-07s
+Global execution time: 5.5396e-05s
+Temps pour affichage : 0.00319965 secondes
+Thread 0 time: 9.53e-07s
+Thread 1 time: 6.79e-07s
+Thread 2 time: 1.9e-07s
+Thread 3 time: 4.13e-07s
+Thread 4 time: 6.84e-07s
+Thread 5 time: 0s
+Global execution time: 0.000193222s
+Temps pour affichage : 0.00508474 secondes
+Thread 0 time: 1.99e-07s
+Thread 1 time: 3e-07s
+Thread 2 time: 2.71e-07s
+Thread 3 time: 2.18e-07s
+Thread 4 time: 1.53e-07s
+Thread 5 time: 9.4e-08s
+Global execution time: 8.9256e-05s
+Temps pour affichage : 0.00343253 secondes
+Thread 0 time: 1.14e-07s
+Thread 1 time: 1.36e-07s
+Thread 2 time: 1.071e-06s
+Thread 3 time: 2.58e-07s
+Thread 4 time: 2.36e-07s
+Thread 5 time: 1.49e-07s
+Global execution time: 4.896e-05s
+Temps pour affichage : 0.00623708 secondes
+Thread 0 time: 2.36e-07s
+Thread 1 time: 2.45e-07s
+Thread 2 time: 3.31e-07s
+Thread 3 time: 4.59e-07s
+Thread 4 time: 4.3e-07s
+Thread 5 time: 1.78e-07s
+Global execution time: 7.551e-05s
+Temps pour affichage : 0.00376649 secondes
+Thread 0 time: 1.41e-07s
+Thread 1 time: 1.53e-07s
+Thread 2 time: 3.62e-07s
+Thread 3 time: 1.41e-07s
+Thread 4 time: 2.09e-07s
+Thread 5 time: 1.57e-07s
+Global execution time: 0.00010353s
+Temps pour affichage : 0.0039784 secondes
+Thread 0 time: 1.61e-07s
+Thread 1 time: 2.72e-07s
+Thread 2 time: 2.22e-07s
+Thread 3 time: 2.16e-07s
+Thread 4 time: 7.62e-07s
+Thread 5 time: 2.75e-07s
+Global execution time: 8.0306e-05s
+Temps pour affichage : 0.0038828 secondes
+Thread 0 time: 1.46e-06s
+Thread 1 time: 1.02e-07s
+Thread 2 time: 2.08e-07s
+Thread 3 time: 1.73e-07s
+Thread 4 time: 1.82e-07s
+Thread 5 time: 1.08e-07s
+Global execution time: 7.5901e-05s
+Temps pour affichage : 0.00368899 secondes
+Thread 0 time: 9.4e-07s
+Thread 1 time: 1.74e-07s
+Thread 2 time: 2.74e-07s
+Thread 3 time: 1.73e-07s
+Thread 4 time: 1.59e-07s
+Thread 5 time: 3.81e-07s
+Global execution time: 6.722e-05s
+Temps pour affichage : 0.00354848 secondes
+Thread 0 time: 9.9e-08s
+Thread 1 time: 2.34e-07s
+Thread 2 time: 1.82e-07s
+Thread 3 time: 3.39e-07s
+Thread 4 time: 1.54e-07s
+Thread 5 time: 4.11e-07s
+Global execution time: 4.6175e-05s
+Temps pour affichage : 0.00382516 secondes
+Thread 0 time: 1.48e-07s
+Thread 1 time: 1.3e-07s
+Thread 2 time: 2.49e-07s
+Thread 3 time: 1.81e-07s
+Thread 4 time: 6.01e-07s
+Thread 5 time: 1.88e-07s
+Global execution time: 8.2386e-05s
+Temps pour affichage : 0.00357034 secondes
+Thread 0 time: 1.081e-06s
+Thread 1 time: 5.59e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 1.89e-07s
+Thread 4 time: 3.89e-07s
+Thread 5 time: 1.8e-07s
+Global execution time: 7.1762e-05s
+Temps pour affichage : 0.0044009 secondes
+Thread 0 time: 8.9e-08s
+Thread 1 time: 1.95e-07s
+Thread 2 time: 2.47e-07s
+Thread 3 time: 2.49e-07s
+Thread 4 time: 2.19e-07s
+Thread 5 time: 3.97e-07s
+Global execution time: 6.4092e-05s
+Temps pour affichage : 0.00390057 secondes
+Thread 0 time: 1.94e-07s
+Thread 1 time: 2.61e-07s
+Thread 2 time: 5.22e-07s
+Thread 3 time: 6.72e-07s
+Thread 4 time: 2.27e-07s
+Thread 5 time: 1.37e-07s
+Global execution time: 7.2568e-05s
+Temps pour affichage : 0.00348682 secondes
+Thread 0 time: 2.09e-07s
+Thread 1 time: 6.73e-07s
+Thread 2 time: 3.14e-07s
+Thread 3 time: 1.49e-07s
+Thread 4 time: 3.71e-07s
+Thread 5 time: 2.33e-07s
+Global execution time: 6.9724e-05s
+Temps pour affichage : 0.00423912 secondes
+Thread 0 time: 2.2e-07s
+Thread 1 time: 1.84e-07s
+Thread 2 time: 7.01e-07s
+Thread 3 time: 0s
+Thread 4 time: 9.7e-07s
+Thread 5 time: 3.01e-07s
+Global execution time: 0.0001132s
+Temps pour affichage : 0.00374343 secondes
+Thread 0 time: 2.53e-07s
+Thread 1 time: 2.48e-07s
+Thread 2 time: 2.62e-07s
+Thread 3 time: 1.32e-07s
+Thread 4 time: 8.18e-07s
+Thread 5 time: 3.47e-07s
+Global execution time: 0.000170077s
+Temps pour affichage : 0.00400611 secondes
+Thread 0 time: 1.73e-07s
+Thread 1 time: 2.63e-07s
+Thread 2 time: 6.25e-07s
+Thread 3 time: 2.59e-07s
+Thread 4 time: 6.79e-07s
+Thread 5 time: 2.19e-07s
+Global execution time: 0.000309194s
+Temps pour affichage : 0.00421858 secondes
+Thread 0 time: 1.63e-07s
+Thread 1 time: 3.24e-07s
+Thread 2 time: 4.29e-07s
+Thread 3 time: 0s
+Thread 4 time: 1.83e-07s
+Thread 5 time: 4.35e-07s
+Global execution time: 9.3557e-05s
+Temps pour affichage : 0.00468887 secondes
+Thread 0 time: 1.93e-07s
+Thread 1 time: 2.18e-07s
+Thread 2 time: 4.94e-07s
+Thread 3 time: 2.38e-07s
+Thread 4 time: 2.44e-07s
+Thread 5 time: 6.13e-07s
+Global execution time: 7.7414e-05s
+Temps pour affichage : 0.00423744 secondes
+Thread 0 time: 3.95e-07s
+Thread 1 time: 7.66e-07s
+Thread 2 time: 1.37e-07s
+Thread 3 time: 5.12e-07s
+Thread 4 time: 1.43e-07s
+Thread 5 time: 2.3e-07s
+Global execution time: 8.6617e-05s
+Temps pour affichage : 0.00449729 secondes
+Thread 0 time: 1.376e-06s
+Thread 1 time: 4.02e-07s
+Thread 2 time: 1.67e-07s
+Thread 3 time: 3.12e-07s
+Thread 4 time: 5.24e-07s
+Thread 5 time: 1.15e-07s
+Global execution time: 7.261e-05s
+Temps pour affichage : 0.00474011 secondes
+Thread 0 time: 1.124e-06s
+Thread 1 time: 5.42e-07s
+Thread 2 time: 2.66e-07s
+Thread 3 time: 3.05e-07s
+Thread 4 time: 3.14e-07s
+Thread 5 time: 2.082e-06s
+Global execution time: 0.000186498s
+Temps pour affichage : 0.00440836 secondes
+Thread 0 time: 3.36e-07s
+Thread 1 time: 2.68e-07s
+Thread 2 time: 6.47e-07s
+Thread 3 time: 2.74e-07s
+Thread 4 time: 2.77e-07s
+Thread 5 time: 1.251e-06s
+Global execution time: 0.000169338s
+Temps pour affichage : 0.00423665 secondes
+Thread 0 time: 1.51e-06s
+Thread 1 time: 2.76e-07s
+Thread 2 time: 2.47e-07s
+Thread 3 time: 2.49e-07s
+Thread 4 time: 3.44e-07s
+Thread 5 time: 7.17e-07s
+Global execution time: 0.000121184s
+Temps pour affichage : 0.00433266 secondes
+Thread 0 time: 9.67e-07s
+Thread 1 time: 2.31e-07s
+Thread 2 time: 2.07e-07s
+Thread 3 time: 2.64e-07s
+Thread 4 time: 2.29e-07s
+Thread 5 time: 1.578e-06s
+Global execution time: 0.000111247s
+Temps pour affichage : 0.00470843 secondes
+Thread 0 time: 2.34e-07s
+Thread 1 time: 8.95e-07s
+Thread 2 time: 2.41e-07s
+Thread 3 time: 2.38e-07s
+Thread 4 time: 2.64e-07s
+Thread 5 time: 1.015e-06s
+Global execution time: 7.5837e-05s
+Temps pour affichage : 0.003841 secondes
+Thread 0 time: 2.09e-07s
+Thread 1 time: 2.65e-07s
+Thread 2 time: 8.81e-07s
+Thread 3 time: 7.26e-07s
+Thread 4 time: 7.76e-07s
+Thread 5 time: 2.83e-07s
+Global execution time: 6.7225e-05s
+Temps pour affichage : 0.00467036 secondes
+Thread 0 time: 1.6287e-05s
+Thread 1 time: 1.411e-06s
+Thread 2 time: 2.42e-07s
+Thread 3 time: 7.08e-07s
+Thread 4 time: 1.49e-07s
+Thread 5 time: 1.49e-07s
+Global execution time: 0.000138051s
+Temps pour affichage : 0.00407506 secondes
+Thread 0 time: 3.12e-07s
+Thread 1 time: 1.62e-07s
+Thread 2 time: 3.51e-07s
+Thread 3 time: 7.38e-07s
+Thread 4 time: 2.9e-07s
+Thread 5 time: 1.21e-06s
+Global execution time: 7.6963e-05s
+Temps pour affichage : 0.00376778 secondes
+Thread 0 time: 1.032e-06s
+Thread 1 time: 6.35e-07s
+Thread 2 time: 2.06e-07s
+Thread 3 time: 1.053e-06s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 4.02e-07s
+Global execution time: 7.1774e-05s
+Temps pour affichage : 0.0039168 secondes
+Thread 0 time: 2.64e-07s
+Thread 1 time: 1.43e-07s
+Thread 2 time: 5.93e-07s
+Thread 3 time: 8.26e-07s
+Thread 4 time: 9.4e-07s
+Thread 5 time: 2.51e-07s
+Global execution time: 0.000133391s
+Temps pour affichage : 0.00411929 secondes
+Thread 0 time: 5.99e-07s
+Thread 1 time: 3.81e-07s
+Thread 2 time: 1.997e-06s
+Thread 3 time: 8.25e-07s
+Thread 4 time: 2.51e-07s
+Thread 5 time: 5.93e-07s
+Global execution time: 0.000108213s
+Temps pour affichage : 0.00670567 secondes
+Thread 0 time: 1.288e-06s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 3.33e-07s
+Thread 3 time: 3.73e-07s
+Thread 4 time: 1.79e-06s
+Thread 5 time: 2.84e-07s
+Global execution time: 0.000119114s
+Temps pour affichage : 0.004024 secondes
+Thread 0 time: 2.7e-07s
+Thread 1 time: 1.083e-06s
+Thread 2 time: 2.45e-07s
+Thread 3 time: 7.81e-07s
+Thread 4 time: 2.09e-07s
+Thread 5 time: 1.77e-07s
+Global execution time: 8.9372e-05s
+Temps pour affichage : 0.00409348 secondes
+Thread 0 time: 1.702e-06s
+Thread 1 time: 1.69e-07s
+Thread 2 time: 9.45e-07s
+Thread 3 time: 3.71e-07s
+Thread 4 time: 5.6e-07s
+Thread 5 time: 1.39e-07s
+Global execution time: 7.2023e-05s
+Temps pour affichage : 0.00404811 secondes
+Thread 0 time: 2.87e-07s
+Thread 1 time: 1.126e-06s
+Thread 2 time: 1.195e-06s
+Thread 3 time: 1.029e-06s
+Thread 4 time: 1.252e-06s
+Thread 5 time: 8.23e-07s
+Global execution time: 0.000163972s
+Temps pour affichage : 0.00367077 secondes
+Thread 0 time: 5.34e-07s
+Thread 1 time: 1.55e-07s
+Thread 2 time: 2.64e-07s
+Thread 3 time: 2e-07s
+Thread 4 time: 1.75e-07s
+Thread 5 time: 9.9e-08s
+Global execution time: 4.7826e-05s
+Temps pour affichage : 0.00357867 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 500
+Thread 0 time: 9.34e-07s
+Thread 1 time: 0s
+Thread 2 time: 1.46e-07s
+Thread 3 time: 2.51e-07s
+Thread 4 time: 1.37e-07s
+Thread 5 time: 9.2e-08s
+Global execution time: 0.00903316s
+Temps pour affichage : 0.00454389 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 2.57e-07s
+Thread 4 time: 3.11e-07s
+Thread 5 time: 3.11e-07s
+Global execution time: 0.000135456s
+Temps pour affichage : 0.00356255 secondes
+Thread 0 time: 7.2e-07s
+Thread 1 time: 2.76e-07s
+Thread 2 time: 2.32e-07s
+Thread 3 time: 6.87e-07s
+Thread 4 time: 6.31e-07s
+Thread 5 time: 1.12e-07s
+Global execution time: 7.3922e-05s
+Temps pour affichage : 0.00393485 secondes
+Thread 0 time: 1.055e-06s
+Thread 1 time: 2.19e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 4.63e-07s
+Thread 4 time: 3.56e-07s
+Thread 5 time: 2.18e-07s
+Global execution time: 0.000112818s
+Temps pour affichage : 0.0038802 secondes
+Thread 0 time: 1.44e-07s
+Thread 1 time: 2.58e-07s
+Thread 2 time: 2.75e-07s
+Thread 3 time: 1.111e-06s
+Thread 4 time: 1.034e-06s
+Thread 5 time: 1.91e-07s
+Global execution time: 8.7363e-05s
+Temps pour affichage : 0.00379363 secondes
+Thread 0 time: 2.41e-07s
+Thread 1 time: 1.24e-07s
+Thread 2 time: 3.3e-07s
+Thread 3 time: 6.42e-07s
+Thread 4 time: 9.77e-07s
+Thread 5 time: 2.97e-07s
+Global execution time: 6.9959e-05s
+Temps pour affichage : 0.00366098 secondes
+Thread 0 time: 1.17e-07s
+Thread 1 time: 2.4e-07s
+Thread 2 time: 2.61e-07s
+Thread 3 time: 8.24e-07s
+Thread 4 time: 2.99e-07s
+Thread 5 time: 2.09e-07s
+Global execution time: 7.2641e-05s
+Temps pour affichage : 0.00409547 secondes
+Thread 0 time: 5.8e-07s
+Thread 1 time: 8.96e-07s
+Thread 2 time: 1.95e-07s
+Thread 3 time: 4.09e-07s
+Thread 4 time: 1.25e-07s
+Thread 5 time: 4.83e-07s
+Global execution time: 6.4688e-05s
+Temps pour affichage : 0.00411066 secondes
+Thread 0 time: 2.35e-07s
+Thread 1 time: 1.64e-07s
+Thread 2 time: 2.2e-07s
+Thread 3 time: 0s
+Thread 4 time: 6.33e-07s
+Thread 5 time: 5.9e-07s
+Global execution time: 0.000682668s
+Temps pour affichage : 0.00419569 secondes
+Thread 0 time: 1.224e-06s
+Thread 1 time: 1.44e-07s
+Thread 2 time: 2.43e-07s
+Thread 3 time: 1.001e-06s
+Thread 4 time: 0s
+Thread 5 time: 2.08e-07s
+Global execution time: 0.000137716s
+Temps pour affichage : 0.00380794 secondes
+Thread 0 time: 1.97e-07s
+Thread 1 time: 1.48e-07s
+Thread 2 time: 5.73e-07s
+Thread 3 time: 2.82e-07s
+Thread 4 time: 2.19e-07s
+Thread 5 time: 1.62e-07s
+Global execution time: 4.0902e-05s
+Temps pour affichage : 0.0037926 secondes
+Thread 0 time: 2.29e-07s
+Thread 1 time: 4.28e-07s
+Thread 2 time: 1.21e-07s
+Thread 3 time: 1.74e-07s
+Thread 4 time: 3.53e-07s
+Thread 5 time: 1.1e-07s
+Global execution time: 8.061e-05s
+Temps pour affichage : 0.0037258 secondes
+Thread 0 time: 1.34e-06s
+Thread 1 time: 4.17e-07s
+Thread 2 time: 9.49e-07s
+Thread 3 time: 2.69e-07s
+Thread 4 time: 3.89e-07s
+Thread 5 time: 2.73e-07s
+Global execution time: 6.028e-05s
+Temps pour affichage : 0.0038178 secondes
+Thread 0 time: 9.02e-07s
+Thread 1 time: 1.38e-07s
+Thread 2 time: 7.17e-07s
+Thread 3 time: 3.31e-07s
+Thread 4 time: 1.19e-07s
+Thread 5 time: 3.92e-07s
+Global execution time: 5.3521e-05s
+Temps pour affichage : 0.00373458 secondes
+Thread 0 time: 2.76e-07s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 1.023e-06s
+Thread 3 time: 4.46e-07s
+Thread 4 time: 5.46e-07s
+Thread 5 time: 1.67e-07s
+Global execution time: 8.3717e-05s
+Temps pour affichage : 0.00508502 secondes
+Thread 0 time: 7.04e-07s
+Thread 1 time: 2.79e-07s
+Thread 2 time: 2.9e-07s
+Thread 3 time: 7.28e-07s
+Thread 4 time: 2.12e-07s
+Thread 5 time: 2e-07s
+Global execution time: 5.0197e-05s
+Temps pour affichage : 0.0038866 secondes
+Thread 0 time: 2.75e-07s
+Thread 1 time: 2.57e-07s
+Thread 2 time: 2.5e-07s
+Thread 3 time: 1.51e-07s
+Thread 4 time: 1.297e-06s
+Thread 5 time: 7.15e-07s
+Global execution time: 5.0229e-05s
+Temps pour affichage : 0.00359831 secondes
+Thread 0 time: 2.36e-07s
+Thread 1 time: 2.55e-07s
+Thread 2 time: 5.58e-07s
+Thread 3 time: 8.68e-07s
+Thread 4 time: 2.56e-07s
+Thread 5 time: 2.34e-07s
+Global execution time: 5.0398e-05s
+Temps pour affichage : 0.00373506 secondes
+Thread 0 time: 1.38e-07s
+Thread 1 time: 4.87e-07s
+Thread 2 time: 2.14e-07s
+Thread 3 time: 1.59e-07s
+Thread 4 time: 2.46e-07s
+Thread 5 time: 3.31e-07s
+Global execution time: 4.9999e-05s
+Temps pour affichage : 0.0038241 secondes
+Thread 0 time: 2.17e-07s
+Thread 1 time: 1.196e-06s
+Thread 2 time: 2.5e-07s
+Thread 3 time: 6.46e-07s
+Thread 4 time: 1.58e-07s
+Thread 5 time: 1.28e-07s
+Global execution time: 9.3366e-05s
+Temps pour affichage : 0.00380599 secondes
+Thread 0 time: 1.183e-06s
+Thread 1 time: 3.29e-07s
+Thread 2 time: 2.59e-07s
+Thread 3 time: 2.47e-07s
+Thread 4 time: 3.02e-07s
+Thread 5 time: 2.22e-07s
+Global execution time: 4.4756e-05s
+Temps pour affichage : 0.00367825 secondes
+Thread 0 time: 1.27e-07s
+Thread 1 time: 2.45e-07s
+Thread 2 time: 5.66e-07s
+Thread 3 time: 2.86e-07s
+Thread 4 time: 2.53e-07s
+Thread 5 time: 1.74e-07s
+Global execution time: 4.289e-05s
+Temps pour affichage : 0.00388602 secondes
+Thread 0 time: 2.25e-07s
+Thread 1 time: 2.29e-07s
+Thread 2 time: 5.01e-07s
+Thread 3 time: 1.68e-07s
+Thread 4 time: 0s
+Thread 5 time: 3.49e-07s
+Global execution time: 6.1253e-05s
+Temps pour affichage : 0.00575545 secondes
+Thread 0 time: 3.6e-07s
+Thread 1 time: 3.98e-07s
+Thread 2 time: 2.39e-07s
+Thread 3 time: 6.89e-07s
+Thread 4 time: 3.02e-07s
+Thread 5 time: 2.99e-07s
+Global execution time: 6.8966e-05s
+Temps pour affichage : 0.0040917 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 2.16e-07s
+Thread 2 time: 6.08e-07s
+Thread 3 time: 2.33e-07s
+Thread 4 time: 2.26e-07s
+Thread 5 time: 2.55e-07s
+Global execution time: 5.26e-05s
+Temps pour affichage : 0.00397761 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 6.9e-07s
+Thread 2 time: 1.46e-07s
+Thread 3 time: 2.21e-07s
+Thread 4 time: 3.16e-07s
+Thread 5 time: 3.85e-07s
+Global execution time: 0.000120081s
+Temps pour affichage : 0.0038352 secondes
+Thread 0 time: 2.32e-07s
+Thread 1 time: 1.79e-07s
+Thread 2 time: 2.1e-07s
+Thread 3 time: 1.43e-07s
+Thread 4 time: 2.84e-07s
+Thread 5 time: 1.95e-07s
+Global execution time: 4.1702e-05s
+Temps pour affichage : 0.00354395 secondes
+Thread 0 time: 1.388e-06s
+Thread 1 time: 1.99e-07s
+Thread 2 time: 1.87e-07s
+Thread 3 time: 2.84e-07s
+Thread 4 time: 4.9e-07s
+Thread 5 time: 2.56e-07s
+Global execution time: 6.2703e-05s
+Temps pour affichage : 0.00377257 secondes
+Thread 0 time: 1.48e-07s
+Thread 1 time: 1.76e-07s
+Thread 2 time: 1.12e-07s
+Thread 3 time: 3.22e-07s
+Thread 4 time: 9.787e-06s
+Thread 5 time: 2.28e-07s
+Global execution time: 4.5034e-05s
+Temps pour affichage : 0.00379345 secondes
+Thread 0 time: 1.53e-07s
+Thread 1 time: 1.52e-07s
+Thread 2 time: 9.1e-08s
+Thread 3 time: 1.29e-07s
+Thread 4 time: 2.55e-07s
+Thread 5 time: 2.56e-07s
+Global execution time: 6.8519e-05s
+Temps pour affichage : 0.00359525 secondes
+Thread 0 time: 1.94e-07s
+Thread 1 time: 2.84e-07s
+Thread 2 time: 3.22e-07s
+Thread 3 time: 1.68e-07s
+Thread 4 time: 1.98e-07s
+Thread 5 time: 2.77e-07s
+Global execution time: 3.403e-05s
+Temps pour affichage : 0.00386538 secondes
+Thread 0 time: 1.492e-06s
+Thread 1 time: 2.14e-07s
+Thread 2 time: 2.31e-07s
+Thread 3 time: 3.62e-07s
+Thread 4 time: 1.57e-07s
+Thread 5 time: 2.12e-07s
+Global execution time: 6.5143e-05s
+Temps pour affichage : 0.00371961 secondes
+Thread 0 time: 3.07e-07s
+Thread 1 time: 1.78e-07s
+Thread 2 time: 2.34e-07s
+Thread 3 time: 2.63e-07s
+Thread 4 time: 0s
+Thread 5 time: 1.314e-06s
+Global execution time: 4.3332e-05s
+Temps pour affichage : 0.00374078 secondes
+Thread 0 time: 2.11e-07s
+Thread 1 time: 1.61e-07s
+Thread 2 time: 5.05e-07s
+Thread 3 time: 2.86e-07s
+Thread 4 time: 1.89e-07s
+Thread 5 time: 3.36e-07s
+Global execution time: 5.554e-05s
+Temps pour affichage : 0.00392405 secondes
+Thread 0 time: 2.22e-07s
+Thread 1 time: 2.39e-07s
+Thread 2 time: 7.86e-07s
+Thread 3 time: 6.2e-07s
+Thread 4 time: 2.38e-07s
+Thread 5 time: 2.71e-07s
+Global execution time: 4.2439e-05s
+Temps pour affichage : 0.00350425 secondes
+Thread 0 time: 1.85e-07s
+Thread 1 time: 3.32e-07s
+Thread 2 time: 2.05e-07s
+Thread 3 time: 3.11e-07s
+Thread 4 time: 2.59e-07s
+Thread 5 time: 6.09e-07s
+Global execution time: 3.6094e-05s
+Temps pour affichage : 0.00454173 secondes
+Thread 0 time: 2.32e-07s
+Thread 1 time: 2.2e-07s
+Thread 2 time: 8.05e-07s
+Thread 3 time: 3.18e-07s
+Thread 4 time: 1.71e-07s
+Thread 5 time: 1.079e-06s
+Global execution time: 4.104e-05s
+Temps pour affichage : 0.00353831 secondes
+Thread 0 time: 1.61e-07s
+Thread 1 time: 2.4e-07s
+Thread 2 time: 3.37e-07s
+Thread 3 time: 4.08e-07s
+Thread 4 time: 1.47e-07s
+Thread 5 time: 3.14e-07s
+Global execution time: 4.0276e-05s
+Temps pour affichage : 0.00368505 secondes
+Thread 0 time: 3.15e-07s
+Thread 1 time: 2.78e-07s
+Thread 2 time: 5.2e-07s
+Thread 3 time: 3.17e-07s
+Thread 4 time: 3.17e-07s
+Thread 5 time: 2.12e-07s
+Global execution time: 4.2206e-05s
+Temps pour affichage : 0.00382565 secondes
+Thread 0 time: 2.6e-07s
+Thread 1 time: 4.5e-07s
+Thread 2 time: 2.74e-07s
+Thread 3 time: 0s
+Thread 4 time: 3.16e-07s
+Thread 5 time: 3.19e-07s
+Global execution time: 7.5981e-05s
+Temps pour affichage : 0.0038291 secondes
+Thread 0 time: 1.9e-07s
+Thread 1 time: 5.69e-07s
+Thread 2 time: 5.41e-07s
+Thread 3 time: 2.37e-07s
+Thread 4 time: 2.83e-07s
+Thread 5 time: 2.67e-07s
+Global execution time: 8.4627e-05s
+Temps pour affichage : 0.00361796 secondes
+Thread 0 time: 6.741e-06s
+Thread 1 time: 6.419e-06s
+Thread 2 time: 0s
+Thread 3 time: 6.781e-06s
+Thread 4 time: 3.64e-07s
+Thread 5 time: 1.41e-07s
+Global execution time: 5.0006e-05s
+Temps pour affichage : 0.00519097 secondes
+Thread 0 time: 4.21e-07s
+Thread 1 time: 4.35e-07s
+Thread 2 time: 7.19e-07s
+Thread 3 time: 3.16e-07s
+Thread 4 time: 2.67e-07s
+Thread 5 time: 0s
+Global execution time: 9.4821e-05s
+Temps pour affichage : 0.00347328 secondes
+Thread 0 time: 6.5e-07s
+Thread 1 time: 1.91e-07s
+Thread 2 time: 5.54e-07s
+Thread 3 time: 4.21e-07s
+Thread 4 time: 6.06e-07s
+Thread 5 time: 1.67e-07s
+Global execution time: 7.7638e-05s
+Temps pour affichage : 0.00343671 secondes
+Thread 0 time: 1.8e-07s
+Thread 1 time: 2.2e-07s
+Thread 2 time: 3.2e-07s
+Thread 3 time: 4.21e-07s
+Thread 4 time: 2.62e-07s
+Thread 5 time: 1.81e-07s
+Global execution time: 3.4656e-05s
+Temps pour affichage : 0.0040892 secondes
+Thread 0 time: 1.41e-07s
+Thread 1 time: 2.16e-07s
+Thread 2 time: 2.39e-07s
+Thread 3 time: 2.5e-07s
+Thread 4 time: 4.19e-07s
+Thread 5 time: 3.48e-07s
+Global execution time: 4.0599e-05s
+Temps pour affichage : 0.00406797 secondes
+Thread 0 time: 4.94e-07s
+Thread 1 time: 4.8e-07s
+Thread 2 time: 5.39e-07s
+Thread 3 time: 2.81e-07s
+Thread 4 time: 4.38e-07s
+Thread 5 time: 1.88e-07s
+Global execution time: 4.3618e-05s
+Temps pour affichage : 0.00450871 secondes
+Thread 0 time: 1.43e-06s
+Thread 1 time: 2.59e-07s
+Thread 2 time: 3.2e-07s
+Thread 3 time: 7.13e-07s
+Thread 4 time: 3.18e-07s
+Thread 5 time: 4.33e-07s
+Global execution time: 7.049e-05s
+Temps pour affichage : 0.00361604 secondes
+Thread 0 time: 2.24e-07s
+Thread 1 time: 2.63e-07s
+Thread 2 time: 1.85e-07s
+Thread 3 time: 2.26e-07s
+Thread 4 time: 1.56e-07s
+Thread 5 time: 2.02e-07s
+Global execution time: 9.5907e-05s
+Temps pour affichage : 0.00358915 secondes
+Thread 0 time: 4.27e-07s
+Thread 1 time: 2.72e-07s
+Thread 2 time: 0s
+Thread 3 time: 4.76e-07s
+Thread 4 time: 2.08e-07s
+Thread 5 time: 7.51e-07s
+Global execution time: 3.7122e-05s
+Temps pour affichage : 0.00357522 secondes
+Thread 0 time: 1.241e-06s
+Thread 1 time: 1.61e-07s
+Thread 2 time: 2.12e-07s
+Thread 3 time: 3.08e-07s
+Thread 4 time: 2.96e-07s
+Thread 5 time: 2.18e-07s
+Global execution time: 3.6778e-05s
+Temps pour affichage : 0.0036447 secondes
+Thread 0 time: 1.204e-06s
+Thread 1 time: 3.12e-07s
+Thread 2 time: 1.82e-07s
+Thread 3 time: 1.96e-07s
+Thread 4 time: 1.79e-07s
+Thread 5 time: 1.93e-07s
+Global execution time: 4.056e-05s
+Temps pour affichage : 0.00538437 secondes
+Thread 0 time: 6.81e-07s
+Thread 1 time: 1.4e-06s
+Thread 2 time: 0s
+Thread 3 time: 2.43e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 0.000151778s
+Temps pour affichage : 0.00365389 secondes
+Thread 0 time: 1.2e-07s
+Thread 1 time: 2.73e-07s
+Thread 2 time: 8.36e-07s
+Thread 3 time: 2.67e-07s
+Thread 4 time: 3.03e-07s
+Thread 5 time: 1.41e-07s
+Global execution time: 4.0353e-05s
+Temps pour affichage : 0.00409936 secondes
+Thread 0 time: 2.04e-07s
+Thread 1 time: 2.75e-07s
+Thread 2 time: 6.412e-06s
+Thread 3 time: 2.19e-07s
+Thread 4 time: 3.322e-06s
+Thread 5 time: 3.686e-06s
+Global execution time: 7.6953e-05s
+Temps pour affichage : 0.00369805 secondes
+Thread 0 time: 1.27e-06s
+Thread 1 time: 2.18e-07s
+Thread 2 time: 2.28e-07s
+Thread 3 time: 5.13e-07s
+Thread 4 time: 1.87e-07s
+Thread 5 time: 2.6e-07s
+Global execution time: 5.8693e-05s
+Temps pour affichage : 0.00388 secondes
+Thread 0 time: 1.41e-07s
+Thread 1 time: 0s
+Thread 2 time: 2.3e-07s
+Thread 3 time: 6.08e-07s
+Thread 4 time: 9.66e-07s
+Thread 5 time: 0s
+Global execution time: 0.000296155s
+Temps pour affichage : 0.00377637 secondes
+Thread 0 time: 1.719e-06s
+Thread 1 time: 2.23e-07s
+Thread 2 time: 2.05e-07s
+Thread 3 time: 2.1e-07s
+Thread 4 time: 2.81e-07s
+Thread 5 time: 2.36e-07s
+Global execution time: 0.000124757s
+Temps pour affichage : 0.00370867 secondes
+Thread 0 time: 1.5e-07s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 8.18e-07s
+Thread 3 time: 3.19e-07s
+Thread 4 time: 2.69e-07s
+Thread 5 time: 3.04e-07s
+Global execution time: 3.8528e-05s
+Temps pour affichage : 0.00399725 secondes
+Thread 0 time: 1.35e-07s
+Thread 1 time: 4.52e-07s
+Thread 2 time: 2.94e-07s
+Thread 3 time: 2.93e-07s
+Thread 4 time: 3.79e-07s
+Thread 5 time: 1.26e-07s
+Global execution time: 3.1864e-05s
+Temps pour affichage : 0.00364693 secondes
+Thread 0 time: 2.65e-07s
+Thread 1 time: 2.35e-07s
+Thread 2 time: 4.03e-07s
+Thread 3 time: 2.9e-07s
+Thread 4 time: 1.98e-07s
+Thread 5 time: 3.51e-07s
+Global execution time: 5.6895e-05s
+Temps pour affichage : 0.00366186 secondes
+Thread 0 time: 2.6103e-05s
+Thread 1 time: 1.65e-07s
+Thread 2 time: 2.28e-07s
+Thread 3 time: 1.95e-07s
+Thread 4 time: 1.54e-07s
+Thread 5 time: 3.29e-07s
+Global execution time: 8.9944e-05s
+Temps pour affichage : 0.00339355 secondes
+Thread 0 time: 1.43e-07s
+Thread 1 time: 5.7e-07s
+Thread 2 time: 3.18e-07s
+Thread 3 time: 2.03e-07s
+Thread 4 time: 1.75e-07s
+Thread 5 time: 7.62e-07s
+Global execution time: 3.0291e-05s
+Temps pour affichage : 0.0035793 secondes
+Thread 0 time: 1.31e-07s
+Thread 1 time: 5.9e-07s
+Thread 2 time: 5.86e-07s
+Thread 3 time: 1.71e-07s
+Thread 4 time: 2.93e-07s
+Thread 5 time: 2.56e-07s
+Global execution time: 3.5403e-05s
+Temps pour affichage : 0.00368456 secondes
+Thread 0 time: 1.72e-07s
+Thread 1 time: 2.32e-07s
+Thread 2 time: 2.06e-07s
+Thread 3 time: 2.77e-07s
+Thread 4 time: 1.94e-07s
+Thread 5 time: 4.8e-07s
+Global execution time: 3.5695e-05s
+Temps pour affichage : 0.00353313 secondes
+Thread 0 time: 1.03e-07s
+Thread 1 time: 4.56e-07s
+Thread 2 time: 6.31e-07s
+Thread 3 time: 3.59e-07s
+Thread 4 time: 1.8e-07s
+Thread 5 time: 5.85e-07s
+Global execution time: 3.5459e-05s
+Temps pour affichage : 0.0035238 secondes
+Thread 0 time: 1.295e-06s
+Thread 1 time: 2.58e-07s
+Thread 2 time: 2.89e-07s
+Thread 3 time: 2.74e-07s
+Thread 4 time: 3.58e-07s
+Thread 5 time: 1.87e-07s
+Global execution time: 4.6816e-05s
+Temps pour affichage : 0.00362451 secondes
+Thread 0 time: 3.54e-07s
+Thread 1 time: 1.46e-07s
+Thread 2 time: 2.13e-07s
+Thread 3 time: 3.13e-07s
+Thread 4 time: 2.1e-07s
+Thread 5 time: 2.54e-07s
+Global execution time: 6.6949e-05s
+Temps pour affichage : 0.00377579 secondes
+Thread 0 time: 2.54e-07s
+Thread 1 time: 3.49e-07s
+Thread 2 time: 3.25e-07s
+Thread 3 time: 1.93e-07s
+Thread 4 time: 4.17e-07s
+Thread 5 time: 2.91e-07s
+Global execution time: 8.3684e-05s
+Temps pour affichage : 0.00371529 secondes
+Thread 0 time: 2.35e-07s
+Thread 1 time: 3.92e-07s
+Thread 2 time: 5.19e-07s
+Thread 3 time: 2.3e-07s
+Thread 4 time: 2.98e-07s
+Thread 5 time: 3e-07s
+Global execution time: 5.6458e-05s
+Temps pour affichage : 0.00358446 secondes
+Thread 0 time: 1.15e-07s
+Thread 1 time: 5.79e-07s
+Thread 2 time: 2.38e-07s
+Thread 3 time: 5.99e-07s
+Thread 4 time: 4.65e-07s
+Thread 5 time: 5.68e-07s
+Global execution time: 3.1249e-05s
+Temps pour affichage : 0.00347718 secondes
+Thread 0 time: 1.222e-06s
+Thread 1 time: 4.28e-07s
+Thread 2 time: 8.27e-07s
+Thread 3 time: 2.16e-07s
+Thread 4 time: 4.85e-07s
+Thread 5 time: 3.29e-07s
+Global execution time: 3.2822e-05s
+Temps pour affichage : 0.00345657 secondes
+Thread 0 time: 1.113e-06s
+Thread 1 time: 1.28e-07s
+Thread 2 time: 4.09e-07s
+Thread 3 time: 2.44e-07s
+Thread 4 time: 1.23e-07s
+Thread 5 time: 2.59e-07s
+Global execution time: 3.4364e-05s
+Temps pour affichage : 0.0042549 secondes
+Thread 0 time: 2.59e-07s
+Thread 1 time: 3.11e-07s
+Thread 2 time: 8.6e-07s
+Thread 3 time: 9.4e-07s
+Thread 4 time: 1.25e-07s
+Thread 5 time: 1.19e-07s
+Global execution time: 6.9217e-05s
+Temps pour affichage : 0.00348187 secondes
+Thread 0 time: 1.593e-06s
+Thread 1 time: 4.37e-07s
+Thread 2 time: 4.53e-07s
+Thread 3 time: 0s
+Thread 4 time: 1.69e-07s
+Thread 5 time: 5.71e-07s
+Global execution time: 5.7707e-05s
+Temps pour affichage : 0.00410453 secondes
+Thread 0 time: 1.252e-06s
+Thread 1 time: 3.96e-07s
+Thread 2 time: 3.66e-07s
+Thread 3 time: 2.17e-07s
+Thread 4 time: 3.44e-07s
+Thread 5 time: 2.8e-07s
+Global execution time: 3.8847e-05s
+Temps pour affichage : 0.00375244 secondes
+Thread 0 time: 3.4e-07s
+Thread 1 time: 4.39e-07s
+Thread 2 time: 2.21e-07s
+Thread 3 time: 2.6e-07s
+Thread 4 time: 3.62e-07s
+Thread 5 time: 9.8e-08s
+Global execution time: 6.3984e-05s
+Temps pour affichage : 0.00409978 secondes
+Thread 0 time: 1.282e-06s
+Thread 1 time: 3.12e-07s
+Thread 2 time: 1.84e-07s
+Thread 3 time: 7.07e-07s
+Thread 4 time: 2.47e-07s
+Thread 5 time: 2.96e-07s
+Global execution time: 0.000101247s
+Temps pour affichage : 0.00348934 secondes
+Thread 0 time: 3.12e-07s
+Thread 1 time: 3.3e-07s
+Thread 2 time: 2.35e-07s
+Thread 3 time: 0s
+Thread 4 time: 2.77e-07s
+Thread 5 time: 1.73e-07s
+Global execution time: 6.3694e-05s
+Temps pour affichage : 0.00362024 secondes
+Thread 0 time: 4.49e-07s
+Thread 1 time: 4.46e-07s
+Thread 2 time: 5.91e-07s
+Thread 3 time: 2.96e-07s
+Thread 4 time: 2.42e-07s
+Thread 5 time: 4.38e-07s
+Global execution time: 6.1884e-05s
+Temps pour affichage : 0.00339128 secondes
+Thread 0 time: 1.333e-06s
+Thread 1 time: 1.51e-07s
+Thread 2 time: 2.13e-07s
+Thread 3 time: 2.18e-07s
+Thread 4 time: 3.79e-07s
+Thread 5 time: 1.07e-07s
+Global execution time: 3.059e-05s
+Temps pour affichage : 0.0059178 secondes
+Thread 0 time: 6.2e-07s
+Thread 1 time: 4.88e-07s
+Thread 2 time: 2.26e-07s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 2.64e-07s
+Thread 5 time: 9.55e-07s
+Global execution time: 8.8919e-05s
+Temps pour affichage : 0.00482593 secondes
+Thread 0 time: 1.72e-07s
+Thread 1 time: 5.61e-07s
+Thread 2 time: 8.16e-07s
+Thread 3 time: 6.66e-07s
+Thread 4 time: 1.71e-07s
+Thread 5 time: 2.25e-07s
+Global execution time: 3.1728e-05s
+Temps pour affichage : 0.00393071 secondes
+Thread 0 time: 3.83e-07s
+Thread 1 time: 2.1e-07s
+Thread 2 time: 4.05e-07s
+Thread 3 time: 3.51e-07s
+Thread 4 time: 3.02e-07s
+Thread 5 time: 2.39e-07s
+Global execution time: 6.2916e-05s
+Temps pour affichage : 0.00359621 secondes
+Thread 0 time: 2.44e-07s
+Thread 1 time: 0s
+Thread 2 time: 1.77e-07s
+Thread 3 time: 5.36e-07s
+Thread 4 time: 7.11e-07s
+Thread 5 time: 2.88e-07s
+Global execution time: 8.5615e-05s
+Temps pour affichage : 0.00366793 secondes
+Thread 0 time: 9.05e-07s
+Thread 1 time: 5.4e-07s
+Thread 2 time: 0s
+Thread 3 time: 4.36e-07s
+Thread 4 time: 4.58e-07s
+Thread 5 time: 3.65e-07s
+Global execution time: 4.7835e-05s
+Temps pour affichage : 0.00417948 secondes
+Thread 0 time: 1.313e-06s
+Thread 1 time: 2.46e-07s
+Thread 2 time: 3.22e-07s
+Thread 3 time: 0s
+Thread 4 time: 4e-07s
+Thread 5 time: 5.92e-07s
+Global execution time: 0.000486693s
+Temps pour affichage : 0.003614 secondes
+Thread 0 time: 1.567e-06s
+Thread 1 time: 2.42e-07s
+Thread 2 time: 4.28e-07s
+Thread 3 time: 0s
+Thread 4 time: 4.44e-07s
+Thread 5 time: 2.73e-07s
+Global execution time: 5.6806e-05s
+Temps pour affichage : 0.0038087 secondes
+Thread 0 time: 3.53e-07s
+Thread 1 time: 0s
+Thread 2 time: 3.09e-07s
+Thread 3 time: 3.39e-07s
+Thread 4 time: 1.267e-06s
+Thread 5 time: 1.18e-07s
+Global execution time: 8.0982e-05s
+Temps pour affichage : 0.0054369 secondes
+Thread 0 time: 2.83e-07s
+Thread 1 time: 1.7931e-05s
+Thread 2 time: 5.28e-07s
+Thread 3 time: 1.53e-07s
+Thread 4 time: 1.7225e-05s
+Thread 5 time: 1.07e-07s
+Global execution time: 6.4386e-05s
+Temps pour affichage : 0.00328266 secondes
+Thread 0 time: 2.38e-07s
+Thread 1 time: 2.1e-07s
+Thread 2 time: 1.6e-07s
+Thread 3 time: 1.66e-07s
+Thread 4 time: 1.76e-07s
+Thread 5 time: 2.55e-07s
+Global execution time: 5.8782e-05s
+Temps pour affichage : 0.00320549 secondes
+Thread 0 time: 3.1e-07s
+Thread 1 time: 2.19e-07s
+Thread 2 time: 2.52e-07s
+Thread 3 time: 1.17e-07s
+Thread 4 time: 6e-07s
+Thread 5 time: 2.12e-07s
+Global execution time: 2.612e-05s
+Temps pour affichage : 0.00316983 secondes
+Thread 0 time: 4.24e-07s
+Thread 1 time: 2.64e-07s
+Thread 2 time: 2e-07s
+Thread 3 time: 2.93e-07s
+Thread 4 time: 1.78e-07s
+Thread 5 time: 2.45e-07s
+Global execution time: 2.5884e-05s
+Temps pour affichage : 0.00317583 secondes
+Thread 0 time: 1.72e-07s
+Thread 1 time: 2.11e-07s
+Thread 2 time: 2.08e-07s
+Thread 3 time: 2.65e-07s
+Thread 4 time: 4.71e-07s
+Thread 5 time: 7.6e-07s
+Global execution time: 2.4142e-05s
+Temps pour affichage : 0.00356553 secondes
+Thread 0 time: 5.72e-07s
+Thread 1 time: 3.24e-07s
+Thread 2 time: 1.86e-07s
+Thread 3 time: 2.31e-07s
+Thread 4 time: 3.6e-07s
+Thread 5 time: 2.45e-07s
+Global execution time: 5.168e-05s
+Temps pour affichage : 0.00332101 secondes
+Thread 0 time: 1.72e-07s
+Thread 1 time: 1.64e-07s
+Thread 2 time: 2.43e-07s
+Thread 3 time: 1.12e-07s
+Thread 4 time: 2.5e-07s
+Thread 5 time: 7.89e-07s
+Global execution time: 6.2588e-05s
+Temps pour affichage : 0.00354914 secondes
+Thread 0 time: 1.25e-06s
+Thread 1 time: 1.83e-07s
+Thread 2 time: 1.1e-07s
+Thread 3 time: 0s
+Thread 4 time: 1.92e-07s
+Thread 5 time: 2.91e-07s
+Global execution time: 0.000238932s
+Temps pour affichage : 0.00485361 secondes
+Thread 0 time: 2.49e-07s
+Thread 1 time: 5.2e-07s
+Thread 2 time: 3.89e-07s
+Thread 3 time: 3.15e-07s
+Thread 4 time: 4.98e-07s
+Thread 5 time: 3.44e-07s
+Global execution time: 2.8713e-05s
+Temps pour affichage : 0.00485928 secondes
+Thread 0 time: 3.72e-07s
+Thread 1 time: 2.97e-07s
+Thread 2 time: 0s
+Thread 3 time: 5.43e-07s
+Thread 4 time: 1.32e-07s
+Thread 5 time: 2.26e-07s
+Global execution time: 5.7535e-05s
+Temps pour affichage : 0.0033666 secondes
+Thread 0 time: 1.5e-07s
+Thread 1 time: 6.03e-07s
+Thread 2 time: 3.08e-07s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.74e-07s
+Global execution time: 8.3822e-05s
+Temps pour affichage : 0.00328775 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 600
+Thread 0 time: 2.22e-07s
+Thread 1 time: 2.99e-07s
+Thread 2 time: 1.042e-06s
+Thread 3 time: 2.88e-07s
+Thread 4 time: 2.89e-07s
+Thread 5 time: 2.46e-07s
+Global execution time: 0.0102983s
+Temps pour affichage : 0.00344457 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 2.4e-07s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 8.4459e-05s
+Temps pour affichage : 0.00418146 secondes
+Thread 0 time: 2.1e-07s
+Thread 1 time: 2.78e-07s
+Thread 2 time: 2.32e-07s
+Thread 3 time: 2.74e-07s
+Thread 4 time: 7.78e-07s
+Thread 5 time: 8.45e-07s
+Global execution time: 3.5066e-05s
+Temps pour affichage : 0.00440094 secondes
+Thread 0 time: 3.73e-07s
+Thread 1 time: 1.67e-07s
+Thread 2 time: 3.37e-07s
+Thread 3 time: 8.02e-07s
+Thread 4 time: 1.97e-07s
+Thread 5 time: 3.21e-07s
+Global execution time: 9.1697e-05s
+Temps pour affichage : 0.0038586 secondes
+Thread 0 time: 1.89e-07s
+Thread 1 time: 2.124e-06s
+Thread 2 time: 2.32e-07s
+Thread 3 time: 3.08e-07s
+Thread 4 time: 6.44e-07s
+Thread 5 time: 3.25e-07s
+Global execution time: 4.6012e-05s
+Temps pour affichage : 0.00344998 secondes
+Thread 0 time: 3.11e-07s
+Thread 1 time: 2.19e-07s
+Thread 2 time: 7.17e-07s
+Thread 3 time: 2.49e-07s
+Thread 4 time: 2.86e-07s
+Thread 5 time: 7.22e-07s
+Global execution time: 4.976e-05s
+Temps pour affichage : 0.00362729 secondes
+Thread 0 time: 1.87e-07s
+Thread 1 time: 5.02e-07s
+Thread 2 time: 3.47e-07s
+Thread 3 time: 2.113e-06s
+Thread 4 time: 2.42e-07s
+Thread 5 time: 2.92e-07s
+Global execution time: 2.8179e-05s
+Temps pour affichage : 0.00365099 secondes
+Thread 0 time: 2.94e-07s
+Thread 1 time: 4.57e-07s
+Thread 2 time: 1.98e-07s
+Thread 3 time: 2.14e-07s
+Thread 4 time: 5.44e-07s
+Thread 5 time: 2.67e-07s
+Global execution time: 4.9312e-05s
+Temps pour affichage : 0.00368898 secondes
+Thread 0 time: 2.21e-07s
+Thread 1 time: 2.37e-07s
+Thread 2 time: 3.43e-07s
+Thread 3 time: 3.17e-07s
+Thread 4 time: 1.89e-07s
+Thread 5 time: 2.14e-07s
+Global execution time: 6.2743e-05s
+Temps pour affichage : 0.006229 secondes
+Thread 0 time: 3.54e-07s
+Thread 1 time: 3.44e-07s
+Thread 2 time: 3.38e-07s
+Thread 3 time: 1.095e-06s
+Thread 4 time: 3.29e-07s
+Thread 5 time: 3.96e-07s
+Global execution time: 0.000110881s
+Temps pour affichage : 0.00392781 secondes
+Thread 0 time: 4.71e-07s
+Thread 1 time: 8.6e-07s
+Thread 2 time: 3.58e-07s
+Thread 3 time: 4.32e-07s
+Thread 4 time: 0s
+Thread 5 time: 1.12e-06s
+Global execution time: 0.000768605s
+Temps pour affichage : 0.0033243 secondes
+Thread 0 time: 2.85e-07s
+Thread 1 time: 1.72e-07s
+Thread 2 time: 7.07e-07s
+Thread 3 time: 2.07e-07s
+Thread 4 time: 1.64e-07s
+Thread 5 time: 0s
+Global execution time: 7.2448e-05s
+Temps pour affichage : 0.00373455 secondes
+Thread 0 time: 3.26e-07s
+Thread 1 time: 3.21e-07s
+Thread 2 time: 3.54e-07s
+Thread 3 time: 2.72e-07s
+Thread 4 time: 1.551e-06s
+Thread 5 time: 3.5e-07s
+Global execution time: 4.4919e-05s
+Temps pour affichage : 0.00401346 secondes
+Thread 0 time: 1.275e-06s
+Thread 1 time: 0s
+Thread 2 time: 6.79e-07s
+Thread 3 time: 2.82e-07s
+Thread 4 time: 2.41e-07s
+Thread 5 time: 3.1e-07s
+Global execution time: 3.6642e-05s
+Temps pour affichage : 0.00420943 secondes
+Thread 0 time: 4.94e-07s
+Thread 1 time: 2.31e-07s
+Thread 2 time: 2.81e-07s
+Thread 3 time: 1.101e-06s
+Thread 4 time: 2.87e-07s
+Thread 5 time: 9.76e-07s
+Global execution time: 5.8233e-05s
+Temps pour affichage : 0.00365734 secondes
+Thread 0 time: 2.39e-07s
+Thread 1 time: 3.28e-07s
+Thread 2 time: 9.15e-07s
+Thread 3 time: 1.75e-07s
+Thread 4 time: 5.25e-07s
+Thread 5 time: 2.74e-07s
+Global execution time: 2.6756e-05s
+Temps pour affichage : 0.00366917 secondes
+Thread 0 time: 3.14e-07s
+Thread 1 time: 3.275e-06s
+Thread 2 time: 3.05e-07s
+Thread 3 time: 8.38e-07s
+Thread 4 time: 0s
+Thread 5 time: 2.82e-07s
+Global execution time: 5.8284e-05s
+Temps pour affichage : 0.00384938 secondes
+Thread 0 time: 9.9e-07s
+Thread 1 time: 0s
+Thread 2 time: 3.08e-07s
+Thread 3 time: 4.1e-07s
+Thread 4 time: 3.72e-07s
+Thread 5 time: 0s
+Global execution time: 5.5492e-05s
+Temps pour affichage : 0.00324362 secondes
+Thread 0 time: 2.74e-07s
+Thread 1 time: 2.95e-07s
+Thread 2 time: 2.51e-07s
+Thread 3 time: 1.084e-06s
+Thread 4 time: 1.575e-06s
+Thread 5 time: 6.83e-07s
+Global execution time: 2.6301e-05s
+Temps pour affichage : 0.00394376 secondes
+Thread 0 time: 2.49e-07s
+Thread 1 time: 3.15e-07s
+Thread 2 time: 1.656e-06s
+Thread 3 time: 2.491e-06s
+Thread 4 time: 3.27e-07s
+Thread 5 time: 3.45e-07s
+Global execution time: 3.4476e-05s
+Temps pour affichage : 0.00350682 secondes
+Thread 0 time: 1.74e-07s
+Thread 1 time: 2.54e-07s
+Thread 2 time: 2.15e-07s
+Thread 3 time: 1.68e-07s
+Thread 4 time: 1.55e-07s
+Thread 5 time: 6.81e-07s
+Global execution time: 5.0842e-05s
+Temps pour affichage : 0.00367302 secondes
+Thread 0 time: 3.23e-07s
+Thread 1 time: 2.275e-06s
+Thread 2 time: 2.79e-07s
+Thread 3 time: 1.79e-07s
+Thread 4 time: 5.37e-07s
+Thread 5 time: 1.268e-06s
+Global execution time: 4.4616e-05s
+Temps pour affichage : 0.00363432 secondes
+Thread 0 time: 2.21e-07s
+Thread 1 time: 3.23e-07s
+Thread 2 time: 3.82e-07s
+Thread 3 time: 1.787e-06s
+Thread 4 time: 4.21e-07s
+Thread 5 time: 1.67e-06s
+Global execution time: 2.3609e-05s
+Temps pour affichage : 0.00345975 secondes
+Thread 0 time: 3.36e-07s
+Thread 1 time: 2.49e-07s
+Thread 2 time: 8.37e-07s
+Thread 3 time: 3.91e-07s
+Thread 4 time: 1.619e-06s
+Thread 5 time: 3.26e-07s
+Global execution time: 2.4715e-05s
+Temps pour affichage : 0.00350665 secondes
+Thread 0 time: 4.08e-07s
+Thread 1 time: 1.282e-06s
+Thread 2 time: 1.99e-07s
+Thread 3 time: 9.11e-07s
+Thread 4 time: 3.33e-07s
+Thread 5 time: 4.05e-07s
+Global execution time: 6.2272e-05s
+Temps pour affichage : 0.00355656 secondes
+Thread 0 time: 4.72e-07s
+Thread 1 time: 3.89e-07s
+Thread 2 time: 1.49e-07s
+Thread 3 time: 2.3e-07s
+Thread 4 time: 3.82e-07s
+Thread 5 time: 8.79e-07s
+Global execution time: 6.1811e-05s
+Temps pour affichage : 0.00372974 secondes
+Thread 0 time: 3.44e-07s
+Thread 1 time: 4.86e-07s
+Thread 2 time: 1.516e-06s
+Thread 3 time: 2.05e-07s
+Thread 4 time: 6.71e-07s
+Thread 5 time: 0s
+Global execution time: 8.474e-05s
+Temps pour affichage : 0.00392019 secondes
+Thread 0 time: 2.48e-07s
+Thread 1 time: 7.81e-07s
+Thread 2 time: 3.49e-07s
+Thread 3 time: 3.15e-07s
+Thread 4 time: 3.34e-07s
+Thread 5 time: 0s
+Global execution time: 4.2649e-05s
+Temps pour affichage : 0.00400345 secondes
+Thread 0 time: 4.51e-07s
+Thread 1 time: 3.72e-07s
+Thread 2 time: 3.21e-07s
+Thread 3 time: 0s
+Thread 4 time: 3.36e-07s
+Thread 5 time: 3.31e-07s
+Global execution time: 9.7691e-05s
+Temps pour affichage : 0.00387787 secondes
+Thread 0 time: 2.76e-07s
+Thread 1 time: 1.993e-06s
+Thread 2 time: 1.959e-06s
+Thread 3 time: 2.195e-06s
+Thread 4 time: 5.12e-07s
+Thread 5 time: 4.51e-07s
+Global execution time: 5.1668e-05s
+Temps pour affichage : 0.0041429 secondes
+Thread 0 time: 1.95e-07s
+Thread 1 time: 2.61e-07s
+Thread 2 time: 2.05e-06s
+Thread 3 time: 3.49e-07s
+Thread 4 time: 1.782e-06s
+Thread 5 time: 0s
+Global execution time: 7.7047e-05s
+Temps pour affichage : 0.00378309 secondes
+Thread 0 time: 1.74e-07s
+Thread 1 time: 8.08e-07s
+Thread 2 time: 2.37e-07s
+Thread 3 time: 2.018e-06s
+Thread 4 time: 2.184e-06s
+Thread 5 time: 1.685e-06s
+Global execution time: 3.2501e-05s
+Temps pour affichage : 0.0034961 secondes
+Thread 0 time: 3.17e-07s
+Thread 1 time: 2.15e-07s
+Thread 2 time: 0s
+Thread 3 time: 5.4e-07s
+Thread 4 time: 1.604e-06s
+Thread 5 time: 9.93e-07s
+Global execution time: 4.6277e-05s
+Temps pour affichage : 0.00359769 secondes
+Thread 0 time: 1.337e-06s
+Thread 1 time: 1.76e-07s
+Thread 2 time: 3.05e-07s
+Thread 3 time: 1.733e-06s
+Thread 4 time: 2.13e-07s
+Thread 5 time: 2.16e-07s
+Global execution time: 5.8791e-05s
+Temps pour affichage : 0.00348261 secondes
+Thread 0 time: 2.41e-07s
+Thread 1 time: 4.48e-07s
+Thread 2 time: 3.98e-07s
+Thread 3 time: 2.038e-06s
+Thread 4 time: 1.697e-06s
+Thread 5 time: 0s
+Global execution time: 7.567e-05s
+Temps pour affichage : 0.00372564 secondes
+Thread 0 time: 3.87e-07s
+Thread 1 time: 2.13e-07s
+Thread 2 time: 2.026e-06s
+Thread 3 time: 6.47e-07s
+Thread 4 time: 2.536e-06s
+Thread 5 time: 1.935e-06s
+Global execution time: 3.4012e-05s
+Temps pour affichage : 0.00344345 secondes
+Thread 0 time: 3.05e-07s
+Thread 1 time: 2.4524e-05s
+Thread 2 time: 0s
+Thread 3 time: 4.99e-07s
+Thread 4 time: 2.446e-06s
+Thread 5 time: 5.28e-07s
+Global execution time: 9.1822e-05s
+Temps pour affichage : 0.00335407 secondes
+Thread 0 time: 2.87e-07s
+Thread 1 time: 1.823e-06s
+Thread 2 time: 2.594e-06s
+Thread 3 time: 1.58e-07s
+Thread 4 time: 7.47e-07s
+Thread 5 time: 2.183e-06s
+Global execution time: 6.2145e-05s
+Temps pour affichage : 0.00743977 secondes
+Thread 0 time: 5e-07s
+Thread 1 time: 8.35e-07s
+Thread 2 time: 3.151e-06s
+Thread 3 time: 1.23e-06s
+Thread 4 time: 6.02e-07s
+Thread 5 time: 3.15e-07s
+Global execution time: 9.1374e-05s
+Temps pour affichage : 0.00461479 secondes
+Thread 0 time: 3.22e-07s
+Thread 1 time: 3.26e-07s
+Thread 2 time: 5.44e-07s
+Thread 3 time: 4.18e-07s
+Thread 4 time: 0s
+Thread 5 time: 4.55e-07s
+Global execution time: 6.986e-05s
+Temps pour affichage : 0.00343055 secondes
+Thread 0 time: 1.88e-07s
+Thread 1 time: 3.059e-06s
+Thread 2 time: 1.798e-06s
+Thread 3 time: 4.13e-07s
+Thread 4 time: 1.744e-06s
+Thread 5 time: 3.86e-07s
+Global execution time: 2.7721e-05s
+Temps pour affichage : 0.0041445 secondes
+Thread 0 time: 3.16e-07s
+Thread 1 time: 3.62e-07s
+Thread 2 time: 2.786e-06s
+Thread 3 time: 2.605e-06s
+Thread 4 time: 2.462e-06s
+Thread 5 time: 2.561e-06s
+Global execution time: 3.6247e-05s
+Temps pour affichage : 0.00496834 secondes
+Thread 0 time: 4.16e-07s
+Thread 1 time: 1.968e-06s
+Thread 2 time: 3.62e-07s
+Thread 3 time: 2.588e-06s
+Thread 4 time: 4.15e-07s
+Thread 5 time: 2.088e-06s
+Global execution time: 6.0284e-05s
+Temps pour affichage : 0.00458687 secondes
+Thread 0 time: 3.7e-07s
+Thread 1 time: 3.38e-07s
+Thread 2 time: 1.844e-06s
+Thread 3 time: 2.302e-06s
+Thread 4 time: 2.063e-06s
+Thread 5 time: 1.881e-06s
+Global execution time: 5.1214e-05s
+Temps pour affichage : 0.00361814 secondes
+Thread 0 time: 2.26e-07s
+Thread 1 time: 8.11e-07s
+Thread 2 time: 3.03e-07s
+Thread 3 time: 2.519e-06s
+Thread 4 time: 1.989e-06s
+Thread 5 time: 9.32e-07s
+Global execution time: 2.5305e-05s
+Temps pour affichage : 0.00371564 secondes
+Thread 0 time: 2.77e-07s
+Thread 1 time: 1.633e-06s
+Thread 2 time: 2.368e-06s
+Thread 3 time: 0s
+Thread 4 time: 4.78e-07s
+Thread 5 time: 8.95e-07s
+Global execution time: 4.8635e-05s
+Temps pour affichage : 0.0036991 secondes
+Thread 0 time: 1.486e-06s
+Thread 1 time: 4.2e-07s
+Thread 2 time: 1.999e-06s
+Thread 3 time: 2.23e-06s
+Thread 4 time: 3.05e-07s
+Thread 5 time: 0s
+Global execution time: 7.6478e-05s
+Temps pour affichage : 0.0036999 secondes
+Thread 0 time: 2.89e-07s
+Thread 1 time: 1.635e-06s
+Thread 2 time: 2.42e-07s
+Thread 3 time: 1.701e-06s
+Thread 4 time: 1.669e-06s
+Thread 5 time: 2.512e-06s
+Global execution time: 5.4115e-05s
+Temps pour affichage : 0.0041369 secondes
+Thread 0 time: 3.26e-07s
+Thread 1 time: 1.809e-06s
+Thread 2 time: 2.511e-06s
+Thread 3 time: 3.16e-07s
+Thread 4 time: 2.028e-06s
+Thread 5 time: 1.794e-06s
+Global execution time: 5.0148e-05s
+Temps pour affichage : 0.0033772 secondes
+Thread 0 time: 1.127e-06s
+Thread 1 time: 2.766e-06s
+Thread 2 time: 2e-06s
+Thread 3 time: 6.83e-07s
+Thread 4 time: 1.703e-06s
+Thread 5 time: 1.164e-06s
+Global execution time: 8.6357e-05s
+Temps pour affichage : 0.00321917 secondes
+Thread 0 time: 1.453e-06s
+Thread 1 time: 1.769e-06s
+Thread 2 time: 3.7e-07s
+Thread 3 time: 1.772e-06s
+Thread 4 time: 1.697e-06s
+Thread 5 time: 1.677e-06s
+Global execution time: 4.9876e-05s
+Temps pour affichage : 0.0037113 secondes
+Thread 0 time: 1.747e-06s
+Thread 1 time: 3.31e-07s
+Thread 2 time: 1.997e-06s
+Thread 3 time: 1.908e-06s
+Thread 4 time: 1.983e-06s
+Thread 5 time: 1.498e-06s
+Global execution time: 7.243e-05s
+Temps pour affichage : 0.00420561 secondes
+Thread 0 time: 1.735e-06s
+Thread 1 time: 1.998e-06s
+Thread 2 time: 2.12e-07s
+Thread 3 time: 2.124e-06s
+Thread 4 time: 1.896e-06s
+Thread 5 time: 1.802e-06s
+Global execution time: 6.7658e-05s
+Temps pour affichage : 0.0037297 secondes
+Thread 0 time: 2.79e-07s
+Thread 1 time: 1.71e-06s
+Thread 2 time: 1.107e-06s
+Thread 3 time: 2.404e-06s
+Thread 4 time: 2.002e-06s
+Thread 5 time: 2.275e-06s
+Global execution time: 3.3448e-05s
+Temps pour affichage : 0.00405123 secondes
+Thread 0 time: 1.615e-06s
+Thread 1 time: 1.725e-06s
+Thread 2 time: 2.11e-07s
+Thread 3 time: 1.785e-06s
+Thread 4 time: 2.317e-06s
+Thread 5 time: 1.708e-06s
+Global execution time: 6.0807e-05s
+Temps pour affichage : 0.0036708 secondes
+Thread 0 time: 4.27e-07s
+Thread 1 time: 2.36e-07s
+Thread 2 time: 0s
+Thread 3 time: 2.515e-06s
+Thread 4 time: 1.819e-06s
+Thread 5 time: 1.522e-06s
+Global execution time: 7.2682e-05s
+Temps pour affichage : 0.00401394 secondes
+Thread 0 time: 1.364e-06s
+Thread 1 time: 2.27e-07s
+Thread 2 time: 2.508e-06s
+Thread 3 time: 1.791e-06s
+Thread 4 time: 2.447e-06s
+Thread 5 time: 2.192e-06s
+Global execution time: 3.3536e-05s
+Temps pour affichage : 0.00341012 secondes
+Thread 0 time: 1.188e-06s
+Thread 1 time: 1.8e-06s
+Thread 2 time: 1.827e-06s
+Thread 3 time: 1.672e-06s
+Thread 4 time: 5.96e-07s
+Thread 5 time: 2.31e-07s
+Global execution time: 3.6034e-05s
+Temps pour affichage : 0.00377417 secondes
+Thread 0 time: 3.64e-07s
+Thread 1 time: 1.874e-06s
+Thread 2 time: 5.69e-07s
+Thread 3 time: 2.56e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 6.8516e-05s
+Temps pour affichage : 0.00355493 secondes
+Thread 0 time: 1.441e-06s
+Thread 1 time: 2.66e-07s
+Thread 2 time: 1.807e-06s
+Thread 3 time: 2.499e-06s
+Thread 4 time: 2.669e-06s
+Thread 5 time: 1.521e-06s
+Global execution time: 3.0014e-05s
+Temps pour affichage : 0.00352491 secondes
+Thread 0 time: 3.17e-07s
+Thread 1 time: 2.042e-06s
+Thread 2 time: 1.706e-06s
+Thread 3 time: 1.873e-06s
+Thread 4 time: 1.263e-06s
+Thread 5 time: 1.262e-06s
+Global execution time: 5.5253e-05s
+Temps pour affichage : 0.00340529 secondes
+Thread 0 time: 1.461e-06s
+Thread 1 time: 3.52e-07s
+Thread 2 time: 2.251e-06s
+Thread 3 time: 1.111e-06s
+Thread 4 time: 1.968e-06s
+Thread 5 time: 1.813e-06s
+Global execution time: 6.4317e-05s
+Temps pour affichage : 0.00324376 secondes
+Thread 0 time: 1.325e-06s
+Thread 1 time: 1.145e-06s
+Thread 2 time: 1.614e-06s
+Thread 3 time: 7.36e-07s
+Thread 4 time: 8.38e-07s
+Thread 5 time: 3.48e-07s
+Global execution time: 3.8404e-05s
+Temps pour affichage : 0.00381815 secondes
+Thread 0 time: 1.473e-06s
+Thread 1 time: 1.527e-06s
+Thread 2 time: 1.302e-06s
+Thread 3 time: 1.906e-06s
+Thread 4 time: 2.389e-06s
+Thread 5 time: 1.736e-06s
+Global execution time: 2.9927e-05s
+Temps pour affichage : 0.00394569 secondes
+Thread 0 time: 4.98e-07s
+Thread 1 time: 9.66e-07s
+Thread 2 time: 0s
+Thread 3 time: 3.735e-06s
+Thread 4 time: 2.576e-06s
+Thread 5 time: 0s
+Global execution time: 0.000121153s
+Temps pour affichage : 0.0033793 secondes
+Thread 0 time: 2.36e-07s
+Thread 1 time: 1.773e-06s
+Thread 2 time: 0s
+Thread 3 time: 3.85e-07s
+Thread 4 time: 0s
+Thread 5 time: 2.651e-06s
+Global execution time: 6.6549e-05s
+Temps pour affichage : 0.00477972 secondes
+Thread 0 time: 2.071e-06s
+Thread 1 time: 2.242e-06s
+Thread 2 time: 1.944e-06s
+Thread 3 time: 1.627e-06s
+Thread 4 time: 3.466e-06s
+Thread 5 time: 1.888e-06s
+Global execution time: 8.8197e-05s
+Temps pour affichage : 0.00373565 secondes
+Thread 0 time: 1.702e-06s
+Thread 1 time: 1.132e-06s
+Thread 2 time: 1.31e-06s
+Thread 3 time: 9.81e-07s
+Thread 4 time: 1.597e-06s
+Thread 5 time: 2.183e-06s
+Global execution time: 9.4094e-05s
+Temps pour affichage : 0.00333895 secondes
+Thread 0 time: 1.238e-06s
+Thread 1 time: 4.83e-07s
+Thread 2 time: 1.645e-06s
+Thread 3 time: 1.442e-06s
+Thread 4 time: 1.711e-06s
+Thread 5 time: 8.41e-07s
+Global execution time: 4.6172e-05s
+Temps pour affichage : 0.00419889 secondes
+Thread 0 time: 1.606e-06s
+Thread 1 time: 1.085e-06s
+Thread 2 time: 1.314e-06s
+Thread 3 time: 1.984e-06s
+Thread 4 time: 1.463e-06s
+Thread 5 time: 1.629e-06s
+Global execution time: 2.4653e-05s
+Temps pour affichage : 0.00355221 secondes
+Thread 0 time: 1.91e-07s
+Thread 1 time: 0s
+Thread 2 time: 1.548e-06s
+Thread 3 time: 0s
+Thread 4 time: 1.653e-06s
+Thread 5 time: 2.91e-07s
+Global execution time: 4.4122e-05s
+Temps pour affichage : 0.00343858 secondes
+Thread 0 time: 1.28e-06s
+Thread 1 time: 1.559e-06s
+Thread 2 time: 2.524e-06s
+Thread 3 time: 2.043e-06s
+Thread 4 time: 1.554e-06s
+Thread 5 time: 1.441e-06s
+Global execution time: 4.1352e-05s
+Temps pour affichage : 0.00331927 secondes
+Thread 0 time: 9.29e-07s
+Thread 1 time: 2.08e-06s
+Thread 2 time: 1.273e-06s
+Thread 3 time: 1.313e-06s
+Thread 4 time: 1.561e-06s
+Thread 5 time: 2.117e-06s
+Global execution time: 2.1374e-05s
+Temps pour affichage : 0.00354914 secondes
+Thread 0 time: 1.185e-06s
+Thread 1 time: 9.22e-07s
+Thread 2 time: 1.663e-06s
+Thread 3 time: 1.632e-06s
+Thread 4 time: 6.24e-07s
+Thread 5 time: 7.76e-07s
+Global execution time: 2.2438e-05s
+Temps pour affichage : 0.00407313 secondes
+Thread 0 time: 1.404e-06s
+Thread 1 time: 1.905e-06s
+Thread 2 time: 1.724e-06s
+Thread 3 time: 1.053e-06s
+Thread 4 time: 2.212e-06s
+Thread 5 time: 1.454e-06s
+Global execution time: 5.2478e-05s
+Temps pour affichage : 0.00327963 secondes
+Thread 0 time: 9.96e-07s
+Thread 1 time: 2.823e-06s
+Thread 2 time: 0s
+Thread 3 time: 1.903e-06s
+Thread 4 time: 1.06e-06s
+Thread 5 time: 6.59e-07s
+Global execution time: 2.6764e-05s
+Temps pour affichage : 0.00345045 secondes
+Thread 0 time: 9.4e-07s
+Thread 1 time: 8.64e-07s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 1.466e-06s
+Thread 5 time: 8.06e-07s
+Global execution time: 2.247e-05s
+Temps pour affichage : 0.003267 secondes
+Thread 0 time: 1.154e-06s
+Thread 1 time: 6.65e-07s
+Thread 2 time: 1.589e-06s
+Thread 3 time: 1.62e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.9965e-05s
+Temps pour affichage : 0.00328511 secondes
+Thread 0 time: 1.086e-06s
+Thread 1 time: 5.01e-07s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 7.81e-07s
+Thread 5 time: 1.523e-06s
+Global execution time: 2.1819e-05s
+Temps pour affichage : 0.00334894 secondes
+Thread 0 time: 1.042e-06s
+Thread 1 time: 0s
+Thread 2 time: 9.51e-07s
+Thread 3 time: 1.514e-06s
+Thread 4 time: 6.71e-07s
+Thread 5 time: 0s
+Global execution time: 2.0318e-05s
+Temps pour affichage : 0.00321497 secondes
+Thread 0 time: 1.191e-06s
+Thread 1 time: 0s
+Thread 2 time: 6.92e-07s
+Thread 3 time: 1.575e-06s
+Thread 4 time: 7.57e-07s
+Thread 5 time: 0s
+Global execution time: 4.1187e-05s
+Temps pour affichage : 0.00321191 secondes
+Thread 0 time: 1.252e-06s
+Thread 1 time: 0s
+Thread 2 time: 2.652e-06s
+Thread 3 time: 1.211e-06s
+Thread 4 time: 0s
+Thread 5 time: 2.182e-06s
+Global execution time: 4.0765e-05s
+Temps pour affichage : 0.00330466 secondes
+Thread 0 time: 9.09e-07s
+Thread 1 time: 0s
+Thread 2 time: 1.518e-06s
+Thread 3 time: 1.573e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 2.0286e-05s
+Temps pour affichage : 0.0037519 secondes
+Thread 0 time: 1.162e-06s
+Thread 1 time: 1.99e-06s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.614e-06s
+Global execution time: 2.2164e-05s
+Temps pour affichage : 0.0032387 secondes
+Thread 0 time: 1.2e-06s
+Thread 1 time: 9.01e-07s
+Thread 2 time: 0s
+Thread 3 time: 1.748e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 4.6643e-05s
+Temps pour affichage : 0.0031688 secondes
+Thread 0 time: 1.344e-06s
+Thread 1 time: 0s
+Thread 2 time: 1.761e-06s
+Thread 3 time: 0s
+Thread 4 time: 1.816e-06s
+Thread 5 time: 0s
+Global execution time: 5.3328e-05s
+Temps pour affichage : 0.00378513 secondes
+Thread 0 time: 0s
+Thread 1 time: 2.209e-06s
+Thread 2 time: 0s
+Thread 3 time: 2.395e-06s
+Thread 4 time: 0s
+Thread 5 time: 2.12e-06s
+Global execution time: 4.2775e-05s
+Temps pour affichage : 0.00316451 secondes
+Thread 0 time: 0s
+Thread 1 time: 1.559e-06s
+Thread 2 time: 0s
+Thread 3 time: 5.9e-07s
+Thread 4 time: 0s
+Thread 5 time: 6.32e-07s
+Global execution time: 3.7794e-05s
+Temps pour affichage : 0.00316193 secondes
+Thread 0 time: 9.17e-07s
+Thread 1 time: 9.62e-07s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 1.6837e-05s
+Temps pour affichage : 0.00320107 secondes
+Thread 0 time: 1.071e-06s
+Thread 1 time: 7.48e-07s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 1.9464e-05s
+Temps pour affichage : 0.00332865 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 1.986e-06s
+Thread 3 time: 1.745e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 5.0884e-05s
+Temps pour affichage : 0.00322813 secondes
+Thread 0 time: 1.359e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 6.4e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 4.8077e-05s
+Temps pour affichage : 0.00325352 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 7.35e-07s
+Thread 4 time: 0s
+Thread 5 time: 1.899e-06s
+Global execution time: 3.8e-05s
+Temps pour affichage : 0.00316606 secondes
+Thread 0 time: 0s
+Thread 1 time: 1.796e-06s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 9.52e-07s
+Thread 5 time: 0s
+Global execution time: 2.3527e-05s
+Temps pour affichage : 0.00315986 secondes
+Thread 0 time: 1.016e-06s
+Thread 1 time: 0s
+Thread 2 time: 1.854e-06s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 1.9149e-05s
+Temps pour affichage : 0.00555257 secondes
+Thread 0 time: 0s
+Thread 1 time: 3.634e-06s
+Thread 2 time: 0s
+Thread 3 time: 4.249e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 7.3213e-05s
+Temps pour affichage : 0.0031788 secondes
+Thread 0 time: 1.186e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 2.428e-06s
+Thread 5 time: 0s
+Global execution time: 4.92e-05s
+Temps pour affichage : 0.00347359 secondes
+Thread 0 time: 1.006e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 8.49e-07s
+Thread 5 time: 0s
+Global execution time: 6.0474e-05s
+Temps pour affichage : 0.00321265 secondes
+Thread 0 time: 8.82e-07s
+Thread 1 time: 1.811e-06s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 0.000134995s
+Temps pour affichage : 0.00333892 secondes
+Thread 0 time: 1.111e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 1.761e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 2.1124e-05s
+Temps pour affichage : 0.00341469 secondes
+Sauvegarde des cartes du feu et de la végétation à l'étape 700
+Thread 0 time: 1.118e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 5.26e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 0.00992935s
+Temps pour affichage : 0.00327385 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 2.83e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 0.000237628s
+Temps pour affichage : 0.00319926 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 4.77e-07s
+Thread 4 time: 2.125e-06s
+Thread 5 time: 0s
+Global execution time: 3.2872e-05s
+Temps pour affichage : 0.00416521 secondes
+Thread 0 time: 0s
+Thread 1 time: 1.958e-06s
+Thread 2 time: 0s
+Thread 3 time: 8.29e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 6.3553e-05s
+Temps pour affichage : 0.00473695 secondes
+Thread 0 time: 1.979e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 2.545e-06s
+Global execution time: 4.5758e-05s
+Temps pour affichage : 0.00341295 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 1.871e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 6.0239e-05s
+Temps pour affichage : 0.00530921 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.724e-06s
+Global execution time: 2.539e-05s
+Temps pour affichage : 0.00348207 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 2.133e-06s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 2.49e-05s
+Temps pour affichage : 0.00364918 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.709e-06s
+Global execution time: 5.0915e-05s
+Temps pour affichage : 0.00387756 secondes
+Thread 0 time: 1.239e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.504e-05s
+Temps pour affichage : 0.00342955 secondes
+Thread 0 time: 1.234e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 4.7214e-05s
+Temps pour affichage : 0.00377353 secondes
+Thread 0 time: 1.942e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 2.6496e-05s
+Temps pour affichage : 0.00347015 secondes
+Thread 0 time: 1.487e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 4.3649e-05s
+Temps pour affichage : 0.00355457 secondes
+Thread 0 time: 1.152e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.9396e-05s
+Temps pour affichage : 0.00347943 secondes
+Thread 0 time: 1.233e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.1855e-05s
+Temps pour affichage : 0.00400621 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 3.038e-06s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 2.6007e-05s
+Temps pour affichage : 0.00366923 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 6.06e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.5218e-05s
+Temps pour affichage : 0.00362165 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 7.9e-07s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 1.9346e-05s
+Temps pour affichage : 0.00356929 secondes
+Thread 0 time: 0s
+Thread 1 time: 2.488e-06s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 3.6273e-05s
+Temps pour affichage : 0.00321075 secondes
+Thread 0 time: 1.199e-06s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 1.9316e-05s
+Temps pour affichage : 0.00353586 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.669e-06s
+Global execution time: 1.8888e-05s
+Temps pour affichage : 0.00322741 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 2.065e-06s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 0s
+Global execution time: 4.2453e-05s
+Temps pour affichage : 0.00337318 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 1.694e-06s
+Global execution time: 4.2179e-05s
+Temps pour affichage : 0.00343784 secondes
+Thread 0 time: 0s
+Thread 1 time: 0s
+Thread 2 time: 0s
+Thread 3 time: 0s
+Thread 4 time: 0s
+Thread 5 time: 8.63e-07s
+Global execution time: 3.3341e-05s
+Temps total de simulation : 5.56319 secondes
+Temps pour étape : 0.0076946 secondes
+Simulation finished. Total time step: 723

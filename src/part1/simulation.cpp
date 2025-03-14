@@ -37,7 +37,7 @@ void initLog() {
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
     // Personalized information
-    logFile << "Test for first try of OpenMP optimization" << std::endl;
+    logFile << "Part 1 : Test for first try of OpenMP optimization" << std::endl;
 }
 
 struct ParamsType
@@ -239,7 +239,7 @@ void get_system_info() {
 int main( int nargs, char* args[] )
 {
     initLog();
-    // omp_set_num_threads(4); // Nombre de threads à utiliser (new-1)
+    omp_set_num_threads(8); // Nombre de threads à utiliser (new-1)
     get_system_info();
     auto params = parse_arguments(nargs-1, &args[1]);
     display_params(params);
@@ -260,7 +260,7 @@ int main( int nargs, char* args[] )
         if (SDL_PollEvent(&event) && event.type == SDL_QUIT){
             break;
         }
-        std::this_thread::sleep_for(0.02s);
+        // std::this_thread::sleep_for(0.02s);
     }
     auto global_end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = global_end_time - global_start_time;

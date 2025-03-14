@@ -79,10 +79,13 @@ Model::Model( double t_length, unsigned t_discretization, std::array<double,2> t
 }
 // --------------------------------------------------------------------------------------------------------------------
 bool Model::update() {
+    auto start_time = std::chrono::high_resolution_clock::now();
 
     // Stockage local des threads pour collecter les mises à jour de chaque thread
-    std::vector<std::unordered_map<std::size_t, std::uint8_t>> thread_local_next_fronts(omp_get_max_threads());
-    std::vector<std::vector<std::size_t>> thread_local_erased_keys(omp_get_max_threads());
+    int num_threads = omp_get_max_threads();
+    std::vector<std::unordered_map<std::size_t, std::uint8_t>> thread_local_next_fronts(num_threads);
+    std::vector<std::vector<std::size_t>> thread_local_erased_keys(num_threads);
+    std::vector<double> thread_times(num_threads, 0.0);
 
     // Obtenir les indices de tous les points de feu pour assurer un ordre de parcours cohérent
     std::vector<std::size_t> keys;
@@ -91,11 +94,11 @@ bool Model::update() {
         keys.push_back(f.first);
     }
 
-    auto start_time = std::chrono::high_resolution_clock::now();
     // Traitement parallèle de chaque point de feu
     #pragma omp parallel for schedule(guided)
     for (size_t i = 0; i < keys.size(); i++) {
         int tid = omp_get_thread_num();  // Obtenir l'ID du thread actuel
+        auto thread_start_time = std::chrono::high_resolution_clock::now();
         auto& local_next_front = thread_local_next_fronts[tid];  // Conteneur local de mise à jour du thread
         auto& local_erased = thread_local_erased_keys[tid];      // Conteneur local des clés à supprimer
 
@@ -167,6 +170,10 @@ bool Model::update() {
         if (local_next_front[f.first] == 0) {
             local_erased.push_back(f.first);
         }
+
+        auto thread_end_time = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = thread_end_time - thread_start_time;
+        thread_times[tid] = elapsed.count();  // 记录线程时间
     }
 
     // Fusionner en série toutes les mises à jour des threads
@@ -226,7 +233,12 @@ bool Model::update() {
     // Afficher le temps d'exécution
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
-    logFile << "Temps pour avancement : " << elapsed.count() << " secondes" << std::endl;
+    double elapsed_time = elapsed.count();
+
+    for (int i = 0; i < num_threads; i++) {
+        logFile << "Thread " << i << " time: " << thread_times[i] << "s\n";
+    }
+    logFile << "Global execution time: " << elapsed_time << "s\n";
 
     // Retourner si des points de feu sont encore actifs
     return !m_fire_front.empty();

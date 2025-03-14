@@ -16,14 +16,14 @@ using namespace std::chrono_literals;
 
 std::ofstream logFile;
 
-void initLog() {
+void initLog(int rank) {
     // Get current time
     auto t = std::time(nullptr);
     auto tm = *std::localtime(&t);
 
     // Format time as YYYY-MM-DD_HH-MM-SS
     std::ostringstream oss;
-    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_log.txt";
+    oss << "logs/" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "_thread_" << rank << "_log.txt";
     std::string logFilePath = oss.str();
 
     logFile.open(logFilePath, std::ios::out | std::ios::trunc);
@@ -34,7 +34,7 @@ void initLog() {
     logFile << "Log initialized at: " << std::put_time(&tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
     // Personalized information
-    logFile << "Test for MPI with 2 threads" << std::endl;
+    logFile << "Part 2 : Test for MPI with 2 threads" << std::endl;
 }
 
 struct ParamsType
@@ -224,8 +224,7 @@ int main(int nargs, char* args[])
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    initLog();
-
+    initLog(rank);
     // Analyse des paramètres
     ParamsType params;
     params = parse_arguments(nargs-1, &args[1]);
@@ -235,9 +234,9 @@ int main(int nargs, char* args[])
     
     Model simu(params.length, params.discretization, params.wind, params.start);
     const int size = params.discretization * params.discretization;
-
+    
+    auto global_start_time = std::chrono::high_resolution_clock::now();
     if (rank == 1) { 
-        auto global_start_time = std::chrono::high_resolution_clock::now();
         // Initialisation du modèle dans le processus de calcul
         while (simu.update()){
             if ((simu.time_step() & 31) == 0) 
@@ -246,12 +245,7 @@ int main(int nargs, char* args[])
             MPI_Send(simu.vegetal_map().data(), size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
             MPI_Send(simu.fire_map().data(), size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
         }
-        
-        auto global_end_time = std::chrono::high_resolution_clock::now();
-        double global_compute_time = std::chrono::duration<double>(global_end_time - global_start_time).count();
-        double average_time_per_iteration = global_compute_time / simu.time_step();
-        logFile << "Temps total de simulation : " << global_compute_time << " secondes" << std::endl;
-        logFile << "Temps pour étape : " << average_time_per_iteration << " secondes" << std::endl;
+        logFile << "Total step: " << simu.time_step() << std::endl;
 
         // Envoi du signal de terminaison
         int stop_flag = 1;
@@ -260,13 +254,13 @@ int main(int nargs, char* args[])
 
     } else if (rank == 0) { 
         // Initialisation du processus de rendu
+        // auto global_start_time = std::chrono::high_resolution_clock::now();
         auto displayer = Displayer::init_instance(params.discretization, params.discretization);
         SDL_Event event;
         bool running = true;
         std::vector<uint8_t> vegetation_data(size), fire_data(size);
         int flag;
         MPI_Status status;
-        MPI_Request request_time;
         
         while (running) {
             // Surveillance des messages envoyés par le processus 1 (données ou signal d'arrêt)
@@ -279,9 +273,6 @@ int main(int nargs, char* args[])
                     std::cout << "Signal d'arrêt reçu. Fermeture." << std::endl;
                     running = false;
                     break;
-                } else if (status.MPI_TAG == 4) {
-                    MPI_Irecv(&elapsed_time, 1, MPI_DOUBLE, 1, 4, MPI_COMM_WORLD, &request_time);
-                    logFile << "Temps pour avancement : " << elapsed_time << "s\n";
                 } else if (status.MPI_TAG == 1) { 
                     // Réception des données sur la végétation et le feu (les tags 1 et 2 doivent être reçus ensemble)
                     MPI_Recv(vegetation_data.data(), size, MPI_BYTE, 1, 1, MPI_COMM_WORLD, &status);
@@ -296,12 +287,15 @@ int main(int nargs, char* args[])
             if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
                 running = false;
             }
-            std::this_thread::sleep_for(0.02s); // Évite l'attente active
+            // std::this_thread::sleep_for(0.02s); // Évite l'attente active
         }
     }
 
     // S'assurer que tous les processus terminent correctement
     MPI_Barrier(MPI_COMM_WORLD); // Synchronisation de tous les processus
+    auto global_end_time = std::chrono::high_resolution_clock::now();
+    double global_compute_time = std::chrono::duration<double>(global_end_time - global_start_time).count();
+    logFile << "Temps global de lancement dans ce processus : " << global_compute_time << " secondes" << std::endl;
     MPI_Finalize(); // Fermeture de l'environnement MPI
     logFile.close();
     return EXIT_SUCCESS;
