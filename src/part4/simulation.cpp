@@ -231,20 +231,18 @@ int main(int nargs, char* args[])
         MPI_Abort(MPI_COMM_WORLD, EXIT_FAILURE);
     }
 
-    // 将 MPI_COMM_WORLD 分裂成两个子通信组：rank 0 为渲染，其余为计算
+    // Rank 0 pour affichage, les autres pour simulation
     int color = (world_rank == 0) ? 0 : 1;
     MPI_Comm new_comm;
     MPI_Comm_split(MPI_COMM_WORLD, color, world_rank, &new_comm);
 
-    // 在 main() 函数中
     if (world_rank == 0) {
-        // 渲染进程部分
         int global_rows = params.discretization;
         int global_cols = params.discretization;
         std::vector<uint8_t> global_vegetation(global_rows * global_cols, 255);
         std::vector<uint8_t> global_fire(global_rows * global_cols, 0);
 
-        // 计算计算进程数量（world_size - 1）以及各条带行数和全局偏移
+        // Nombre de processus, nombre de rang, offset globale
         int compute_procs = world_size - 1;
         std::vector<int> local_rows(compute_procs, global_rows / compute_procs);
         int remainder = global_rows % compute_procs;
@@ -265,10 +263,9 @@ int main(int nargs, char* args[])
             MPI_Iprobe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
             if (flag) {
                 if (status.MPI_TAG == 3) {
-                    // 接收到计算进程发来的终止信号
+                    // Arrêt de la simulation
                     int term;
                     MPI_Recv(&term, 1, MPI_INT, status.MPI_SOURCE, 3, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                    // 向所有计算进程发送结束命令（tag 4）
                     for (int dest = 1; dest < world_size; ++dest) {
                         int dummy = 1;
                         MPI_Send(&dummy, 1, MPI_INT, dest, 4, MPI_COMM_WORLD);
@@ -277,7 +274,7 @@ int main(int nargs, char* args[])
                     running = false;
                     continue;
                 } else if (status.MPI_TAG == 1) {
-                    // 接收来自计算进程的局部数据
+                    // Réception de la matrice
                     int src = status.MPI_SOURCE;
                     int proc_index = src - 1;
                     int rows = local_rows[proc_index];
@@ -295,7 +292,6 @@ int main(int nargs, char* args[])
 
             if (SDL_PollEvent(&event) && event.type == SDL_QUIT) {
                 running = false;
-                // 用户主动退出时也向所有计算进程发送终止命令
                 for (int dest = 1; dest < world_size; ++dest) {
                     int dummy = 1;
                     MPI_Send(&dummy, 1, MPI_INT, dest, 4, MPI_COMM_WORLD);
@@ -304,7 +300,6 @@ int main(int nargs, char* args[])
             // std::this_thread::sleep_for(20ms);
         }
     } else {
-        // 计算进程部分
         int comp_rank, comp_size;
         MPI_Comm_rank(new_comm, &comp_rank);
         MPI_Comm_size(new_comm, &comp_size);
@@ -316,31 +311,26 @@ int main(int nargs, char* args[])
         int global_offset = (comp_rank < remainder) ? comp_rank * (base_rows + 1)
                                                     : remainder * (base_rows + 1) + (comp_rank - remainder)*base_rows;
         Model simu(params.length, params.discretization, params.wind, params.start, 10.0, new_comm, global_offset, local_domain_rows);
-        int size = local_domain_rows * global_cols; // active 区域大小（不含 ghost 行）
+        int size = local_domain_rows * global_cols;
 
         bool local_active = true;
         while (true) {
-            // 更新本地区域火势传播
             local_active = simu.update();
-            // 全局判断是否还有火势存在（通过 new_comm 内的所有计算进程）
+            // Vérification globale de l'activité
             bool global_active = false;
             MPI_Allreduce(&local_active, &global_active, 1, MPI_C_BOOL, MPI_LOR, new_comm);
             if (!global_active) {
                 break;
             }
-            // 发送当前 active 区域数据（跳过 ghost 行）到渲染进程
             MPI_Send(simu.vegetal_map().data() + global_cols, size, MPI_BYTE, 0, 1, MPI_COMM_WORLD);
             MPI_Send(simu.fire_map().data() + global_cols, size, MPI_BYTE, 0, 2, MPI_COMM_WORLD);
         }
         
-        // 所有计算进程在此处等待同步
         MPI_Barrier(new_comm);
-        // 由 new_comm 内指定的进程发送终止信号到渲染进程
         if (comp_rank == 0) {
             int stop_flag = 1;
             MPI_Send(&stop_flag, 1, MPI_INT, 0, 3, MPI_COMM_WORLD);
         }
-        // 等待来自渲染进程的终止命令（tag 4）
         int dummy;
         MPI_Recv(&dummy, 1, MPI_INT, 0, 4, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         std::cout << "Compute process " << world_rank << " received termination command, exiting." << std::endl;
